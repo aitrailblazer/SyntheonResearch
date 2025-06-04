@@ -1,15 +1,16 @@
 
-=======
-Certainly. Here's a refined version of your Syntheon system description with clarity, precision, and structure suitable
-for both technical and executive audiences:
+# **SyntheonResearch**
 
----
+Syntheon is a purely symbolic solver for ARC-AGI tasks. It reads XML datasets and
+applies deterministic rules to predict the outputs for test grids.
 
+## **Syntheon ARC-AGI Symbolic Predictor**
 
 **Syntheon** is a *purely symbolic* prediction system designed to solve ARC-AGI tasks
 using deterministic reasoning, structured pattern recognition, and task-specific rule
 learning. It operates without LLM dependencies, ensuring explainable, reproducible
 predictions suitable for rigorous evaluation and competition-grade benchmarks.
+=======
 
 
 ---
@@ -21,6 +22,8 @@ predictions suitable for rigorous evaluation and competition-grade benchmarks.
 
 * **⚙️ Advanced Preprocessing Integration**
 
+=======
+
   Fully utilizes structured XML metadata for each ARC task, enabling entropy profiling,
   grid fingerprinting, and directional analysis.
 
@@ -31,9 +34,9 @@ predictions suitable for rigorous evaluation and competition-grade benchmarks.
 * **🎨 KWIC Pattern Detection**
   Symbolic analysis of **K**ey **W**ords **I**n **C**ontext (KWIC): identifying
   color co-occurrence, adjacency, and propagation logic.
+
 =======
-  Fully utilizes structured XML metadata for each ARC task, enabling entropy profiling, grid fingerprinting,
-   and directional analysis.
+
 
 * **🔍 Task-Specific Symbolic Learning**
   Each `<arc_agi_task>` is treated independently.
