@@ -7,3 +7,5 @@ This repository contains documentation and ARC-AGI datasets. There are no automa
 - Keep markdown formatting consistent with existing files.
 - Limit line length in markdown files to 120 characters.
 - No programmatic checks are required for this repository.
+- Summarize key changes in commit messages.
+- Use a single branch workflow. Commit all changes directly to `main`.
