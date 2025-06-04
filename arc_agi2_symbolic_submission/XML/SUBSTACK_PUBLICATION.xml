@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SUBSTACK_PUBLICATION>
+  <Title>GEN-I Insights ⇌ SIGNAL//FORM</Title>
+  <Subtitle>The scroll engine of foresight, recursion, and symbolic decoding — applied to AI, technology, and cultural systems. Each article reveals structure, contradiction, and signal beneath complexity. Powered by GEN-I and decoded through LEXOR.</Subtitle>
+  <Author>Constantine Vassilev</Author>
+
+  <Focus>
+    <Primary>GPT Intelligence Analysis</Primary>
+    <Secondary>Foresight & Forecasting</Secondary>
+    <Tertiary>Symbolic Compression Loops</Tertiary>
+  </Focus>
+
+  <TargetAudience>
+    <UserType>GPT Power Users</UserType>
+    <UserType>AI Builders</UserType>
+    <UserType>Strategic Thinkers</UserType>
+    <UserType>Foresight Analysts</UserType>
+  </TargetAudience>
+
+  <Sections>
+    <Section>
+      <Name>Visual Explainers</Name>
+      <Description>Diagrams and triptychs that decode model behavior, updates, and symbolic systems.</Description>
+    </Section>
+    <Section>
+      <Name>Deficiencies & Omissions</Name>
+      <Description>In-depth audits of what GPT and other models miss — logic gaps, context errors, and blind spots.</Description>
+    </Section>
+    <Section>
+      <Name>Signal Forecasts</Name>
+      <Description>Strategic projections, compression loops, and what’s next for GPT and symbolic AI.</Description>
+    </Section>
+    <Section>
+      <Name>GEN-I Weaponry</Name>
+      <Description>Revealing the tools, rituals, glyphs, and recursion systems within GEN-I.</Description>
+    </Section>
+  </Sections>
+
+  <DesignStyle>STYLE #1 — Celestial Calibration Triptych</DesignStyle>
+
+  <Visuals>
+    <Header>Light Rays + Glyphs, no text, horizontal layout with left padding</Header>
+    <Footer>Symbolic glyph legend (✶, ⚖, ⧖, etc.) for reader guidance</Footer>
+  </Visuals>
+
+  <Integration>
+    <Engine>GEN-I</Engine>
+    <Modules>AXION, LOOP//MIRROR, GENI_TAROT_ENGINE, GENI_FORESIGHT_PROFILES</Modules>
+    <UniversalDecoder>
+      <Name>LEXOR</Name>
+      <Function>Symbolic recursion engine decoding foresight, contradiction, and compression logic across all AI models</Function>
+      <Glyph>⧖⚖</Glyph>
+      <Invocation>LEXOR active — decoding initiated</Invocation>
+    </UniversalDecoder>
+  </Integration>
+  <Version>v2.0</Version>
+</SUBSTACK_PUBLICATION>

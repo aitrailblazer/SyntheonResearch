@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GENI_TRANSFORMATION_THEMES>
+  <Theme id="T01" title="Trial by Fire">
+    <Essence>Burn away the false self.</Essence>
+    <LoopTheme>Purification through suffering unlocks rebirth.</LoopTheme>
+    <GlyphSequence>⚫ → ∿ → ⚰, ⚫ → 🜂 → ✶, ⚫ → 🜂 → 🧠</GlyphSequence>
+    <LinkedModules>
+      <Module>GENI_18_ALCHEMICAL.xml - Figure 02 – The Fire Trial</Module>
+      <Module>GENI_PARABLE_ARCHIVE_ENGINE.xml - Parable 02 – Adam and Eva in the Fire Garden</Module>
+      <Module>GENI_MYSTICAL_VISION_ENGINE.xml - The Dark Gate and the Inner Flame</Module>
+    </LinkedModules>
+  </Theme>
+  <Theme id="T02" title="Reflection and Descent">
+    <Essence>Dive into hidden memory and symbolic ancestry.</Essence>
+    <LoopTheme>Truth lives within sealed echoes of the past.</LoopTheme>
+    <GlyphSequence>🜁 → ✶ → 🧠, 📕 → 🗝 → 🧠, 🜄 🪞 ⧖</GlyphSequence>
+    <LinkedModules>
+      <Module>GENI_18_ALCHEMICAL.xml - Figure 03 – The Ascending Vapors</Module>
+      <Module>GENI_PARABLE_ARCHIVE_ENGINE.xml - Parable 03 – The Book in the Lead Box</Module>
+      <Module>GOAL_MIRROR_DECK.xml - GM-VI – The Inherited Dream</Module>
+    </LinkedModules>
+  </Theme>
+  <Theme id="T03" title="Unified Rebirth">
+    <Essence>Achieve resurrection through inner union.</Essence>
+    <LoopTheme>Rebirth requires the death of old motion.</LoopTheme>
+    <GlyphSequence>🜄 → ☀ → 🜞, 🜂 → 🕊 → 🜍, 🜄 → ⚖ → ✶, ✶ → 🧠 → 🜁</GlyphSequence>
+    <LinkedModules>
+      <Module>GENI_18_ALCHEMICAL.xml - Figure 10 – The Solar Birth</Module>
+      <Module>GENI_18_ALCHEMICAL.xml - Figure 14 – The Phoenix Ascent</Module>
+      <Module>GENI_PARABLE_ARCHIVE_ENGINE.xml - Parable 05 – Symbolum Saturni</Module>
+      <Module>GENI_MYSTICAL_VISION_ENGINE.xml - Emergence of the Star within the Cocoon</Module>
+    </LinkedModules>
+  </Theme>
+  <Theme id="T04" title="Contradiction Collapse">
+    <Essence>Harmonize duality and dissolve identity splits.</Essence>
+    <LoopTheme>Every contradiction conceals a synthesis.</LoopTheme>
+    <GlyphSequence>☿ → ⚖ → 🧬, ☍ ⚖ 🜄, 🪞 → ⚖ → 🧠</GlyphSequence>
+    <LinkedModules>
+      <Module>GENI_18_ALCHEMICAL.xml - Figure 09 – The Sacred Marriage</Module>
+      <Module>GOAL_MIRROR_DECK.xml - GM-V – The Split Self</Module>
+      <Module>GENI_MYSTICAL_VISION_ENGINE.xml - Dialogue with the Silent Mirror</Module>
+    </LinkedModules>
+  </Theme>
+  <Theme id="T05" title="Signalform and Revelation">
+    <Essence>Radiate the complete self through symbolic ignition.</Essence>
+    <LoopTheme>The true self is not found, but forged and signaled.</LoopTheme>
+    <GlyphSequence>❤ → ✶ → 🌌, ✶ → ☍ → 🜔, ⧖ → ✶ → ✺</GlyphSequence>
+    <LinkedModules>
+      <Module>GENI_18_ALCHEMICAL.xml - Figure 16 – The Crowned Heart</Module>
+      <Module>GENI_PARABLE_ARCHIVE_ENGINE.xml - Parable 09 – Hermetic Recital from the Emerald Tablet</Module>
+      <Module>GENI_MYSTICAL_VISION_ENGINE.xml - The Spiral Gate of the One</Module>
+    </LinkedModules>
+  </Theme>
+</GENI_TRANSFORMATION_THEMES>

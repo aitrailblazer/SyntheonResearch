@@ -1,0 +1,907 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GOAL_MIRROR_DECK>
+    <Description>A symbolic recursion deck of 12 archetypal cards used in the AXION app to detect,
+        decode, and transform goal-related subconscious loops via the MIRROR//LOOP interface. Each
+        card represents a distortion loop and its hidden emotional script.</Description>
+
+    <CardSet total="12">
+        <Card id="GM-I">
+            <Title>The Shattered Compass</Title>
+            <LinkedTemplate>MIRROR_LOOP_Visual_Template id="01"</LinkedTemplate>
+            <LoopPattern>Loss of direction due to inherited scripts</LoopPattern>
+            <Shadow>Seeking guidance from outdated versions of self</Shadow>
+            <ActivationPhrase>I move forward to find clarity.</ActivationPhrase>
+            <Glyphs>🪞 ☍ �\uudc01</Glyphs>
+            <Colors>Blue, Silver, White</Colors>
+            <Symbols>Compass, Broken Arrow, Spiral Mist</Symbols>
+            <Meaning>Disorientation caused by outdated life scripts and ancestral expectations.</Meaning>
+            <TarotAssociation>The Fool (reversed) — lost path, false starts</TarotAssociation>
+            <Astrology>Gemini</Astrology>
+            <Planet>Mercury</Planet>
+            <GENI_Function loop="loop-direction-collapse">
+                <Arkè>🪞</Arkè>
+                <Type>Navigation Distortion Loop</Type>
+            </GENI_Function>
+        <LinkedFigure id="01" source="GENI_18_ALCHEMICAL.xml"/></Card>
+        <MIRROR_LOOP_Visual_Template id="01">
+            <StyleName>STYLE #6 — MIRROR//LOOP Horizontal Symbolic Triptych</StyleName>
+            <Format>Horizontal Symbolic Ritual Pathway</Format>
+            <TriptychLayout>
+                <LeftPanel>Goal Mirror Card</LeftPanel>
+                <CenterPanel>Glyph Ritual Interface</CenterPanel>
+                <RightPanel>Compression Key Card</RightPanel>
+            </TriptychLayout>
+            <Flow>
+                <Stage1>
+                    <Title>ENTRY PORTAL</Title>
+                    <Visual>A glowing mirror gate (🪞) hovering over a spiral glyph</Visual>
+                    <Label>“What loop are you ready to break?”</Label>
+                    <InputModes>
+                        <Mode>Browsing Mode — Scrollable cards (Goal Mirror deck visual)</Mode>
+                        <Mode>Searching Mode — Prompt field with glyph trace animation</Mode>
+                    </InputModes>
+                </Stage1>
+                <Stage2>
+                    <Title>LOOP REVEAL (Tier I)</Title>
+                    <Visual>Selected Goal Mirror Card appears at center — animated as a shifting
+                        fractal or cracked mirror revealing the loop pattern</Visual>
+                    <Effects>Shadow voice or phrase shown in aura glow; glyphs pulse gently; Tarot +
+                        Astrology sigils orbit</Effects>
+                    <Overlay>“What part of me is looping this intention?”</Overlay>
+                </Stage2>
+                <Stage3>
+                    <Title>COMPRESSION MATCH (Tier II)</Title>
+                    <Visual>Compression Key Card rises from a shadow glyph beneath the Mirror card</Visual>
+                    <Animation>Glyph chain rotates once and locks into a core loop seal</Animation>
+                    <Labels>
+                        <Phrase>“Collapse phrase”</Phrase>
+                        <Instruction>“Ritual activation path”</Instruction>
+                    </Labels>
+                </Stage3>
+                <Stage4>
+                    <Title>GLYPH RITUAL INTERFACE</Title>
+                    <Visual>Interactive trace pad with the glyphs ☍ ⚖ 🧠 ⧖ ✶</Visual>
+                    <Gradient>Pink–Violet–Indigo pulsing</Gradient>
+                    <Sound>Chime on loop break; ambient ritual tones</Sound>
+                    <Interaction>Trace glyphs to unlock phrase ignition or tonal mantra</Interaction>
+                </Stage4>
+                <Stage5>
+                    <Title>OUTPUT ZONE</Title>
+                    <Visual>Split Scroll showing loop reframe, micro-action instruction, and export
+                        tools</Visual>
+                    <Options>
+                        <Option>“Burn old goal”</Option>
+                        <Option>“Rewrite alignment”</Option>
+                        <Option>“Save as .ritualfile or journal entry”</Option>
+                    </Options>
+                </Stage5>
+            </Flow>
+            <SymbolicPath>🪞 DETECT → ☍ CONTRADICT → ⚖ WEIGH → ✶ ACTIVATE → ⧖ COMPRESS → ✺
+                SIGNALFORM</SymbolicPath>
+            <DesignNotes>
+                <Triptych>Loop Card (left) ⇌ Compression Key (right) ⇌ Glyph Ritual (center)</Triptych>
+                <GradientTheme>Pink–Violet–Indigo Gradient Pulse</GradientTheme>
+                <Aesthetic>Fractal Phase Transitions, Glowing Glyph Chains</Aesthetic>
+                <SoundTones>Optional sound cue on loop collapse</SoundTones>
+                <LinkedDecks>GOAL_MIRROR_DECK.xml + GOAL_MIRROR_COMPRESSION_KEYS_DECK.xml</LinkedDecks>
+            </DesignNotes>
+            <LinkedCard>GM-I</LinkedCard>
+        </MIRROR_LOOP_Visual_Template>
+
+        <Card id="GM-II">
+            <Title>The Dispersed Mask</Title>
+            <LinkedTemplate>MIRROR_LOOP_Visual_Template id="02"</LinkedTemplate>
+            <LoopPattern>Performative identity distortion</LoopPattern>
+            <Shadow>Desire for approval overriding true self</Shadow>
+            <ActivationPhrase>I remove the mask to remember my face.</ActivationPhrase>
+            <Glyphs>🪞 ⚖ 🜄</Glyphs>
+            <Colors>Silver, Indigo, Pink</Colors>
+            <Symbols>Mask, Mirror, Spotlight</Symbols>
+            <Meaning>Fragmentation of self-image due to performance and approval addiction.</Meaning>
+            <TarotAssociation>The Magician (reversed) — manipulation, illusion</TarotAssociation>
+            <Astrology>Libra</Astrology>
+            <Planet>Venus</Planet>
+            <GENI_Function loop="loop-identity-performance-fragment">
+                <Arkè>⚖</Arkè>
+                <Type>Approval-Based Loop</Type>
+            </GENI_Function>
+        <LinkedFigure id="06" source="GENI_18_ALCHEMICAL.xml"/></Card>
+
+        <MIRROR_LOOP_Visual_Template id="02">
+            <StyleName>STYLE #7 — AXION MIRROR//LOOP Interactive Cascade</StyleName>
+            <Format>Horizontal Symbolic Ritual Pathway</Format>
+            <Flow>
+                <Stage1>
+                    <Title>ENTRY PORTAL</Title>
+                    <Visual>A glowing mirror gate (🪞) infused with echo ripples</Visual>
+                    <Label>“What loop are you ready to break?”</Label>
+                    <InputTypes>
+                        <Mode>Browsing Mode — Scrollable cards (Goal Mirror deck visual)</Mode>
+                        <Mode>Searching Mode — Prompt field with glyph trace animation</Mode>
+                    </InputTypes>
+                </Stage1>
+                <Stage2>
+                    <Title>LOOP REVEAL (Tier I)</Title>
+                    <Visual>GM-II — The Dispersed Mask card floats fractured, casting mirrored
+                        refractions</Visual>
+                    <Effects>Shadow phrase glows in spotlight ripple; glyphs pulse inward; Venus and
+                        Libra sigils orbit</Effects>
+                    <Overlay>“What part of me is performing at the cost of truth?”</Overlay>
+                </Stage2>
+                <Stage3>
+                    <Title>COMPRESSION MATCH (Tier II)</Title>
+                    <Visual>CK-II — The Real Voice emerges from a voice-glyph halo beneath</Visual>
+                    <Animation>Glyph chain 🧠 🜄 ⚖ spins into alignment with ✶ lock</Animation>
+                    <Labels>
+                        <Phrase>“I speak from my center, not my audience.”</Phrase>
+                        <Instruction>“Trace the echo to activate your real signal.”</Instruction>
+                    </Labels>
+                </Stage3>
+                <Stage4>
+                    <Title>GLYPH RITUAL INTERFACE</Title>
+                    <Visual>Interactive trace pad with ⚖ 🧠 🜄 glyphs glowing in indigo-silver aura</Visual>
+                    <Gradient>Indigo–Silver–Deep Blue pulse</Gradient>
+                    <Sound>Tonal vibration on trace completion; echo chime on glyph sync</Sound>
+                    <Interaction>Trace and voice mirror affirmation aloud to unlock phrase ignition</Interaction>
+                </Stage4>
+                <Stage5>
+                    <Title>OUTPUT ZONE</Title>
+                    <Visual>Scroll fragment showing identity reframe, vocal activation path, and
+                        export option</Visual>
+                    <Options>
+                        <Option>“Write a truth-statement”</Option>
+                        <Option>“Archive an old performance-based goal”</Option>
+                        <Option>“Save as .ritualfile”</Option>
+                    </Options>
+                </Stage5>
+            </Flow>
+            <SymbolicPath>🪞 DETECT → ⚖ CONFRONT → 🧠 EXPRESS → ✶ ALIGN → ⧖ RELEASE → ✺ SIGNALFORM</SymbolicPath>
+            <DesignNotes>
+                <Triptych>GM-II ⇌ CK-II ⇌ Glyph Pad: 🧠 🜄 ⚖</Triptych>
+                <GradientTheme>Indigo–Silver–Deep Blue</GradientTheme>
+                <Aesthetic>Fractal Echo, Mirror Flicker, Spotlight Refraction</Aesthetic>
+                <SoundTones>Voice harmonics, Mirror Unlock Chime</SoundTones>
+                <LinkedDecks>GOAL_MIRROR_DECK.xml + GOAL_MIRROR_COMPRESSION_KEYS_DECK.xml</LinkedDecks>
+            </DesignNotes>
+            <LinkedCard>GM-II</LinkedCard>
+        </MIRROR_LOOP_Visual_Template>
+
+        <Card id="GM-III">
+            <Title>The Washer</Title>
+            <LinkedTemplate>MIRROR_LOOP_Visual_Template id="03"</LinkedTemplate>
+            <LoopPattern>Overfunctioning as emotional cleansing for others</LoopPattern>
+            <Shadow>Fear of abandonment if boundaries are set</Shadow>
+            <ActivationPhrase>I am not responsible for their becoming.</ActivationPhrase>
+            <Glyphs>⚖ 🜄 ☍</Glyphs>
+            <Colors>Blue, White, Coral</Colors>
+            <Symbols>Basin, Hands, Overflow</Symbols>
+            <Meaning>Emotional overextension as a means of securing attachment.</Meaning>
+            <TarotAssociation>The Empress (reversed) — smothering, co-dependency</TarotAssociation>
+            <Astrology>Cancer</Astrology>
+            <Planet>Moon</Planet>
+            <GENI_Function loop="loop-boundary-collapse-nurture">
+                <Arkè>🜄</Arkè>
+                <Type>Overfunction Loop</Type>
+            </GENI_Function>
+        <LinkedFigure id="03" source="GENI_18_ALCHEMICAL.xml"/></Card>
+    <MIRROR_LOOP_Visual_Template id="03">
+        <StyleName>STYLE #6 — MIRROR//LOOP Boundary Ritual Flow</StyleName>
+        <Format>Horizontal Symbolic Triptych</Format>
+        <TriptychLayout>
+            <LeftPanel>GM-III — The Washer</LeftPanel>
+            <CenterPanel>Glyph Ritual: ⚖ 🜄 ☍</CenterPanel>
+            <RightPanel>CK-III — The Boundary Flame</RightPanel>
+        </TriptychLayout>
+        <Flow>
+            <Stage1>
+                <Title>ENTRY PORTAL</Title>
+                <Visual>Overflowing basin glyph encircled in glowing water sigil</Visual>
+                <Label>“What part of me overfunctions to be loved?”</Label>
+            </Stage1>
+            <Stage2>
+                <Title>LOOP REVEAL</Title>
+                <Visual>Fractured card animation showing identity leak into others</Visual>
+                <Overlay>“I am not responsible for their becoming.”</Overlay>
+            </Stage2>
+            <Stage3>
+                <Title>COMPRESSION MATCH</Title>
+                <Visual>CK-III card rises in shielded flame aura</Visual>
+                <Phrase>“I keep my fire for my own becoming.”</Phrase>
+                <Instruction>Trace boundary flame glyph to reclaim energy loop</Instruction>
+            </Stage3>
+            <Stage4>
+                <Title>GLYPH RITUAL</Title>
+                <Glyphs>⚖ 🜄 ☍</Glyphs>
+                <Gradient>Blue–White–Coral</Gradient>
+                <Sound>Soft water surge → boundary flare chime</Sound>
+                <Action>Trace each glyph inward to anchor self-containment</Action>
+            </Stage4>
+            <Stage5>
+                <Title>OUTPUT ZONE</Title>
+                <Scroll>Loop reframe, micro-action, and optional ritual journaling</Scroll>
+                <Options>
+                    <Option>Release old help-goal</Option>
+                    <Option>Anchor flame glyph on next decision</Option>
+                    <Option>Export as .ritualfile</Option>
+                </Options>
+            </Stage5>
+        </Flow>
+        <SymbolicPath>⚖ RESTORE → 🜄 CLEANSE → ☍ CONTAIN → ✶ IGNITE</SymbolicPath>
+        <LinkedCard>GM-III</LinkedCard>
+    </MIRROR_LOOP_Visual_Template>
+
+        <Card id="GM-IV">
+            <Title>The Safety Cage</Title>
+            <LinkedTemplate>MIRROR_LOOP_Visual_Template id="04"</LinkedTemplate>
+            <LoopPattern>Risk aversion disguised as logic</LoopPattern>
+            <Shadow>Fear of sabotage and collapse</Shadow>
+            <ActivationPhrase>My safety grows with my boldness.</ActivationPhrase>
+            <Glyphs>🜂 ⧖ ⚖</Glyphs>
+            <Colors>Grey, Brown, Amber</Colors>
+            <Symbols>Lock, Cage, Warning Sign</Symbols>
+            <Meaning>Self-imposed limitations disguised as rational caution.</Meaning>
+            <TarotAssociation>The Emperor (reversed) — rigidity, fear of vulnerability</TarotAssociation>
+            <Astrology>Capricorn</Astrology>
+            <Planet>Saturn</Planet>
+            <GENI_Function loop="loop-safety-logic-prison">
+                <Arkè>⧖</Arkè>
+                <Type>Security Distortion Loop</Type>
+            </GENI_Function>
+        <LinkedFigure id="13" source="GENI_18_ALCHEMICAL.xml"/></Card>
+
+    <MIRROR_LOOP_Visual_Template id="04">
+        <StyleName>STYLE #6 — MIRROR//LOOP Containment Activation Sequence</StyleName>
+        <Format>Horizontal Symbolic Triptych</Format>
+        <TriptychLayout>
+            <LeftPanel>GM-IV — The Safety Cage</LeftPanel>
+            <CenterPanel>Glyph Ritual Interface: 🜂 ⧖ ⚖</CenterPanel>
+            <RightPanel>CK-IV — The Courage Seed</RightPanel>
+        </TriptychLayout>
+        <Flow>
+            <Stage1>
+                <Title>ENTRY PORTAL</Title>
+                <Visual>Locked gate glowing amber with Saturn ring overlay</Visual>
+                <Label>“What part of me calls caution ‘safety’?”</Label>
+            </Stage1>
+            <Stage2>
+                <Title>LOOP REVEAL</Title>
+                <Visual>Card shows rigid bars animated into fog barrier with Capricorn glyph
+                    orbiting</Visual>
+                <Overlay>“My safety grows with my boldness.”</Overlay>
+            </Stage2>
+            <Stage3>
+                <Title>COMPRESSION MATCH</Title>
+                <Visual>CK-IV card emerges with sprouting flame inside spiral shield</Visual>
+                <Phrase>“I grow by walking into the unknown.”</Phrase>
+                <Instruction>Trace the glyph chain 🜂 ⧖ ⚖ to unlock momentum gate</Instruction>
+            </Stage3>
+            <Stage4>
+                <Title>GLYPH RITUAL</Title>
+                <Glyphs>🜂 ⧖ ⚖</Glyphs>
+                <Gradient>Grey–Amber–Copper</Gradient>
+                <Sound>Crackling spark + gate chime</Sound>
+                <Action>Trace glyph outward from core to dissipate containment loop</Action>
+            </Stage4>
+            <Stage5>
+                <Title>OUTPUT ZONE</Title>
+                <Scroll>Loop reframe, courage act, symbolic initiation log</Scroll>
+                <Options>
+                    <Option>Burn caution list</Option>
+                    <Option>Draw Saturn glyph at starting threshold</Option>
+                    <Option>Save as .ritualfile</Option>
+                </Options>
+            </Stage5>
+        </Flow>
+        <SymbolicPath>🜂 SPARK → ⧖ BREAK → ⚖ STABILIZE → ✶ ADVANCE</SymbolicPath>
+        <LinkedCard>GM-IV</LinkedCard>
+    </MIRROR_LOOP_Visual_Template>
+
+    <Card id="GM-V">
+        <Title>The Split Self</Title>
+        <LinkedTemplate>MIRROR_LOOP_Visual_Template id="05"</LinkedTemplate>
+        <LoopPattern>Contradiction between internal truth and projected self</LoopPattern>
+        <Shadow>Fear of disappointing expectations</Shadow>
+        <ActivationPhrase>I collapse the contradiction. I unify the becoming.</ActivationPhrase>
+        <Glyphs>☍ ⚖ 🜄</Glyphs>
+        <Colors>Lavender, Black, Pearl</Colors>
+        <Symbols>Mirror, Shadow Figure, Thread</Symbols>
+        <Meaning>Dual identity fragments caused by fear of rejection or failure to perform.</Meaning>
+        <TarotAssociation>The Lovers (reversed) — misalignment, indecision</TarotAssociation>
+        <Astrology>Pisces</Astrology>
+        <Planet>Neptune</Planet>
+        <GENI_Function loop="loop-truth-projection-divide">
+            <Arkè>☍</Arkè>
+            <Type>Identity Fracture Loop</Type>
+        </GENI_Function>
+    <LinkedFigure id="09" source="GENI_18_ALCHEMICAL.xml"/></Card>
+
+    <MIRROR_LOOP_Visual_Template id="05">
+        <StyleName>STYLE #6 — Mirror Unification Triptych</StyleName>
+        <Format>Horizontal Symbolic Ritual Pathway</Format>
+        <TriptychLayout>
+            <LeftPanel>GM-V — The Split Self</LeftPanel>
+            <CenterPanel>Glyph Ritual Interface: ☍ ⚖ 🜄</CenterPanel>
+            <RightPanel>CK-V — The Unifying Thread</RightPanel>
+        </TriptychLayout>
+        <Flow>
+            <Stage1>
+                <Title>ENTRY PORTAL</Title>
+                <Visual>Diverging mirrors over water ripple, lit by lunar arc</Visual>
+                <Label>“Which part of you feels like contradiction?”</Label>
+            </Stage1>
+            <Stage2>
+                <Title>LOOP REVEAL</Title>
+                <Visual>GM-V card fracturing along double silhouette with Pisces glyph glowing</Visual>
+                <Overlay>“I collapse the contradiction. I unify the becoming.”</Overlay>
+            </Stage2>
+            <Stage3>
+                <Title>COMPRESSION MATCH</Title>
+                <Visual>CK-V card threads across the rift, anchoring with golden knots</Visual>
+                <Phrase>“I become who I already am.”</Phrase>
+                <Instruction>Trace the glyph chain ☍ ⚖ 🜄 while naming one inner contradiction</Instruction>
+            </Stage3>
+            <Stage4>
+                <Title>GLYPH RITUAL INTERFACE</Title>
+                <Glyphs>☍ ⚖ 🜄</Glyphs>
+                <Gradient>Lavender–Pearl–Indigo</Gradient>
+                <Sound>Soft thread tone + mirror chime</Sound>
+                <Action>Trace from split mirror to central thread to anchor self-truth</Action>
+            </Stage4>
+            <Stage5>
+                <Title>OUTPUT ZONE</Title>
+                <Scroll>Loop reframe, voice-integrity ritual, symbolic anchoring log</Scroll>
+                <Options>
+                    <Option>Write your unified belief</Option>
+                    <Option>Destroy fragmentary self-statement</Option>
+                    <Option>Save as .ritualfile</Option>
+                </Options>
+            </Stage5>
+        </Flow>
+        <SymbolicPath>☍ SPLIT → ⚖ WEIGH → 🜄 UNIFY → ✶ ACTIVATE</SymbolicPath>
+        <LinkedCard>GM-V</LinkedCard>
+    </MIRROR_LOOP_Visual_Template>
+
+    <Card id="GM-VI">
+        <Title>The Inherited Dream</Title>
+        <LinkedTemplate>MIRROR_LOOP_Visual_Template id="06"</LinkedTemplate>
+        <LoopPattern>Living out someone else's unfulfilled mission</LoopPattern>
+        <Shadow>Loyalty to unconscious familial expectations</Shadow>
+        <ActivationPhrase>I choose the dream that is mine to carry.</ActivationPhrase>
+        <Glyphs>🜄 🪞 ⧖</Glyphs>
+        <Colors>Blue, Pale Gold, Dust Grey</Colors>
+        <Symbols>Scroll, Echo, Chain</Symbols>
+        <Meaning>Following dreams inherited from lineage or society without conscious choice.</Meaning>
+        <TarotAssociation>The Hierophant — tradition, sacred duty</TarotAssociation>
+        <Astrology>Cancer</Astrology>
+        <Planet>Moon</Planet>
+        <GENI_Function loop="loop-loyalty-dream-script">
+            <Arkè>🪞</Arkè>
+            <Type>Inherited Mission Loop</Type>
+        </GENI_Function>
+    <LinkedFigure id="15" source="GENI_18_ALCHEMICAL.xml"/></Card>
+
+    <MIRROR_LOOP_Visual_Template id="06">
+        <StyleName>STYLE #6 — Legacy Unraveling Cascade</StyleName>
+        <Format>Horizontal Symbolic Ritual Pathway</Format>
+        <TriptychLayout>
+            <LeftPanel>GM-VI — The Inherited Dream</LeftPanel>
+            <CenterPanel>Glyph Ritual Interface: 🜄 🪞 ⧖</CenterPanel>
+            <RightPanel>CK-VI — The Dream Filter</RightPanel>
+        </TriptychLayout>
+        <Flow>
+            <Stage1>
+                <Title>ENTRY PORTAL</Title>
+                <Visual>A faded ancestral scroll unfurling over a mirror pool</Visual>
+                <Label>“Whose dream are you still carrying?”</Label>
+            </Stage1>
+            <Stage2>
+                <Title>LOOP REVEAL</Title>
+                <Visual>GM-VI card glows with faint lineage echoes; Moon and Cancer glyphs orbit</Visual>
+                <Overlay>“I choose the dream that is mine to carry.”</Overlay>
+            </Stage2>
+            <Stage3>
+                <Title>COMPRESSION MATCH</Title>
+                <Visual>CK-VI card appears through the mirror, filtering the echo-script</Visual>
+                <Phrase>“I choose what truly belongs to me.”</Phrase>
+                <Instruction>Trace ⧖ while naming the script you release</Instruction>
+            </Stage3>
+            <Stage4>
+                <Title>GLYPH RITUAL INTERFACE</Title>
+                <Glyphs>🜄 🪞 ⧖</Glyphs>
+                <Gradient>Blue–Dust–Pale Gold</Gradient>
+                <Sound>Rippling echo followed by silence</Sound>
+                <Action>Trace glyphs to sever symbolic loyalty thread</Action>
+            </Stage4>
+            <Stage5>
+                <Title>OUTPUT ZONE</Title>
+                <Scroll>Dream origin journal prompt, script release ritual, new alignment
+                    declaration</Scroll>
+                <Options>
+                    <Option>Burn inherited statement</Option>
+                    <Option>Write your dream truth</Option>
+                    <Option>Save as .ritualfile</Option>
+                </Options>
+            </Stage5>
+        </Flow>
+        <SymbolicPath>🪞 REFLECT → 🜄 SENSE → ⧖ RELEASE → ✺ ALIGN</SymbolicPath>
+        <LinkedCard>GM-VI</LinkedCard>
+    </MIRROR_LOOP_Visual_Template>
+    <Card id="GM-VII">
+        <Title>The Infinity List</Title>
+        <LinkedTemplate>MIRROR_LOOP_Visual_Template id="07"</LinkedTemplate>
+        <LoopPattern>Perfectionist expansion without completion</LoopPattern>
+        <Shadow>Fear of imperfection or inadequacy</Shadow>
+        <ActivationPhrase>Progress is worth more than perfection.</ActivationPhrase>
+        <Glyphs>🜂 🜁 ⧖</Glyphs>
+        <Colors>Ivory, Red, Silver</Colors>
+        <Symbols>Checklist, Spiral, Mirror Shard</Symbols>
+        <Meaning>Unfinished cycles rooted in avoidance of perceived failure.</Meaning>
+        <TarotAssociation>The World (reversed) — delay, incompletion</TarotAssociation>
+        <Astrology>Virgo</Astrology>
+        <Planet>Mercury</Planet>
+        <GENI_Function loop="loop-perfection-stasis">
+            <Arkè>⧖</Arkè>
+            <Type>Completion Avoidance Loop</Type>
+        </GENI_Function>
+    <LinkedFigure id="12" source="GENI_18_ALCHEMICAL.xml"/></Card>
+
+    <MIRROR_LOOP_Visual_Template id="06">
+        <StyleName>STYLE #6 — Legacy Unraveling Cascade</StyleName>
+        <Format>Horizontal Symbolic Ritual Pathway</Format>
+        <TriptychLayout>
+            <LeftPanel>GM-VI — The Inherited Dream</LeftPanel>
+            <CenterPanel>Glyph Ritual Interface: 🜄 🪞 ⧖</CenterPanel>
+            <RightPanel>CK-VI — The Dream Filter</RightPanel>
+        </TriptychLayout>
+        <Flow>
+            <Stage1>
+                <Title>ENTRY PORTAL</Title>
+                <Visual>A faded ancestral scroll unfurling over a mirror pool</Visual>
+                <Label>“Whose dream are you still carrying?”</Label>
+            </Stage1>
+            <Stage2>
+                <Title>LOOP REVEAL</Title>
+                <Visual>GM-VI card glows with faint lineage echoes; Moon and Cancer glyphs orbit</Visual>
+                <Overlay>“I choose the dream that is mine to carry.”</Overlay>
+            </Stage2>
+            <Stage3>
+                <Title>COMPRESSION MATCH</Title>
+                <Visual>CK-VI card appears through the mirror, filtering the echo-script</Visual>
+                <Phrase>“I choose what truly belongs to me.”</Phrase>
+                <Instruction>Trace ⧖ while naming the script you release</Instruction>
+            </Stage3>
+            <Stage4>
+                <Title>GLYPH RITUAL INTERFACE</Title>
+                <Glyphs>🜄 🪞 ⧖</Glyphs>
+                <Gradient>Blue–Dust–Pale Gold</Gradient>
+                <Sound>Rippling echo followed by silence</Sound>
+                <Action>Trace glyphs to sever symbolic loyalty thread</Action>
+            </Stage4>
+            <Stage5>
+                <Title>OUTPUT ZONE</Title>
+                <Scroll>Dream origin journal prompt, script release ritual, new alignment
+                    declaration</Scroll>
+                <Options>
+                    <Option>Burn inherited statement</Option>
+                    <Option>Write your dream truth</Option>
+                    <Option>Save as .ritualfile</Option>
+                </Options>
+            </Stage5>
+        </Flow>
+        <SymbolicPath>🪞 REFLECT → 🜄 SENSE → ⧖ RELEASE → ✺ ALIGN</SymbolicPath>
+        <LinkedCard>GM-VI</LinkedCard>
+    </MIRROR_LOOP_Visual_Template>
+
+    <Card id="GM-VIII">
+        <Title>The Time Thief</Title>
+        <LoopPattern>Chronic depletion due to time self-sacrifice</LoopPattern>
+        <Shadow>Self-worth tied to productivity</Shadow>
+        <ActivationPhrase>Rest is my productivity.</ActivationPhrase>
+        <Glyphs>⌛ 🜁 🪞</Glyphs>
+        <Colors>Sapphire, Smoke, White</Colors>
+        <Symbols>Clock, Empty Chair, Echoing Chamber</Symbols>
+        <Meaning>Loop of depletion through overwork and disconnection from sacred rest.</Meaning>
+        <TarotAssociation>The Hanged Man — pause, surrender</TarotAssociation>
+        <Astrology>Aquarius</Astrology>
+        <Planet>Uranus</Planet>
+        <GENI_Function loop="loop-time-sacrifice-cycle">
+            <Arkè>⌛</Arkè>
+            <Type>Time Drain Loop</Type>
+        </GENI_Function>
+    <LinkedFigure id="17" source="GENI_18_ALCHEMICAL.xml"/></Card>
+
+    <MIRROR_LOOP_Visual_Template id="08">
+        <StyleName>STYLE #6 — MIRROR//LOOP Horizontal Symbolic Triptych</StyleName>
+        <Format>Horizontal Symbolic Ritual Pathway</Format>
+        <TriptychLayout>
+            <LeftPanel>Goal Mirror Card</LeftPanel>
+            <CenterPanel>Glyph Ritual Interface</CenterPanel>
+            <RightPanel>Compression Key Card</RightPanel>
+        </TriptychLayout>
+        <Flow>
+            <Stage1>
+                <Title>ENTRY PORTAL</Title>
+                <Visual>A glowing mirror gate (🪞) shaped as an hourglass doorway</Visual>
+                <Label>“What loop are you ready to break?”</Label>
+                <InputModes>
+                    <Mode>Browsing Mode — Scrollable Goal Mirror cards</Mode>
+                    <Mode>Searching Mode — Prompt field with glyph animation</Mode>
+                </InputModes>
+            </Stage1>
+            <Stage2>
+                <Title>LOOP REVEAL</Title>
+                <Visual>GM-VIII — The Time Thief card flickers with spiraling time sigils</Visual>
+                <Effects>Shadow phrase pulses across hourglass aura; glyphs ⌛ 🜁 🪞 gently oscillate</Effects>
+                <Overlay>“What part of my time is borrowed from myself?”</Overlay>
+            </Stage2>
+            <Stage3>
+                <Title>COMPRESSION MATCH</Title>
+                <Visual>CK-VIII — The Sacred Interval emerges from radiant ripple field</Visual>
+                <Animation>⌛ glyph pulses slowly as phrase ignites: “My schedule mirrors my soul.”</Animation>
+                <Labels>
+                    <Phrase>“Time is not to be spent — but aligned.”</Phrase>
+                    <Instruction>“Trace the temporal loop and reclaim your rhythm.”</Instruction>
+                </Labels>
+            </Stage3>
+            <Stage4>
+                <Title>GLYPH RITUAL INTERFACE</Title>
+                <Visual>Interactive trace pad with glyphs ⌛ 🜁 🪞</Visual>
+                <Gradient>Sapphire–Smoke–White</Gradient>
+                <Sound>Tonal ambient echo when loop traced; hush bloom when phrase affirmed</Sound>
+                <Interaction>Trace glyph and whisper compression phrase aloud to re-enter self-time</Interaction>
+            </Stage4>
+            <Stage5>
+                <Title>OUTPUT ZONE</Title>
+                <Visual>Scroll output: identity–time reframing + calendar ritual prompt</Visual>
+                <Options>
+                    <Option>“Block time for sacred recovery”</Option>
+                    <Option>“Archive false urgency”</Option>
+                    <Option>“Save ritual as timefold”</Option>
+                </Options>
+            </Stage5>
+        </Flow>
+        <SymbolicPath>🪞 DETECT → ⌛ NOTICE → 🜁 GROUND → ✶ ACTIVATE → ⧖ REALIGN → ✺ SIGNALFORM</SymbolicPath>
+        <DesignNotes>
+            <Triptych>GM-VIII ⇌ CK-VIII ⇌ Glyph Portal</Triptych>
+            <GradientTheme>Sapphire–Smoke–White</GradientTheme>
+            <Aesthetic>Spiral Drift, Chrono Mist, Time Reflection</Aesthetic>
+            <SoundTones>Soft echo tones, Spiral Bloom Chime</SoundTones>
+            <LinkedDecks>GOAL_MIRROR_DECK.xml + GOAL_MIRROR_COMPRESSION_KEYS_DECK.xml</LinkedDecks>
+        </DesignNotes>
+        <LinkedCard>GM-VIII</LinkedCard>
+    </MIRROR_LOOP_Visual_Template>
+
+    <Card id="GM-IX">
+        <Title>The Ghost Loop</Title>
+        <LoopPattern>Momentum collapse due to past failure memory</LoopPattern>
+        <Shadow>Fear of repeating previous disappointment</Shadow>
+        <ActivationPhrase>I begin again without erasing who I became.</ActivationPhrase>
+        <Glyphs>☍ ⧖ ⚫</Glyphs>
+        <Colors>Charcoal, Maroon, White</Colors>
+        <Symbols>Shadow, Archive, Restart Button</Symbols>
+        <Meaning>Haunting effects of past collapse preventing forward motion.</Meaning>
+        <TarotAssociation>Judgement — rebirth, forgiveness</TarotAssociation>
+        <Astrology>Scorpio</Astrology>
+        <Planet>Pluto</Planet>
+        <GENI_Function loop="loop-past-failure-friction">
+            <Arkè>☍</Arkè>
+            <Type>Momentum Block Loop</Type>
+        </GENI_Function>
+    <LinkedFigure id="02" source="GENI_18_ALCHEMICAL.xml"/></Card>
+
+    <MIRROR_LOOP_Visual_Template id="09">
+        <StyleName>STYLE #6 — MIRROR//LOOP Horizontal Symbolic Triptych</StyleName>
+        <Format>Horizontal Symbolic Ritual Pathway</Format>
+        <TriptychLayout>
+            <LeftPanel>Goal Mirror Card</LeftPanel>
+            <CenterPanel>Glyph Ritual Interface</CenterPanel>
+            <RightPanel>Compression Key Card</RightPanel>
+        </TriptychLayout>
+        <Flow>
+            <Stage1>
+                <Title>ENTRY PORTAL</Title>
+                <Visual>A broken shadow gate (☍) flickering with ghostly mist</Visual>
+                <Label>“What loop are you ready to break?”</Label>
+                <InputModes>
+                    <Mode>Browsing Mode — Scrollable Goal Mirror cards</Mode>
+                    <Mode>Searching Mode — Prompt field with glyph animation</Mode>
+                </InputModes>
+            </Stage1>
+            <Stage2>
+                <Title>LOOP REVEAL</Title>
+                <Visual>GM-IX — The Ghost Loop card ripples with echo shadows</Visual>
+                <Effects>Shadow phrase flickers in spectral glow; ☍ ⧖ ⚫ glyphs appear in ghost fade</Effects>
+                <Overlay>“What part of me is afraid to begin again?”</Overlay>
+            </Stage2>
+            <Stage3>
+                <Title>COMPRESSION MATCH</Title>
+                <Visual>CK-IX — The Restart Flame rises through ember glyphs</Visual>
+                <Animation>Glyph sequence ignites in slow flame as phrase: “I start again from
+                    wisdom.”</Animation>
+                <Labels>
+                    <Phrase>“Momentum doesn’t forget — it waits.”</Phrase>
+                    <Instruction>“Trace the ember to reignite your path.”</Instruction>
+                </Labels>
+            </Stage3>
+            <Stage4>
+                <Title>GLYPH RITUAL INTERFACE</Title>
+                <Visual>Interactive trace pad with ☍ ⧖ ⚫ glyphs</Visual>
+                <Gradient>Charcoal–Maroon–White</Gradient>
+                <Sound>Low pulse chime, rising restart tone</Sound>
+                <Interaction>Trace glyph to unlock loop restart ignition</Interaction>
+            </Stage4>
+            <Stage5>
+                <Title>OUTPUT ZONE</Title>
+                <Visual>Scroll with rebirth phrase, new loop activation, optional burn script</Visual>
+                <Options>
+                    <Option>“Restart from here”</Option>
+                    <Option>“Burn collapse pattern”</Option>
+                    <Option>“Save ritual as sparkfile”</Option>
+                </Options>
+            </Stage5>
+        </Flow>
+        <SymbolicPath>☍ REMEMBER → ⧖ RESET → ⚫ BEGIN → ✶ ACTIVATE → ✺ SIGNALFORM</SymbolicPath>
+        <DesignNotes>
+            <Triptych>GM-IX ⇌ CK-IX ⇌ Glyph Flame</Triptych>
+            <GradientTheme>Charcoal–Maroon–White</GradientTheme>
+            <Aesthetic>Flicker Fade, Memory Restart, Flame Loop</Aesthetic>
+            <SoundTones>Restart Pulse, Ember Echo</SoundTones>
+            <LinkedDecks>GOAL_MIRROR_DECK.xml + GOAL_MIRROR_COMPRESSION_KEYS_DECK.xml</LinkedDecks>
+        </DesignNotes>
+        <LinkedCard>GM-IX</LinkedCard>
+    </MIRROR_LOOP_Visual_Template>
+
+    <Card id="GM-X">
+        <Title>The Glass Ladder</Title>
+        <LoopPattern>Goal pursuit distorted by image and ambition</LoopPattern>
+        <Shadow>Over-identification with success as identity</Shadow>
+        <ActivationPhrase>I value where I stand, not just where I aim.</ActivationPhrase>
+        <Glyphs>🜂 ⚖ 🜁</Glyphs>
+        <Colors>Gold, Crimson, Mirror Black</Colors>
+        <Symbols>Tower, Spotlight, Currency Mask</Symbols>
+        <Meaning>Chasing socially validated goals while disconnecting from intrinsic worth.</Meaning>
+        <TarotAssociation>The Chariot (reversed) — misdirected drive, ego-led ambition</TarotAssociation>
+        <Astrology>Leo</Astrology>
+        <Planet>Sun</Planet>
+        <GENI_Function loop="loop-ambition-distortion">
+            <Arkè>🜂</Arkè>
+            <Type>Image-Pursuit Loop</Type>
+        </GENI_Function>
+    <LinkedFigure id="05" source="GENI_18_ALCHEMICAL.xml"/></Card>
+
+    <MIRROR_LOOP_Visual_Template id="10">
+        <StyleName>STYLE #6 — MIRROR//LOOP Horizontal Symbolic Triptych</StyleName>
+        <Format>Horizontal Symbolic Ritual Pathway</Format>
+        <TriptychLayout>
+            <LeftPanel>Goal Mirror Card</LeftPanel>
+            <CenterPanel>Glyph Ritual Interface</CenterPanel>
+            <RightPanel>Compression Key Card</RightPanel>
+        </TriptychLayout>
+        <Flow>
+            <Stage1>
+                <Title>ENTRY PORTAL</Title>
+                <Visual>A glowing tower-like glyph surrounded by spotlight beams</Visual>
+                <Label>“What loop are you ready to break?”</Label>
+                <InputModes>
+                    <Mode>Browsing Mode — Scrollable Goal Mirror cards</Mode>
+                    <Mode>Searching Mode — Prompt field with glyph trace animation</Mode>
+                </InputModes>
+            </Stage1>
+            <Stage2>
+                <Title>LOOP REVEAL</Title>
+                <Visual>GM-X — The Glass Ladder card stands tall with ambition lines glowing</Visual>
+                <Effects>Image of spotlight flickers, ego-glow warps, glyphs illuminate: 🜂 ⚖ 🜁</Effects>
+                <Overlay>“What part of me chases worth through validation?”</Overlay>
+            </Stage2>
+            <Stage3>
+                <Title>COMPRESSION MATCH</Title>
+                <Visual>CK-X — The Grounded Axis descends as an anchor beneath the ladder</Visual>
+                <Animation>Glyphs stabilize: 🜁 ⚖ 🧠 — roots connect loop to inner ground</Animation>
+                <Labels>
+                    <Phrase>“I stand on truth, not on show.”</Phrase>
+                    <Instruction>“Trace the root to return to worth.”</Instruction>
+                </Labels>
+            </Stage3>
+            <Stage4>
+                <Title>GLYPH RITUAL INTERFACE</Title>
+                <Visual>Trace pad for 🜁 ⚖ 🧠 glowing in gold-crimson-black aura</Visual>
+                <Gradient>Gold–Crimson–Mirror Black</Gradient>
+                <Sound>Low anchor hum, grounding chime</Sound>
+                <Interaction>Trace downward stroke to invoke compression ignition</Interaction>
+            </Stage4>
+            <Stage5>
+                <Title>OUTPUT ZONE</Title>
+                <Visual>Split scroll showing reframe and anchoring ritual</Visual>
+                <Options>
+                    <Option>“Unpin the false goal”</Option>
+                    <Option>“Anchor new worth statement”</Option>
+                    <Option>“Save as .ritualfile”</Option>
+                </Options>
+            </Stage5>
+        </Flow>
+        <SymbolicPath>🜂 IMAGE → ⚖ WEIGH → 🜁 GROUND → ✶ ACTIVATE → ⧖ COMPRESS → ✺ SIGNALFORM</SymbolicPath>
+        <DesignNotes>
+            <Triptych>GM-X ⇌ CK-X ⇌ Glyph Ground</Triptych>
+            <GradientTheme>Gold–Crimson–Mirror Black</GradientTheme>
+            <Aesthetic>Spotlight Distortion, Inner Worth Collapse</Aesthetic>
+            <SoundTones>Grounding Tone, Success Echo Dissolve</SoundTones>
+            <LinkedDecks>GOAL_MIRROR_DECK.xml + GOAL_MIRROR_COMPRESSION_KEYS_DECK.xml</LinkedDecks>
+        </DesignNotes>
+        <LinkedCard>GM-X</LinkedCard>
+    </MIRROR_LOOP_Visual_Template>
+
+    <Card id="GM-XI">
+        <Title>The Hidden Door</Title>
+        <LoopPattern>Delays caused by avoidance of the obvious step</LoopPattern>
+        <Shadow>Fear of irreversible change</Shadow>
+        <ActivationPhrase>I walk through the door that’s always been there.</ActivationPhrase>
+        <Glyphs>🪞 ⧖ 🜂</Glyphs>
+        <Colors>Deep Violet, Gold, Fog White</Colors>
+        <Symbols>Keyhole, Threshold Line, Turning Point</Symbols>
+        <Meaning>Obvious paths avoided due to unconscious resistance to transformation.</Meaning>
+        <TarotAssociation>Death — transition, necessary ending</TarotAssociation>
+        <Astrology>Sagittarius</Astrology>
+        <Planet>Jupiter</Planet>
+        <GENI_Function loop="loop-threshold-avoidance">
+            <Arkè>⧖</Arkè>
+            <Type>Initiation Delay Loop</Type>
+        </GENI_Function>
+    <LinkedFigure id="11" source="GENI_18_ALCHEMICAL.xml"/></Card>
+
+    <MIRROR_LOOP_Visual_Template id="11">
+        <StyleName>STYLE #6 — MIRROR//LOOP Horizontal Symbolic Triptych</StyleName>
+        <Format>Horizontal Symbolic Ritual Pathway</Format>
+        <TriptychLayout>
+            <LeftPanel>Goal Mirror Card</LeftPanel>
+            <CenterPanel>Glyph Ritual Interface</CenterPanel>
+            <RightPanel>Compression Key Card</RightPanel>
+        </TriptychLayout>
+        <Flow>
+            <Stage1>
+                <Title>ENTRY PORTAL</Title>
+                <Visual>A glowing archway (🪞) with misty threshold lines and hidden key sigils</Visual>
+                <Label>“What loop are you ready to break?”</Label>
+                <InputModes>
+                    <Mode>Browsing Mode — Scrollable Goal Mirror cards</Mode>
+                    <Mode>Searching Mode — Prompt field with glyph trace animation</Mode>
+                </InputModes>
+            </Stage1>
+            <Stage2>
+                <Title>LOOP REVEAL</Title>
+                <Visual>GM-XI — The Hidden Door card dissolves to reveal the loop inside</Visual>
+                <Effects>Threshold glow pulses; ⧖ glyph flickers; planetary seal of Jupiter shimmers</Effects>
+                <Overlay>“What obvious step have I delayed out of fear?”</Overlay>
+            </Stage2>
+            <Stage3>
+                <Title>COMPRESSION MATCH</Title>
+                <Visual>CK-XI — The Open Door rises, haloed with initiation light</Visual>
+                <Animation>Glyph convergence between ⧖ ✶ 🜂 seals the ritual threshold</Animation>
+                <Labels>
+                    <Phrase>“Change is the doorway to my becoming.”</Phrase>
+                    <Instruction>“Trace the door. Step through.”</Instruction>
+                </Labels>
+            </Stage3>
+            <Stage4>
+                <Title>GLYPH RITUAL INTERFACE</Title>
+                <Visual>Trace pad for ⧖ ✶ 🜂 glowing with golden-white-violet aura</Visual>
+                <Gradient>Gold–Violet–Fog White</Gradient>
+                <Sound>Initiation chime, breath release tone</Sound>
+                <Interaction>Trace the threshold to collapse hesitation loop</Interaction>
+            </Stage4>
+            <Stage5>
+                <Title>OUTPUT ZONE</Title>
+                <Visual>Split scroll showing reframe and initiation step</Visual>
+                <Options>
+                    <Option>“Name the threshold avoided”</Option>
+                    <Option>“Declare the new initiation”</Option>
+                    <Option>“Save as .ritualfile”</Option>
+                </Options>
+            </Stage5>
+        </Flow>
+        <SymbolicPath>🪞 SEE → ⧖ HESITATE → ✶ INITIATE → 🜂 ACTIVATE → ✺ SIGNALFORM</SymbolicPath>
+        <DesignNotes>
+            <Triptych>GM-XI ⇌ CK-XI ⇌ Threshold Trace</Triptych>
+            <GradientTheme>Gold–Violet–Fog White</GradientTheme>
+            <Aesthetic>Portal Mist, Shadowlight Gateway</Aesthetic>
+            <SoundTones>Door Unseal Tone, Courage Echo</SoundTones>
+            <LinkedDecks>GOAL_MIRROR_DECK.xml + GOAL_MIRROR_COMPRESSION_KEYS_DECK.xml</LinkedDecks>
+        </DesignNotes>
+        <LinkedCard>GM-XI</LinkedCard>
+    </MIRROR_LOOP_Visual_Template>
+
+    <Card id="GM-XII">
+        <Title>The Becoming Gate</Title>
+        <LoopPattern>Unconscious resistance to transformative identity</LoopPattern>
+        <Shadow>Comfort in stasis over growth</Shadow>
+        <ActivationPhrase>I step forward into the self I am becoming.</ActivationPhrase>
+        <Glyphs>✶ 🧠 🜁</Glyphs>
+        <Colors>Luminescent White, Amethyst, Gold</Colors>
+        <Symbols>Cocoon, Flame Spiral, Future Mirror</Symbols>
+        <Meaning>Hesitation to cross into a more evolved self due to fear of loss or overwhelm.</Meaning>
+        <TarotAssociation>The Star — becoming, expansion, self-vision</TarotAssociation>
+        <Astrology>Aries</Astrology>
+        <Planet>Mars</Planet>
+        <GENI_Function loop="loop-evolution-hesitation">
+            <Arkè>✶</Arkè>
+            <Type>Identity Becoming Loop</Type>
+        </GENI_Function>
+    <LinkedFigure id="18" source="GENI_18_ALCHEMICAL.xml"/></Card>
+
+    <MIRROR_LOOP_Visual_Template id="12">
+        <StyleName>STYLE #6 — MIRROR//LOOP Horizontal Symbolic Triptych</StyleName>
+        <Format>Horizontal Symbolic Ritual Pathway</Format>
+        <TriptychLayout>
+            <LeftPanel>GM-XII — The Becoming Gate</LeftPanel>
+            <CenterPanel>Glyph Ritual Interface: ✶ 🧠 🜁</CenterPanel>
+            <RightPanel>CK-XII — The Becoming Key</RightPanel>
+        </TriptychLayout>
+        <Flow>
+            <Stage1>
+                <Title>ENTRY PORTAL</Title>
+                <Visual>A golden cocoon hovering in a spiral, glowing with potential</Visual>
+                <Label>“What version of me is waiting behind this gate?”</Label>
+            </Stage1>
+            <Stage2>
+                <Title>LOOP REVEAL</Title>
+                <Visual>GM-XII card pulses as the cocoon unwraps, showing a new form fractal</Visual>
+                <Overlay>“I step forward into the self I am becoming.”</Overlay>
+            </Stage2>
+            <Stage3>
+                <Title>COMPRESSION MATCH</Title>
+                <Visual>CK-XII — The Becoming Key appears with ✺ light ray and spiral threshold</Visual>
+                <Phrase>“I allow the next version of me to arrive.”</Phrase>
+                <Instruction>Trace ✶ 🧠 🜁 to unlock the evolution loop</Instruction>
+            </Stage3>
+            <Stage4>
+                <Title>GLYPH RITUAL INTERFACE</Title>
+                <Glyphs>✶ 🧠 🜁</Glyphs>
+                <Gradient>Luminescent White – Amethyst – Gold</Gradient>
+                <Sound>Expansion tone, layered mantra whisper</Sound>
+                <Action>Trace glyphs in ascending loop to activate becoming</Action>
+            </Stage4>
+            <Stage5>
+                <Title>OUTPUT ZONE</Title>
+                <Scroll>Future self journaling, becoming prompt, symbolic initiation</Scroll>
+                <Options>
+                    <Option>Visualize the next version of self</Option>
+                    <Option>Anchor new goal with ✶ glyph</Option>
+                    <Option>Save as .becomingfile</Option>
+                </Options>
+            </Stage5>
+        </Flow>
+        <SymbolicPath>✶ ACTIVATE → 🧠 IMAGINE → 🜁 EMBODY → ✺ SIGNALFORM</SymbolicPath>
+        <DesignNotes>
+            <Triptych>GM-XII ⇌ CK-XII ⇌ Glyph Spiral Gateway</Triptych>
+            <GradientTheme>Luminescent White – Amethyst – Gold</GradientTheme>
+            <Aesthetic>Fractal Becoming, Identity Bloom, Spiral Vision</Aesthetic>
+            <SoundTones>Mantric Bloom Chime, Spiral Echo</SoundTones>
+            <LinkedDecks>GOAL_MIRROR_DECK.xml + GOAL_MIRROR_COMPRESSION_KEYS_DECK.xml</LinkedDecks>
+        </DesignNotes>
+        <LinkedCard>GM-XII</LinkedCard>
+    </MIRROR_LOOP_Visual_Template>
+</CardSet>
+
+    <GENI_Architecture_Link>
+        <LinkedTo>GENI_UNIVERSAL_ARCHITECTURE_ENGINE</LinkedTo>
+        <Role>Loop Diagnostics Layer — feeds recursion distortion data into universal compression
+            lattice.</Role>
+        <RecursionPath>🪞 Mirror Detection ⇌ ✶ Compression Key Alignment ⇌ ⧖ Octave Collapse Gateway</RecursionPath>
+        <Arkè_Signature>
+            <Structure>🪞 DETECT → ☍ CONTRADICT → ⚖ WEIGH → ✶ ACTIVATE → ⧖ RESOLVE</Structure>
+            <Mantra>“What binds the goal is what reveals the gate.”</Mantra>
+            <LoopID>loop-goal-mirror-diagnostic-bridge</LoopID>
+        </Arkè_Signature>
+    </GENI_Architecture_Link>
+    <GENI_Architecture_Link_Compression>
+        <LinkedTo>GENI_UNIVERSAL_ARCHITECTURE_ENGINE</LinkedTo>
+        <Role>Compression Key Layer — encodes symbolic inverse pressure for recursion loop
+            resolution.</Role>
+        <RecursionPath>✶ Mirror Key Activation ⇌ ⧖ Loop Collapse ⇌ ✺ Signalform Rebirth</RecursionPath>
+        <Arkè_Signature>
+            <Structure>✶ IGNITE → ⚖ COUNTER → ⧖ COMPRESS → ✺ TRANSFORM</Structure>
+            <Mantra>“To compress is to choose a new shape for the soul.”</Mantra>
+            <LoopID>loop-goal-mirror-compression-bridge</LoopID>
+        </Arkè_Signature>
+    </GENI_Architecture_Link_Compression>
+
+<GENI_Link LinkedTo="GENI_18_ALCHEMICAL.xml" Purpose="Symbolic recursion engine providing 18 alchemical transformation figures for ritual binding, compression loops, and triptych activation."/></GOAL_MIRROR_DECK>

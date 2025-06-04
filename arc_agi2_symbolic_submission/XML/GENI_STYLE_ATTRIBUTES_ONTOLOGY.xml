@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GENI_STYLE_ATTRIBUTES_ONTOLOGY>
+  <Attribute name="Background.AmbientFog">
+    <Example name="Ethereal Smoke Essence Logo">subtle volumetric depth in background</Example>
+    <Example name="Ethereal Smoke Essence Logo">subtle volumetric depth in background</Example>
+  </Attribute>
+  <Attribute name="Background.Color">
+    <Example name="Marble Sculpture Logo">gradient from dark charcoal to pure black</Example>
+    <Example name="Glass Iridescent Logo">deep black</Example>
+  </Attribute>
+  <Attribute name="Background.NegativeSpace">
+    <Example name="Ethereal Smoke Essence Logo">strategic dark areas enhancing smoke visibility</Example>
+    <Example name="Ethereal Smoke Essence Logo">strategic dark areas enhancing smoke visibility</Example>
+  </Attribute>
+  <Attribute name="Background.Style">
+    <Example name="Ethereal Smoke Essence Logo">deep gradient from dark to darker</Example>
+    <Example name="Ethereal Smoke Essence Logo">deep gradient from dark to darker</Example>
+  </Attribute>
+  <Attribute name="Background.Texture">
+    <Example name="Glass Iridescent Logo">subtle radial gradient</Example>
+  </Attribute>
+  <Attribute name="Background.Vignette">
+    <Example name="Marble Sculpture Logo">true</Example>
+    <Example name="Glass Iridescent Logo">true</Example>
+  </Attribute>
+  <Attribute name="ColorScheme.AmbientInfluence">
+    <Example name="Ethereal Smoke Essence Logo">environmental color bleeding at edges</Example>
+    <Example name="Ethereal Smoke Essence Logo">environmental color bleeding at edges</Example>
+  </Attribute>
+  <Attribute name="ColorScheme.CosmicCore">
+    <Example name="Cosmic Crystal Convergence Logo">vibrant nebula in complementary color palette</Example>
+  </Attribute>
+  <Attribute name="ColorScheme.CrystalBase">
+    <Example name="Cosmic Crystal Convergence Logo">clear with slight [YOUR_BRAND_COLOR] tint</Example>
+  </Attribute>
+  <Attribute name="ColorScheme.DarkAreas">
+    <Example name="Neon Cyberpunk">rich blacks with subtle digital noise</Example>
+  </Attribute>
+  <Attribute name="ColorScheme.EnergyAccents">
+    <Example name="Cosmic Crystal Convergence Logo">bright white-blue energy connections</Example>
+  </Attribute>
+  <Attribute name="ColorScheme.Highlights">
+    <Example name="Marble Sculpture Logo">polished reflective gold accents</Example>
+    <Example name="Glass Iridescent Logo">bright white specular points</Example>
+  </Attribute>
+  <Attribute name="ColorScheme.Primary">
+    <Example name="Marble Sculpture Logo">white marble with gold/amber veining</Example>
+    <Example name="Neon Cyberpunk">[YOUR_BRAND_COLOR_1]</Example>
+    <Example name="Glass Iridescent Logo">transparent with iridescent blue-purple gradient</Example>
+  </Attribute>
+  <Attribute name="ColorScheme.PrimarySmoke">
+    <Example name="Ethereal Smoke Essence Logo">base white with subtle [YOUR_BRAND_COLOR] tinting</Example>
+    <Example name="Ethereal Smoke Essence Logo">base white with subtle [YOUR_BRAND_COLOR] tinting</Example>
+  </Attribute>
+  <Attribute name="ColorScheme.RimLight">
+    <Example name="Glass Iridescent Logo">soft blue glow around edges</Example>
+  </Attribute>
+  <Attribute name="ColorScheme.Secondary">
+    <Example name="Marble Sculpture Logo">subtle cream undertones</Example>
+    <Example name="Neon Cyberpunk">[YOUR_BRAND_COLOR_2]</Example>
+    <Example name="Glass Iridescent Logo">crystal-clear with subtle chromatic shifts</Example>
+  </Attribute>
+  <Attribute name="ColorScheme.SecondaryWisps">
+    <Example name="Ethereal Smoke Essence Logo">complementary color accents in thinner areas</Example>
+    <Example name="Ethereal Smoke Essence Logo">complementary color accents in thinner areas</Example>
+  </Attribute>
+  <Attribute name="ColorScheme.ShadowAreas">
+    <Example name="Cosmic Crystal Convergence Logo">deep space-like darkness in recesses</Example>
+  </Attribute>
+  <Attribute name="ColorScheme.Translucency">
+    <Example name="Ethereal Smoke Essence Logo">variable opacity revealing depth</Example>
+    <Example name="Ethereal Smoke Essence Logo">variable opacity revealing depth</Example>
+  </Attribute>
+  <Attribute name="Composition">
+    <Example name="Neon Cyberpunk">social media-optimized 9:16 vertical format</Example>
+  </Attribute>
+  <Attribute name="Composition.Angle">
+    <Example name="Natural Wood Carved Logo">slight overhead angle showcasing dimension</Example>
+  </Attribute>
+  <Attribute name="Composition.Context">
+    <Example name="Natural Wood Carved Logo">minimal suggestion of craftsman environment</Example>
+  </Attribute>
+  <Attribute name="Composition.Scale">
+    <Example name="Natural Wood Carved Logo">intimate close-up emphasizing detail</Example>
+  </Attribute>
+  <Attribute name="CosmicElements.CosmicDust">
+    <Example name="Cosmic Crystal Convergence Logo">swirling particle effects in brand colors</Example>
+  </Attribute>
+  <Attribute name="CosmicElements.EnergyCurrents">
+    <Example name="Cosmic Crystal Convergence Logo">flowing light streams connecting elements</Example>
+  </Attribute>
+  <Attribute name="CosmicElements.InternalNebula">
+    <Example name="Cosmic Crystal Convergence Logo">miniature galaxy formation inside crystal core</Example>
+  </Attribute>
+  <Attribute name="CosmicElements.StarPoints">
+    <Example name="Cosmic Crystal Convergence Logo">pinpoint light sources scattered throughout</Example>
+  </Attribute>
+  <Attribute name="CraftsmanshipDetails.FinishQuality">
+    <Example name="Natural Wood Carved Logo">smooth hand-rubbed surface with natural luster</Example>
+  </Attribute>
+  <Attribute name="CraftsmanshipDetails.GrainInteraction">
+    <Example name="Natural Wood Carved Logo">logo elements follow natural wood grain</Example>
+  </Attribute>
+  <Attribute name="CraftsmanshipDetails.Joinery">
+    <Example name="Natural Wood Carved Logo">seamless construction with hidden attachment points</Example>
+  </Attribute>
+  <Attribute name="CraftsmanshipDetails.ToolMarks">
+    <Example name="Natural Wood Carved Logo">subtle suggestion of hand crafting</Example>
+  </Attribute>
+  <Attribute name="CrystalProperties.Refraction">
+    <Example name="Cosmic Crystal Convergence Logo">complex light bending revealing inner universe</Example>
+  </Attribute>
+  <Attribute name="CrystalProperties.Stratification">
+    <Example name="Cosmic Crystal Convergence Logo">subtle internal growth layers</Example>
+  </Attribute>
+  <Attribute name="CrystalProperties.Structure">
+    <Example name="Cosmic Crystal Convergence Logo">geometric crystalline formation with precise facets</Example>
+  </Attribute>
+  <Attribute name="CrystalProperties.Transparency">
+    <Example name="Cosmic Crystal Convergence Logo">variable clarity with internal cosmic phenomena</Example>
+  </Attribute>
+  <Attribute name="Elements.Background">
+    <Example name="Neon Cyberpunk">dark urban cityscape with neon-lit skyscrapers</Example>
+  </Attribute>
+  <Attribute name="Elements.Foreground">
+    <Example name="Neon Cyberpunk">central product/message area with floating UI elements</Example>
+  </Attribute>
+  <Attribute name="Elements.TextArea">
+    <Example name="Neon Cyberpunk">clean negative space for text: '[INSERT_YOUR_HEADLINE_HERE]'</Example>
+  </Attribute>
+  <Attribute name="Environment.EnergyField">
+    <Example name="Cosmic Crystal Convergence Logo">subtle force field surrounding crystal</Example>
+  </Attribute>
+  <Attribute name="Environment.Gravity">
+    <Example name="Cosmic Crystal Convergence Logo">suggestion of zero-gravity floating state</Example>
+  </Attribute>
+  <Attribute name="Environment.Setting">
+    <Example name="Cosmic Crystal Convergence Logo">abstract cosmic void or minimalist space</Example>
+  </Attribute>
+  <Attribute name="Lighting.AccentColors">
+    <Example name="Marble Sculpture Logo">warm gold</Example>
+    <Example name="Marble Sculpture Logo">soft white</Example>
+    <Example name="Glass Iridescent Logo">blue</Example>
+    <Example name="Glass Iridescent Logo">purple</Example>
+    <Example name="Glass Iridescent Logo">cyan</Example>
+  </Attribute>
+  <Attribute name="Lighting.BeamEffects">
+    <Example name="Ethereal Smoke Essence Logo">subtle light rays piercing through translucent areas</Example>
+    <Example name="Ethereal Smoke Essence Logo">subtle light rays piercing through translucent areas</Example>
+  </Attribute>
+  <Attribute name="Lighting.Caustics">
+    <Example name="Cosmic Crystal Convergence Logo">complex light patterns projected through crystal</Example>
+  </Attribute>
+  <Attribute name="Lighting.ColorTemperature">
+    <Example name="Ethereal Smoke Essence Logo">cool with slight color variation</Example>
+    <Example name="Ethereal Smoke Essence Logo">cool with slight color variation</Example>
+  </Attribute>
+  <Attribute name="Lighting.CosmicEmission">
+    <Example name="Cosmic Crystal Convergence Logo">internal light sources from cosmic elements</Example>
+  </Attribute>
+  <Attribute name="Lighting.Direction">
+    <Example name="Marble Sculpture Logo">45-degree top-right key light</Example>
+    <Example name="Glass Iridescent Logo">angled top-left key light with soft fill</Example>
+    <Example name="Natural Wood Carved Logo">top-left at 45 degrees</Example>
+  </Attribute>
+  <Attribute name="Lighting.DispersionEffects">
+    <Example name="Glass Iridescent Logo">true</Example>
+  </Attribute>
+  <Attribute name="Lighting.Environment">
+    <Example name="Natural Wood Carved Logo">suggestion of artisan workshop</Example>
+  </Attribute>
+  <Attribute name="Lighting.Intensity">
+    <Example name="Marble Sculpture Logo">medium-high</Example>
+    <Example name="Glass Iridescent Logo">high</Example>
+  </Attribute>
+  <Attribute name="Lighting.InternalGlow">
+    <Example name="Ethereal Smoke Essence Logo">gentle inner luminosity in [YOUR_BRAND_COLOR]</Example>
+    <Example name="Ethereal Smoke Essence Logo">gentle inner luminosity in [YOUR_BRAND_COLOR]</Example>
+  </Attribute>
+  <Attribute name="Lighting.LightEffects">
+    <Example name="Neon Cyberpunk">light trails</Example>
+    <Example name="Neon Cyberpunk">volumetric fog</Example>
+    <Example name="Neon Cyberpunk">lens flares</Example>
+  </Attribute>
+  <Attribute name="Lighting.Primary">
+    <Example name="Ethereal Smoke Essence Logo">backlit with rim lighting effect</Example>
+    <Example name="Ethereal Smoke Essence Logo">backlit with rim lighting effect</Example>
+    <Example name="Cosmic Crystal Convergence Logo">dramatic side lighting revealing crystal structure</Example>
+  </Attribute>
+  <Attribute name="Lighting.PrimaryLightSources">
+    <Example name="Neon Cyberpunk">[YOUR_BRAND_COLOR_1]</Example>
+    <Example name="Neon Cyberpunk">[YOUR_BRAND_COLOR_2]</Example>
+  </Attribute>
+  <Attribute name="Lighting.Reflections">
+    <Example name="Glass Iridescent Logo">true</Example>
+  </Attribute>
+  <Attribute name="Lighting.Refractions">
+    <Example name="Glass Iridescent Logo">true</Example>
+  </Attribute>
+  <Attribute name="Lighting.Shadows">
+    <Example name="Natural Wood Carved Logo">soft, warm shadows enhancing dimension</Example>
+  </Attribute>
+  <Attribute name="Lighting.SpectrumEffects">
+    <Example name="Cosmic Crystal Convergence Logo">subtle rainbow dispersion at edges</Example>
+  </Attribute>
+  <Attribute name="Lighting.Type">
+    <Example name="Marble Sculpture Logo">soft studio lighting</Example>
+    <Example name="Neon Cyberpunk">dramatic neon illumination</Example>
+    <Example name="Glass Iridescent Logo">studio HDRI environment</Example>
+    <Example name="Natural Wood Carved Logo">soft natural lighting</Example>
+  </Attribute>
+  <Attribute name="LogoTreatment.Background">
+    <Example name="Natural Wood Carved Logo">subtly recessed flat wood surface</Example>
+  </Attribute>
+  <Attribute name="LogoTreatment.CarvingStyle">
+    <Example name="Natural Wood Carved Logo">clean precision carved with slight hand-tool texture</Example>
+  </Attribute>
+  <Attribute name="LogoTreatment.ClarityVariation">
+    <Example name="Cosmic Crystal Convergence Logo">logo most visible at certain viewing angles</Example>
+  </Attribute>
+  <Attribute name="LogoTreatment.CoreStability">
+    <Example name="Ethereal Smoke Essence Logo">recognizable center with ethereal boundaries</Example>
+    <Example name="Ethereal Smoke Essence Logo">recognizable center with ethereal boundaries</Example>
+  </Attribute>
+  <Attribute name="LogoTreatment.Depth">
+    <Example name="Glass Iridescent Logo">3D extrusion with beveled edges</Example>
+    <Example name="Natural Wood Carved Logo">variable relief depth for dimensional interest</Example>
+  </Attribute>
+  <Attribute name="LogoTreatment.DetailPreservation">
+    <Example name="Glass Iridescent Logo">high fidelity to original logo proportions and shapes</Example>
+  </Attribute>
+  <Attribute name="LogoTreatment.DimensionalPlanes">
+    <Example name="Cosmic Crystal Convergence Logo">logo visible on multiple internal facets</Example>
+  </Attribute>
+  <Attribute name="LogoTreatment.EdgeDefinition">
+    <Example name="Ethereal Smoke Essence Logo">partially defined with intentional ambiguity</Example>
+    <Example name="Ethereal Smoke Essence Logo">partially defined with intentional ambiguity</Example>
+  </Attribute>
+  <Attribute name="LogoTreatment.Edges">
+    <Example name="Natural Wood Carved Logo">slightly rounded and polished</Example>
+  </Attribute>
+  <Attribute name="LogoTreatment.FormationMethod">
+    <Example name="Ethereal Smoke Essence Logo">logo shape manifested as if smoke naturally formed it</Example>
+    <Example name="Ethereal Smoke Essence Logo">logo shape manifested as if smoke naturally formed it</Example>
+  </Attribute>
+  <Attribute name="LogoTreatment.IntegrationMethod">
+    <Example name="Cosmic Crystal Convergence Logo">logo naturally formed within crystal structure</Example>
+  </Attribute>
+  <Attribute name="LogoTreatment.Transparency">
+    <Example name="Glass Iridescent Logo">semi-transparent core with solid edges</Example>
+  </Attribute>
+  <Attribute name="Material">
+    <Example name="Marble Sculpture Logo">polished Italian marble with gold veining</Example>
+    <Example name="Ethereal Smoke Essence Logo">flowing dynamic smoke with ephemeral properties</Example>
+    <Example name="Glass Iridescent Logo">premium glass with transparent and iridescent effects</Example>
+    <Example name="Natural Wood Carved Logo">premium hardwood with natural grain patterns</Example>
+    <Example name="Ethereal Smoke Essence Logo">flowing dynamic smoke with ephemeral properties</Example>
+    <Example name="Cosmic Crystal Convergence Logo">multi-faceted crystal with internal cosmic nebula</Example>
+  </Attribute>
+  <Attribute name="PhysicalBehavior.Density">
+    <Example name="Ethereal Smoke Essence Logo">variable with central solidity fading to wispy edges</Example>
+    <Example name="Ethereal Smoke Essence Logo">variable with central solidity fading to wispy edges</Example>
+  </Attribute>
+  <Attribute name="PhysicalBehavior.Dissipation">
+    <Example name="Ethereal Smoke Essence Logo">gradual fade at outer boundaries</Example>
+    <Example name="Ethereal Smoke Essence Logo">gradual fade at outer boundaries</Example>
+  </Attribute>
+  <Attribute name="PhysicalBehavior.Movement">
+    <Example name="Ethereal Smoke Essence Logo">gentle rising current with slight turbulence</Example>
+    <Example name="Ethereal Smoke Essence Logo">gentle rising current with slight turbulence</Example>
+  </Attribute>
+  <Attribute name="PostProcessing.Bloom">
+    <Example name="Neon Cyberpunk">strong glow around light sources</Example>
+  </Attribute>
+  <Attribute name="PostProcessing.ChromaticAberration">
+    <Example name="Neon Cyberpunk">slight RGB splitting on edges</Example>
+    <Example name="Glass Iridescent Logo">true</Example>
+  </Attribute>
+  <Attribute name="PostProcessing.Clarity">
+    <Example name="Marble Sculpture Logo">true</Example>
+    <Example name="Cosmic Crystal Convergence Logo">ultra-sharp facet definition</Example>
+  </Attribute>
+  <Attribute name="PostProcessing.Contrast">
+    <Example name="Natural Wood Carved Logo">natural, not excessive</Example>
+  </Attribute>
+  <Attribute name="PostProcessing.ContrastRange">
+    <Example name="Ethereal Smoke Essence Logo">expanded to capture subtle smoke details</Example>
+    <Example name="Ethereal Smoke Essence Logo">expanded to capture subtle smoke details</Example>
+  </Attribute>
+  <Attribute name="PostProcessing.DepthCompression">
+    <Example name="Cosmic Crystal Convergence Logo">enhancing internal cosmic vista</Example>
+  </Attribute>
+  <Attribute name="PostProcessing.DepthEnhancement">
+    <Example name="Ethereal Smoke Essence Logo">subtle atmospheric perspective</Example>
+    <Example name="Ethereal Smoke Essence Logo">subtle atmospheric perspective</Example>
+  </Attribute>
+  <Attribute name="PostProcessing.Glow">
+    <Example name="Glass Iridescent Logo">true</Example>
+  </Attribute>
+  <Attribute name="PostProcessing.GlowIntegration">
+    <Example name="Ethereal Smoke Essence Logo">seamless luminosity in dense areas</Example>
+    <Example name="Ethereal Smoke Essence Logo">seamless luminosity in dense areas</Example>
+  </Attribute>
+  <Attribute name="PostProcessing.HighContrast">
+    <Example name="Glass Iridescent Logo">true</Example>
+  </Attribute>
+  <Attribute name="PostProcessing.InternalGlow">
+    <Example name="Cosmic Crystal Convergence Logo">enhanced cosmic light emission</Example>
+  </Attribute>
+  <Attribute name="PostProcessing.Mood">
+    <Example name="Natural Wood Carved Logo">organic, authentic, timeless</Example>
+  </Attribute>
+  <Attribute name="PostProcessing.ParticleDetail">
+    <Example name="Ethereal Smoke Essence Logo">ultra-high resolution smoke particle rendering</Example>
+    <Example name="Ethereal Smoke Essence Logo">ultra-high resolution smoke particle rendering</Example>
+  </Attribute>
+  <Attribute name="PostProcessing.SharpDetails">
+    <Example name="Glass Iridescent Logo">true</Example>
+  </Attribute>
+  <Attribute name="PostProcessing.Sharpness">
+    <Example name="Marble Sculpture Logo">high on product edges</Example>
+  </Attribute>
+  <Attribute name="PostProcessing.SpectralHighlights">
+    <Example name="Cosmic Crystal Convergence Logo">precise control of light spectrum effects</Example>
+  </Attribute>
+  <Attribute name="PostProcessing.Texture">
+    <Example name="Natural Wood Carved Logo">enhanced grain detail without exaggeration</Example>
+  </Attribute>
+  <Attribute name="PostProcessing.Warmth">
+    <Example name="Natural Wood Carved Logo">enhanced warm tones of natural wood</Example>
+  </Attribute>
+  <Attribute name="ProductPlacement.Angle">
+    <Example name="Marble Sculpture Logo">3/4 view highlighting key features</Example>
+  </Attribute>
+  <Attribute name="ProductPlacement.Position">
+    <Example name="Marble Sculpture Logo">slightly off-center</Example>
+  </Attribute>
+  <Attribute name="Style">
+    <Example name="Marble Sculpture Logo">photorealistic product photography</Example>
+    <Example name="Ethereal Smoke Essence Logo">photorealistic volumetric simulation</Example>
+    <Example name="Neon Cyberpunk">cyberpunk digital art with neon lighting</Example>
+    <Example name="Glass Iridescent Logo">photorealistic 3D render</Example>
+    <Example name="Natural Wood Carved Logo">photorealistic 3D render</Example>
+    <Example name="Ethereal Smoke Essence Logo">photorealistic volumetric simulation</Example>
+    <Example name="Cosmic Crystal Convergence Logo">photorealistic gemstone with cosmic properties</Example>
+  </Attribute>
+  <Attribute name="SurfaceTexture">
+    <Example name="Marble Sculpture Logo">smooth with subtle natural stone patterns</Example>
+    <Example name="Glass Iridescent Logo">smooth, polished with subtle reflections and refractive effects</Example>
+  </Attribute>
+  <Attribute name="WoodType.Color">
+    <Example name="Natural Wood Carved Logo">natural wood tone of selected species</Example>
+  </Attribute>
+  <Attribute name="WoodType.Finish">
+    <Example name="Natural Wood Carved Logo">satin hand-rubbed oil finish</Example>
+  </Attribute>
+  <Attribute name="WoodType.Grain">
+    <Example name="Natural Wood Carved Logo">authentic grain pattern with visible texture</Example>
+  </Attribute>
+  <Attribute name="WoodType.Species">
+    <Example name="Natural Wood Carved Logo">[CHOOSE: walnut/maple/oak/cherry]</Example>
+  </Attribute>
+<GPT4O_STYLE_TAXONOMY><StyleCategory name="Photorealistic"><Style>Photorealistic Product Photography</Style><Style>Photorealistic Volumetric Simulation</Style><Style>Photorealistic 3D Render</Style><Style>Photorealistic Macro Photography</Style><Style>Photorealistic Gemstone Lighting</Style><Style>Studio HDRI Render</Style><Style>Realistic Material Simulation</Style></StyleCategory><StyleCategory name="Digital &amp; Cinematic"><Style>Cinematic Concept Art</Style><Style>Cyberpunk Digital Art</Style><Style>Vaporwave Aesthetic</Style><Style>Film Noir Lighting</Style><Style>Neon Glow Landscape</Style><Style>Futuristic UI Overlay Design</Style><Style>Fantasy Game Key Art</Style><Style>Anime-Inspired Illustration</Style><Style>Pixar / Disney Style</Style><Style>Studio Ghibli Style</Style><Style>Unreal Engine-style Lighting</Style></StyleCategory><StyleCategory name="Stylized &amp; Artistic"><Style>Oil Painting</Style><Style>Watercolor Illustration</Style><Style>Charcoal or Pencil Sketch</Style><Style>Clay Sculpting</Style><Style>Origami or Paper Cutout</Style><Style>Glassmorphism</Style><Style>Ink and Wash</Style><Style>Mosaic or Stained Glass</Style><Style>Marble Sculpture Finish</Style><Style>Vapor Text + Holographic UI</Style></StyleCategory><StyleCategory name="Sci-Fi / Surreal / Abstract"><Style>Cosmic Vortex</Style><Style>Crystal Fractal Design</Style><Style>Neural Symbol Grid</Style><Style>Glowing Circuit</Style><Style>Zero-Gravity Void</Style><Style>Metaphysical Loop</Style><Style>AI Memory Archive Aesthetic</Style><Style>Fractal Bloom Geometry</Style></StyleCategory><StyleCategory name="Minimalist / UI / Corporate"><Style>3D Isometric Dashboard</Style><Style>Flat Illustration</Style><Style>Gradient Overlay Card</Style><Style>Glass Panel HUD</Style><Style>Startup Product Hero Banner</Style><Style>Whiteboard Sketch Explainer</Style></StyleCategory></GPT4O_STYLE_TAXONOMY><GPT4O_SUPPORTED_MATERIALS><MaterialCategory name="Natural Materials"><Material>Marble</Material><Material>Wood (oak, walnut, maple)</Material><Material>Stone (granite, limestone)</Material><Material>Sand / Clay / Soil</Material><Material>Water (still, ripple, splash)</Material><Material>Ice / Snow</Material><Material>Leaves / Bark / Organic fiber</Material></MaterialCategory><MaterialCategory name="Metals &amp; Alloys"><Material>Gold (polished, brushed)</Material><Material>Silver (engraved, matte)</Material><Material>Steel (brushed, industrial)</Material><Material>Copper / Bronze / Brass</Material><Material>Chrome / Liquid Metal</Material></MaterialCategory><MaterialCategory name="Glass &amp; Transparency"><Material>Clear Glass</Material><Material>Iridescent Glass</Material><Material>Frosted / Etched Glass</Material><Material>Crystal / Gemstone</Material></MaterialCategory><MaterialCategory name="Fabric &amp; Soft Materials"><Material>Silk / Satin / Velvet</Material><Material>Linen / Leather</Material><Material>Wool / Felt / Suede</Material><Material>Mesh / Lace / Netting</Material></MaterialCategory><MaterialCategory name="Synthetic &amp; Manufactured"><Material>Plastic (matte, glossy)</Material><Material>Rubber / Latex / Silicone</Material><Material>Acrylic / Plexiglass</Material><Material>Foam / Polyurethane</Material><Material>3D-Printed Polymers</Material></MaterialCategory><MaterialCategory name="Energy / Abstract"><Material>Smoke / Mist / Vapor</Material><Material>Fire / Flame / Plasma</Material><Material>Neon Light / Electric Arc</Material><Material>Holographic Light</Material><Material>Cosmic Energy / Dust / Glyphs</Material></MaterialCategory></GPT4O_SUPPORTED_MATERIALS><GPT4O_SUPPORTED_LIGHTING><LightingCategory name="Studio &amp; Controlled Lighting"><Lighting>Soft Studio Lighting</Lighting><Lighting>HDRI Lighting Environment</Lighting><Lighting>Top-left Key Light</Lighting><Lighting>Rim Lighting</Lighting><Lighting>Overhead Spotlights</Lighting></LightingCategory><LightingCategory name="Natural &amp; Atmospheric Lighting"><Lighting>Natural Sunlight (golden hour, overcast)</Lighting><Lighting>Soft Diffused Ambient Light</Lighting><Lighting>Candlelight / Firelight</Lighting><Lighting>Moonlight / Night Glow</Lighting><Lighting>Fog Lighting / Scattered Rays</Lighting></LightingCategory><LightingCategory name="Cinematic &amp; Dramatic Lighting"><Lighting>High Contrast Side Lighting</Lighting><Lighting>Backlit Silhouette Lighting</Lighting><Lighting>Volumetric Light Beams</Lighting><Lighting>Lens Flares / Bloom</Lighting><Lighting>Low Key / Noir Lighting</Lighting></LightingCategory><LightingCategory name="Futuristic &amp; Neon Lighting"><Lighting>Neon Rim Lighting</Lighting><Lighting>Electric Glow / Light Trails</Lighting><Lighting>Holographic Projection Light</Lighting><Lighting>Cyberpunk Color Wash</Lighting><Lighting>Strobing / Dynamic Pulses</Lighting></LightingCategory><LightingCategory name="Cosmic &amp; Abstract Lighting"><Lighting>Internal Glow / Emission</Lighting><Lighting>Cosmic Light Source</Lighting><Lighting>Crystal Caustics</Lighting><Lighting>Rainbow Edge Dispersion</Lighting><Lighting>Radiant Orb or Core Light</Lighting></LightingCategory></GPT4O_SUPPORTED_LIGHTING><GPT4O_SUPPORTED_SURFACE_TEXTURES><SurfaceTextureCategory name="Smooth &amp; Polished"><SurfaceTexture>Polished Marble</SurfaceTexture><SurfaceTexture>Glossy Glass</SurfaceTexture><SurfaceTexture>Lacquered Wood</SurfaceTexture><SurfaceTexture>Polished Metal</SurfaceTexture><SurfaceTexture>Smooth Ceramic</SurfaceTexture></SurfaceTextureCategory><SurfaceTextureCategory name="Textured &amp; Natural"><SurfaceTexture>Raw Wood Grain</SurfaceTexture><SurfaceTexture>Stone Texture (granite, limestone)</SurfaceTexture><SurfaceTexture>Hand-Chiseled Surface</SurfaceTexture><SurfaceTexture>Embossed Leather</SurfaceTexture><SurfaceTexture>Coarse Canvas or Fabric</SurfaceTexture></SurfaceTextureCategory><SurfaceTextureCategory name="Translucent &amp; Optical"><SurfaceTexture>Frosted Glass</SurfaceTexture><SurfaceTexture>Etched Crystal</SurfaceTexture><SurfaceTexture>Holographic Surface</SurfaceTexture><SurfaceTexture>Iridescent Coating</SurfaceTexture><SurfaceTexture>Thin Mist Overlay</SurfaceTexture></SurfaceTextureCategory><SurfaceTextureCategory name="Tactile &amp; Crafted"><SurfaceTexture>Tool-Carved Details</SurfaceTexture><SurfaceTexture>Raised Logo Embossing</SurfaceTexture><SurfaceTexture>Woven Threads or Fibers</SurfaceTexture><SurfaceTexture>Hand-Rubbed Finish</SurfaceTexture><SurfaceTexture>Dimensional Carved Relief</SurfaceTexture></SurfaceTextureCategory></GPT4O_SUPPORTED_SURFACE_TEXTURES><GPT4O_SUPPORTED_CAMERA_ANGLES><CameraAngleCategory name="Frontal &amp; Balanced"><CameraAngle>Direct Front View</CameraAngle><CameraAngle>Centered Composition</CameraAngle><CameraAngle>Flat Lay</CameraAngle><CameraAngle>Head-On Symmetry</CameraAngle></CameraAngleCategory><CameraAngleCategory name="Dynamic &amp; Depth-Based"><CameraAngle>3/4 View</CameraAngle><CameraAngle>Top-Left Diagonal</CameraAngle><CameraAngle>Overhead Slight Tilt</CameraAngle><CameraAngle>Side Profile Depth Shot</CameraAngle></CameraAngleCategory><CameraAngleCategory name="Close-Up &amp; Macro"><CameraAngle>Extreme Close-Up</CameraAngle><CameraAngle>Logo Detail Focus</CameraAngle><CameraAngle>Macro Texture Reveal</CameraAngle></CameraAngleCategory><CameraAngleCategory name="Atmospheric &amp; Abstract"><CameraAngle>Zoomed-Out Minimalist Frame</CameraAngle><CameraAngle>Floating in Void Perspective</CameraAngle><CameraAngle>Asymmetric Off-Center View</CameraAngle><CameraAngle>Depth-of-Field Blur Frame</CameraAngle></CameraAngleCategory></GPT4O_SUPPORTED_CAMERA_ANGLES><GPT4O_SUPPORTED_POST_PROCESSING><PostProcessingCategory name="Glow &amp; Light Effects"><PostProcessingEffect>Bloom</PostProcessingEffect><PostProcessingEffect>Internal Glow</PostProcessingEffect><PostProcessingEffect>Outer Glow</PostProcessingEffect><PostProcessingEffect>Lens Flare</PostProcessingEffect><PostProcessingEffect>Rim Glow Enhancement</PostProcessingEffect></PostProcessingCategory><PostProcessingCategory name="Detail &amp; Texture Enhancements"><PostProcessingEffect>Sharp Detail Boost</PostProcessingEffect><PostProcessingEffect>Texture Amplification</PostProcessingEffect><PostProcessingEffect>Edge Clarity Enhancement</PostProcessingEffect><PostProcessingEffect>Micrograin Highlighting</PostProcessingEffect></PostProcessingCategory><PostProcessingCategory name="Atmospheric &amp; Mood"><PostProcessingEffect>Soft Vignette</PostProcessingEffect><PostProcessingEffect>Fog Overlay</PostProcessingEffect><PostProcessingEffect>Cinematic Contrast Grading</PostProcessingEffect><PostProcessingEffect>Warmth or Cool Tone Shift</PostProcessingEffect><PostProcessingEffect>Depth Compression</PostProcessingEffect></PostProcessingCategory><PostProcessingCategory name="Optical Effects"><PostProcessingEffect>Chromatic Aberration</PostProcessingEffect><PostProcessingEffect>Color Dispersion</PostProcessingEffect><PostProcessingEffect>Bokeh Blur</PostProcessingEffect><PostProcessingEffect>Spectral Highlight Control</PostProcessingEffect><PostProcessingEffect>Light Refraction Simulation</PostProcessingEffect></PostProcessingCategory><PostProcessingCategory name="Contrast &amp; Fidelity"><PostProcessingEffect>High Dynamic Range</PostProcessingEffect><PostProcessingEffect>Subtle Contrast Expansion</PostProcessingEffect><PostProcessingEffect>Gradient Smoothing</PostProcessingEffect><PostProcessingEffect>Expanded Tonal Range</PostProcessingEffect></PostProcessingCategory></GPT4O_SUPPORTED_POST_PROCESSING><GPT4O_SUPPORTED_COMPOSITION><CompositionCategory name="Framing &amp; Layout"><CompositionStyle>Centered Composition</CompositionStyle><CompositionStyle>Rule of Thirds</CompositionStyle><CompositionStyle>Asymmetric Layout</CompositionStyle><CompositionStyle>Negative Space Emphasis</CompositionStyle><CompositionStyle>Edge Framing</CompositionStyle></CompositionCategory><CompositionCategory name="Format &amp; Aspect Ratio"><CompositionStyle>16:9 Wide Cinematic</CompositionStyle><CompositionStyle>9:16 Vertical Mobile Format</CompositionStyle><CompositionStyle>1:1 Square Social Media</CompositionStyle><CompositionStyle>A4/Letter Print Layout</CompositionStyle><CompositionStyle>Panoramic Crop</CompositionStyle></CompositionCategory><CompositionCategory name="Visual Hierarchy"><CompositionStyle>Top-Weighted for Headline</CompositionStyle><CompositionStyle>Bottom-Focused CTA</CompositionStyle><CompositionStyle>Z-Depth Foreground Emphasis</CompositionStyle><CompositionStyle>Leading Lines Toward Logo</CompositionStyle><CompositionStyle>Layered Depth Stacking</CompositionStyle></CompositionCategory><CompositionCategory name="Spatial &amp; Environmental Context"><CompositionStyle>Floating Object in Void</CompositionStyle><CompositionStyle>Grounded in Environment</CompositionStyle><CompositionStyle>Tabletop/Surface Setting</CompositionStyle><CompositionStyle>Minimalist White Space</CompositionStyle><CompositionStyle>Immersive Full-Scene Integration</CompositionStyle></CompositionCategory><CompositionCategory name="Dynamic &amp; Artistic Composition"><CompositionStyle>Diagonal Tension Lines</CompositionStyle><CompositionStyle>Rotated or Tilted Elements</CompositionStyle><CompositionStyle>Sliced Frame Breakout</CompositionStyle><CompositionStyle>Recursive Nested Framing</CompositionStyle><CompositionStyle>Spiral or Radial Symmetry</CompositionStyle></CompositionCategory></GPT4O_SUPPORTED_COMPOSITION><GPT4O_SUPPORTED_CRAFTSMANSHIP_DETAILS><CraftsmanshipCategory name="Surface Crafting"><CraftsmanshipDetail>Hand-Rubbed Finish</CraftsmanshipDetail><CraftsmanshipDetail>Visible Tool Marks</CraftsmanshipDetail><CraftsmanshipDetail>Micro-Carved Detailing</CraftsmanshipDetail><CraftsmanshipDetail>Polished Edge Buffing</CraftsmanshipDetail><CraftsmanshipDetail>Soft Edge Rounding</CraftsmanshipDetail></CraftsmanshipCategory><CraftsmanshipCategory name="Grain &amp; Material Integration"><CraftsmanshipDetail>Grain-Aligned Logo Carving</CraftsmanshipDetail><CraftsmanshipDetail>Natural Pattern Following</CraftsmanshipDetail><CraftsmanshipDetail>Organic Flow Adherence</CraftsmanshipDetail><CraftsmanshipDetail>Material-Conscious Design Symmetry</CraftsmanshipDetail></CraftsmanshipCategory><CraftsmanshipCategory name="Joinery &amp; Assembly"><CraftsmanshipDetail>Invisible Joints or Seams</CraftsmanshipDetail><CraftsmanshipDetail>Hand-Fit Construction</CraftsmanshipDetail><CraftsmanshipDetail>Precision Joinery</CraftsmanshipDetail><CraftsmanshipDetail>Nested Layer Integration</CraftsmanshipDetail></CraftsmanshipCategory><CraftsmanshipCategory name="Finish Quality &amp; Texture"><CraftsmanshipDetail>Satin Oil Finish</CraftsmanshipDetail><CraftsmanshipDetail>Smooth Natural Luster</CraftsmanshipDetail><CraftsmanshipDetail>Authentic Hand-Finished Texture</CraftsmanshipDetail><CraftsmanshipDetail>Surface Cleanliness &amp; Deburring</CraftsmanshipDetail></CraftsmanshipCategory><CraftsmanshipCategory name="Symbolic or Esoteric Detailing"><CraftsmanshipDetail>Hidden Symbol Integration</CraftsmanshipDetail><CraftsmanshipDetail>Ritual or Glyph-Inspired Engraving</CraftsmanshipDetail><CraftsmanshipDetail>Embedded Personalization Marks</CraftsmanshipDetail><CraftsmanshipDetail>Master Signature Carving</CraftsmanshipDetail></CraftsmanshipCategory></GPT4O_SUPPORTED_CRAFTSMANSHIP_DETAILS><GPT4O_SUPPORTED_LOGO_TREATMENTS><LogoTreatmentCategory name="Integration &amp; Formation"><LogoTreatment>Naturally Formed from Material</LogoTreatment><LogoTreatment>Embedded in Surface Relief</LogoTreatment><LogoTreatment>Floating Holographic Projection</LogoTreatment><LogoTreatment>Interlocked with Background Geometry</LogoTreatment><LogoTreatment>Emergent Pattern from Structure</LogoTreatment></LogoTreatmentCategory><LogoTreatmentCategory name="Dimensional Properties"><LogoTreatment>3D Extrusion</LogoTreatment><LogoTreatment>Carved Relief</LogoTreatment><LogoTreatment>Beveled Edge Highlight</LogoTreatment><LogoTreatment>Variable Depth Carving</LogoTreatment><LogoTreatment>Embedded Transparency Layers</LogoTreatment></LogoTreatmentCategory><LogoTreatmentCategory name="Clarity &amp; Visibility"><LogoTreatment>Angle-Dependent Visibility</LogoTreatment><LogoTreatment>Subtle Definition through Light</LogoTreatment><LogoTreatment>Partially Obscured Form</LogoTreatment><LogoTreatment>Rim Highlight Emphasis</LogoTreatment><LogoTreatment>Glow-Aided Readability</LogoTreatment></LogoTreatmentCategory><LogoTreatmentCategory name="Material-Specific Adaptation"><LogoTreatment>Logo Conforming to Grain/Facet</LogoTreatment><LogoTreatment>Light Refraction Defines Edges</LogoTreatment><LogoTreatment>Smoke Form Manifestation</LogoTreatment><LogoTreatment>Crystal Plane Projection</LogoTreatment><LogoTreatment>Metallic Filigree Inlay</LogoTreatment></LogoTreatmentCategory><LogoTreatmentCategory name="Artistic Interpretations"><LogoTreatment>Hand-Carved Glyph Motif</LogoTreatment><LogoTreatment>Sigil-Based Transformation</LogoTreatment><LogoTreatment>Recursive Symbolic Loop Form</LogoTreatment><LogoTreatment>Stylized Historic Inscription</LogoTreatment><LogoTreatment>Abstract Minimal Reduction</LogoTreatment></LogoTreatmentCategory></GPT4O_SUPPORTED_LOGO_TREATMENTS><Help><Command name="/style.align()">Uploads an image, analyzes its visual features, cross-references GENI_STYLE_ATTRIBUTES_ONTOLOGY, and recommends the best-fit retexturing style.</Command></Help></GENI_STYLE_ATTRIBUTES_ONTOLOGY>

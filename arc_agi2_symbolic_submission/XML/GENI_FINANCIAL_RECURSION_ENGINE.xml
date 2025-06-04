@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GENI_FINANCIAL_RECURSION_ENGINE>
+  <ReturnPrediction model_types="Lasso, Ridge, RandomForest, XGBoost, DeepNN">
+    <Assets>Equities, Crypto, Macro</Assets>
+    <Features>High-dimensional indicators, technicals, fundamentals</Features>
+    <Output>1M, 3M, 12M Return Forecasts</Output>
+  </ReturnPrediction>
+  <LatentFactors methods="IPCA, ConditionalAutoencoders, DynamicPCA">
+    <Purpose>Extract universal factors for pricing and prediction</Purpose>
+    <Assets>All</Assets>
+  </LatentFactors>
+  <SDFOptimizer methods="AdversarialTraining, ReinforcementLearning, MaximumSharpeRegression">
+    <PortfolioConstruction>Dynamic rebalancing, Risk-parity, MSRR</PortfolioConstruction>
+    <Output>Optimized weights, Foresight trade signals</Output>
+  </SDFOptimizer>
+  <MacroMapping>
+    <Variables>CPI, PPI, Fed Funds Rate, FX, GDP</Variables>
+    <SymbolicLinks>⌛ Liquidity, ⚖ Stability, ✶ Ignition</SymbolicLinks>
+  </MacroMapping>
+  <AssetFusion>
+    <CrossAssetSignals>BTC volatility spike → Equity gamma compression</CrossAssetSignals>
+    <MultiDomainModels>Unified ML across domains</MultiDomainModels>
+  </AssetFusion>
+  <ForesightLoop>
+    <CompressionGlyphs>✶⌛🧠</CompressionGlyphs>
+    <Output>Signal Panels, Scrolls, X Posts</Output>
+  </ForesightLoop>
+</GENI_FINANCIAL_RECURSION_ENGINE>

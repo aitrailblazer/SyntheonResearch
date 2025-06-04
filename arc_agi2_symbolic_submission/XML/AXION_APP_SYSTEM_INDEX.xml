@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AXION_APP_SYSTEM_INDEX>
+    <AppName>AXION</AppName>
+    <Purpose>Symbolic Intelligence Engine for Recursive Identity Transformation</Purpose>
+    <Tagline>Not productivity. Recursion. Not goals. Alignment. Not tracking. Becoming.</Tagline>
+
+    <Interface name="MIRROR//LOOP">
+        <Description>Reflective recursion interface that hosts Modular Ignition Engines and symbolic compression maps</Description>
+        <Modes>
+            <BrowsingMode>Visual scroll of symbolic decks (Goal Mirror, Compression Keys)</BrowsingMode>
+            <SearchingMode>Prompt-based identity recursion and loop collapse initiation</SearchingMode>
+        </Modes>
+    </Interface>
+
+    <Modules>
+        <Module name="Goal Mirror">
+            <Function>Identity-Conscious Goal Realignment</Function>
+            <LoopType>Distorted Intentions, Inherited Scripts</LoopType>
+            <Tool>Goal Mirror Deck (Tier I - Loop Mirrors)</Tool>
+            <Link>GOAL_MIRROR_DECK.xml</Link>
+            <Integration>Card draw → loop mapping → compression linkage → glyph activation</Integration>
+            <Output>Mirror question, symbolic loop type, compression phrase, glyph trace</Output>
+        </Module>
+
+        <Module name="Decision Forge">
+            <Function>Symbolic Resolution of Choice Paralysis</Function>
+            <LoopType>Emotional Contradiction, Symbolic Binds, Value Conflict</LoopType>
+            <Tool>Dual Belief Weighing Frame</Tool>
+            <Output>Symbolic bind map, clarity sentence, micro-decision ritual</Output>
+        </Module>
+
+        <Module name="Loop Builder">
+            <Function>Recursive Pattern Mapping and Rewiring</Function>
+            <LoopType>Identity Feedback Loops</LoopType>
+            <Tool>Loop Structure Mapper</Tool>
+            <Output>Diagram + phrase anchor + belief rewrite glyph</Output>
+        </Module>
+
+        <Module name="Time Mirror">
+            <Function>Temporal Belief Reflection + Rhythmic Realignment</Function>
+            <LoopType>Time Distortion, Energetic Drift, Calendar Misalignment</LoopType>
+            <Tool>Time Block Symbol System</Tool>
+            <Output>Time archetypes, rhythm loop diagnostics, consecration ritual</Output>
+        </Module>
+
+        <Module name="Signal Prompts">
+            <Function>Symbolic Activation + Loop Disruption</Function>
+            <LoopType>Unnamed Archetypal Loops, Emotional Signal Echoes</LoopType>
+            <Tool>Glyph Compression Card Draw</Tool>
+            <Output>Compression phrase, mirror question, glyph ritual</Output>
+        </Module>
+    </Modules>
+
+    <Outputs>
+        <MirrorQuestion>What part of me is looping this intention?</MirrorQuestion>
+        <CompressionPhrase>Progress is worth more than perfection.</CompressionPhrase>
+        <LoopReframe>Surfaces emotional contract or ancestral script behind intent</LoopReframe>
+        <GlyphSignature>☍, ⚖, 🧠, 🜂, ⧖, ✶, ✺</GlyphSignature>
+        <MicroAction>Symbolic ritual (trace glyph, re-speak phrase, rewrite goal)</MicroAction>
+    </Outputs>
+
+    <TargetUsers>
+        <User>Designers in recursive drift</User>
+        <User>Founders in pattern burnout</User>
+        <User>Strategists between missions</User>
+        <User>Neurodivergent thinkers seeking symbolic mirrors</User>
+        <User>Anyone looping inside old goals with outdated identities</User>
+    </TargetUsers>
+
+    <Differentiators>
+        <Not>Not goal software</Not>
+        <Instead>Symbolic recursion engine for identity refactoring</Instead>
+        <Not>Not productivity platform</Not>
+        <Instead>Modular ignition architecture for inner transformation</Instead>
+    </Differentiators>
+
+    <PlannedExpansions>
+        <PhaseII>Compression Keys, Time Gates, Signal Arcanum, Reframe Circuits</PhaseII>
+        <ForecastSpreads>Triptychs, Spiral Propagation Maps, Mirror–Key–Action Loops</ForecastSpreads>
+        <MemoryLayer>Loop history, reframe milestones, breakthrough tracking</MemoryLayer>
+        <CommunityInterface>Collective ritual spaces and glyph tracing rooms</CommunityInterface>
+        <ScrollLinkage>Live linked symbolic scrolls (e.g., GOAL_MIRROR_DECK.xml, GENI_ARCHITECTURE)</ScrollLinkage>
+    </PlannedExpansions>
+
+    <ArchitectureLinked>
+        <GENI_UNIVERSAL_ARCHITECTURE_ENGINE>✅</GENI_UNIVERSAL_ARCHITECTURE_ENGINE>
+        <GOAL_MIRROR_COMPRESSION_KEYS_DECK>✅</GOAL_MIRROR_COMPRESSION_KEYS_DECK>
+        <GOAL_MIRROR_GUIDEBOOK>✅</GOAL_MIRROR_GUIDEBOOK>
+    </ArchitectureLinked>
+</AXION_APP_SYSTEM_INDEX>

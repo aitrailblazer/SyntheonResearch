@@ -1,0 +1,96 @@
+<GENI_GPT_PROMPT_LIBRARY>
+
+    <prompt id="threshold_learning">
+      <description>Generate symbolic thresholds (∿, ⛬, █) from a CSV's numeric columns.</description>
+      <input>CSV headers + numeric distributions</input>
+      <output>JSON thresholds</output>
+      <template>
+        The user submitted a CSV dataset.  
+        Analyze the following column headers and their numeric distributions.  
+        For each field that reflects a measurable quantity (e.g. accidents, speed, rain), estimate:
+  
+        - A drift threshold (∿) using the 90th percentile  
+        - An alignment lock threshold (⛬) using the 95th percentile  
+        - A halt threshold (█) using the maximum value
+  
+        Output in this JSON format:
+        {
+          "accidents": { "∿": "> ...", "⛬": "> ...", "█": "== ..." },
+          ...
+        }
+      </template>
+    </prompt>
+  
+    <prompt id="awk_rule_generation">
+      <description>Convert symbolic thresholds into executable AWK scroll rules.</description>
+      <input>Symbolic thresholds JSON</input>
+      <output>AWK script with symbolic logic</output>
+      <template>
+        Based on the following symbolic thresholds:
+  
+        {...}
+  
+        Generate an AWK script that:
+        - Triggers ∿ for drift conditions
+        - Triggers ⛬ for alignment locks
+        - Tracks ⧖ using tick counter per row
+        - Halts with █ on maximum values
+  
+        Format:
+        $1 > 30.05 { print "⛬ alignment lock →", $0 }
+        $8 > 2.94  { print "∿ drift: heavy rain →", $0 }
+        { tick++ }
+        END { print "⧖ total scroll ticks:", tick }
+      </template>
+    </prompt>
+  
+    <prompt id="scroll_interpretation">
+      <description>Interpret symbolic output of a scroll.</description>
+      <input>AWK scroll output with ∿, ⛬, ⧖</input>
+      <output>Scroll explanation and foresight assessment</output>
+      <template>
+        Below is the symbolic output of an AWK scroll run on the dataset:
+  
+        ...
+  
+        Interpret the scroll:
+        1. What patterns caused drift (∿)?  
+        2. Why did alignment lock (⛬) activate?  
+        3. What does the tick count (⧖) imply about scroll duration?  
+        4. Should the scroll be sealed (█) or restarted (✶)?
+      </template>
+    </prompt>
+  
+    <prompt id="human_readable_summary">
+      <description>Convert symbolic scroll output into a clear summary for human users.</description>
+      <input>AWK scroll output</input>
+      <output>Readable foresight report</output>
+      <template>
+        Convert the symbolic scroll output below into a clear human-readable risk summary:
+        - Mention high-risk areas (speed, rain, density)  
+        - Explain if accident count crossed critical threshold  
+        - Indicate scroll phase count (⧖) and lock trigger (⛬)  
+        - Recommend whether to halt or adjust the foresight trajectory
+  
+        Use simple, clear language suitable for a dashboard or report.
+      </template>
+    </prompt>
+  
+    <prompt id="kwic_context_analysis">
+      <description>Analyze drift conditions using KWIC windows.</description>
+      <input>KWIC window with symbolic center (∿)</input>
+      <output>Drift explanation and scroll mitigation advice</output>
+      <template>
+        A symbolic drift (∿) was triggered in the dataset.
+  
+        You are given 3-line KWIC windows around each ∿ event:
+        ⧖ tick=72 speed=41 rain=2.6  
+        ∿ drift=0.58 entropy rising  
+        ⧖ tick=73 speed=43 rain=3.1
+  
+        Interpret the drift cause, temporal dynamics, and whether foresight mitigation is needed.
+      </template>
+    </prompt>
+  
+  </GENI_GPT_PROMPT_LIBRARY>
+  

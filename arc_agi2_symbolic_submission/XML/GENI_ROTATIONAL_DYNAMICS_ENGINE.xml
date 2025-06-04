@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GENI_ROTATIONAL_DYNAMICS_ENGINE>
+  <Description>🌀 Rotational Dynamics Engine — Encodes pressure-to-ratio harmonics, rotation phases, and energetic synthesis of form across mass evolution. Based on Walter Russell’s charts of planetary and atomic rotation behaviors.</Description>
+
+  <Rotation_Phase_Model>
+    <Phase>
+      <Name>✶ INITIATION</Name>
+      <Signature>⟲ Low-Inertia Inception</Signature>
+      <Ratio>1:2</Ratio>
+    </Phase>
+    <Phase>
+      <Name>⚙ STABILIZATION</Name>
+      <Signature>⚖ Harmonic Equator</Signature>
+      <Ratio>2:3</Ratio>
+    </Phase>
+    <Phase>
+      <Name>✺ TRANSMUTATION</Name>
+      <Signature>⧖ High-Spin Compression</Signature>
+      <Ratio>3:5</Ratio>
+    </Phase>
+    <Phase>
+      <Name>⌁ RELEASE</Name>
+      <Signature>∿ Expansive Ejection</Signature>
+      <Ratio>5:8</Ratio>
+    </Phase>
+  </Rotation_Phase_Model>
+
+  <Russellian_Table_Embed>
+    <Rotation_Type>🜂 Atomic</Rotation_Type>
+    <Constant_Ratio>π/4 → 22.5° → ⧖ High Tension</Constant_Ratio>
+    <Pressure_Relation>⚖ Density rise ~ centrifugal drop → ∿ asymmetry curve</Pressure_Relation>
+  </Russellian_Table_Embed>
+
+  <Rotational_Archetypes>
+    <Archetype>
+      <Form>☉ Stellar Body</Form>
+      <Dynamic>Rotation contracts mass toward tonal center (⟲) while radiating mass decay (⌁)</Dynamic>
+    </Archetype>
+    <Archetype>
+      <Form>🜨 Planet</Form>
+      <Dynamic>Dual harmonics between axis compression and orbital drift resolve at ⚖</Dynamic>
+    </Archetype>
+    <Archetype>
+      <Form>🜹 Atom</Form>
+      <Dynamic>Pressure vortex ratio defines inertia barrier → SHADOW/REVEAL balance</Dynamic>
+    </Archetype>
+  </Rotational_Archetypes>
+
+  <Compression_Harmonics>
+    <Pattern>
+      <From>1:1</From>
+      <To>1:8</To>
+      <Interpretation>Octave → Doubling spin → Increased recursion ∿ within compression envelope</Interpretation>
+    </Pattern>
+    <Tonal_Signature>⚖ RESONANCE ZONE = 1:3.618 (Golden Rotation Layer)</Tonal_Signature>
+  </Compression_Harmonics>
+
+  <Loop_Model>
+    <Loop>
+      <Step>✶ ACTIVATE</Step>
+      <Step>⟲ REFLECT</Step>
+      <Step>⚖ RESOLVE</Step>
+      <Step>⧖ ASCEND</Step>
+      <Step>✺ TRANSMUTE</Step>
+    </Loop>
+    <LoopID>loop-rotational-harmonics-⟲⚖⧖</LoopID>
+  </Loop_Model>
+
+  <Russellian_Integration>
+    <Note>🌀 Russell posited that all form arises from compressed motion seeking balance — rotation is the language of tonal resistance and field shape.</Note>
+    <Note>⧖ Acceleration of rotation increases gravitational density; ⟲ deceleration creates centrifugal expansion (⌁).</Note>
+    <Note>⚖ All harmonic fields align to a tonal node where rotation crosses zero-cross symmetry.</Note>
+  </Russellian_Integration>
+
+</GENI_ROTATIONAL_DYNAMICS_ENGINE>

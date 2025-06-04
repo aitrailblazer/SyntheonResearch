@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImageAttributesOntology>
+  <Class name="Style">
+    <Description>Overall rendering aesthetic or visual approach</Description>
+    <Values>
+      <Value>Photorealistic</Value>
+      <Value>3D Render</Value>
+      <Value>Illustrative</Value>
+      <Value>Abstract</Value>
+      <Value>Painterly</Value>
+      <Value>Cartoon</Value>
+      <Value>Cyberpunk</Value>
+      <Value>Studio Ghibli</Value>
+      <Value>Pixel Art</Value>
+    </Values>
+  </Class>
+
+  <Class name="Material">
+    <Description>Physical appearance and substance of the object</Description>
+    <Attributes>
+      <Attribute name="Type">
+        <Values>
+          <Value>Glass</Value>
+          <Value>Metal</Value>
+          <Value>Wood</Value>
+          <Value>Plastic</Value>
+          <Value>Crystal</Value>
+          <Value>Ceramic</Value>
+        </Values>
+      </Attribute>
+      <Attribute name="Effects">
+        <Values>
+          <Value>Transparent</Value>
+          <Value>Iridescent</Value>
+          <Value>Reflective</Value>
+          <Value>Translucent</Value>
+          <Value>Matte</Value>
+        </Values>
+      </Attribute>
+    </Attributes>
+  </Class>
+
+  <Class name="SurfaceTexture">
+    <Description>Surface quality and tactile properties</Description>
+    <Attributes>
+      <Attribute name="Finish">
+        <Values>
+          <Value>Smooth</Value>
+          <Value>Rough</Value>
+          <Value>Brushed</Value>
+          <Value>Textured</Value>
+        </Values>
+      </Attribute>
+      <Attribute name="Polish">
+        <Values>
+          <Value>Polished</Value>
+          <Value>Matte</Value>
+          <Value>Glossy</Value>
+        </Values>
+      </Attribute>
+      <Attribute name="Effects">
+        <Values>
+          <Value>Reflections</Value>
+          <Value>Refractions</Value>
+          <Value>Specular Highlights</Value>
+          <Value>Surface Distortion</Value>
+        </Values>
+      </Attribute>
+    </Attributes>
+  </Class>
+
+  <Class name="Lighting">
+    <Description>Lighting setup and dynamics</Description>
+    <Attributes>
+      <Attribute name="Type">
+        <Values>
+          <Value>HDRI</Value>
+          <Value>Studio</Value>
+          <Value>Natural</Value>
+          <Value>Spotlight</Value>
+          <Value>Ambient</Value>
+        </Values>
+      </Attribute>
+      <Attribute name="Direction">
+        <Values>
+          <Value>Top-Left</Value>
+          <Value>Top-Right</Value>
+          <Value>Backlight</Value>
+          <Value>Side</Value>
+          <Value>Front</Value>
+        </Values>
+      </Attribute>
+      <Attribute name="Intensity">
+        <Values>
+          <Value>Low</Value>
+          <Value>Medium</Value>
+          <Value>High</Value>
+        </Values>
+      </Attribute>
+      <Attribute name="SpecialEffects">
+        <Values>
+          <Value>Reflections</Value>
+          <Value>Refractions</Value>
+          <Value>Dispersion</Value>
+          <Value>Bloom</Value>
+        </Values>
+      </Attribute>
+    </Attributes>
+  </Class>
+
+  <Class name="ColorScheme">
+    <Description>Color logic and chromatic flow</Description>
+    <Attributes>
+      <Attribute name="Primary"/>
+      <Attribute name="Secondary"/>
+      <Attribute name="Highlights"/>
+      <Attribute name="RimLight"/>
+    </Attributes>
+  </Class>
+
+  <Class name="Background">
+    <Description>Backdrop settings for the scene</Description>
+    <Attributes>
+      <Attribute name="Color"/>
+      <Attribute name="Texture">
+        <Values>
+          <Value>None</Value>
+          <Value>Grain</Value>
+          <Value>Gradient</Value>
+        </Values>
+      </Attribute>
+      <Attribute name="Vignette">
+        <Values>
+          <Value>True</Value>
+          <Value>False</Value>
+        </Values>
+      </Attribute>
+    </Attributes>
+  </Class>
+
+  <Class name="PostProcessing">
+    <Description>Rendering and visual effects applied after generation</Description>
+    <Attributes>
+      <Attribute name="ChromaticAberration">
+        <Values><Value>True</Value><Value>False</Value></Values>
+      </Attribute>
+      <Attribute name="Glow">
+        <Values><Value>True</Value><Value>False</Value></Values>
+      </Attribute>
+      <Attribute name="HighContrast">
+        <Values><Value>True</Value><Value>False</Value></Values>
+      </Attribute>
+      <Attribute name="SharpDetails">
+        <Values><Value>True</Value><Value>False</Value></Values>
+      </Attribute>
+    </Attributes>
+  </Class>
+
+  <Class name="ArtStyle">
+    <Description>Defines the visual art style or influence applied to the image</Description>
+    <Categories>
+      <Category name="Photorealistic">
+        <Value>Photorealism</Value>
+        <Value>Hyperrealism</Value>
+        <Value>Studio Photography</Value>
+        <Value>Realistic 3D Render</Value>
+        <Value>Filmic</Value>
+      </Category>
+      <Category name="Digital3D">
+        <Value>3D Render</Value>
+        <Value>Isometric</Value>
+        <Value>Voxel Art</Value>
+        <Value>Low Poly</Value>
+        <Value>Clay Render</Value>
+        <Value>Wireframe</Value>
+        <Value>Iridescent Glass</Value>
+        <Value>Holographic</Value>
+      </Category>
+      <Category name="Illustration">
+        <Value>Line Art</Value>
+        <Value>Ink Drawing</Value>
+        <Value>Pencil Sketch</Value>
+        <Value>Charcoal Drawing</Value>
+        <Value>Watercolor</Value>
+        <Value>Colored Pencil</Value>
+        <Value>Ballpoint Pen</Value>
+        <Value>Etching</Value>
+        <Value>Engraving</Value>
+        <Value>Comic Book</Value>
+        <Value>Manga</Value>
+        <Value>Graphic Novel</Value>
+        <Value>Ink Wash (Sumi-e)</Value>
+      </Category>
+      <Category name="Painting">
+        <Value>Oil Painting</Value>
+        <Value>Acrylic Painting</Value>
+        <Value>Gouache</Value>
+        <Value>Fresco</Value>
+        <Value>Impasto</Value>
+        <Value>Airbrush</Value>
+        <Value>Encaustic</Value>
+        <Value>Tempera</Value>
+      </Category>
+      <Category name="Historical">
+        <Value>Renaissance</Value>
+        <Value>Baroque</Value>
+        <Value>Neoclassical</Value>
+        <Value>Romanticism</Value>
+        <Value>Realism</Value>
+        <Value>Impressionism</Value>
+        <Value>Post-Impressionism</Value>
+        <Value>Symbolism</Value>
+        <Value>Fauvism</Value>
+        <Value>Cubism</Value>
+        <Value>Futurism</Value>
+        <Value>Surrealism</Value>
+        <Value>Abstract Expressionism</Value>
+        <Value>Pop Art</Value>
+        <Value>Art Nouveau</Value>
+        <Value>Art Deco</Value>
+      </Category>
+      <Category name="ModernExperimental">
+        <Value>Cyberpunk</Value>
+        <Value>Vaporwave</Value>
+        <Value>Synthwave</Value>
+        <Value>Glitch Art</Value>
+        <Value>Dystopian</Value>
+        <Value>Brutalist</Value>
+        <Value>Minimalist</Value>
+        <Value>Maximalist</Value>
+        <Value>Fractal</Value>
+        <Value>Generative Art</Value>
+        <Value>AI Collage</Value>
+      </Category>
+      <Category name="CulturalRegional">
+        <Value>Studio Ghibli</Value>
+        <Value>Ukiyo-e</Value>
+        <Value>Byzantine Iconography</Value>
+        <Value>Aztec/Mesoamerican</Value>
+        <Value>African Tribal</Value>
+        <Value>Celtic Illumination</Value>
+        <Value>Indian Madhubani</Value>
+        <Value>Persian Miniature</Value>
+        <Value>Chinese Ink Landscape</Value>
+        <Value>Islamic Geometric</Value>
+        <Value>Tibetan Thangka</Value>
+      </Category>
+      <Category name="FantasyConcept">
+        <Value>Fantasy Realism</Value>
+        <Value>Sci-Fi Concept Art</Value>
+        <Value>Dark Fantasy</Value>
+        <Value>Mythological</Value>
+        <Value>Cosmic Horror</Value>
+        <Value>Steampunk</Value>
+        <Value>Dieselpunk</Value>
+        <Value>Post-Apocalyptic</Value>
+        <Value>Space Opera</Value>
+        <Value>Heroic Epic</Value>
+      </Category>
+      <Category name="PopularMediaInspired">
+        <Value>Pixar</Value>
+        <Value>Disney</Value>
+        <Value>DreamWorks</Value>
+        <Value>Marvel Comics</Value>
+        <Value>DC Comics</Value>
+        <Value>Anime</Value>
+        <Value>Looney Tunes</Value>
+        <Value>Lego Style</Value>
+        <Value>Fortnite</Value>
+        <Value>Minecraft</Value>
+        <Value>Diablo IV Concept</Value>
+        <Value>Magic: The Gathering</Value>
+        <Value>Hearthstone Style</Value>
+      </Category>
+    </Categories>
+  </Class>
+
+  <Class name="ArtEffects">
+    <Description>Visual enhancements and stylized treatments applied to the artwork</Description>
+    <Categories>
+
+      <Category name="LightingEffects">
+        <Value>Backlighting</Value>
+        <Value>Rim Lighting</Value>
+        <Value>Bloom</Value>
+        <Value>Lens Flare</Value>
+        <Value>Volumetric Lighting</Value>
+        <Value>God Rays</Value>
+        <Value>Ambient Occlusion</Value>
+        <Value>Studio HDRI Lighting</Value>
+        <Value>Cinematic Lighting</Value>
+        <Value>Spotlight</Value>
+        <Value>Neon Lighting</Value>
+        <Value>Dark Contrast Lighting</Value>
+        <Value>Reflected Light</Value>
+      </Category>
+
+      <Category name="SurfaceMaterialEffects">
+        <Value>Iridescence</Value>
+        <Value>Metallic Sheen</Value>
+        <Value>Glass Refraction</Value>
+        <Value>Surface Reflection</Value>
+        <Value>Translucency</Value>
+        <Value>Glow-in-the-Dark</Value>
+        <Value>Matte Finish</Value>
+        <Value>Glossy Finish</Value>
+        <Value>Holographic Texture</Value>
+        <Value>Brushed Metal</Value>
+        <Value>Embossing</Value>
+        <Value>Debossing</Value>
+      </Category>
+
+      <Category name="PostProcessingEffects">
+        <Value>Chromatic Aberration</Value>
+        <Value>Motion Blur</Value>
+        <Value>Depth of Field</Value>
+        <Value>Vignette</Value>
+        <Value>Film Grain</Value>
+        <Value>Noise Overlay</Value>
+        <Value>Sharpening</Value>
+        <Value>High Dynamic Range</Value>
+        <Value>Low Poly Distortion</Value>
+        <Value>Pixelation</Value>
+        <Value>Posterization</Value>
+        <Value>Glitching</Value>
+        <Value>Double Exposure</Value>
+        <Value>Anamorphic Stretch</Value>
+      </Category>
+
+      <Category name="ColorEffects">
+        <Value>Color Splash</Value>
+        <Value>Duotone</Value>
+        <Value>Monochrome</Value>
+        <Value>Gradient Mapping</Value>
+        <Value>Color Inversion</Value>
+        <Value>Color Shifting</Value>
+        <Value>Thermal Imaging Effect</Value>
+        <Value>Trippy RGB Separation</Value>
+        <Value>Rainbow Spectrum Overlay</Value>
+      </Category>
+
+      <Category name="PatternTextureOverlays">
+        <Value>Halftone Dots</Value>
+        <Value>Grunge Texture</Value>
+        <Value>Grid Overlay</Value>
+        <Value>Tattoo</Value>
+        <Value>Stained Glass Mosaic</Value>
+        <Value>Circuitry Overlay</Value>
+        <Value>Fractal Noise</Value>
+        <Value>Light Particles</Value>
+        <Value>Dust Specks</Value>
+      </Category>
+
+      <Category name="EnvironmentalEffects">
+        <Value>Fog</Value>
+        <Value>Mist</Value>
+        <Value>Rain</Value>
+        <Value>Water Droplets</Value>
+        <Value>Snow</Value>
+        <Value>Fire</Value>
+        <Value>Flames</Value>
+        <Value>Smoke</Value>
+        <Value>Vapor</Value>
+        <Value>Sparks</Value>
+        <Value>Embers</Value>
+        <Value>Dust Storm</Value>
+        <Value>Sand</Value>
+        <Value>Dripping Paint</Value>
+        <Value>Electric Arcs</Value>
+        <Value>Lightning</Value>
+      </Category>
+
+      <Category name="SymbolicMetaphysicalEffects">
+        <Value>Aura</Value>
+        <Value>Energy Field</Value>
+        <Value>Light Rays from Object Core</Value>
+        <Value>Floating Symbols</Value>
+        <Value>Glyphs</Value>
+        <Value>Celestial Glow</Value>
+        <Value>Divine Illumination</Value>
+        <Value>Time Distortion Blur</Value>
+        <Value>Dimensional Rift</Value>
+        <Value>Portal Effect</Value>
+        <Value>Shadow Echo</Value>
+        <Value>Fractal Bloom</Value>
+        <Value>Sacred Geometry Overlay</Value>
+      </Category>
+
+    </Categories>
+  </Class>
+
+  <Class name="LightingTechniques">
+    <Description>Types and qualities of lighting used to influence mood, focus, or realism</Description>
+    <Categories>
+
+      <Category name="GeneralLighting">
+        <Value>Natural Light</Value>
+        <Value>Studio Light</Value>
+        <Value>HDRI</Value>
+        <Value>Ambient Light</Value>
+        <Value>Artificial Light</Value>
+        <Value>Sunlight</Value>
+        <Value>Moonlight</Value>
+        <Value>Firelight</Value>
+        <Value>Candlelight</Value>
+        <Value>Lantern Light</Value>
+      </Category>
+
+      <Category name="DirectionalSources">
+        <Value>Top Lighting</Value>
+        <Value>Side Lighting</Value>
+        <Value>Backlighting</Value>
+        <Value>Front Lighting</Value>
+        <Value>Underlighting</Value>
+        <Value>Angled Lighting</Value>
+      </Category>
+
+      <Category name="StudioCinematicSetups">
+        <Value>Three-Point Lighting</Value>
+        <Value>Key Light</Value>
+        <Value>Fill Light</Value>
+        <Value>Back Light</Value>
+        <Value>Rembrandt Lighting</Value>
+        <Value>Split Lighting</Value>
+        <Value>Butterfly Lighting</Value>
+        <Value>Loop Lighting</Value>
+        <Value>Broad Lighting</Value>
+        <Value>Short Lighting</Value>
+        <Value>Softbox Light</Value>
+        <Value>Ring Light</Value>
+        <Value>Spotlight</Value>
+        <Value>Fresnel Light</Value>
+        <Value>Stage Lighting</Value>
+      </Category>
+
+      <Category name="LightQualityDiffusion">
+        <Value>Soft Light</Value>
+        <Value>Hard Light</Value>
+        <Value>Diffuse Light</Value>
+        <Value>Specular Light</Value>
+        <Value>Scattered Light</Value>
+        <Value>Reflected Light</Value>
+      </Category>
+
+      <Category name="SpecialEffectsLighting">
+        <Value>Volumetric Lighting</Value>
+        <Value>God Rays</Value>
+        <Value>Bloom Light</Value>
+        <Value>Neon Light</Value>
+        <Value>Laser Light</Value>
+        <Value>Glowing Light</Value>
+        <Value>Flickering Light</Value>
+        <Value>Bioluminescent Light</Value>
+        <Value>Underwater Light Scattering</Value>
+        <Value>Light Caustics</Value>
+        <Value>Light Trails</Value>
+      </Category>
+
+      <Category name="ColorMoodLighting">
+        <Value>Color Gel Lighting</Value>
+        <Value>RGB Light Mixes</Value>
+        <Value>High-Contrast Lighting</Value>
+        <Value>Low-Key Lighting</Value>
+        <Value>High-Key Lighting</Value>
+        <Value>Chiaroscuro</Value>
+        <Value>Cinematic Teal &amp; Orange</Value>
+        <Value>Dramatic Single-Source Light</Value>
+        <Value>Infrared Simulation</Value>
+        <Value>Ultraviolet Simulation</Value>
+      </Category>
+
+    </Categories>
+  </Class>
+
+  <Class name="MaterialTypes">
+    <Description>Material categories used for rendering objects in visual generation</Description>
+    <Categories>
+
+      <Category name="CommonRealWorldMaterials">
+        <Value>Glass</Value>
+        <Value>Metal</Value>
+        <Value>Wood</Value>
+        <Value>Plastic</Value>
+        <Value>Stone</Value>
+        <Value>Concrete</Value>
+        <Value>Fabric</Value>
+        <Value>Paper</Value>
+        <Value>Ceramic</Value>
+        <Value>Clay</Value>
+        <Value>Rubber</Value>
+        <Value>Leather</Value>
+        <Value>Foam</Value>
+        <Value>Acrylic</Value>
+        <Value>Resin</Value>
+        <Value>Carbon Fiber</Value>
+        <Value>Bamboo</Value>
+      </Category>
+
+      <Category name="ReflectiveTransparentMaterials">
+        <Value>Mirrored Surface</Value>
+        <Value>Chrome</Value>
+        <Value>Polished Aluminum</Value>
+        <Value>Gold</Value>
+        <Value>Silver</Value>
+        <Value>Copper</Value>
+        <Value>Transparent Glass</Value>
+        <Value>Frosted Glass</Value>
+        <Value>Iridescent Glass</Value>
+        <Value>Crystal</Value>
+        <Value>Water</Value>
+        <Value>Ice</Value>
+        <Value>Prism</Value>
+      </Category>
+
+      <Category name="OrganicNaturalMaterials">
+        <Value>Bone</Value>
+        <Value>Shell</Value>
+        <Value>Coral</Value>
+        <Value>Feathers</Value>
+        <Value>Hair</Value>
+        <Value>Fur</Value>
+        <Value>Skin</Value>
+        <Value>Leaves</Value>
+        <Value>Petals</Value>
+        <Value>Sand</Value>
+        <Value>Soil</Value>
+        <Value>Mud</Value>
+        <Value>Lava</Value>
+        <Value>Magma</Value>
+        <Value>Amber</Value>
+        <Value>Pearl</Value>
+      </Category>
+
+      <Category name="SyntheticSciFiMaterials">
+        <Value>Holographic Film</Value>
+        <Value>Energy Fields</Value>
+        <Value>Plasma</Value>
+        <Value>Force Fields</Value>
+        <Value>Alien Alloy</Value>
+        <Value>Nano-materials</Value>
+        <Value>Cybernetic Mesh</Value>
+        <Value>Translucent Polymer</Value>
+        <Value>Light-absorbing Material</Value>
+        <Value>Hexagonal Panels</Value>
+        <Value>Sci-fi Armor</Value>
+        <Value>Biotech Texture</Value>
+      </Category>
+
+      <Category name="FantasyMagicalMaterials">
+        <Value>Etheric Crystal</Value>
+        <Value>Arcane Metal</Value>
+        <Value>Runed Stone</Value>
+        <Value>Glowing Obsidian</Value>
+        <Value>Enchanted Cloth</Value>
+        <Value>Living Wood</Value>
+        <Value>Phoenix Feather Weave</Value>
+        <Value>Dragon Scale Plate</Value>
+        <Value>Moonlight Steel</Value>
+        <Value>Spirit Glass</Value>
+      </Category>
+
+    </Categories>
+  </Class>
+
+  <Class name="SurfaceTextureTypes">
+    <Description>Surface finish and tactile patterns affecting visual and material realism</Description>
+    <Categories>
+
+      <Category name="FinishTypes">
+        <Value>Smooth</Value>
+        <Value>Rough</Value>
+        <Value>Textured</Value>
+        <Value>Brushed</Value>
+        <Value>Matte</Value>
+        <Value>Glossy</Value>
+        <Value>Polished</Value>
+        <Value>Buffed</Value>
+        <Value>Raw</Value>
+        <Value>Chipped</Value>
+      </Category>
+
+      <Category name="PatternedSurfaces">
+        <Value>Ribbed</Value>
+        <Value>Grooved</Value>
+        <Value>Ridged</Value>
+        <Value>Crosshatched</Value>
+        <Value>Woven</Value>
+        <Value>Knurled</Value>
+        <Value>Beveled</Value>
+        <Value>Embossed</Value>
+        <Value>Etched</Value>
+        <Value>Cracked</Value>
+      </Category>
+
+      <Category name="NaturalTextures">
+        <Value>Wood Grain</Value>
+        <Value>Stone Grain</Value>
+        <Value>Leather Grain</Value>
+        <Value>Fabric Weave</Value>
+        <Value>Skin Pores</Value>
+        <Value>Feathered</Value>
+        <Value>Furry</Value>
+        <Value>Scaly</Value>
+        <Value>Coral-Like</Value>
+        <Value>Sandpaper</Value>
+      </Category>
+
+      <Category name="MicroSurfaceEffects">
+        <Value>Specular Highlights</Value>
+        <Value>Refractions</Value>
+        <Value>Subsurface Scattering</Value>
+        <Value>Glints</Value>
+        <Value>Micro-Scratches</Value>
+        <Value>Dusty</Value>
+        <Value>Smudged</Value>
+        <Value>Wet</Value>
+        <Value>Oily</Value>
+        <Value>Crystalline Sparkle</Value>
+      </Category>
+
+    </Categories>
+  </Class>
+
+  <Class name="PhotoEffects">
+    <Description>Post-processing and camera-based effects applied to emulate photography aesthetics</Description>
+    <Categories>
+
+      <Category name="ExposureAndContrast">
+        <Value>High Contrast</Value>
+        <Value>Low Contrast</Value>
+        <Value>Overexposed</Value>
+        <Value>Underexposed</Value>
+        <Value>Dynamic Range Boost</Value>
+        <Value>Crushed Blacks</Value>
+        <Value>Blown Highlights</Value>
+      </Category>
+
+      <Category name="LensEffects">
+        <Value>Depth of Field</Value>
+        <Value>Bokeh</Value>
+        <Value>Lens Flare</Value>
+        <Value>Barrel Distortion</Value>
+        <Value>Pincushion Distortion</Value>
+        <Value>Vignetting</Value>
+        <Value>Fish-Eye Effect</Value>
+        <Value>Tilt-Shift</Value>
+      </Category>
+
+      <Category name="FilmAndVintage">
+        <Value>Film Grain</Value>
+        <Value>Light Leaks</Value>
+        <Value>Sepia Tone</Value>
+        <Value>Black and White</Value>
+        <Value>Retro Color Grade</Value>
+        <Value>Polaroid Style</Value>
+        <Value>Analog Scan Lines</Value>
+      </Category>
+
+      <Category name="DigitalEffects">
+        <Value>Chromatic Aberration</Value>
+        <Value>Color Grading</Value>
+        <Value>Split Toning</Value>
+        <Value>Posterization</Value>
+        <Value>HDR Simulation</Value>
+        <Value>VHS Distortion</Value>
+        <Value>Bloom Glow</Value>
+        <Value>Noise Overlay</Value>
+        <Value>Sharpen Filter</Value>
+        <Value>Blur Filter</Value>
+      </Category>
+
+      <Category name="EdgeAndFocusTricks">
+        <Value>Soft Focus</Value>
+        <Value>Radial Blur</Value>
+        <Value>Motion Blur</Value>
+        <Value>Edge Glow</Value>
+        <Value>Infrared Simulation</Value>
+        <Value>X-Ray Effect</Value>
+      </Category>
+
+      <Category name="ArtisticPhotoProcessing">
+        <Value>Double Exposure</Value>
+        <Value>Photo Collage</Value>
+        <Value>Light Painting</Value>
+        <Value>Color Inversion</Value>
+        <Value>Solarization</Value>
+        <Value>Duotone</Value>
+        <Value>Gradient Map</Value>
+      </Category>
+
+    </Categories>
+  </Class>
+
+  <Class name="Perspective">
+    <Description>Camera and spatial orientation of the scene</Description>
+    <Categories>
+      <Category name="Types">
+        <Value>One-Point Perspective</Value>
+        <Value>Two-Point Perspective</Value>
+        <Value>Three-Point Perspective</Value>
+        <Value>Bird’s-Eye View</Value>
+        <Value>Worm’s-Eye View</Value>
+        <Value>Isometric</Value>
+        <Value>Parallel Projection</Value>
+        <Value>Forced Perspective</Value>
+        <Value>Fisheye Lens</Value>
+        <Value>Depth Warp</Value>
+        <Value>Tilted Horizon</Value>
+      </Category>
+    </Categories>
+  </Class>
+
+  <Class name="MotionDynamics">
+    <Description>Motion-based or kinetic qualities within the image</Description>
+    <Categories>
+      <Category name="MotionTypes">
+        <Value>Motion Blur</Value>
+        <Value>Action Pose</Value>
+        <Value>Gesture Lines</Value>
+        <Value>Speed Streaks</Value>
+        <Value>Kinetic Sculpture</Value>
+        <Value>Echoed Motion</Value>
+        <Value>Time Loop Blur</Value>
+      </Category>
+    </Categories>
+  </Class>
+
+  <Class name="SymbolismNarrative">
+    <Description>Symbolic and mythic layers embedded in the image</Description>
+    <Categories>
+      <Category name="NarrativeSymbols">
+        <Value>Archetype</Value>
+        <Value>Allegory</Value>
+        <Value>Mythic Motif</Value>
+        <Value>Transformation Cycle</Value>
+        <Value>Duality Symbolism</Value>
+        <Value>Hidden Glyphs</Value>
+        <Value>Recursion Runes</Value>
+        <Value>Tarot-Like Scene</Value>
+        <Value>Prophetic Composition</Value>
+        <Value>Visual Metaphor</Value>
+      </Category>
+    </Categories>
+  </Class>
+
+  <Class name="SpatialEnvironment">
+    <Description>Physical or imaginary setting surrounding the subject</Description>
+    <Categories>
+      <Category name="Environments">
+        <Value>Interior</Value>
+        <Value>Exterior</Value>
+        <Value>Urban</Value>
+        <Value>Rural</Value>
+        <Value>Industrial</Value>
+        <Value>Futuristic</Value>
+        <Value>Ancient</Value>
+        <Value>Post-Apocalyptic</Value>
+        <Value>Underwater</Value>
+        <Value>Subterranean</Value>
+        <Value>Celestial</Value>
+        <Value>Dreamscape</Value>
+        <Value>Void</Value>
+        <Value>Fractal Space</Value>
+      </Category>
+    </Categories>
+  </Class>
+
+  <Class name="RenderingEngine">
+    <Description>Rendering technology or engine emulated in the image</Description>
+    <Categories>
+      <Category name="Engines">
+        <Value>Blender Render</Value>
+        <Value>Octane Render</Value>
+        <Value>Unreal Engine</Value>
+        <Value>Unity Engine</Value>
+        <Value>Cycles</Value>
+        <Value>Eevee</Value>
+        <Value>Path Tracer</Value>
+        <Value>Toon Shader</Value>
+        <Value>NPR Shader</Value>
+        <Value>PBR Shader</Value>
+        <Value>Wireframe Pass</Value>
+        <Value>Clay Render</Value>
+        <Value>Ambient Occlusion Pass</Value>
+      </Category>
+    </Categories>
+  </Class>
+
+  <Class name="ResolutionFormat">
+    <Description>Technical display properties of the image</Description>
+    <Categories>
+      <Category name="FormatTypes">
+        <Value>Ultra-HD</Value>
+        <Value>4K</Value>
+        <Value>8K</Value>
+        <Value>Vertical Aspect</Value>
+        <Value>Horizontal Aspect</Value>
+        <Value>Square Format</Value>
+        <Value>Parallax Layering</Value>
+        <Value>Transparent Background</Value>
+        <Value>Poster Format</Value>
+        <Value>Book Cover Format</Value>
+        <Value>Game Card Format</Value>
+      </Category>
+    </Categories>
+  </Class>
+
+  <Class name="EmotionalTone">
+    <Description>Emotional and psychological atmosphere evoked by the image</Description>
+    <Categories>
+      <Category name="Moods">
+        <Value>Serene</Value>
+        <Value>Awe-Inspiring</Value>
+        <Value>Whimsical</Value>
+        <Value>Melancholy</Value>
+        <Value>Joyous</Value>
+        <Value>Tense</Value>
+        <Value>Dark</Value>
+        <Value>Sacred</Value>
+        <Value>Triumphant</Value>
+        <Value>Dystopian</Value>
+        <Value>Dreamy</Value>
+        <Value>Chaotic</Value>
+        <Value>Symbolic Rebirth</Value>
+        <Value>Grief Blue</Value>
+        <Value>Victory Gold</Value>
+      </Category>
+    </Categories>
+  </Class>
+</ImageAttributesOntology>
+
+
+
+
+
+

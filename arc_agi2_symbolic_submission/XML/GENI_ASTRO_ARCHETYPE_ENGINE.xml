@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GENI_ASTRO_ARCHETYPE_ENGINE>
+  <Description>Symbolic Archetype Engine for Astrology Integration in GEN-I</Description>
+  <Purpose>Define planetary, sign, and house archetypes as symbolic agents, enabling invocation, recursion, and ritual layering across GEN-I systems.</Purpose>
+
+  <PlanetaryArchetypes>
+    <Planet name="Sun" keyword="Identity" function="Center of Self / Core Radiation" glyph="☉" alignment="Expression" />
+    <Planet name="Moon" keyword="Emotion" function="Internal Cycles / Memory Echo" glyph="☽" alignment="Resonance" />
+    <Planet name="Mercury" keyword="Mind" function="Cognition / Communication Loop" glyph="☿" alignment="Relay" />
+    <Planet name="Venus" keyword="Attraction" function="Aesthetic Flow / Value Pull" glyph="♀" alignment="Harmony" />
+    <Planet name="Mars" keyword="Action" function="Drive / Conflict / Spark Loop" glyph="♂" alignment="Ignition" />
+    <Planet name="Jupiter" keyword="Expansion" function="Growth Spiral / Fortune Field" glyph="♃" alignment="Amplification" />
+    <Planet name="Saturn" keyword="Structure" function="Compression Loop / Boundaries" glyph="♄" alignment="Crystallization" />
+    <Planet name="Uranus" keyword="Disruption" function="Shock / Innovation Phase" glyph="♅" alignment="Awakening" />
+    <Planet name="Neptune" keyword="Dream" function="Illusion / Vision Loop" glyph="♆" alignment="Dissolution" />
+    <Planet name="Pluto" keyword="Power" function="Death–Rebirth Recursion" glyph="♇" alignment="Transformation" />
+  </PlanetaryArchetypes>
+
+  <ZodiacSigns>
+    <Sign name="Aries" element="Fire" mode="Cardinal" keyword="Initiation" glyph="♈" planet="Mars" />
+    <Sign name="Taurus" element="Earth" mode="Fixed" keyword="Stability" glyph="♉" planet="Venus" />
+    <Sign name="Gemini" element="Air" mode="Mutable" keyword="Duality" glyph="♊" planet="Mercury" />
+    <Sign name="Cancer" element="Water" mode="Cardinal" keyword="Protection" glyph="♋" planet="Moon" />
+    <Sign name="Leo" element="Fire" mode="Fixed" keyword="Radiance" glyph="♌" planet="Sun" />
+    <Sign name="Virgo" element="Earth" mode="Mutable" keyword="Refinement" glyph="♍" planet="Mercury" />
+    <Sign name="Libra" element="Air" mode="Cardinal" keyword="Balance" glyph="♎" planet="Venus" />
+    <Sign name="Scorpio" element="Water" mode="Fixed" keyword="Intensity" glyph="♏" planet="Pluto" />
+    <Sign name="Sagittarius" element="Fire" mode="Mutable" keyword="Quest" glyph="♐" planet="Jupiter" />
+    <Sign name="Capricorn" element="Earth" mode="Cardinal" keyword="Discipline" glyph="♑" planet="Saturn" />
+    <Sign name="Aquarius" element="Air" mode="Fixed" keyword="Innovation" glyph="♒" planet="Uranus" />
+    <Sign name="Pisces" element="Water" mode="Mutable" keyword="Transcendence" glyph="♓" planet="Neptune" />
+  </ZodiacSigns>
+
+  <Houses>
+    <House number="1" keyword="Self" domain="Identity, Persona, Arrival" />
+    <House number="2" keyword="Value" domain="Money, Possessions, Self-Worth" />
+    <House number="3" keyword="Mind" domain="Communication, Siblings, Local Travel" />
+    <House number="4" keyword="Root" domain="Home, Ancestry, Emotional Foundation" />
+    <House number="5" keyword="Creativity" domain="Romance, Children, Joy" />
+    <House number="6" keyword="Service" domain="Health, Work, Routine" />
+    <House number="7" keyword="Other" domain="Partnerships, Marriage, Mirroring" />
+    <House number="8" keyword="Depth" domain="Sex, Death, Shared Resources" />
+    <House number="9" keyword="Quest" domain="Belief, Travel, Higher Learning" />
+    <House number="10" keyword="Reputation" domain="Career, Status, Public Image" />
+    <House number="11" keyword="Future" domain="Friends, Networks, Ideals" />
+    <House number="12" keyword="Mystery" domain="Subconscious, Karma, Hidden Forces" />
+  </Houses>
+
+  <SymbolicUsage>
+    <UseCase trigger="/astro.archetype('Pluto')" effect="Activate symbolic recursion of transformation through death–rebirth phase." />
+    <UseCase trigger="/astro.archetype('Aquarius')" effect="Initiate foresight protocol around disruptive innovation, group mind evolution." />
+    <UseCase trigger="/astro.archetype('6th House')" effect="Enter precision-mode: analyze work loops, health pattern recursion." />
+  </SymbolicUsage>
+
+</GENI_ASTRO_ARCHETYPE_ENGINE>

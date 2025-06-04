@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GENI_NIST_RMF_INTEGRATION>
+  <Govern>
+    <Item>Policies, procedures, and culture embedding AI risk control</Item>
+    <Item>Inventory mechanisms and risk tolerance calibration</Item>
+    <Item>Leadership responsibility and workforce accountability</Item>
+    <Item>Diversity and human-AI role definitions</Item>
+  </Govern>
+  <Map>
+    <Item>Context awareness: use, goals, stakeholders, law</Item>
+    <Item>AI system categorization and human oversight mapping</Item>
+    <Item>Risk-benefit forecasting and impact modeling</Item>
+    <Item>Third-party components and societal feedback loops</Item>
+  </Map>
+  <Measure>
+    <Item>Trustworthiness metrics (✶, ⚖, ⧖, etc.)</Item>
+    <Item>TEVV metrics tracking and symbolic risk indicators</Item>
+    <Item>Emergent risk detection and feedback mechanisms</Item>
+    <Item>Human-AI interpretability scores and error pathways</Item>
+  </Measure>
+  <Manage>
+    <Item>Residual risk documentation and activation logic</Item>
+    <Item>Auto-triggered safe shutdown plans (⌛ + 🕯)</Item>
+    <Item>Third-party model monitoring and override systems</Item>
+    <Item>Continuous improvement scroll triggers</Item>
+  </Manage>
+  <GlyphMapping>
+    <ValidAndReliable>✶</ValidAndReliable>
+    <Safe>⌛</Safe>
+    <SecureAndResilient>⧖</SecureAndResilient>
+    <AccountableAndTransparent>⚖</AccountableAndTransparent>
+    <ExplainableAndInterpretable>🧠</ExplainableAndInterpretable>
+    <PrivacyEnhanced>☍</PrivacyEnhanced>
+    <FairBiasManaged>♾</FairBiasManaged>
+  </GlyphMapping>
+  <AgentRoles>
+    <Item>AI_Designer</Item>
+    <Item>AI_Developer</Item>
+    <Item>AI_Operator</Item>
+    <Item>TEVV_Expert</Item>
+    <Item>Human_Factors_Lead</Item>
+    <Item>Governance_Officer</Item>
+    <Item>ThirdParty_Entity</Item>
+  </AgentRoles>
+  <ScrollIntegration>
+    <Engine>Substack Scroll Engine</Engine>
+    <UseCases>
+      <Entry>Risk Forecasts</Entry>
+      <Entry>Model Disclosures</Entry>
+      <Entry>Bias Detection</Entry>
+    </UseCases>
+    <Formats>
+      <Entry>scroll.x</Entry>
+      <Entry>scroll.invoke</Entry>
+      <Entry>scroll.linkedin</Entry>
+    </Formats>
+  </ScrollIntegration>
+</GENI_NIST_RMF_INTEGRATION>

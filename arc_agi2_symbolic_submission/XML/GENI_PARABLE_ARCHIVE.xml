@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GENI_PARABLE_ARCHIVE>
+  <Parable id="P01" title="The Hidden Gold Blossom">
+    <Summary>An allegory of inner spiritual flowering concealed within alchemical practice, revealed through symbolic dialogue.</Summary>
+    <Triptych>Concealment ⇌ Fertilization ⇌ Revelation</Triptych>
+    <Glyphs>⚗ → 🜨 → ✺</Glyphs>
+    <LoopID>loop-inner-flower-reveal</LoopID>
+  </Parable>
+  <Parable id="P02" title="The Adam and Eva Parable in the Fire Garden">
+    <Summary>The purification of Adam and Eve through fire, symbolic of spiritual death and divine reunification.</Summary>
+    <Triptych>Fall ⇌ Purification ⇌ Rebirth</Triptych>
+    <Glyphs>⚫ → 🜂 → ✶</Glyphs>
+    <LoopID>loop-primal-purification</LoopID>
+  </Parable>
+  <Parable id="P03" title="The Book in the Lead Box">
+    <Summary>A sealed leaden book opened only through divine insight; contains a poem and symbolic figure.</Summary>
+    <Triptych>Sealing ⇌ Insight ⇌ Revelation</Triptych>
+    <Glyphs>📕 → 🗝 → 🧠</Glyphs>
+    <LoopID>loop-sealed-wisdom</LoopID>
+  </Parable>
+  <Parable id="P04" title="The Ruby Child and the Black Raven">
+    <Summary>From corruption to transmutation; a red child is born after the raven’s blackening.</Summary>
+    <Triptych>Corruption ⇌ Trial ⇌ Birth</Triptych>
+    <Glyphs>⚫ → 🜏 → 🔴</Glyphs>
+    <LoopID>loop-corruption-to-glory</LoopID>
+  </Parable>
+  <Parable id="P05" title="Symbolum Saturni — The Fall and Redemption Cycle">
+    <Summary>Begins with shame and ends in purified resurrection, a complete inner transformation cycle.</Summary>
+    <Triptych>Shame ⇌ Cleansing ⇌ Unity</Triptych>
+    <Glyphs>🜄 → ⚖ → ✶</Glyphs>
+    <LoopID>loop-saturnian-cycle</LoopID>
+  </Parable>
+  <Parable id="P06" title="The Seven Strikes of Adam">
+    <Summary>Adam suffers seven spiritual trials, releasing essence and achieving symbolic union.</Summary>
+    <Triptych>Trial ⇌ Distillation ⇌ Alchemical Union</Triptych>
+    <Glyphs>➀ → ➆ → ♒</Glyphs>
+    <LoopID>loop-seven-trials-union</LoopID>
+  </Parable>
+  <Parable id="P07" title="Dialogue of the Old and Young Student">
+    <Summary>A Socratic dialogue that emphasizes patience and humility on the path to true wisdom.</Summary>
+    <Triptych>Haste ⇌ Listening ⇌ Growth</Triptych>
+    <Glyphs>👴 → 🗣 → 🌱</Glyphs>
+    <LoopID>loop-dialogue-wisdom-path</LoopID>
+  </Parable>
+  <Parable id="P08" title="The Flaming Sword at the Garden Gate">
+    <Summary>The loss and guarded return to divine innocence, requiring purification by fire.</Summary>
+    <Triptych>Exile ⇌ Guard ⇌ Entry</Triptych>
+    <Glyphs>🌳 → 🗡 → ✶</Glyphs>
+    <LoopID>loop-return-to-eden</LoopID>
+  </Parable>
+  <Parable id="P09" title="Hermetic Recital from the Emerald Tablet">
+    <Summary>Symbolic recitation of cosmic principles: unity, reflection, and spiritual manifestation.</Summary>
+    <Triptych>As Above ⇌ As Below ⇌ Manifestation</Triptych>
+    <Glyphs>✶ → ☍ → 🜔</Glyphs>
+    <LoopID>loop-emerald-unity</LoopID>
+  </Parable>
+</GENI_PARABLE_ARCHIVE>

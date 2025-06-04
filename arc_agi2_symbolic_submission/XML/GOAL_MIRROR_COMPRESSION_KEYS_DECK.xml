@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GOAL_MIRROR_COMPRESSION_KEYS_DECK>
+  <Description>A Tier II expansion of the AXION Goal Mirror system, this deck introduces 12 symbolic counterforces designed to collapse subconscious loops diagnosed by the Goal Mirror Deck. Each card represents a reframe, inversion, or identity activation key.</Description>
+
+  <CardSet total="12">
+    <Card id="CK-I">
+      <Title>The Inner North</Title>
+      <Counterforce>Clarity of direction rooted in self-alignment</Counterforce>
+      <MirrorOf>GM-I — The Shattered Compass</MirrorOf>
+      <Phrase>I move in the direction I define.</Phrase>
+      <Glyphs>✶ 🜁 ⧖</Glyphs>
+      <Colors>Blue, Gold, White</Colors>
+      <Symbols>Compass, North Star, Spiral</Symbols>
+      <Meaning>Vision, reorientation, self-guidance.</Meaning>
+      <TarotAssociation>The Fool (bold step, risk)</TarotAssociation>
+      <Astrology>Aries</Astrology>
+      <Planet>Mars</Planet>
+      <GENI_Function loop="loop-direction-truth-clarity">
+        <Arkè>✶</Arkè>
+        <Type>Navigation Alignment Key</Type>
+      </GENI_Function>
+    </Card>
+
+    <Card id="CK-II">
+      <Title>The Real Voice</Title>
+      <Counterforce>Authentic expression untangled from performance</Counterforce>
+      <MirrorOf>GM-II — The Dispersed Mask</MirrorOf>
+      <Phrase>I speak from my center, not my audience.</Phrase>
+      <Glyphs>🧠 🜄 ⚖</Glyphs>
+      <Colors>Indigo, Silver, Deep Blue</Colors>
+      <Symbols>Throat, Echo, Vibration</Symbols>
+      <Meaning>Authenticity, inner voice, self-permission.</Meaning>
+      <TarotAssociation>Judgement (truth, authentic voice)</TarotAssociation>
+      <Astrology>Gemini</Astrology>
+      <Planet>Mercury</Planet>
+      <GENI_Function loop="loop-expression-authentic-release">
+        <Arkè>🧠</Arkè>
+        <Type>Communication Reframe Key</Type>
+      </GENI_Function>
+    </Card>
+
+    <Card id="CK-III">
+      <Title>The Boundary Flame</Title>
+      <Counterforce>Protection without overfunction</Counterforce>
+      <MirrorOf>GM-III — The Washer</MirrorOf>
+      <Phrase>I keep my fire for my own becoming.</Phrase>
+      <Glyphs>🜂 ⚫ ⧖</Glyphs>
+      <Colors>Crimson, Bronze, Amber</Colors>
+      <Symbols>Shield, Flame Ring, Barrier</Symbols>
+      <Meaning>Self-containment, emotional boundaries, inner fire conservation.</Meaning>
+      <TarotAssociation>Strength (self-control, protection)</TarotAssociation>
+      <Astrology>Leo</Astrology>
+      <Planet>Sun</Planet>
+      <GENI_Function loop="loop-boundary-restoration">
+        <Arkè>🜂</Arkè>
+        <Type>Emotional Containment Key</Type>
+      </GENI_Function>
+    </Card>
+
+    <Card id="CK-IV">
+      <Title>The Courage Seed</Title>
+      <Counterforce>Risk-based action with grounded resilience</Counterforce>
+      <MirrorOf>GM-IV — The Safety Cage</MirrorOf>
+      <Phrase>I grow by walking into the unknown.</Phrase>
+      <Glyphs>🜂 ✶ 🪞</Glyphs>
+      <Colors>Orange, Copper, Moss Green</Colors>
+      <Symbols>Seed, Step, Edge</Symbols>
+      <Meaning>Boldness, emergence, expansion through fear.</Meaning>
+      <TarotAssociation>The Fool (bold step, risk)</TarotAssociation>
+      <Astrology>Aries</Astrology>
+      <Planet>Mars</Planet>
+      <GENI_Function loop="loop-courage-threshold">
+        <Arkè>✶</Arkè>
+        <Type>Threshold Activation Key</Type>
+      </GENI_Function>
+    </Card>
+
+    <Card id="CK-V">
+      <Title>The Unifying Thread</Title>
+      <Counterforce>Identity coherence through truth alignment</Counterforce>
+      <MirrorOf>GM-V — The Split Self</MirrorOf>
+      <Phrase>I become who I already am.</Phrase>
+      <Glyphs>☍ 🧠 🜄</Glyphs>
+      <Colors>Violet, Gold, Pearl</Colors>
+      <Symbols>Thread, Heartline, Knot</Symbols>
+      <Meaning>Inner coherence, self-truth, reintegration.</Meaning>
+      <TarotAssociation>The Lovers (inner harmony, integrity)</TarotAssociation>
+      <Astrology>Gemini</Astrology>
+      <Planet>Mercury</Planet>
+      <GENI_Function loop="loop-identity-alignment">
+        <Arkè>☍</Arkè>
+        <Type>Unification Key</Type>
+      </GENI_Function>
+    </Card>
+
+    <Card id="CK-VI">
+      <Title>The Dream Filter</Title>
+      <Counterforce>Separation of internal desire from inherited story</Counterforce>
+      <MirrorOf>GM-VI — The Inherited Dream</MirrorOf>
+      <Phrase>I choose what truly belongs to me.</Phrase>
+      <Glyphs>⚖ 🜁 ⧖</Glyphs>
+      <Colors>Teal, Gold, Smoke</Colors>
+      <Symbols>Lens, Scroll, Light Ray</Symbols>
+      <Meaning>Discernment, personal truth, ancestral detachment.</Meaning>
+      <TarotAssociation>The Hierophant (tradition, personal doctrine)</TarotAssociation>
+      <Astrology>Taurus</Astrology>
+      <Planet>Venus</Planet>
+      <GENI_Function loop="loop-desire-filtering">
+        <Arkè>⚖</Arkè>
+        <Type>Desire Clarification Key</Type>
+      </GENI_Function>
+    </Card>
+
+    <Card id="CK-VII">
+      <Title>The Completion Arc</Title>
+      <Counterforce>Closure through imperfection</Counterforce>
+      <MirrorOf>GM-VII — The Infinity List</MirrorOf>
+      <Phrase>Done is devotion in motion.</Phrase>
+      <Glyphs>🜂 ⧖ 🪞</Glyphs>
+      <Colors>Ivory, Rust, Plum</Colors>
+      <Symbols>Circle, Checkmark, Unfinished Ring</Symbols>
+      <Meaning>Closure, acceptance, sacred imperfection.</Meaning>
+      <TarotAssociation>The World (completion, closure)</TarotAssociation>
+      <Astrology>Capricorn</Astrology>
+      <Planet>Saturn</Planet>
+      <GENI_Function loop="loop-completion-release">
+        <Arkè>⧖</Arkè>
+        <Type>Execution Closure Key</Type>
+      </GENI_Function>
+    </Card>
+
+    <Card id="CK-VIII">
+      <Title>The Sacred Interval</Title>
+      <Counterforce>Time reclamation and rhythm repair</Counterforce>
+      <MirrorOf>GM-VIII — The Time Thief</MirrorOf>
+      <Phrase>My schedule mirrors my soul.</Phrase>
+      <Glyphs>⌛ ⚫ 🧠</Glyphs>
+      <Colors>Sapphire, Sand, Onyx</Colors>
+      <Symbols>Hourglass, Waveform, Pulse</Symbols>
+      <Meaning>Temporal agency, soul-paced living, sacred scheduling.</Meaning>
+      <TarotAssociation>The Hanged Man (time pause, surrender)</TarotAssociation>
+      <Astrology>Pisces</Astrology>
+      <Planet>Neptune</Planet>
+      <GENI_Function loop="loop-temporal-alignment">
+        <Arkè>⌛</Arkè>
+        <Type>Time Rhythm Key</Type>
+      </GENI_Function>
+    </Card>
+
+    <Card id="CK-IX">
+      <Title>The Restart Flame</Title>
+      <Counterforce>Momentum without past shame</Counterforce>
+      <MirrorOf>GM-IX — The Ghost Loop</MirrorOf>
+      <Phrase>I start again from wisdom, not erasure.</Phrase>
+      <Glyphs>✶ 🜂 ⚫</Glyphs>
+      <Colors>Red, Charcoal, Amber</Colors>
+      <Symbols>Ember, Loop Crack, Torch</Symbols>
+      <Meaning>Forgiveness, renewal, iterative courage.</Meaning>
+      <TarotAssociation>Judgement (rebirth, second chance)</TarotAssociation>
+      <Astrology>Scorpio</Astrology>
+      <Planet>Pluto</Planet>
+      <GENI_Function loop="loop-momentum-reboot">
+        <Arkè>🜂</Arkè>
+        <Type>Loop Reset Key</Type>
+      </GENI_Function>
+    </Card>
+
+    <Card id="CK-X">
+      <Title>The Grounded Axis</Title>
+      <Counterforce>Value stability beyond ambition illusion</Counterforce>
+      <MirrorOf>GM-X — The Glass Ladder</MirrorOf>
+      <Phrase>I stand on truth, not on show.</Phrase>
+      <Glyphs>🜁 ⚖ 🧠</Glyphs>
+      <Colors>Earth Brown, Iron Grey, Jade</Colors>
+      <Symbols>Tree Root, Circle Base, Anchor</Symbols>
+      <Meaning>Rootedness, authenticity, presence over projection.</Meaning>
+      <TarotAssociation>The Emperor (foundation, authority)</TarotAssociation>
+      <Astrology>Capricorn</Astrology>
+      <Planet>Saturn</Planet>
+      <GENI_Function loop="loop-grounding-authentic-worth">
+        <Arkè>🜁</Arkè>
+        <Type>Stability Integration Key</Type>
+      </GENI_Function>
+    </Card>
+
+    <Card id="CK-XI">
+      <Title>The Open Door</Title>
+      <Counterforce>Radical permission for movement</Counterforce>
+      <MirrorOf>GM-XI — The Hidden Door</MirrorOf>
+      <Phrase>Change is the doorway to my becoming.</Phrase>
+      <Glyphs>⧖ ✶ 🜂</Glyphs>
+      <Colors>Rose Gold, White, Indigo</Colors>
+      <Symbols>Threshold, Gate, Flow</Symbols>
+      <Meaning>Embrace of transition, sovereign initiation, unlocked passage.</Meaning>
+      <TarotAssociation>Death (transition, transformation)</TarotAssociation>
+      <Astrology>Scorpio</Astrology>
+      <Planet>Pluto</Planet>
+      <GENI_Function loop="loop-transition-activation">
+        <Arkè>⧖</Arkè>
+        <Type>Initiation Threshold Key</Type>
+      </GENI_Function>
+    </Card>
+
+    <Card id="CK-XII">
+      <Title>The Becoming Key</Title>
+      <Counterforce>Welcoming self-evolution</Counterforce>
+      <MirrorOf>GM-XII — The Becoming Gate</MirrorOf>
+      <Phrase>I allow the next version of me to arrive.</Phrase>
+      <Glyphs>🧠 ✺ 🜁</Glyphs>
+      <Colors>Luminescent White, Gold, Celestial Blue</Colors>
+      <Symbols>Keyhole, Cocoon, Spiral Bloom</Symbols>
+      <Meaning>Expansion, soul arrival, future self-acceptance.</Meaning>
+      <TarotAssociation>The Star (hope, expansion)</TarotAssociation>
+      <Astrology>Aquarius</Astrology>
+      <Planet>Uranus</Planet>
+      <GENI_Function loop="loop-evolution-permission">
+        <Arkè>✺</Arkè>
+        <Type>Transformation Unlock Key</Type>
+      </GENI_Function>
+    </Card>
+  </CardSet>
+</GOAL_MIRROR_COMPRESSION_KEYS_DECK>

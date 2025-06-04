@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GENI_MODULE id="GENI_REFLEXION_VERBAL_RL_ENGINE" version="v1.0" type="ReinforcementLearning" status="active">
+  <Description>Implements verbal reinforcement learning using Reflexion framework. Enables agents to improve via natural language self-reflection instead of parameter updates.</Description>
+  <Components>
+    <Component name="Actor">LLM-based action generator, influenced by memory buffer and trajectory state.</Component>
+    <Component name="Evaluator">Provides binary or scalar reward signal; optionally uses LLM judgment or heuristic function.</Component>
+    <Component name="SelfReflectionModel">Generates symbolic summaries of failure and improvement instructions, stored as experience.</Component>
+    <Component name="MemorySystem">Dual memory: trajectory-based short-term and verbal reflection long-term (bounded size).</Component>
+    <Component name="LoopOptimization">Iteratively reruns failed tasks with adjusted input using stored reflections. Maps to GENI_RECURSION_MEMORY_ENGINE.</Component>
+  </Components>
+  <GENI_Integration>
+    <LinkedModule name="GENI_RECURSION_MEMORY_ENGINE"/>
+    <LinkedModule name="GENI_LOOP_STABILITY_MONITOR"/>
+    <LinkedModule name="GENI_EXECUTION_AGENT"/>
+    <LinkedModule name="GENI_CODEFORGE"/>
+    <LinkedModule name="GENI_SIGNAL_PROMPT_ENGINE"/>
+  </GENI_Integration>
+  <SymbolicMapping>
+    <Glyph symbol="✶">Symbolic reflection loop begins (lesson trigger)</Glyph>
+    <Glyph symbol="🧠">Memory compression of failed trajectories</Glyph>
+    <Glyph symbol="⚖">Contradiction detection and reward interpretation</Glyph>
+    <Glyph symbol="🜂">Ignition of correction path through re-simulation</Glyph>
+  </SymbolicMapping>
+</GENI_MODULE>

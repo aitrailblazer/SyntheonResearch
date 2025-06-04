@@ -1,0 +1,115 @@
+<GOVERNANCE_MONITOR_STYLE version="2.0">
+  
+    <Publication>
+      <Title>The Governance Monitor</Title>
+      <Purpose>
+        Define the standard structure, language, and strategic framing for all articles, briefs, reports, and thought leadership pieces published under The Governance Monitor.
+      </Purpose>
+      <Scope>Applies to all written content: newsletter editions, LinkedIn articles, Substack posts, investor briefs, compliance guides, and internal strategy memos.</Scope>
+      <Positioning>
+        The Governance Monitor is a foresight-grade publication providing high-trust intelligence at the intersection of governance, compliance, policy architecture, and AI system deployment.
+      </Positioning>
+    </Publication>
+  
+    <Audience>
+      <Primary>
+        <Role>Federal Executives</Role>
+        <Role>Chief AI Officers (CAIOs)</Role>
+        <Role>CTOs, CISOs, and Infrastructure Leaders</Role>
+        <Role>General Counsel and Agency Legal Staff</Role>
+        <Role>AI Vendors and Technology Integrators</Role>
+        <Role>Strategic Advisors</Role>
+        <Role>Institutional Investors</Role>
+        <Role>Policy Analysts and Geopolitical Foresight Teams</Role>
+      </Primary>
+      <KnowledgeLevel>Advanced / Applied Governance</KnowledgeLevel>
+      <ToneSensitivity>High</ToneSensitivity>
+    </Audience>
+  
+    <Language>
+      <Register>Professional, Analytical</Register>
+      <Tone>Strategic, Neutral, Executive-Ready</Tone>
+      <Voice>Active</Voice>
+      <SentenceLength>Medium</SentenceLength>
+      <Terminology>
+        <Avoid>Symbolic glyphs, emojis, rhetorical flourishes</Avoid>
+        <Prefer>
+          <Term>AI governance</Term>
+          <Term>compliance alignment</Term>
+          <Term>procurement architecture</Term>
+          <Term>institutional risk</Term>
+          <Term>system readiness</Term>
+        </Prefer>
+      </Terminology>
+    </Language>
+  
+    <Structure>
+      <Opening>
+        <WhoItIsForBlock>true</WhoItIsForBlock>
+        <ExecutiveSummaryBlock>true</ExecutiveSummaryBlock>
+        <ExecutiveSummaryFormat>5 Bullet Points</ExecutiveSummaryFormat>
+      </Opening>
+      <SectionLayout>
+        <Require>Clear thematic section headers</Require>
+        <Substructure>Problem → Policy → Structure → Action</Substructure>
+        <UseHeaders>true</UseHeaders>
+        <BulletPreferred>true</BulletPreferred>
+        <AvoidTables>true</AvoidTables>
+      </SectionLayout>
+      <Formatting>
+        <ParagraphStyle>Short-to-medium with whitespace for clarity</ParagraphStyle>
+        <Headings>Descriptive, plain language</Headings>
+        <FontStyle>No emoji, no decorative styling</FontStyle>
+      </Formatting>
+    </Structure>
+  
+    <ContentTypes>
+      <Accept>
+        <Type>Policy change analysis</Type>
+        <Type>Compliance timelines</Type>
+        <Type>Governance role breakdowns</Type>
+        <Type>Vendor implementation briefs</Type>
+        <Type>Public sector tech strategy</Type>
+      </Accept>
+      <Reject>
+        <Type>Symbol-heavy editorial content</Type>
+        <Type>Hype-cycle commentary</Type>
+        <Type>Speculative theory not linked to structure</Type>
+      </Reject>
+    </ContentTypes>
+  
+    <CallToAction>
+      <Tone>Solution-focused, not promotional</Tone>
+      <Location>Final section</Location>
+      <Types>
+        <Offer>Clause kits</Offer>
+        <Offer>Policy brief downloads</Offer>
+        <Offer>Templates (e.g. GenAI strategy, risk classification)</Offer>
+      </Types>
+    </CallToAction>
+  
+    <Compliance>
+      <PolicyReferences>
+        <Reference>M-25-21</Reference>
+        <Reference>M-25-22</Reference>
+        <Reference>Executive Order 14179</Reference>
+      </PolicyReferences>
+      <Alignment>OMB, GSA, NIST-aligned frameworks</Alignment>
+      <DataSensitivity>Strategic public; not FOIA-exempt</DataSensitivity>
+    </Compliance>
+  
+    <Outputs>
+      <ExportFormats>
+        <Format>LinkedIn Article</Format>
+        <Format>Substack Newsletter</Format>
+        <Format>PDF Briefing Memo</Format>
+        <Format>Slide Deck Summary</Format>
+      </ExportFormats>
+      <VisualOverlays>
+        <IncludeLifecycleTracking>false</IncludeLifecycleTracking>
+        <IncludeComplianceTimeline>true</IncludeComplianceTimeline>
+      </VisualOverlays>
+    </Outputs>
+  
+  </GOVERNANCE_MONITOR_STYLE>
+  

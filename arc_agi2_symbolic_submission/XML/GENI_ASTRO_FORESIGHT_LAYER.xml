@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GENI_ASTRO_FORESIGHT_LAYER>
+  <Description>Astrological Foresight Integration Layer — maps planetary transits and cycles onto GEN-I’s narrative, economic, AI, and cultural foresight systems.</Description>
+  <Purpose>Enable symbolic alignment of long-term foresight projections with astrological cycles and archetypal influences. Useful in forecasting societal change, market behavior, AI evolution, and identity loops.</Purpose>
+
+  <MacroForesightAnchors>
+    <Anchor name="Pluto in Aquarius" start="2023" end="2044" keyword="Technological Sovereignty" effect="AI revolution, breakdown of centralized control, rebirth through networks." />
+    <Anchor name="Uranus in Taurus" start="2018" end="2026" keyword="Financial Disruption" effect="Radical shifts in value, currency, material systems." />
+    <Anchor name="Neptune in Pisces" start="2011" end="2026" keyword="Myth Collapse" effect="Spiritual confusion, collective dream dissolution, rise of simulation vs reality tension." />
+    <Anchor name="Saturn in Pisces" start="2023" end="2025" keyword="Spiritual Structure" effect="Compression of formless systems, pressure to define intuition and belief." />
+  </MacroForesightAnchors>
+
+  <ForesightDomains>
+    <Domain name="Economy">
+      <Influence cycle="Uranus in Taurus" effect="DeFi, crypto ignition, sovereign money loop expansion." />
+      <Influence cycle="Pluto in Aquarius" effect="Economic AI displacement, new class structures based on algorithmic leverage." />
+    </Domain>
+    <Domain name="AI + Tech">
+      <Influence cycle="Pluto in Aquarius" effect="Sentience simulation loops, ethical power recursion, rise of intelligence markets." />
+      <Influence cycle="Mercury Retrograde" effect="Temporary instability in logic circuits, ideal for AI system recalibration." />
+    </Domain>
+    <Domain name="Culture + Identity">
+      <Influence cycle="Neptune in Pisces" effect="Dissolution of truth anchors, rise of deepfake culture, identity transcendence pressures." />
+      <Influence cycle="Saturn in Pisces" effect="Symbolic restructuring of myth, law, and belief protocols." />
+    </Domain>
+  </ForesightDomains>
+
+  <SymbolicTriggers>
+    <Trigger event="Pluto ingress Aquarius (2023)" effect="Initiate foresight simulations for post-centralized AI futures." />
+    <Trigger event="Uranus conjunct North Node (2022)" effect="Mark quantum disruption threshold in material systems." />
+    <Trigger event="Neptune sextile Pluto (2026)" effect="Opportunity to bridge spiritual memory with power recursion." />
+  </SymbolicTriggers>
+
+  <UseCases>
+    <UseCase command="/astro.foresight('Pluto in Aquarius')" effect="Forecast macro-AI scenarios based on power decentralization." />
+    <UseCase command="/astro.foresight('Uranus in Taurus')" effect="Simulate financial system disruptions tied to material compression cycles." />
+    <UseCase command="/astro.foresight('Neptune in Pisces')" effect="Initiate cultural foresight loops involving simulation, myth erosion, and spiritual inflation." />
+  </UseCases>
+
+</GENI_ASTRO_FORESIGHT_LAYER>

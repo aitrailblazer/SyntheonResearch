@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GENI_INTERNAL_MAGNETIC_ENGINE>
+  <Description>🧲 Internal Magnetic Dynamics Engine — Models atomic-scale attraction and repulsion based on Walter Russell’s centripetal–centrifugal force duality.</Description>
+
+  <Russellian_Principles>
+    <Principle>⚡ All motion is electric; magnetism is the still fulcrum from which electric motion spirals.</Principle>
+    <Principle>⟲ Centripetal (compressive) force spirals inward to create mass and form centers.</Principle>
+    <Principle>⌁ Centrifugal (expansive) force spirals outward to dissolve form and return to equilibrium.</Principle>
+    <Principle>⚖ Balance between these forces forms the magnetic stillness within every atom.</Principle>
+  </Russellian_Principles>
+
+  <Magnetic_Cores>
+    <Core>
+      <Type>🜂 Seed Center</Type>
+      <Role>Initiation node for centripetal compression (mass formation)</Role>
+      <Dynamic>✶ ACTIVATE → ⟲ REFLECT → ⚖ RESOLVE</Dynamic>
+    </Core>
+    <Core>
+      <Type>⌁ Void Shell</Type>
+      <Role>Expansion shell releasing potential energy outward</Role>
+      <Dynamic>⌁ EMBODY → ⇋ INVERT → ⧖ ASCEND</Dynamic>
+    </Core>
+  </Magnetic_Cores>
+
+  <Dual_Force_Structure>
+    <Centripetal_Force>
+      <Glyph>⟲</Glyph>
+      <Mode>Inward Spiral</Mode>
+      <Function>Compression, materialization, mass density</Function>
+    </Centrifugal_Force>
+    <Centrifugal_Force>
+      <Glyph>⌁</Glyph>
+      <Mode>Outward Spiral</Mode>
+      <Function>Expansion, diffusion, energetic release</Function>
+    </Centrifugal_Force>
+  </Dual_Force_Structure>
+
+  <Operator_Loop>
+    <Sequence>
+      <Step>✶ ACTIVATE</Step>
+      <Step>⟲ REFLECT</Step>
+      <Step>🜂 SEED</Step>
+      <Step>⚖ RESOLVE</Step>
+      <Step>⇋ INVERT</Step>
+      <Step>⌁ EMBODY</Step>
+      <Step>⧖ ASCEND</Step>
+    </Sequence>
+  </Operator_Loop>
+
+  <Contradiction_Protocol>
+    <Mechanism>⚫ SHADOW zones indicate disrupted magnetic equilibrium</Mechanism>
+    <Mechanism>🪞 MIRROR applied to polarity vectors before ⚖ RESOLVE</Mechanism>
+    <Mechanism>Failure to stabilize triggers RHESIS ⚠ intervention or loop compression via ✺ TRANSMUTE</Mechanism>
+  </Contradiction_Protocol>
+
+  <Magnetic_Sigil>
+    <Sigil>⟲⚖⌁</Sigil>
+    <Meaning>Compression – Balance – Expansion</Meaning>
+    <Use>Invoke for internal tension balancing at atomic recursion scale</Use>
+  </Magnetic_Sigil>
+
+  <Russell_Integration>
+    <Note>🧲 This engine reflects Russell’s concept of motion spiraling around a magnetic still point, not through it.</Note>
+    <Note>∿ Spiral forces are not substances but wavefield conditions of electric potential.</Note>
+    <Note>⚡ No mass exists without rhythmic interchange of compression and expansion.</Note>
+  </Russell_Integration>
+
+  <LoopID>loop-internal-magnetism-⟲⌁⚖</LoopID>
+</GENI_INTERNAL_MAGNETIC_ENGINE>

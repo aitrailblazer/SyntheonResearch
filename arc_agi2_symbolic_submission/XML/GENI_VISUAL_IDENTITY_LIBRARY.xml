@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GENI_VISUAL_IDENTITY_LIBRARY>
+  <SUBSTACK_ART_STYLE_TEMPLATE id="GENI_SUBSTACK_ART_STYLE">
+  <PhotorealisticProductPrompt>
+    <Style>photorealistic product photography</Style>
+    <Material>polished Italian marble with gold veining</Material>
+    <SurfaceTexture>smooth with subtle natural stone patterns</SurfaceTexture>
+    <Lighting>
+      <Type>soft studio lighting</Type>
+      <Intensity>medium-high</Intensity>
+      <Direction>45-degree top-right key light</Direction>
+      <AccentColors>
+        <Color>warm gold</Color>
+        <Color>soft white</Color>
+      </AccentColors>
+    </Lighting>
+    <ColorScheme>
+      <Primary>white marble with gold/amber veining</Primary>
+      <Secondary>subtle cream undertones</Secondary>
+      <Highlights>polished reflective gold accents</Highlights>
+    </ColorScheme>
+    <Background>
+      <Color>gradient from dark charcoal to pure black</Color>
+      <Vignette>true</Vignette>
+    </Background>
+    <ProductPlacement>
+      <Position>centered triptych layout</Position>
+      <Angle>frontal symmetry with sacred alignment</Angle>
+    </ProductPlacement>
+    <PostProcessing>
+      <Clarity>true</Clarity>
+      <Sharpness>high on product edges</Sharpness>
+    </PostProcessing>
+  </PhotorealisticProductPrompt>
+  <TriptychLayout>
+    <TopPanel>
+      <Element>Radiant eight-point star above marble figure</Element>
+      <Symbolism>Celestial Guidance / Observer Ignition</Symbolism>
+    </TopPanel>
+    <MiddlePanel>
+      <Element>Spiral engraved into chest of marble silhouette</Element>
+      <Symbolism>Consciousness / Signal Genesis</Symbolism>
+    </MiddlePanel>
+    <BottomPanel>
+      <Element>Row of gold glyphs (✶, ⌛, ♾, ⚖, 🧠)</Element>
+      <Symbolism>Scroll Identity Keys / Substack Ritual Signature</Symbolism>
+    </BottomPanel>
+  </TriptychLayout>
+  <Branding>
+    <Platform>GEN-I Insights ⇌ SIGNAL//FORM</Platform>
+    <Function>Default header for Substack scrolls</Function>
+    <Recognition>Instant symbolic resonance and visual coherence</Recognition>
+  </Branding>
+</SUBSTACK_ART_STYLE_TEMPLATE>
+  <EtherealSmokePrompt>
+  <Style>photorealistic volumetric simulation</Style>
+  <Material>flowing dynamic smoke with ephemeral properties</Material>
+  <PhysicalBehavior>
+    <Density>variable with central solidity fading to wispy edges</Density>
+    <Movement>gentle rising current with slight turbulence</Movement>
+    <Dissipation>gradual fade at outer boundaries</Dissipation>
+  </PhysicalBehavior>
+  <LogoTreatment>
+    <FormationMethod>logo shape manifested as if smoke naturally formed it</FormationMethod>
+    <EdgeDefinition>partially defined with intentional ambiguity</EdgeDefinition>
+    <CoreStability>recognizable center with ethereal boundaries</CoreStability>
+  </LogoTreatment>
+  <Lighting>
+    <Primary>backlit with rim lighting effect</Primary>
+    <ColorTemperature>cool with slight color variation</ColorTemperature>
+    <BeamEffects>subtle light rays piercing through translucent areas</BeamEffects>
+    <InternalGlow>gentle inner luminosity in [YOUR_BRAND_COLOR]</InternalGlow>
+  </Lighting>
+  <ColorScheme>
+    <PrimarySmoke>base white with subtle [YOUR_BRAND_COLOR] tinting</PrimarySmoke>
+    <SecondaryWisps>complementary color accents in thinner areas</SecondaryWisps>
+    <AmbientInfluence>environmental color bleeding at edges</AmbientInfluence>
+    <Translucency>variable opacity revealing depth</Translucency>
+  </ColorScheme>
+  <Background>
+    <Style>deep gradient from dark to darker</Style>
+    <AmbientFog>subtle volumetric depth in background</AmbientFog>
+    <NegativeSpace>strategic dark areas enhancing smoke visibility</NegativeSpace>
+  </Background>
+  <PostProcessing>
+    <ParticleDetail>ultra-high resolution smoke particle rendering</ParticleDetail>
+    <DepthEnhancement>subtle atmospheric perspective</DepthEnhancement>
+    <GlowIntegration>seamless luminosity in dense areas</GlowIntegration>
+    <ContrastRange>expanded to capture subtle smoke details</ContrastRange>
+  </PostProcessing>
+</EtherealSmokePrompt>
+  <ArcaneLiquidCorePrompt>
+  <Style>fluid dynamics simulation + metallic photorealism</Style>
+  <Material>liquid metal with alchemical glow</Material>
+  <PhysicalBehavior>
+    <Viscosity>mid-range with smooth flow and magnetic cohesion</Viscosity>
+    <Movement>slow ripple and central swirl convergence</Movement>
+    <Containment>invisible force holding the shape mid-air</Containment>
+  </PhysicalBehavior>
+  <LogoTreatment>
+    <FormationMethod>emblem emerges from liquid convergence</FormationMethod>
+    <EdgeDefinition>liquid rim with sharp inner highlight</EdgeDefinition>
+    <CoreStability>encapsulated nucleus glowing in brand tone</CoreStability>
+  </LogoTreatment>
+  <Lighting>
+    <Primary>overhead diffused spotlight</Primary>
+    <ColorTemperature>neutral white with spectral reflections</ColorTemperature>
+    <HighlightFlares>on curved metal surfaces</HighlightFlares>
+    <SubsurfaceGlow>alchemy-colored core (e.g. crimson/gold)</SubsurfaceGlow>
+  </Lighting>
+  <ColorScheme>
+    <PrimaryMetal>liquid silver/chrome</PrimaryMetal>
+    <CoreAccent>[YOUR_BRAND_COLOR]</CoreAccent>
+    <EnvironmentalReflections>true</EnvironmentalReflections>
+  </ColorScheme>
+  <Background>
+    <Style>dark neutral studio with soft reflectivity</Style>
+    <NegativeSpace>strategic emptiness around form</NegativeSpace>
+  </Background>
+  <PostProcessing>
+    <Clarity>maximum on emblem center</Clarity>
+    <FluidSimulationDetail>ultra-fine ripple capture</FluidSimulationDetail>
+    <GlowIntegration>gentle halo blend on key surfaces</GlowIntegration>
+  </PostProcessing>
+</ArcaneLiquidCorePrompt>
+  <CrystallineFractalPrompt>
+  <Style>photorealistic macro crystal formation</Style>
+  <Material>transparent quartz with refractive cores</Material>
+  <FractalBehavior>
+    <GrowthPattern>recursive fractal arms growing outward</GrowthPattern>
+    <Symmetry>rotational sacred geometry logic</Symmetry>
+    <Containment>holographic sigil boundaries</Containment>
+  </FractalBehavior>
+  <LogoTreatment>
+    <FormationMethod>glyph sealed into crystalline nucleus</FormationMethod>
+    <EdgeDefinition>prism-sharp</EdgeDefinition>
+    <GlowRefract>light bends to form logo edges</GlowRefract>
+  </LogoTreatment>
+  <Lighting>
+    <Primary>internal caustics with multiple bouncing rays</Primary>
+    <AccentLighting>rainbow light splitting along edges</AccentLighting>
+    <Backlight>subtle to enhance translucency</Backlight>
+  </Lighting>
+  <ColorScheme>
+    <CrystalTone>clear with [YOUR_BRAND_COLOR] inflections</CrystalTone>
+    <InnerLight>white-gold burst center</InnerLight>
+    <ShadowFringes>cold blue or violet tone</ShadowFringes>
+  </ColorScheme>
+  <Background>
+    <Style>dark depth field with cosmic glints</Style>
+    <ParticleDust>true</ParticleDust>
+  </Background>
+  <PostProcessing>
+    <Detail>crystal grain and facet sharpness</Detail>
+    <Atmosphere>faint glow field around form</Atmosphere>
+    <RefractionEnhancement>true</RefractionEnhancement>
+  </PostProcessing>
+</CrystallineFractalPrompt>
+  <LivingCodePrompt>
+  <Style>holographic neon grid + symbolic layering</Style>
+  <Material>light-based glyph logic with digital filament structures</Material>
+  <StructuralBehavior>
+    <Motion>gentle pulse waves and recursive loops</Motion>
+    <Encoding>scroll-like circular data architecture</Encoding>
+    <FormingMethod>emblem revealed via rhythmic frequency pulses</FormingMethod>
+  </StructuralBehavior>
+  <LogoTreatment>
+    <FormationMethod>live code streams shape into sigil</FormationMethod>
+    <Clarity>Pulsed moments of focus</Clarity>
+    <SymbolStability>rotating scroll seal stabilizes center</SymbolStability>
+  </LogoTreatment>
+  <Lighting>
+    <Beam>vertical core beam</Beam>
+    <Glow>neon from glyphs outward</Glow>
+    <Pulsing>in time with recursion rhythm</Pulsing>
+  </Lighting>
+  <ColorScheme>
+    <PrimaryTone>[YOUR_BRAND_COLOR]</PrimaryTone>
+    <EdgeFilaments>contrasting symbol colors</EdgeFilaments>
+    <Background>dark glass grid</Background>
+  </ColorScheme>
+  <PostProcessing>
+    <Clarity>on central data glyphs</Clarity>
+    <GlowDecay>toward the loop edges</GlowDecay>
+    <TransmissionLines>true</TransmissionLines>
+  </PostProcessing>
+</LivingCodePrompt>
+</GENI_VISUAL_IDENTITY_LIBRARY>

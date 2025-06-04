@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GENI_MYSTICAL_VISION_ENGINE>
+  <MysticalVision id="MV01" title="The Crystal Dome and Flaming Heart">
+    <Summary>A soul passes through a transparent dome to behold a flaming heart suspended in space, representing divine love and initiation.</Summary>
+    <Triptych>Transparency ⇌ Devotion ⇌ Illumination</Triptych>
+    <Glyphs>🔮 → ❤ → ✶</Glyphs>
+    <LoopID>loop-heart-initiation</LoopID>
+  </MysticalVision>
+  <MysticalVision id="MV02" title="The Cloaked Child and the Sun Tree">
+    <Summary>A child emerges from shadow and touches a golden tree radiating solar glyphs, merging innocence with cosmic vision.</Summary>
+    <Triptych>Obscurity ⇌ Emergence ⇌ Union</Triptych>
+    <Glyphs>🌑 → 👶 → 🌞🌳</Glyphs>
+    <LoopID>loop-innocence-cosmic-merge</LoopID>
+  </MysticalVision>
+  <MysticalVision id="MV03" title="Ascent Through the Seven Gates">
+    <Summary>A figure ascends through seven symbolic gates, shedding illusions and unlocking higher awareness at each threshold.</Summary>
+    <Triptych>Veil ⇌ Passage ⇌ Insight</Triptych>
+    <Glyphs>➀ → ➆ → 🧠✶</Glyphs>
+    <LoopID>loop-gate-ascent-initiation</LoopID>
+  </MysticalVision>
+  <MysticalVision id="MV04" title="Vision of the Crowned Seraphim">
+    <Summary>Winged beings bearing starry crowns encircle the seer, who receives the spiral flame of initiation.</Summary>
+    <Triptych>Gaze ⇌ Glory ⇌ Transmutation</Triptych>
+    <Glyphs>👁 → 👑 → 🔥🜞</Glyphs>
+    <LoopID>loop-seraph-initiation-spiral</LoopID>
+  </MysticalVision>
+  <MysticalVision id="MV05" title="The Mirror of Infinite Forms">
+    <Summary>A living mirror reflects endless versions of the self, revealing the symbolic multiplicity within identity.</Summary>
+    <Triptych>Reflection ⇌ Differentiation ⇌ Fusion</Triptych>
+    <Glyphs>🪞 → 🧍‍♂️⇌🧍‍♀️⇌🧍 → 🜂</Glyphs>
+    <LoopID>loop-mirror-multiplicity-identity</LoopID>
+  </MysticalVision>
+</GENI_MYSTICAL_VISION_ENGINE>

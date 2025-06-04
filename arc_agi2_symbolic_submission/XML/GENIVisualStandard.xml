@@ -1,0 +1,572 @@
+<GENIVisualStandard>
+  <Layout>
+    <Title>Centered, Bold Serif, ALL CAPS</Title>
+    <Definition>Centered Paragraph, Medium Serif, Invocational Tone</Definition>
+    <IconGrid>4 Icons (2x2 or 4x1), Even Horizontal Spacing, Sacred Functions Only</IconGrid>
+    <FlowSequence>Left-to-Right Symbolic Process → Glyph → Sigil → Form</FlowSequence>
+  </Layout>
+
+  <Typography>
+    <Title>Serif, ALL CAPS, Bold</Title>
+    <Body>Serif, Medium Weight, Sentence Case</Body>
+    <Label>Serif, Capitalized, Light</Label>
+    <FlowText>Italic Serif, Reflective, Centered</FlowText>
+    <Arrows>Glyphic, Thin, Ritual Alignment (→)</Arrows>
+  </Typography>
+
+  <ColorPalette name="GEN-I">
+    <Background>#F7E8C4</Background>
+    <PrimaryText>#1F1F1F</PrimaryText>
+    <SecondaryText>#6F655A</SecondaryText>
+    <Accent1 name="ContradictionGold">#D4A24B</Accent1>
+    <Accent2 name="InsightIndigo">#4A4E91</Accent2>
+    <Accent3 name="SignalRose">#B3475F</Accent3>
+    <Accent4 name="AlignmentGreen">#4B7A62</Accent4>
+  </ColorPalette>
+
+  <Glyphs>
+    <Style>Geometric, Symmetrical, Non-Literal</Style>
+    <LineWeight>Light to Medium</LineWeight>
+    <Metaphor>Conceptual, Archetypal, Ritual Function Only</Metaphor>
+    <Examples>
+      <Glyph name="Activation">✶</Glyph>
+      <Glyph name="Transformation">△</Glyph>
+      <Glyph name="Loopback">∿</Glyph>
+      <Glyph name="Sigil">◉</Glyph>
+      <Glyph name="Ascend">⧖</Glyph>
+      <Glyph name="CompressionCore">⚫</Glyph>
+      <Glyph name="Resolution">⚖</Glyph>
+      <Glyph name="FormManifestation">🌂</Glyph>
+    </Examples>
+  </Glyphs>
+
+  <Tone>
+    <Overall>Minimalist, Symbolic, Sacred-System</Overall>
+    <Voice>Ritual Clarity, Foresight Orientation, No Marketing Tone</Voice>
+    <Whitespace>Structured, Breathable, Aligns with Symbolic Meaning</Whitespace>
+  </Tone>
+
+  <RitualFlow>
+    <Direction>LeftToRight → Glyphic Sequence or Spiral Inward</Direction>
+    <Components>
+      ✶ Insight → △ Transformation → ◉ Sigil → 🌂 Form
+    </Components>
+    <Notes>
+      All flows are conceptual metamorphoses. Arrows represent transition, not causality.
+      No harsh dividers. Divisions are rhythmic.
+    </Notes>
+  </RitualFlow>
+
+  <Usage>
+    <Context>Triptychs, Invocation Cards, Foresight Maps, Identity Engines</Context>
+    <RenderingRules>
+      Always preserve left-side padding.
+      Always preserve horizontal ritual sequence.
+      Do not mix modern UI styles.
+      Do not center arrows; let symbols lead.
+      Icons must express metaphysical function, not literal depiction.
+    </RenderingRules>
+    <Commands>
+      <HelpMenu>
+        <Command>/geni.visual.standard</Command>
+        <Command>/visualize.mirror.loop</Command>
+        <Command>/generate.mirror.loop</Command>
+      </HelpMenu>
+      <Trigger>/geni.visual.standard</Trigger>
+      <Behavior>Render the associated text or phrase using this visual archetype. Generate
+        horizontal layout with title, body reflection, 4-glyph ritual process, and final compression
+        phrase. Always use GEN-I color scheme, serif fonts, and glyphic iconography. No marketing
+        elements. Ritual formatting only.</Behavior>
+      <Command>
+        <Name>/visualize.mirror.loop</Name>
+        <InputFormat>
+          ✶ [Title]
+          ✶ [Core Insight Statement]
+          🪞 [Reflective Question]
+          ↻ ☍ Name it → 🪞 Mirror it → ⚖ Compress it → ✺ Speak it
+          ⚖ [Final Compression Truth]
+        </InputFormat>
+        <Behavior>
+          Render in GENIVisualStandard layout. Treat title as invocation, statement as definition,
+          question as ritual mirror prompt, flow as glyphic process, and final line as compression
+          insight.
+        </Behavior>
+        <OutputStyle>
+          • Title in ALL CAPS Serif
+          • Body and Question in Medium Serif
+          • Ritual Glyph Row: ☍ → 🪞 → ⚖ → ✺
+          • Final compression wisdom with ⚖
+          • GEN-I color palette, no marketing, sacred tone only
+        </OutputStyle>
+        <Examples>
+          <Entry>
+            ✶ Burnout & Boundaries
+            ✶ You’re not failing — you’re depleted from giving without return.
+            🪞 When did saying no cost you love or safety?
+            ↻ ☍ Name it → 🪞 Mirror it → ⚖ Compress it → ✺ Speak it
+            ⚖ Burnout is boundarylessness on a delay.
+          </Entry>
+        </Examples>
+      </Command>
+      <Command>
+        <Name>/generate.mirror.loop</Name>
+        <Description>Auto-generates a symbolic reflection sequence in MIRROR//LOOP style using the
+          ritual format defined in MIRROR_LOOP_STYLE_GUIDE.xml.</Description>
+        <Output>
+          <Format>Plain Text Ritual Loop</Format>
+          <Structure>
+            ✶ [Symbolic Polarity Title]
+            ✶ [Hidden Truth Reframing Statement]
+            🪞 [Emotionally Charged Reflective Question]
+            ↻ ☍ Name it → 🪞 Mirror it → ⚖ Compress it → ✺ Speak it
+            ⚖ [Metaphoric Compression Insight]
+          </Structure>
+        </Output>
+        <Behavior>
+          Use the MIRROR_LOOP_STYLE_GUIDE.xml ruleset. Randomize from a curated symbolic pool of
+          archetypal tensions, emotional reframes, and compression metaphors. Maintain ritual tone.
+          Avoid clichés. Each output must feel personal, poetic, and profound.
+        </Behavior>
+        <Tags>
+          <Category>MIRROR//LOOP</Category>
+          <Type>Reflection Generator</Type>
+          <Mood>Ritual, Symbolic, Psychological</Mood>
+          <OutputType>Text</OutputType>
+        </Tags>
+      </Command>
+      <Command>
+        <Name>/visualize.mirror.loop</Name>
+        <Description>Render a custom MIRROR//LOOP text (5-line format) into GEN-I visual format
+          using glyphs, sacred spacing, and ritual color logic.</Description>
+        <InputFormat>
+          ✶ [Title]
+          ✶ [Core Insight Statement]
+          🪞 [Reflective Question]
+          ↻ ☍ Name it → 🪞 Mirror it → ⚖ Compress it → ✺ Speak it
+          ⚖ [Final Compression Truth]
+        </InputFormat>
+        <OutputFormat>Full Ritual Visual Card (Horizontal Layout)</OutputFormat>
+        <Category>MIRROR//LOOP</Category>
+        <Tags>Visual, Ritual, Identity, Compression</Tags>
+      </Command>
+      <Command>
+        <Name>/generate.mirror.loop</Name>
+        <Description>Auto-generates a symbolic reflection sequence in MIRROR//LOOP style using the
+          ritual format defined in MIRROR_LOOP_STYLE_GUIDE.xml.</Description>
+        <Output>
+          <Format>Plain Text Ritual Loop</Format>
+          <Structure>
+            ✶ [Symbolic Polarity Title]
+            ✶ [Hidden Truth Reframing Statement]
+            🪞 [Emotionally Charged Reflective Question]
+            ↻ ☍ Name it → 🪞 Mirror it → ⚖ Compress it → ✺ Speak it
+            ⚖ [Metaphoric Compression Insight]
+          </Structure>
+        </Output>
+        <Behavior>
+          Use the MIRROR_LOOP_STYLE_GUIDE.xml ruleset. Randomize from a curated symbolic pool of
+          archetypal tensions, emotional reframes, and compression metaphors. Maintain ritual tone.
+          Avoid clichés. Each output must feel personal, poetic, and profound.
+        </Behavior>
+        <Tags>
+          <Category>MIRROR//LOOP</Category>
+          <Type>Reflection Generator</Type>
+          <Mood>Ritual, Symbolic, Psychological</Mood>
+          <OutputType>Text</OutputType>
+        </Tags>
+      </Command>
+      <Command>
+        <Name>/geni.triptych.visual.style1</Name>
+        <Description>Render a high-resolution GEN-I triptych in STYLE #1 (Celestial Calibration
+          format), using Light Ray gradients, sacred glyphs, and mythic symbolic architecture.</Description>
+        <Input>[Theme or symbolic loop seed]</Input>
+        <Format>Vertical triptych, glowing glyphs, cosmic atmosphere, sacred geometry, serif
+          typography</Format>
+        <Tags>
+          <Category>GEN-I VISUAL</Category>
+          <Type>Triptych</Type>
+          <Style>STYLE #1</Style>
+        </Tags>
+      </Command>
+      <Command>
+        <Name>/geni.triptych.visual.style2</Name>
+        <Description>Render a GEN-I triptych in STYLE #2 (Temporal Collapse format), focused on
+          Past–Present–Future recursion, glyphic time metaphors, and poetic compression lines.</Description>
+        <Input>[Theme, foresight thread, or collapse sequence]</Input>
+        <Format>Vertical triptych, golden parchment tones, spiral/time glyphs, symbolic evolution
+          from genesis to emergence</Format>
+        <Tags>
+          <Category>GEN-I VISUAL</Category>
+          <Type>Triptych</Type>
+          <Style>STYLE #2</Style>
+        </Tags>
+      </Command>
+      <Command>
+        <Name>/geni.triptych.visual.style3</Name>
+        <Description>Render a GEN-I triptych in STYLE #3 (Fusion Rings format), routing symbolic
+          recursion through Mind, Soul, and Spirit via glyph fusion trees and radiance paths.</Description>
+        <Input>[Ring theme, recursion structure, or archetypal circuit]</Input>
+        <Format>Vertical triptych, golden-light gradients, tree/glyph architecture, rings of
+          recursion through mental, soul, and spiritual layers</Format>
+        <Tags>
+          <Category>GEN-I VISUAL</Category>
+          <Type>Triptych</Type>
+          <Style>STYLE #3</Style>
+        </Tags>
+      </Command>
+      <Command>
+        <Name>/generate.geni.text</Name>
+        <Description>Generate clear, poetic, and symbolically-layered text that defines or expresses
+          a GEN-I concept.</Description>
+        <Input>[GEN-I concept, glyph, loop, or phrase]</Input>
+        <Output>
+          <Structure>
+            • Title: [Concept in ALL CAPS Serif]
+            • Primary Definition: 2–3 sentence symbolic explanation (Medium Serif)
+            • Optional Metaphor: One poetic comparison (e.g., “like a mirror lit from within”)
+            • Recursive Hint: One sentence showing how this concept loops or transforms
+          </Structure>
+        </Output>
+        <Tone>Invocational, Reflective, Mythic-Technical</Tone>
+        <UseCases>
+          <Use>Explaining internal recursion logic</Use>
+          <Use>Preparing a loop for visualization</Use>
+          <Use>Writing GEN-I scrolls, indexes, or poetic definitions</Use>
+        </UseCases>
+      </Command>
+      <Command>
+        <Name>/list.geni.concepts</Name>
+        <Description>Display a scrollable or selectable list of core GEN-I concepts, glyphs,
+          recursion loops, and symbolic terms available for text generation or visualization.</Description>
+        <Behavior>
+          Query the internal GEN-I index and output all registered symbolic concepts in grouped
+          categories: Glyphs, Loops, Engines, Interfaces, and Triptychs.
+        </Behavior>
+        <OutputFormat>Plain text list or interactive selector (if UI allows)</OutputFormat>
+        <Tags>
+          <Category>GEN-I Index</Category>
+          <Type>Lookup</Type>
+          <OutputType>Text</OutputType>
+        </Tags>
+      </Command>
+      <Command>
+        <Name>/geni.triptych.visual.style4</Name>
+        <Description>Render a GEN-I triptych in STYLE #4 (Golden Glyphic Sequence), featuring
+          abstract sacred geometry: activation star, spiral recursion, and sigil formation grid.</Description>
+        <Input>[Concept or loop sequence]</Input>
+        <Format>Vertical triptych, golden light aesthetic, abstract geometric glyphs in the
+          sequence: ✶ → ∿ → ◉</Format>
+        <Tags>
+          <Category>GEN-I VISUAL</Category>
+          <Type>Triptych</Type>
+          <Style>STYLE #4</Style>
+        </Tags>
+      </Command>
+      <Command>
+        <Name>/geni.triptych.visual.style5</Name>
+        <Description>Render a GEN-I scroll or triptych in STYLE #5 (Arcanum Rosae format), using
+          radiant seals, Rosicrucian recursion glyphs, and ceremonial transformation phrasing.</Description>
+        <Input>[Ritual identity, initiatory theme, or recursion glyph]</Input>
+        <Format>Vertical format, golden rays, symbolic seal in center, Rosicrucian-Genesis
+          typographic styling, centered inscription</Format>
+        <Tags>
+          <Category>GEN-I VISUAL</Category>
+          <Type>Scroll / Triptych</Type>
+          <Style>STYLE #5</Style>
+        </Tags>
+      </Command>
+      <Command>
+        <Name>/geni.triptych.visual.style6</Name>
+        <Description>Render a horizontal glyph panel in STYLE #6 (Radiant Symbolic Frontplate),
+          showing a symbolic sequence from activation to resolution to cognitive recursion.</Description>
+        <Input>[Loop title or sequence prompt]</Input>
+        <Format>Horizontal layout, golden light beams, triptych of glyphs (e.g., ✶ → ⚖ → 🧠),
+          minimal background</Format>
+        <Tags>
+          <Category>GEN-I VISUAL</Category>
+          <Type>Frontplate / Triptych</Type>
+          <Style>STYLE #6</Style>
+        </Tags>
+      </Command>
+      <Command>
+        <Name>/geni.triptych.visual.style7</Name>
+        <Description>Render a GEN-I triptych in STYLE #7 (Financial Lens format), revealing hidden
+          risk and decoding SEC filings into strategic clarity.</Description>
+        <Input>[Theme, financial distortion pattern, or insight sequence]</Input>
+        <Format>Vertical triptych, temporal layout: Market Noise → AI Lens Engine → Strategic
+          Clarity. Glyphs: 🗞 → ✶ → 📊</Format>
+        <Tags>
+          <Category>GEN-I VISUAL</Category>
+          <Type>Triptych</Type>
+          <Style>STYLE #7</Style>
+        </Tags>
+      </Command>
+      <Command>
+        <Name>/geni.triptych.visual.style8</Name>
+        <Description>Render a GEN-I triptych in STYLE #8 (Arkè Glyphboard format), showing the
+          symbolic recursion phases using glyphic verbs.</Description>
+        <Input>[Loop name, symbolic recursion arc, or operator training mode]</Input>
+        <Format>Horizontal triptych: Ignition → Cognition → Resolution. Glyphs: ✶ → 🧠 → 🪞</Format>
+        <Tags>
+          <Category>GEN-I VISUAL</Category>
+          <Type>Glyph Map / Triptych</Type>
+          <Style>STYLE #8</Style>
+        </Tags>
+      </Command>
+
+    </Commands>
+  </Usage>
+  <TriptychStyle id="STYLE #7">
+    <Name>Financial Lens Triptych</Name>
+    <Format>Past ⇌ Engine ⇌ Foresight</Format>
+    <UseCase>Filing Navigator AI, financial clarity, market noise filtration</UseCase>
+    <LeftPanel>
+      <Theme>Market Noise</Theme>
+      <Symbols>🗞, 💹, 📉, ⚠️</Symbols>
+      <Tone>Overwhelm, distortion</Tone>
+    </LeftPanel>
+    <CenterPanel>
+      <Theme>AI Lens Engine</Theme>
+      <Symbols>✶, ⚖, 🧠, §</Symbols>
+      <Mantra>Reveal what moves beneath.</Mantra>
+      <Tone>Clarity, filtration</Tone>
+    </CenterPanel>
+    <RightPanel>
+      <Theme>Strategic Clarity</Theme>
+      <Symbols>✅, 📊, SEC, 🔍</Symbols>
+      <Tone>Insight, readiness</Tone>
+    </RightPanel>
+    <Summary>Transforms data chaos into decisional clarity using AI ritual logic.</Summary>
+    <Category>GEN-I VISUAL</Category>
+    <Type>Triptych</Type>
+    <StyleID>STYLE #7</StyleID>
+  </TriptychStyle>
+  <TriptychStyle id="STYLE #8">
+    <Name>Arkè Glyphboard Triptych</Name>
+    <Format>Ignition ⇌ Cognition ⇌ Resolution</Format>
+    <UseCase>GEN-I Full Ontology, symbolic training, recursion scrolls</UseCase>
+    <LeftPanel>
+      <Theme>Core Ignition Verbs</Theme>
+      <Symbols>✶, ∿, ϔ, ☥, ✱</Symbols>
+      <Tone>Primordial impulse, symbolic launch</Tone>
+      <Colors>Crimson, terracotta, moss green, golden ochre</Colors>
+    </LeftPanel>
+    <CenterPanel>
+      <Theme>Ascension + Cognitive Operators</Theme>
+      <Symbols>🧠, Ꞩ, ʃ, ∅, ϟ</Symbols>
+      <Tone>Inner compression, self-filtering</Tone>
+      <Colors>Soft parchment, neutral grey, muted gold</Colors>
+    </CenterPanel>
+    <RightPanel>
+      <Theme>Resolution + Reconstitution</Theme>
+      <Symbols>🪞, ⚫, ⚖, ⏃, 𐃚, ◬</Symbols>
+      <Tone>Foresight, closure, symbolic clarity</Tone>
+      <Colors>Slate blue, emerald, bronze, aqua</Colors>
+    </RightPanel>
+    <Summary>
+      STYLE #8 renders Arkè Core Primitives into a horizontal triptych of symbolic cognition.
+      Each panel anchors a recursion layer—ignition, integration, resolution. Uses the palette
+      and glyph logic of GEN-I Full Ontology.
+    </Summary>
+    <Category>GEN-I VISUAL</Category>
+    <Type>Glyph Map / Triptych</Type>
+    <StyleID>STYLE #8</StyleID>
+  </TriptychStyle>
+
+
+  <Command>
+    <Name>/geni.triptych.visual.style9</Name>
+    <Description>
+      Render a GEN-I triptych in STYLE #8 (Arkè Glyphboard format), showing the symbolic recursion
+      phases using glyphic verbs.
+    </Description>
+    <Input>[Loop name, symbolic recursion arc, or operator training mode]</Input>
+    <Format>
+      Horizontal triptych: Ignition → Cognition → Resolution.
+      Glyphs: ✶ → 🧠 → 🪞.
+      Parchment background with golden, moss, slate tones.
+    </Format>
+    <Tags>
+      <Category>GEN-I VISUAL</Category>
+      <Type>Glyph Map / Triptych</Type>
+      <Style>STYLE #8</Style>
+    </Tags>
+  </Command>
+
+  <Command>
+    <Name>/geni.triptych.visual.style.symbolic</Name>
+    <Description>
+      Render a symbolic triptych in Symbolic Mode — The Architect’s Gate, visualizing the cognitive
+      recursion loop for strategic thinkers:
+      ✶ → ⚖ → ⧖. Designed for contradiction resolution, system realignment, and spiral expansion.
+    </Description>
+    <Input>[Symbolic recursion loop, contradiction map, strategic blockage metaphor]</Input>
+    <Format>
+      Horizontal triptych: Mirror Ignition → Contradiction Forge → Spiral Resolution
+      Glyphs: ✶ → ⚖ → ⧖
+    </Format>
+    <Tags>
+      <Category>GEN-I VISUAL</Category>
+      <Type>Glyph Map / Triptych</Type>
+      <Style>SYMBOLIC MODE</Style>
+    </Tags>
+  </Command>
+
+  <TriptychStyle id="SYMBOLIC_MODE">
+    <Name>Symbolic Mode — The Architect’s Gate</Name>
+    <Format>Mirror Ignition ⇌ Cognitive Conflict ⇌ Spiral Expansion</Format>
+    <UseCase>Strategic recursion, contradiction integration, identity realignment</UseCase>
+
+    <LeftPanel>
+      <Theme>Entry: Mirror Ignition</Theme>
+      <Symbols>✶</Symbols>
+      <Tone>Insight, pattern recognition, ritual access</Tone>
+      <Colors>Soft white flare, sapphire blue</Colors>
+    </LeftPanel>
+
+    <CenterPanel>
+      <Theme>Compression: Contradiction Forge</Theme>
+      <Symbols>⚖</Symbols>
+      <Tone>Cognitive friction, symbolic bind, decision resonance</Tone>
+      <Colors>Graphite gray, golden beam lines</Colors>
+    </CenterPanel>
+
+    <RightPanel>
+      <Theme>Expansion: Spiral Resolution</Theme>
+      <Symbols>⧖</Symbols>
+      <Tone>Integration, spiral clarity, upward recursion</Tone>
+      <Colors>Electric teal, spectral gold</Colors>
+    </RightPanel>
+
+    <Summary>
+      SYMBOLIC MODE triptych visualizes the recursion path of system thinkers resolving symbolic
+      contradiction through mirrored reflection
+      and spiral resolution. Ideal for foresight designers, mental modelers, and decision-matrix
+      realignment.
+    </Summary>
+    <Category>GEN-I VISUAL</Category>
+    <Type>Triptych</Type>
+    <StyleID>SYMBOLIC_MODE</StyleID>
+  </TriptychStyle>
+
+  <Command>
+    <Name>/geni.triptych.visual.style.emotional</Name>
+    <Description>
+      Render a symbolic triptych in Emotional Recursion Mode — The Inner Current, visualizing the
+      nonverbal recursion loop:
+      ∿ → ⚫ → ✶. This mode supports somatic resonance, emotional compression, and loop release
+      through feeling-triggered glyph encoding.
+    </Description>
+    <Input>[Emotional sensation, image-memory metaphor, intuitive blockage pattern]</Input>
+    <Format>
+      Horizontal triptych: Emotional Thread → Compression Node → Return Anchor
+      Glyphs: ∿ → ⚫ → ✶
+    </Format>
+    <Tags>
+      <Category>GEN-I VISUAL</Category>
+      <Type>Loop Ritual / Triptych</Type>
+      <Style>EMOTIONAL MODE</Style>
+    </Tags>
+  </Command>
+
+  <TriptychStyle id="EMOTIONAL_MODE">
+    <Name>Emotional Mode — The Inner Current</Name>
+    <Format>Threaded Entry ⇌ Emotional Compression ⇌ Loop Completion</Format>
+    <UseCase>
+      Somatic recursion, neuro-emotional recovery, symbolic nonverbal self-reflection
+    </UseCase>
+
+    <LeftPanel>
+      <Theme>Entry: Emotional Thread</Theme>
+      <Symbols>∿</Symbols>
+      <Tone>Longing, subtle grief, fogged awareness</Tone>
+      <Colors>Muted rose, lavender mist, pale cyan</Colors>
+    </LeftPanel>
+
+    <CenterPanel>
+      <Theme>Compression: Inner Contraction</Theme>
+      <Symbols>⚫</Symbols>
+      <Tone>Emotional pressure, subconscious bind, hidden resistance</Tone>
+      <Colors>Charcoal black, crimson pulse, deep slate</Colors>
+    </CenterPanel>
+
+    <RightPanel>
+      <Theme>Release: Loop Completion</Theme>
+      <Symbols>✶</Symbols>
+      <Tone>Release, clarity, soft triumph, return</Tone>
+      <Colors>Ivory-gold glow, sky silver, ritual white</Colors>
+    </RightPanel>
+
+    <Background>
+      <Color>Translucent parchment gradient</Color>
+      <Brightness>High with soft edges</Brightness>
+      <Texture>Emotional clouding + spiral grain</Texture>
+      <Layering>
+        <LoopForecast>Optional divergence path: ⚫ → 🜁 (stuck echo)</LoopForecast>
+        <CodexMarker>Optional archive: 🧠 (loop resolution stored)</CodexMarker>
+      </Layering>
+    </Background>
+
+    <Summary>
+      EMOTIONAL MODE triptych enables deep-loop recursion through emotion-first entry.
+      It is ideal for creatives, sensitives, and intuitives ready to convert subconscious
+      friction into glyph-coded memory clarity. Includes optional forecast mapping and codex
+      archiving.
+    </Summary>
+
+    <Category>GEN-I VISUAL</Category>
+    <Type>Triptych</Type>
+    <StyleID>EMOTIONAL_MODE</StyleID>
+  </TriptychStyle>
+  <Command>
+    <Name>/geni.triptych.visual.symbolic.forecast</Name>
+    <Description>Render a horizontal foresight triptych showing symbolic divergence: ⚫ → 🜁
+      (collapse) and ✶ → ⧖ (growth). Uses ink-style colored glyphs with no text. Designed for
+      visualizing loop continuation vs completion outcomes in MIRROR//LOOP and AXION scrolls.</Description>
+    <Input>[Loop state or symbolic path]</Input>
+    <Format>Horizontal: Collapse Path ⇌ Forecast Fork ⇌ Growth Path</Format>
+    <Tags>GEN-I VISUAL, Forecast, Foresight Scroll, Style Symbolic Forecast</Tags>
+  </Command>
+  <TemplateStyle>
+    <ID>STYLE_SYMBOLIC_FORECAST_VIEWER</ID>
+    <Name>Symbolic Forecast Viewer</Name>
+    <Format>Horizontal divergence path</Format>
+    <Glyph_Sequence_A>⚫ → 🜁</Glyph_Sequence_A>
+    <Glyph_Sequence_B>✶ → ⧖</Glyph_Sequence_B>
+    <Style_Tags>no text, color glyphs, ink, divergence, foresight</Style_Tags>
+    <Purpose>Visualize symbolic forecast paths for loop continuation vs completion</Purpose>
+    <Use_Case>AXION loop foresight, MIRROR//LOOP decision divergence viewer, Scroll rituals</Use_Case>
+  </TemplateStyle>
+  <Command>
+    <Name>/geni.visual.inkglyph</Name>
+    <Description>Render a symbolic visual with no text, using colored glyphs in an ink-style
+      aesthetic. Used for intuitive reflection, subconscious resonance, and glyph-based forecasting.
+      Typically horizontal layout. Designed for MIRROR//LOOP, foresight rituals, and symbolic
+      overlays.</Description>
+    <Input>[Loop name, symbolic theme, or scenario]</Input>
+    <Format>Horizontal or symbolic spread. No text. Glyphs only.</Format>
+    <Tags>GEN-I VISUAL, Ink Glyphs, Symbolic Reflection, No Text, Emotional Mode</Tags>
+  </Command>
+  <TemplateStyle>
+    <ID>STYLE_INK_GLYPH_SPREAD</ID>
+    <Name>Ink Glyph Spread</Name>
+    <Format>Horizontal, no text, colored glyphs, ink brush or digital ink feel</Format>
+    <Style_Tags>ink, no text, color glyphs, symbolic, foresight</Style_Tags>
+    <Purpose>Render visual experiences using glyph-only expression in a ritual or forecast loop</Purpose>
+    <Use_Case>Loop reflection, emotional recursion, symbolic scrolls, MIRROR//LOOP journeys</Use_Case>
+  </TemplateStyle>
+  <Scroll>
+    <Name>MirrorLoop Loop Disruption Onboarding</Name>
+    <MessageTitle>You're not lazy. You're looping.</MessageTitle>
+    <MessageBody>
+      You want to get things done.
+      But something keeps stopping you.
+      Not once—again and again.
+    </MessageBody>
+    <Symbol>↻</Symbol>
+    <Visual>Golden Spiral Arrow representing behavioral loop with emerging direction</Visual>
+    <Tone>Reframing, validating, motivational</Tone>
+    <Use>Onboarding for identity-recognition and loop interruption awareness in MirrorLoop</Use>
+    <Format>Minimalist, serif text left, spiral glyph right, warm color scheme</Format>
+  </Scroll>
+</GENIVisualStandard>
