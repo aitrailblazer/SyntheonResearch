@@ -1,12 +1,14 @@
-Certainly. Here's a refined version of your Syntheon system description with clarity, precision, and structure suitable for both technical and executive audiences:
-
----
-
 # **SyntheonResearch**
+
+Syntheon is a purely symbolic solver for ARC-AGI tasks. It reads XML datasets and
+applies deterministic rules to predict the outputs for test grids.
 
 ## **Syntheon ARC-AGI Symbolic Predictor**
 
-**Syntheon** is a *purely symbolic* prediction system designed to solve ARC-AGI tasks using deterministic reasoning, structured pattern recognition, and task-specific rule learning. It operates without LLM dependencies, ensuring explainable, reproducible predictions suitable for rigorous evaluation and competition-grade benchmarks.
+**Syntheon** is a *purely symbolic* prediction system designed to solve ARC-AGI tasks
+using deterministic reasoning, structured pattern recognition, and task-specific rule
+learning. It operates without LLM dependencies, ensuring explainable, reproducible
+predictions suitable for rigorous evaluation and competition-grade benchmarks.
 
 ---
 
@@ -16,13 +18,16 @@ Certainly. Here's a refined version of your Syntheon system description with cla
   No learning from language models—Syntheon operates on interpretable symbolic logic.
 
 * **⚙️ Advanced Preprocessing Integration**
-  Fully utilizes structured XML metadata for each ARC task, enabling entropy profiling, grid fingerprinting, and directional analysis.
+  Fully utilizes structured XML metadata for each ARC task, enabling entropy profiling,
+  grid fingerprinting, and directional analysis.
 
 * **🔍 Task-Specific Symbolic Learning**
-  Each `<arc_agi_task>` is treated independently. Rules are extracted solely from `training_examples`, never from `test_examples`.
+  Each `<arc_agi_task>` is treated independently. Rules are extracted solely from
+  `training_examples`, never from `test_examples`.
 
 * **🎨 KWIC Pattern Detection**
-  Symbolic analysis of **K**ey **W**ords **I**n **C**ontext (KWIC): identifying color co-occurrence, adjacency, and propagation logic.
+  Symbolic analysis of **K**ey **W**ords **I**n **C**ontext (KWIC): identifying
+  color co-occurrence, adjacency, and propagation logic.
 
 * **🧱 Multi-Tier Rule Architecture**
   Symbolic rules are layered:
@@ -34,7 +39,8 @@ Certainly. Here's a refined version of your Syntheon system description with cla
   Specialized heuristics for `TINY`, `SMALL`, and `LARGE` task categories (based on grid dimensions and complexity).
 
 * **🔁 Symmetry-Guided Processing**
-  Transformation strategies guided by mirror, rotational, and translational symmetry detection within input-output pairs.
+  Transformation strategies guided by mirror, rotational, and translational symmetry
+  detection within input-output pairs.
 
 ---
 
@@ -58,3 +64,25 @@ Certainly. Here's a refined version of your Syntheon system description with cla
 
 ---
 
+
+## Running the Solver
+
+1. Ensure Python 3.x is installed.
+2. Install dependencies with `pip install numpy` if not already available.
+3. From the repository root, set `PYTHONPATH=src` so Python can locate the `syntheon` package.
+4. Run the solver on the training dataset:
+
+```bash
+PYTHONPATH=src python -m syntheon.main \
+  arc_agi2_symbolic_submission/input/arc_agi2_training_enhanced.xml \
+  predictions.json
+```
+
+This command parses the XML tasks, applies the current rule set, and writes predictions to `predictions.json`.
+
+## Testing
+
+To verify basic functionality:
+
+1. Run the solver as shown above on a few tasks.
+2. Inspect `predictions.json` to ensure it contains task IDs and predicted output grids.
