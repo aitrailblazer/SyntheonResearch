@@ -1,14 +1,16 @@
-# **SyntheonResearch**
 
-Syntheon is a purely symbolic solver for ARC-AGI tasks. It reads XML datasets and
-applies deterministic rules to predict the outputs for test grids.
+=======
+Certainly. Here's a refined version of your Syntheon system description with clarity, precision, and structure suitable
+for both technical and executive audiences:
 
-## **Syntheon ARC-AGI Symbolic Predictor**
+---
+
 
 **Syntheon** is a *purely symbolic* prediction system designed to solve ARC-AGI tasks
 using deterministic reasoning, structured pattern recognition, and task-specific rule
 learning. It operates without LLM dependencies, ensuring explainable, reproducible
 predictions suitable for rigorous evaluation and competition-grade benchmarks.
+
 
 ---
 
@@ -18,6 +20,7 @@ predictions suitable for rigorous evaluation and competition-grade benchmarks.
   No learning from language models—Syntheon operates on interpretable symbolic logic.
 
 * **⚙️ Advanced Preprocessing Integration**
+
   Fully utilizes structured XML metadata for each ARC task, enabling entropy profiling,
   grid fingerprinting, and directional analysis.
 
@@ -28,19 +31,24 @@ predictions suitable for rigorous evaluation and competition-grade benchmarks.
 * **🎨 KWIC Pattern Detection**
   Symbolic analysis of **K**ey **W**ords **I**n **C**ontext (KWIC): identifying
   color co-occurrence, adjacency, and propagation logic.
+=======
+  Fully utilizes structured XML metadata for each ARC task, enabling entropy profiling, grid fingerprinting,
+   and directional analysis.
 
-* **🧱 Multi-Tier Rule Architecture**
-  Symbolic rules are layered:
+* **🔍 Task-Specific Symbolic Learning**
+  Each `<arc_agi_task>` is treated independently.
+   Rules are extracted solely from `training_examples`, never from `test_examples`.
 
-  * *Primary rules*: core transformations.
-  * *Secondary rules*: edge case handling, exception filters.
+* **🎨 KWIC Pattern Detection**
+  Symbolic analysis of **K**ey **W**ords **I**n **C**ontext (KWIC): identifying color co-occurrence, adjacency,
+   and propagation logic.
 
-* **📏 Size-Class Optimization**
-  Specialized heuristics for `TINY`, `SMALL`, and `LARGE` task categories (based on grid dimensions and complexity).
 
 * **🔁 Symmetry-Guided Processing**
+
   Transformation strategies guided by mirror, rotational, and translational symmetry
   detection within input-output pairs.
+
 
 ---
 
