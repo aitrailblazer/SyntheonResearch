@@ -6,4 +6,4 @@ models. Key principles include advanced preprocessing with structured XML metada
 multi-tier symbolic rules, size-class heuristics, and symmetry-guided transformations.
 The repository also includes ARC-AGI training and evaluation data under
 `arc_agi2_symbolic_submission/arc-prize-2025`.
-=======
+

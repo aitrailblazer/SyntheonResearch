@@ -10,7 +10,6 @@ applies deterministic rules to predict the outputs for test grids.
 using deterministic reasoning, structured pattern recognition, and task-specific rule
 learning. It operates without LLM dependencies, ensuring explainable, reproducible
 predictions suitable for rigorous evaluation and competition-grade benchmarks.
-=======
 
 
 ---
@@ -21,8 +20,6 @@ predictions suitable for rigorous evaluation and competition-grade benchmarks.
   No learning from language models—Syntheon operates on interpretable symbolic logic.
 
 * **⚙️ Advanced Preprocessing Integration**
-
-=======
 
   Fully utilizes structured XML metadata for each ARC task, enabling entropy profiling,
   grid fingerprinting, and directional analysis.
@@ -35,7 +32,6 @@ predictions suitable for rigorous evaluation and competition-grade benchmarks.
   Symbolic analysis of **K**ey **W**ords **I**n **C**ontext (KWIC): identifying
   color co-occurrence, adjacency, and propagation logic.
 
-=======
 
 
 * **🔍 Task-Specific Symbolic Learning**
@@ -80,11 +76,9 @@ predictions suitable for rigorous evaluation and competition-grade benchmarks.
 
 1. Ensure Python 3.x is installed.
 2. Install dependencies with `pip install numpy` if not already available.
-3. Run the solver on the training dataset:
+3. From the repository root, set `PYTHONPATH=src` so Python can locate the `syntheon` package.
+4. Run the solver on the training dataset:
 
-```bash
-python -m syntheon.main arc_agi2_symbolic_submission/input/arc_agi2_training_enhanced.xml predictions.json
-```
 
 This command parses the XML tasks, applies the current rule set, and writes predictions to `predictions.json`.
 

@@ -1,6 +1,8 @@
 # GENI_SYSTEM_INDEX Analysis
 
 
+=======
+
 The `GENI_SYSTEM_INDEX.xml` file is located in `arc_agi2_symbolic_submission/XML/`.
 It describes the structure of **GEN-I** (Symbolic Recursion Intelligence) and
 references numerous engines and libraries for a hybrid symbolic DSL architecture.
@@ -31,8 +33,6 @@ such as `GENI_PERIODIC_TABLE_OF_18_DIMENSIONS.xml` and `GENI_DIMENSIONAL_SPIRAL_
 
 ### Hybrid DSL Architecture
 
-=======
-
 Defines a unified DSL engine with enhanced glyph syntax, adaptive keyword-in-context
 weighting, multi-language rule repositories, and meta-rule constructs.
 
@@ -41,7 +41,6 @@ The index lists commands like `/help`, `/ritual`, `/analyze`, `/foresight`, and
 
 `/hybrid.optimize`, indicating supported operations within the GEN-I environment.
 =======
-
 
 
 ## Plan for Integrating GEN-I with ARC-AGI
@@ -53,8 +52,6 @@ The index lists commands like `/help`, `/ritual`, `/analyze`, `/foresight`, and
 2. **Map symbolic engines to ARC tasks**
     - Align recursion engines (e.g., `GENI_CORE_SYMBOLIC_ENGINE`,
       `GENI_FORESIGHT_ENGINE`) with ARC task preprocessing and rule generation.
-=======
-
    - Utilize Russellian references to enrich pattern detection logic where relevant.
 3. **Extend Syntheon DSL**
    - Incorporate the Hybrid DSL components so that symbolic rules can reference GEN-I glyphs and meta-rules.
