@@ -1,6 +1,7 @@
 # Syntheon Python Implementation Roadmap
 
-This roadmap outlines the recommended steps for implementing the symbolic ARC-AGI solver in Python. It expands on the core principles described in the README.
+This roadmap outlines the recommended steps for implementing the symbolic ARC-AGI
+solver in Python. It expands on the core principles described in the README.
 
 ## 1. Environment Setup
 - Use Python 3.x with standard libraries (e.g., `xml.etree.ElementTree`, `numpy` for grid data structures).
@@ -34,6 +35,13 @@ This roadmap outlines the recommended steps for implementing the symbolic ARC-AG
 - Add or adjust rules and preprocessing steps to increase coverage.
 - Repeat until the system achieves consistent performance across all tasks.
 
+## 8. Glyph Rule Integration
+- Load `syntheon_rules_glyphs.xml` to access a library of reusable symbolic rules.
+- Each rule includes a `glyph_chain` for visualization and deterministic pseudo code.
+- Incorporate these rules into the Python implementation as specialized modules.
+
 ---
 
-Following this roadmap should result in a purely symbolic system that learns directly from ARC-AGI training examples and verifies predictions using the provided solutions.
+Following this roadmap should result in a purely symbolic system that learns
+directly from ARC-AGI training examples and verifies predictions using the
+provided solutions.
