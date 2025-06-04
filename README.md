@@ -58,3 +58,20 @@ Certainly. Here's a refined version of your Syntheon system description with cla
 
 ---
 
+### How to run the ingestion utility
+
+Use the `src.ingest` module to parse the training XML file. Run the helper as a module:
+
+```bash
+python -m src.ingest arc_agi2_symbolic_submission/input/arc_agi2_training_enhanced.xml
+```
+
+This prints the number of tasks found and basic details about the first task. You can also import `load_tasks` in
+your own scripts:
+
+```python
+from src.ingest import load_tasks
+tasks = load_tasks('arc_agi2_symbolic_submission/input/arc_agi2_training_enhanced.xml')
+```
+
+
