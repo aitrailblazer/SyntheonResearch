@@ -34,6 +34,11 @@ This roadmap outlines the recommended steps for implementing the symbolic ARC-AG
 - Add or adjust rules and preprocessing steps to increase coverage.
 - Repeat until the system achieves consistent performance across all tasks.
 
+## 8. Glyph Rule Integration
+- Load `syntheon_rules_glyphs.xml` to access a library of reusable symbolic rules.
+- Each rule includes a `glyph_chain` for visualization and deterministic pseudo code.
+- Incorporate these rules into the Python implementation as specialized modules.
+
 ---
 
 Following this roadmap should result in a purely symbolic system that learns directly from ARC-AGI training examples and verifies predictions using the provided solutions.
