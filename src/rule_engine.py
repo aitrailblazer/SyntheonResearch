@@ -22,8 +22,6 @@ from typing import Dict, List, Optional, Type
 from ingest import Example, Task
 
 
-from ingest import Example, Task
-
 class Rule:
     """Interface for all symbolic rules."""
 
@@ -73,6 +71,7 @@ def register_secondary(name: str, rule: Rule) -> None:
     """Register a rule as secondary."""
     SECONDARY_RULES[name] = rule
 
+
 class RuleEngine:
     """Simple engine capable of loading and applying symbolic rules."""
 
@@ -108,7 +107,6 @@ class RuleEngine:
             impl_cls = DEFAULT_XML_RULES.get(name)
             if impl_cls and name not in self.registry:
                 self.register(name, impl_cls())
-
 
     # ------------------------------------------------------------------
     # Execution
@@ -170,16 +168,42 @@ class HorizontalMirrorRule(Rule):
     def apply(self, grid: List[List[int]]) -> List[List[int]]:
         return [list(reversed(row)) for row in grid]
 
-
-class Rotate90Rule(Rule):
-    """Rotate the grid 90 degrees clockwise."""
+class ReflectVerticalRule(Rule):
+    """Mirror the grid vertically (flip up/down)."""
 
     def apply(self, grid: List[List[int]]) -> List[List[int]]:
+        return list(reversed(grid))
+
+
+class RotatePatternRule(Rule):
+    """Rotate the grid by 90°, 180° or 270° clockwise."""
+
+    def __init__(self, degrees: int = 90) -> None:
+        assert degrees in (90, 180, 270)
+        self.degrees = degrees
+
+    def apply(self, grid: List[List[int]]) -> List[List[int]]:
+        if self.degrees == 180:
+            return [list(reversed(row)) for row in reversed(grid)]
         size = len(grid)
+        if self.degrees == 90:
+            return [
+                [grid[size - j - 1][i] for j in range(size)]
+                for i in range(size)
+            ]
+        # 270 degrees
         return [
-            [grid[size - j - 1][i] for j in range(size)]
+            [grid[j][size - i - 1] for j in range(size)]
             for i in range(size)
         ]
+
+
+class Rotate90Rule(RotatePatternRule):
+    """Backward compatible 90° rotation rule."""
+
+    def __init__(self) -> None:
+        super().__init__(90)
+
 
 
 class NullRule(Rule):
@@ -187,6 +211,92 @@ class NullRule(Rule):
 
     def apply(self, grid: List[List[int]]) -> List[List[int]]:
         return grid
+
+
+class CropToBoundingBoxRule(Rule):
+    """Crop grid to the bounding box of all nonzero cells."""
+
+    def apply(self, grid: List[List[int]]) -> List[List[int]]:
+        rows = [i for i, row in enumerate(grid) if any(c != 0 for c in row)]
+        cols = [j for j in range(len(grid[0])) if any(row[j] != 0 for row in grid)]
+        if not rows or not cols:
+            return grid
+        r0, r1 = rows[0], rows[-1] + 1
+        c0, c1 = cols[0], cols[-1] + 1
+        return [row[c0:c1] for row in grid[r0:r1]]
+
+
+class RemoveObjectsRule(Rule):
+    """Remove connected components of a given color."""
+
+    def __init__(self, color: int) -> None:
+        self.color = color
+
+    def apply(self, grid: List[List[int]]) -> List[List[int]]:
+        h, w = len(grid), len(grid[0])
+        visited = [[False] * w for _ in range(h)]
+
+        def neighbors(r: int, c: int) -> List[tuple[int, int]]:
+            for dr, dc in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+                nr, nc = r + dr, c + dc
+                if 0 <= nr < h and 0 <= nc < w:
+                    yield nr, nc
+
+        for i in range(h):
+            for j in range(w):
+                if grid[i][j] != self.color or visited[i][j]:
+                    continue
+                comp = [(i, j)]
+                visited[i][j] = True
+                q = [(i, j)]
+                while q:
+                    r, c = q.pop()
+                    for nr, nc in neighbors(r, c):
+                        if grid[nr][nc] == self.color and not visited[nr][nc]:
+                            visited[nr][nc] = True
+                            q.append((nr, nc))
+                            comp.append((nr, nc))
+                for r, c in comp:
+                    grid[r][c] = 0
+        return grid
+
+
+class ReplaceBorderWithColorRule(Rule):
+    """Set the outer border of the grid to the given color."""
+
+    def __init__(self, color: int) -> None:
+        self.color = color
+
+    def apply(self, grid: List[List[int]]) -> List[List[int]]:
+        h, w = len(grid), len(grid[0])
+        for c in range(w):
+            grid[0][c] = self.color
+            grid[h - 1][c] = self.color
+        for r in range(h):
+            grid[r][0] = self.color
+            grid[r][w - 1] = self.color
+        return grid
+
+
+class DuplicateRowsOrColumnsRule(Rule):
+    """Duplicate each row or column ``n`` times along the given axis."""
+
+    def __init__(self, axis: int, n: int) -> None:
+        assert axis in (0, 1)
+        self.axis = axis
+        self.n = max(1, n)
+
+    def apply(self, grid: List[List[int]]) -> List[List[int]]:
+        if self.axis == 0:
+            return [row for row in grid for _ in range(self.n)]
+        new_grid = []
+        for row in grid:
+            new_row: List[int] = []
+            for cell in row:
+                new_row.extend([cell] * self.n)
+            new_grid.append(new_row)
+        return new_grid
+
 
 
 class RuleChain(Rule):
@@ -211,8 +321,14 @@ class RuleChain(Rule):
 DEFAULT_XML_RULES: Dict[str, Type[Rule]] = {
     "DiagonalFlip": DiagonalFlipRule,
     "ReflectHorizontal": HorizontalMirrorRule,
-    "RotatePattern": Rotate90Rule,
-    "ColorReplacement": NullRule,  # requires parameters
+    "ReflectVertical": ReflectVerticalRule,
+    "RotatePattern": RotatePatternRule,
+    "CropToBoundingBox": CropToBoundingBoxRule,
+    "ColorReplacement": NullRule,
+    "RemoveObjects": NullRule,
+    "ReplaceBorderWithColor": NullRule,
+    "DuplicateRowsOrColumns": NullRule,
+
 }
 
 

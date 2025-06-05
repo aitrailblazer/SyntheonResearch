@@ -1,6 +1,13 @@
 from rule_engine import (
     ColorReplacementRule,
     DiagonalFlipRule,
+    DuplicateRowsOrColumnsRule,
+    ReflectVerticalRule,
+    CropToBoundingBoxRule,
+    RemoveObjectsRule,
+    ReplaceBorderWithColorRule,
+    RotatePatternRule,
+
     RuleChain,
     RuleEngine,
     register_primary,
@@ -46,6 +53,42 @@ def test_solve_task_with_chain():
     task = Task(id="t", metadata_xml="", training=train, tests=tests)
     preds = engine.solve_task(task, max_chain_length=2)
     assert preds == [[[9, 5], [4, 9]]]
+
+def test_reflect_vertical():
+    rule = ReflectVerticalRule()
+    grid = [[1, 2], [3, 4]]
+    assert rule.apply(grid) == [[3, 4], [1, 2]]
+
+
+def test_crop_to_bounding_box():
+    rule = CropToBoundingBoxRule()
+    grid = [[0, 0, 0], [0, 1, 0], [0, 0, 0]]
+    assert rule.apply(grid) == [[1]]
+
+
+def test_remove_objects():
+    rule = RemoveObjectsRule(1)
+    grid = [[1, 0], [0, 1]]
+    assert rule.apply([row[:] for row in grid]) == [[0, 0], [0, 0]]
+
+
+def test_replace_border_with_color():
+    rule = ReplaceBorderWithColorRule(9)
+    grid = [[1, 2], [3, 4]]
+    assert rule.apply([row[:] for row in grid]) == [[9, 9], [9, 9]]
+
+
+def test_duplicate_rows_columns():
+    rule = DuplicateRowsOrColumnsRule(axis=1, n=2)
+    grid = [[1, 2]]
+    assert rule.apply(grid) == [[1, 1, 2, 2]]
+
+
+def test_rotate_pattern():
+    rule = RotatePatternRule(180)
+    grid = [[1, 2], [3, 4]]
+    assert rule.apply(grid) == [[4, 3], [2, 1]]
+
 
 def test_load_rules_metadata():
     engine = RuleEngine()

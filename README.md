@@ -67,6 +67,11 @@ The symbolic rule engine loads its default rule definitions from
 This scroll enumerates the available primitives, their glyph chains and
 pseudo-code descriptions.
 
+Built-in implementations now cover flipping, rotation, cropping and
+simple object removal so that example chains can be reproduced directly
+from the scroll.
+
+
 ---
 
 ### **Final Objective**
