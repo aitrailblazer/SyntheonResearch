@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbolic_scroll name="SyntheonSymbolicRules" version="1.3">
+    <description>
+    Full set of induced, generalized, and modular symbolic rules for ARC-AGI-2 as learned and refined by the GEN-I engine. Each rule is structured for composability, explainability, and match to common grid transformations and object manipulations in ARC tasks. Rules may be combined, sequenced, or selected by meta-logic. All rules are now glyph-ready.
+    </description>
+
+    <!-- Canonical glyph index for color/label abstraction -->
+    <glyph_index>
+        <glyph num="0" char="⋯" weight="0.000"/>
+        <glyph num="1" char="⧖" weight="0.021"/>
+        <glyph num="2" char="✦" weight="0.034"/>
+        <glyph num="3" char="⛬" weight="0.055"/>
+        <glyph num="4" char="█" weight="0.089"/>
+        <glyph num="5" char="⟡" weight="0.144"/>
+        <glyph num="6" char="◐" weight="0.233"/>
+        <glyph num="7" char="🜄" weight="0.377"/>
+        <glyph num="8" char="◼" weight="0.610"/>
+        <glyph num="9" char="✕" weight="1.000"/>
+    </glyph_index>
+
+    <!-- Core transformation rules -->
+
+    <rule id="R21" name="TilePatternExpansion">
+        <pattern>input 2×2 tile ⇒ output 6×6 by 3×3 tiling</pattern>
+        <description>Repeats the 2×2 input tile in a 3×3 grid to form a 6×6 output.</description>
+        <glyph_chain>✦✦⟡⟡⧖</glyph_chain>
+        <logic language="pseudo">
+      for i in range(3):
+        for j in range(3):
+          write tile at offset (i*2, j*2)
+        </logic>
+        <condition>input_height = 2 and input_width = 2</condition>
+        <examples>
+            <input>[[a, b], [c, d]]</input>
+            <output>
+        [[a, b, a, b, a, b],
+         [c, d, c, d, c, d],
+         [a, b, a, b, a, b],
+         [c, d, c, d, c, d],
+         [a, b, a, b, a, b],
+         [c, d, c, d, c, d]]
+            </output>
+        </examples>
+    </rule>
+
+    <rule id="R03" name="MirrorBandExpansion">
+        <pattern>mirror left half across vertical axis row‑wise</pattern>
+        <description>Reflects each row to double width, creating band symmetry.</description>
+        <glyph_chain>⧖⟡⟡</glyph_chain>
+        <logic language="pseudo">
+      for each row in grid:
+        output_row = row + reversed(row)
+        </logic>
+        <condition>output_width = 2 * input_width</condition>
+        <examples>
+            <input>[[a, b, c]]</input>
+            <output>[[a, b, c, c, b, a]]</output>
+        </examples>
+    </rule>
+
+    <rule id="R12" name="FrameFillConvergence">
+        <pattern>draw solid frame colour 3, fill centre colour 1</pattern>
+        <description>Paints the outer border with colour 3 and fills centre with colour 1.</description>
+        <glyph_chain>⛬█</glyph_chain>
+        <logic language="pseudo">
+      output = grid of 1s
+      set output borders to 3
+        </logic>
+        <condition>input_contains_placeholder</condition>
+        <examples>
+            <input>3x3 grid with zeros</input>
+            <output>3-border, 1-center</output>
+        </examples>
+    </rule>
+
+    <rule id="R22" name="ReflectHorizontal">
+        <pattern>reflect grid horizontally across vertical axis</pattern>
+        <description>Creates a horizontal reflection (left-right mirror) of the entire grid.</description>
+        <glyph_chain>◐⟡⧖</glyph_chain>
+        <logic language="pseudo">
+      return np.fliplr(grid)
+        </logic>
+        <condition>True</condition>
+        <examples>
+            <input>
+        [[1, 2, 3],
+         [4, 5, 6],
+         [7, 8, 9]]
+            </input>
+            <output>
+        [[3, 2, 1],
+         [6, 5, 4],
+         [9, 8, 7]]
+            </output>
+        </examples>
+    </rule>
+
+    <rule id="R23" name="ReflectVertical">
+        <pattern>reflect grid vertically across horizontal axis</pattern>
+        <description>Creates a vertical reflection (top-bottom mirror) of the entire grid.</description>
+        <glyph_chain>◐⟡◼</glyph_chain>
+        <logic language="pseudo">
+      return np.flipud(grid)
+        </logic>
+        <condition>True</condition>
+        <examples>
+            <input>
+        [[1, 2, 3],
+         [4, 5, 6],
+         [7, 8, 9]]
+            </input>
+            <output>
+        [[7, 8, 9],
+         [4, 5, 6],
+         [1, 2, 3]]
+            </output>
+        </examples>
+    </rule>
+
+    <!-- CRITICAL: ColorReplacement rule - Essential for chains -->
+    <rule id="R31" name="ColorReplacement">
+        <pattern>replace color X with Y everywhere</pattern>
+        <description>Substitutes all cells of a given color with another specified color.</description>
+        <glyph_chain>✦✕</glyph_chain>
+        <logic language="pseudo">
+      for each cell:
+        if cell == X: cell = Y
+        </logic>
+        <condition>grid contains color X</condition>
+        <examples>
+            <input>[[0, 1], [1, 2]]</input>
+            <output>[[0, 2], [2, 2]]</output>
+            <params>X=1, Y=2</params>
+        </examples>
+    </rule>
+
+    <rule id="R32" name="MajorityFill">
+        <pattern>fill region/object with most common color</pattern>
+        <description>Replaces all empty or target regions with the most common color in the input.</description>
+        <glyph_chain>⧖✦█</glyph_chain>
+        <logic language="pseudo">
+      majority = mode(all colors)
+      for cell in region: cell = majority
+        </logic>
+        <condition>region detected, input has single majority color</condition>
+    </rule>
+
+    <rule id="R33" name="DiagonalFlip">
+        <pattern>transpose grid (main diagonal flip)</pattern>
+        <description>Transposes the input grid (swaps rows and columns).</description>
+        <glyph_chain>⟡⧖</glyph_chain>
+        <logic language="pseudo">
+      output[i][j] = input[j][i]
+        </logic>
+        <condition>input is square</condition>
+    </rule>
+
+    <rule id="R34" name="CropToBoundingBox">
+        <pattern>crop grid to nonzero/colorful bounding box</pattern>
+        <description>Crops the grid to the smallest rectangle containing all nonzero (non-background) cells.</description>
+        <glyph_chain>✦⛬</glyph_chain>
+        <logic language="pseudo">
+      find min/max rows/cols with color != 0
+      crop grid to this bounding box
+        </logic>
+        <condition>output area &lt; input area; content preserved</condition>
+    </rule>
+
+    <rule id="R35" name="RemoveObjects">
+        <pattern>remove all isolated objects of color X</pattern>
+        <description>Removes connected components of a specific color (object deletion).</description>
+        <glyph_chain>✦🜄✕</glyph_chain>
+        <logic language="pseudo">
+      for obj in connected_components(color=X):
+        delete obj
+        </logic>
+        <condition>at least one object of color X exists</condition>
+    </rule>
+
+    <rule id="R36" name="DuplicateRowsOrColumns">
+        <pattern>duplicate each row/column n times</pattern>
+        <description>Replicates every row (or column) of the input grid a fixed number of times to increase output size.</description>
+        <glyph_chain>◐⧖⧖</glyph_chain>
+        <logic language="pseudo">
+      for row in input:
+        for i in range(n): output.append(row)
+        </logic>
+        <condition>output shape = input shape × n (rows or cols)</condition>
+    </rule>
+
+    <rule id="R37" name="ReplaceBorderWithColor">
+        <pattern>set grid border to color X</pattern>
+        <description>Recolors the border of the grid to a specified color X.</description>
+        <glyph_chain>█✦⛬</glyph_chain>
+        <logic language="pseudo">
+      output[0,:] = X; output[-1,:] = X; output[:,0] = X; output[:,-1] = X
+        </logic>
+        <condition>border different from interior</condition>
+    </rule>
+
+    <rule id="R38" name="FillHoles">
+        <pattern>fill all holes (0 regions) inside objects</pattern>
+        <description>Fills all interior empty regions (holes) of objects with their surrounding color.</description>
+        <glyph_chain>🜄⧖⧖</glyph_chain>
+        <logic language="pseudo">
+      for region in holes(input):
+        fill region with color of enclosing object
+        </logic>
+        <condition>object has interior holes</condition>
+    </rule>
+
+    <rule id="R39" name="ObjectCounting">
+        <pattern>output the count of objects as color or grid size</pattern>
+        <description>Counts objects (connected components) and encodes the count as a color or grid output.</description>
+        <glyph_chain>✦🜄</glyph_chain>
+        <logic language="pseudo">
+      count = number of connected components
+      encode count as color or output grid
+        </logic>
+        <condition>output is a single cell or special color</condition>
+    </rule>
+
+    <rule id="R40" name="ColorSwapping">
+        <pattern>swap two colors throughout grid</pattern>
+        <description>Swaps every occurrence of two colors (e.g., red↔blue) in the grid.</description>
+        <glyph_chain>✦✕✦</glyph_chain>
+        <logic language="pseudo">
+      for each cell:
+        if cell==A: cell=B
+        elif cell==B: cell=A
+        </logic>
+        <condition>two main colors present</condition>
+        <examples>
+            <input>[[1, 2], [2, 1]]</input>
+            <output>[[2, 1], [1, 2]]</output>
+            <params>A=1, B=2</params>
+        </examples>
+    </rule>
+
+    <rule id="R43" name="RotatePattern">
+        <pattern>rotate grid by specified angle (90°, 180°, 270°)</pattern>
+        <description>Rotates the entire grid by the specified number of degrees clockwise.</description>
+        <glyph_chain>⟡◐⟡</glyph_chain>
+        <logic language="pseudo">
+      if degrees == 90: return np.rot90(grid, k=3)  # 90° clockwise
+      elif degrees == 180: return np.rot90(grid, k=2)  # 180°
+      elif degrees == 270: return np.rot90(grid, k=1)  # 270° clockwise
+        </logic>
+        <condition>degrees in [90, 180, 270]</condition>
+        <examples>
+            <input>[[1, 2], [3, 4]]</input>
+            <output>[[3, 1], [4, 2]]</output>
+            <params>degrees=90</params>
+        </examples>
+    </rule>
+
+    <!-- Scale Pattern Rules -->
+    <rule id="R24" name="ScalePattern2x">
+        <pattern>scale grid by factor of 2</pattern>
+        <description>Scales the entire grid by a factor of 2, doubling the height and width.</description>
+        <glyph_chain>⧖🜄⟡</glyph_chain>
+        <logic language="pseudo">
+      return np.repeat(np.repeat(grid, 2, axis=0), 2, axis=1)
+        </logic>
+        <condition>True</condition>
+        <examples>
+            <input>
+        [[1, 2],
+         [3, 4]]
+            </input>
+            <output>
+        [[1, 1, 2, 2],
+         [1, 1, 2, 2],
+         [3, 3, 4, 4],
+         [3, 3, 4, 4]]
+            </output>
+        </examples>
+    </rule>
+
+    <rule id="R25" name="ScalePattern3x">
+        <pattern>scale grid by factor of 3</pattern>
+        <description>Scales the entire grid by a factor of 3, tripling the height and width.</description>
+        <glyph_chain>⧖🜄🜄</glyph_chain>
+        <logic language="pseudo">
+      return np.repeat(np.repeat(grid, 3, axis=0), 3, axis=1)
+        </logic>
+        <condition>True</condition>
+        <examples>
+            <input>
+        [[1, 2],
+         [3, 4]]
+            </input>
+            <output>
+        [[1, 1, 1, 2, 2, 2],
+         [1, 1, 1, 2, 2, 2],
+         [1, 1, 1, 2, 2, 2],
+         [3, 3, 3, 4, 4, 4],
+         [3, 3, 3, 4, 4, 4],
+         [3, 3, 3, 4, 4, 4]]
+            </output>
+        </examples>
+    </rule>
+
+    <rule id="R26" name="ScalePatternHalf">
+        <pattern>scale grid by factor of 0.5</pattern>
+        <description>Scales the entire grid by a factor of 0.5, reducing the height and width by half.</description>
+        <glyph_chain>⧖⋯⟡</glyph_chain>
+        <logic language="pseudo">
+      step = 2  # 1 / 0.5 = 2
+      new_h = max(1, int(np.ceil(grid.shape[0] / step)))
+      new_w = max(1, int(np.ceil(grid.shape[1] / step)))
+      result = np.zeros((new_h, new_w), dtype=grid.dtype)
+      for i in range(new_h):
+          for j in range(new_w):
+              result[i, j] = grid[min(i * step, grid.shape[0] - 1), min(j * step, grid.shape[1] - 1)]
+      return result
+        </logic>
+        <condition>True</condition>
+        <examples>
+            <input>
+        [[1, 1, 2, 2],
+         [1, 1, 2, 2],
+         [3, 3, 4, 4],
+         [3, 3, 4, 4]]
+            </input>
+            <output>
+        [[1, 2],
+         [3, 4]]
+            </output>
+        </examples>
+    </rule>
+
+    <rule id="R27" name="CompleteSymmetry">
+        <pattern>detect and complete symmetry across strongest axis</pattern>
+        <description>Detects the dominant symmetry axis in the grid and completes the pattern accordingly.</description>
+        <glyph_chain>⟡◐🜄</glyph_chain>
+        <logic language="pseudo">
+      # Find strongest symmetry axis (horizontal, vertical, diagonal)
+      h_score = measure_horizontal_symmetry(grid)
+      v_score = measure_vertical_symmetry(grid)
+      d_score = measure_diagonal_symmetry(grid)
+      
+      if h_score is highest:
+        mirror left half to right half
+      elif v_score is highest:
+        mirror top half to bottom half
+      elif d_score is high enough:
+        mirror upper triangle to lower triangle
+        
+      return symmetrically completed grid
+        </logic>
+        <condition>True</condition>
+        <examples>
+            <input>
+        [[1, 2, 0, 0],
+         [3, 4, 0, 0],
+         [0, 0, 0, 0],
+         [0, 0, 0, 0]]
+            </input>
+            <output>
+        [[1, 2, 2, 1],
+         [3, 4, 4, 3],
+         [3, 4, 4, 3],
+         [1, 2, 2, 1]]
+            </output>
+        </examples>
+    </rule>
+
+    <rule id="R28" name="FillCheckerboard">
+        <pattern>fill grid with checkerboard pattern</pattern>
+        <description>Creates a checkerboard pattern alternating between two colors.</description>
+        <glyph_chain>✦█✦</glyph_chain>
+        <logic language="pseudo">
+      for i in range(height):
+        for j in range(width):
+          if (i + j) % 2 == 0:
+            grid[i, j] = color1
+          else:
+            grid[i, j] = color2
+        </logic>
+        <condition>True</condition>
+    </rule>
+
+    <rule id="R29" name="PatternMirroring">
+        <pattern>mirror pattern in specified direction</pattern>
+        <description>Mirrors the pattern in the specified direction (horizontal, vertical, or diagonal).</description>
+        <glyph_chain>◐⧖✦</glyph_chain>
+        <logic language="pseudo">
+      if direction == "horizontal":
+        return np.fliplr(grid)
+      elif direction == "vertical":
+        return np.flipud(grid)
+      elif direction == "diagonal":
+        return np.transpose(grid)
+        </logic>
+        <condition>True</condition>
+    </rule>
+
+    <!-- Meta-rules for compositional reasoning -->
+    <rule id="R41" name="SequentialRuleApplication">
+        <pattern>apply rules R then S in sequence</pattern>
+        <description>Applies rule R to the input, then applies rule S to the result (for multi-phase transformations).</description>
+        <glyph_chain>[R]->[S]</glyph_chain>
+        <logic language="pseudo">
+      out1 = R(input)
+      out2 = S(out1)
+      return out2
+        </logic>
+        <condition>when chained transformations are needed</condition>
+        <examples>
+            <input>[[1, 0], [0, 2]]</input>
+            <output>[[2, 0], [0, 1]]</output>
+            <params>R=ColorSwapping(A=1,B=2); S=DiagonalFlip</params>
+        </examples>
+    </rule>
+
+    <rule id="R42" name="ConditionalRuleSwitch">
+        <pattern>if (predicate), apply rule R; else rule S</pattern>
+        <description>Conditionally applies one of two rules based on a property of the input grid.</description>
+        <glyph_chain>if(pred){[R]}else{[S]}</glyph_chain>
+        <logic language="pseudo">
+      if predicate(input): return R(input)
+      else: return S(input)
+        </logic>
+        <condition>predicate distinguishes subcases</condition>
+        <examples>
+            <input>[[1, 1], [2, 2]]</input>
+            <output>[[1, 1], [2, 2]]</output>
+            <params>predicate=is_square; R=DiagonalFlip; S=Identity</params>
+        </examples>
+    </rule>
+
+</symbolic_scroll>
