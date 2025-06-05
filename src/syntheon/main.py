@@ -6,10 +6,8 @@ import json
 from pathlib import Path
 
 from ingest import load_tasks, Task
-from predictor import SymbolicPredictor
-
-
-
+from predictor import SymbolicPredictor, suggest_color_map_rule
+main
 
 
 def main() -> None:
@@ -27,7 +25,6 @@ def main() -> None:
         help="Print summary of each task result after solving",
     )
     args = parser.parse_args()
-
 
     level = logging.DEBUG if args.verbose else logging.INFO
     logging.basicConfig(level=level, format="%(levelname)s:%(message)s")
@@ -52,25 +49,30 @@ def main() -> None:
         total += 1
         if match:
             correct += 1
-        logging.info("Task %s %s", task.id, "PASS" if match else "FAIL")
+        logging.info(
+            "Task %s %s using rules %s",
+            task.id,
+            "PASS" if match else "FAIL",
+            predictor.rules,
+        )
         if not match:
             logging.debug("expected=%s predicted=%s", expected, preds)
-        task_results.append((task.id, match))
+            suggestion = suggest_color_map_rule(preds, expected)
+            if suggestion:
+                logging.info("Suggested new rule %s", suggestion)
+        task_results.append((task.id, match, predictor.rules))
 
     accuracy = correct / total * 100 if total else 0
-
     if args.summary:
-        for tid, ok in task_results:
-            logging.info("%s %s", tid, "PASS" if ok else "FAIL")
+        for tid, ok, rules in task_results:
+            logging.info("%s %s rules=%s", tid, "PASS" if ok else "FAIL", rules)
+    main
     logging.info(
         "Solved %d/%d tasks (%.2f%% accuracy)",
         correct,
         total,
         accuracy,
     )
+
     main
-    args.output.write_text(json.dumps(results, indent=2))
 
-
-if __name__ == "__main__":
-    main()

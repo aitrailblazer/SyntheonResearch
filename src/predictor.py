@@ -28,6 +28,26 @@ def learn_color_map_rule(examples: List[Example]) -> Optional[ColorMapRule]:
     return ColorMapRule(mapping) if mapping else None
 
 
+
+def suggest_color_map_rule(
+    predicted: List[List[List[int]]], expected: List[List[List[int]]]
+) -> Optional[ColorMapRule]:
+    """Propose a color mapping to transform ``predicted`` into ``expected``."""
+    mapping: Dict[int, int] = {}
+    for pred_grid, exp_grid in zip(predicted, expected):
+        for p_row, e_row in zip(pred_grid, exp_grid):
+            for p, e in zip(p_row, e_row):
+                if p == e:
+                    continue
+                if p in mapping:
+                    if mapping[p] != e:
+                        return None
+                else:
+                    mapping[p] = e
+    return ColorMapRule(mapping) if mapping else None
+
+
+main
 class SymbolicPredictor:
     """Predictor that learns simple color mappings from training data."""
 
