@@ -69,4 +69,11 @@ def main() -> None:
         accuracy,
     )
 
+    # Write results to output file
+    with open(args.output, 'w') as f:
+        json.dump(results, f, indent=2)
+    logging.info("Results written to %s", args.output)
 
+
+if __name__ == "__main__":
+    main()

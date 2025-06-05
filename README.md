@@ -91,7 +91,7 @@ PYTHONPATH=src python -m syntheon.main \
 
 PYTHONPATH=src python -m syntheon.main \
   arc_agi2_symbolic_submission/input/arc_agi2_training_enhanced.xml \
-  predictions.json --verbose
+  predictions.json --verbose --summary
 
 PYTHONPATH=src python -m syntheon.main arc_agi2_symbolic_submission/input/arc_agi2_training_enhanced.xml predictions_log.json --summary
 
