@@ -93,6 +93,9 @@ PYTHONPATH=src python -m syntheon.main \
   arc_agi2_symbolic_submission/input/arc_agi2_training_enhanced.xml \
   predictions.json --verbose
 
+PYTHONPATH=src python -m syntheon.main arc_agi2_symbolic_submission/input/arc_agi2_training_enhanced.xml predictions_log.json --summary
+
+
 This command parses the XML tasks, applies the current rule set, and writes predictions to `predictions.json`.
 The `predictor` module now learns simple color mappings from training examples and applies them to the tests.
 It scans each training pair cell by cell to build a dictionary of input–output color
