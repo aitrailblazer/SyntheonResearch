@@ -28,6 +28,7 @@ def learn_color_map_rule(examples: List[Example]) -> Optional[ColorMapRule]:
     return ColorMapRule(mapping) if mapping else None
 
 
+
 def suggest_color_map_rule(
     predicted: List[List[List[int]]], expected: List[List[List[int]]]
 ) -> Optional[ColorMapRule]:
@@ -46,6 +47,7 @@ def suggest_color_map_rule(
     return ColorMapRule(mapping) if mapping else None
 
 
+main
 class SymbolicPredictor:
     """Predictor that learns simple color mappings from training data."""
 

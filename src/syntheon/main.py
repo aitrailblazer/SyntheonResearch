@@ -7,9 +7,7 @@ from pathlib import Path
 
 from ingest import load_tasks, Task
 from predictor import SymbolicPredictor, suggest_color_map_rule
-
-
-
+main
 
 
 def main() -> None:
@@ -30,15 +28,18 @@ def main() -> None:
 
     level = logging.DEBUG if args.verbose else logging.INFO
     logging.basicConfig(level=level, format="%(levelname)s:%(message)s")
+    main
 
     tasks = load_tasks(str(args.xml))
     results = {}
     task_results = []
     correct = 0
     total = 0
+
     total_tasks = len(tasks)
     for idx, task in enumerate(tasks, start=1):
         logging.info("Solving task %d/%d (%s)", idx, total_tasks, task.id)
+        main
         predictor = SymbolicPredictor()
         predictor.learn(task)
         expected = [ex.output_grid for ex in task.tests]
@@ -65,14 +66,13 @@ def main() -> None:
     if args.summary:
         for tid, ok, rules in task_results:
             logging.info("%s %s rules=%s", tid, "PASS" if ok else "FAIL", rules)
+    main
     logging.info(
         "Solved %d/%d tasks (%.2f%% accuracy)",
         correct,
         total,
         accuracy,
     )
-    args.output.write_text(json.dumps(results, indent=2))
 
+    main
 
-if __name__ == "__main__":
-    main()

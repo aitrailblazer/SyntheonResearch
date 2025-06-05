@@ -6,6 +6,7 @@ from predictor import (
 )
 
 
+
 def test_learn_color_map_rule():
     examples = [
         Example(index=0, input_grid=[[1, 2]], output_grid=[[3, 4]]),
@@ -25,10 +26,10 @@ def test_symbolic_predictor():
     preds = predictor.predict(task)
     assert preds == [[[2]]]
 
-
 def test_suggest_color_map_rule():
     predicted = [[[1]]]
     expected = [[[2]]]
     rule = suggest_color_map_rule(predicted, expected)
     assert rule is not None
     assert rule.apply([[1]]) == [[2]]
+main
