@@ -16,6 +16,7 @@ Example
 from __future__ import annotations
 
 import xml.etree.ElementTree as ET
+
 from typing import Dict, List, Optional, Type
 
 from ingest import Example, Task
@@ -28,10 +29,6 @@ class Rule:
         """Apply the rule to a grid and return the transformed grid."""
         raise NotImplementedError
 
-    def __repr__(self) -> str:  # pragma: no cover - trivial
-        return self.__class__.__name__
-
-
 class ColorReplacementRule(Rule):
     """Replace every instance of ``src`` with ``dst``."""
 
@@ -41,6 +38,7 @@ class ColorReplacementRule(Rule):
 
     def apply(self, grid: List[List[int]]) -> List[List[int]]:
         return [[self.dst if c == self.src else c for c in row] for row in grid]
+
 
     def __repr__(self) -> str:  # pragma: no cover - trivial
         return f"ColorReplacementRule({self.src}->{self.dst})"
@@ -105,6 +103,7 @@ class RuleEngine:
                 "desc": rule_el.findtext("description", default=""),
                 "cond": rule_el.findtext("condition", default=""),
             }
+
             impl_cls = DEFAULT_XML_RULES.get(name)
             if impl_cls and name not in self.registry:
                 self.register(name, impl_cls())
@@ -169,7 +168,6 @@ class HorizontalMirrorRule(Rule):
     def apply(self, grid: List[List[int]]) -> List[List[int]]:
         return [list(reversed(row)) for row in grid]
 
-
 class ReflectVerticalRule(Rule):
     """Mirror the grid vertically (flip up/down)."""
 
@@ -205,6 +203,7 @@ class Rotate90Rule(RotatePatternRule):
 
     def __init__(self) -> None:
         super().__init__(90)
+
 
 
 class NullRule(Rule):
@@ -299,6 +298,7 @@ class DuplicateRowsOrColumnsRule(Rule):
         return new_grid
 
 
+
 class RuleChain(Rule):
     """Apply a sequence of rules in order."""
 
@@ -328,6 +328,7 @@ DEFAULT_XML_RULES: Dict[str, Type[Rule]] = {
     "RemoveObjects": NullRule,
     "ReplaceBorderWithColor": NullRule,
     "DuplicateRowsOrColumns": NullRule,
+
 }
 
 

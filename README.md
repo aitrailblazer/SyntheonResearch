@@ -66,9 +66,11 @@ The symbolic rule engine loads its default rule definitions from
 `ver3/Syntheon/arc_agi2_symbolic_submission/syntheon_rules_glyphs.xml`.
 This scroll enumerates the available primitives, their glyph chains and
 pseudo-code descriptions.
+
 Built-in implementations now cover flipping, rotation, cropping and
 simple object removal so that example chains can be reproduced directly
 from the scroll.
+
 
 ---
 
@@ -129,6 +131,12 @@ Progress messages show which task is currently being solved, e.g., "Solving task
 Use `--verbose` to display detailed rule application logs.
 The optional `--summary` flag prints a final PASS/FAIL report for every task.
 
+
+4. Verify the installed version:
+
+```bash
+PYTHONPATH=src python -m syntheon.main --version
+```
 
 ## Testing
 

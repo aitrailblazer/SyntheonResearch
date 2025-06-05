@@ -7,6 +7,7 @@ from rule_engine import (
     RemoveObjectsRule,
     ReplaceBorderWithColorRule,
     RotatePatternRule,
+
     RuleChain,
     RuleEngine,
     register_primary,
@@ -52,7 +53,6 @@ def test_solve_task_with_chain():
     task = Task(id="t", metadata_xml="", training=train, tests=tests)
     preds = engine.solve_task(task, max_chain_length=2)
     assert preds == [[[9, 5], [4, 9]]]
-
 
 def test_reflect_vertical():
     rule = ReflectVerticalRule()
@@ -100,3 +100,4 @@ def test_load_rules_metadata():
     assert len(engine.metadata) > 10
     # Default rules should be auto-registered if known
     assert "DiagonalFlip" in engine.registry
+
