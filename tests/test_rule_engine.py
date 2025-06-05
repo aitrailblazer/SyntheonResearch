@@ -20,6 +20,7 @@ def test_register_primary():
     register_primary("zero_to_one", rule)
     assert "zero_to_one" in PRIMARY_RULES
 
+
 def test_rule_chain():
     flip = DiagonalFlipRule()
     replace = ColorReplacementRule(1, 9)
@@ -45,4 +46,15 @@ def test_solve_task_with_chain():
     task = Task(id="t", metadata_xml="", training=train, tests=tests)
     preds = engine.solve_task(task, max_chain_length=2)
     assert preds == [[[9, 5], [4, 9]]]
+
+def test_load_rules_metadata():
+    engine = RuleEngine()
+    xml_path = (
+        "ver3/Syntheon/arc_agi2_symbolic_submission/syntheon_rules_glyphs.xml"
+    )
+    engine.load_rules_metadata(xml_path)
+    assert "DiagonalFlip" in engine.metadata
+    assert len(engine.metadata) > 10
+    # Default rules should be auto-registered if known
+    assert "DiagonalFlip" in engine.registry
 

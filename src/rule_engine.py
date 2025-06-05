@@ -16,7 +16,11 @@ Example
 from __future__ import annotations
 
 import xml.etree.ElementTree as ET
-from typing import Dict, List, Optional
+
+from typing import Dict, List, Optional, Type
+
+from ingest import Example, Task
+
 
 from ingest import Example, Task
 
@@ -90,7 +94,7 @@ class RuleEngine:
     # XML loading
     # ------------------------------------------------------------------
     def load_rules_metadata(self, xml_path: str) -> None:
-        """Parse an XML rule scroll and store metadata."""
+        """Parse an XML rule scroll and store metadata and register simple rules."""
         tree = ET.parse(xml_path)
         root = tree.getroot()
         for rule_el in root.findall("rule"):
@@ -100,6 +104,11 @@ class RuleEngine:
                 "desc": rule_el.findtext("description", default=""),
                 "cond": rule_el.findtext("condition", default=""),
             }
+
+            impl_cls = DEFAULT_XML_RULES.get(name)
+            if impl_cls and name not in self.registry:
+                self.register(name, impl_cls())
+
 
     # ------------------------------------------------------------------
     # Execution
@@ -173,6 +182,13 @@ class Rotate90Rule(Rule):
         ]
 
 
+class NullRule(Rule):
+    """Placeholder rule used when an XML rule has no implementation."""
+
+    def apply(self, grid: List[List[int]]) -> List[List[int]]:
+        return grid
+
+
 class RuleChain(Rule):
     """Apply a sequence of rules in order."""
 
@@ -187,4 +203,16 @@ class RuleChain(Rule):
 
     def __repr__(self) -> str:  # pragma: no cover - trivial
         return f"RuleChain({', '.join(repr(r) for r in self.rules)})"
+
+
+# Mapping of rule names from ``syntheon_rules_glyphs.xml`` to built-in
+# implementations. Unlisted rules default to :class:`NullRule` when loaded
+# via :meth:`RuleEngine.load_rules_metadata`.
+DEFAULT_XML_RULES: Dict[str, Type[Rule]] = {
+    "DiagonalFlip": DiagonalFlipRule,
+    "ReflectHorizontal": HorizontalMirrorRule,
+    "RotatePattern": Rotate90Rule,
+    "ColorReplacement": NullRule,  # requires parameters
+}
+
 
