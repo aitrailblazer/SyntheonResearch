@@ -27,7 +27,6 @@ def learn_color_map_rule(examples: List[Example]) -> Optional[ColorMapRule]:
     logging.info("Derived color map: %s", mapping)
     return ColorMapRule(mapping) if mapping else None
 
-
 def suggest_color_map_rule(
     predicted: List[List[List[int]]], expected: List[List[List[int]]]
 ) -> Optional[ColorMapRule]:

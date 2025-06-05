@@ -85,6 +85,14 @@ PYTHONPATH=src python -m syntheon.main \
   predictions.json [--verbose] [--summary]
 
 
+PYTHONPATH=src python -m syntheon.main \
+  arc_agi2_symbolic_submission/input/arc_agi2_training_enhanced.xml \
+  predictions.json --summary
+
+PYTHONPATH=src python -m syntheon.main \
+  arc_agi2_symbolic_submission/input/arc_agi2_training_enhanced.xml \
+  predictions.json --verbose
+
 This command parses the XML tasks, applies the current rule set, and writes predictions to `predictions.json`.
 The `predictor` module now learns simple color mappings from training examples and applies them to the tests.
 It scans each training pair cell by cell to build a dictionary of input–output color
@@ -98,7 +106,17 @@ Progress messages show which task is currently being solved, e.g., "Solving task
 Use `--verbose` to display detailed rule application logs.
 The optional `--summary` flag prints a final PASS/FAIL report for every task.
 Logs also indicate which rules solved each task and suggest new color mappings when predictions fail.
+
 If you see no output, rerun with `--verbose` to ensure logging is displayed.
+
+The solver prints detailed logs describing the learned rules and shows the input grid, intermediate steps, predicted
+output, and real output for each test example. At the end of the run it reports how many tasks were solved and the
+overall accuracy.
+
+Progress messages show which task is currently being solved, e.g., "Solving task 3/100 (task_id)".
+Use `--verbose` to display detailed rule application logs.
+The optional `--summary` flag prints a final PASS/FAIL report for every task.
+
 
 ## Testing
 

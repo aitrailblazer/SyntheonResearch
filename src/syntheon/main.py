@@ -8,10 +8,6 @@ from pathlib import Path
 from ingest import load_tasks, Task
 from predictor import SymbolicPredictor, suggest_color_map_rule
 
-
-
-
-
 def main() -> None:
     parser = argparse.ArgumentParser(description="Run Syntheon symbolic solver")
     parser.add_argument("xml", type=Path, help="Path to arc_agi2_training_enhanced.xml")
@@ -36,6 +32,7 @@ def main() -> None:
     task_results = []
     correct = 0
     total = 0
+
     total_tasks = len(tasks)
     for idx, task in enumerate(tasks, start=1):
         logging.info("Solving task %d/%d (%s)", idx, total_tasks, task.id)
@@ -71,8 +68,5 @@ def main() -> None:
         total,
         accuracy,
     )
-    args.output.write_text(json.dumps(results, indent=2))
 
 
-if __name__ == "__main__":
-    main()
