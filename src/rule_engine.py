@@ -20,17 +20,12 @@ from typing import Dict, List, Optional
 
 from ingest import Example, Task
 
-
 class Rule:
     """Interface for all symbolic rules."""
 
     def apply(self, grid: List[List[int]]) -> List[List[int]]:
         """Apply the rule to a grid and return the transformed grid."""
         raise NotImplementedError
-
-    def __repr__(self) -> str:  # pragma: no cover - trivial
-        return self.__class__.__name__
-
 
 class ColorReplacementRule(Rule):
     """Replace every instance of ``src`` with ``dst``."""
@@ -41,6 +36,7 @@ class ColorReplacementRule(Rule):
 
     def apply(self, grid: List[List[int]]) -> List[List[int]]:
         return [[self.dst if c == self.src else c for c in row] for row in grid]
+
 
     def __repr__(self) -> str:  # pragma: no cover - trivial
         return f"ColorReplacementRule({self.src}->{self.dst})"
@@ -72,7 +68,6 @@ def register_primary(name: str, rule: Rule) -> None:
 def register_secondary(name: str, rule: Rule) -> None:
     """Register a rule as secondary."""
     SECONDARY_RULES[name] = rule
-
 
 class RuleEngine:
     """Simple engine capable of loading and applying symbolic rules."""
@@ -192,5 +187,4 @@ class RuleChain(Rule):
 
     def __repr__(self) -> str:  # pragma: no cover - trivial
         return f"RuleChain({', '.join(repr(r) for r in self.rules)})"
-
 

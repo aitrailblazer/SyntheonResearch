@@ -122,6 +122,12 @@ Use `--verbose` to display detailed rule application logs.
 The optional `--summary` flag prints a final PASS/FAIL report for every task.
 
 
+4. Verify the installed version:
+
+```bash
+PYTHONPATH=src python -m syntheon.main --version
+```
+
 ## Testing
 
 To verify basic functionality:
