@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file has been deprecated. Please use syntheon_rules_glyphs.xml for the latest rules and glyphs. -->
+<symbolic_scroll name="SyntheonSymbolicRules" version="1.2">
+  <description>
+    Full set of induced, generalized, and modular symbolic rules for ARC-AGI-2 as learned and refined by the GEN-I engine. Each rule is structured for composability, explainability, and match to common grid transformations and object manipulations in ARC tasks. Rules may be combined, sequenced, or selected by meta-logic.
+  </description>
+
+  <!-- Canonical glyph index for color/label abstraction -->
+  <glyph_index>
+    <glyph num="0" char="⋯" weight="0.000"/>
+    <glyph num="1" char="⧖" weight="0.021"/>
+    <glyph num="2" char="✦" weight="0.034"/>
+    <glyph num="3" char="⛬" weight="0.055"/>
+    <glyph num="4" char="█" weight="0.089"/>
+    <glyph num="5" char="⟡" weight="0.144"/>
+    <glyph num="6" char="◐" weight="0.233"/>
+    <glyph num="7" char="🜄" weight="0.377"/>
+    <glyph num="8" char="◼" weight="0.610"/>
+    <glyph num="9" char="✕" weight="1.000"/>
+  </glyph_index>
+
+  <!-- Core transformation rules -->
+
+  <rule id="R21" name="TilePatternExpansion">
+    <pattern>input 2×2 tile ⇒ output 6×6 by 3×3 tiling</pattern>
+    <description>Repeats the 2×2 input tile in a 3×3 grid to form a 6×6 output.</description>
+    <logic language="pseudo">
+      for i in range(3):
+        for j in range(3):
+          write tile at offset (i*2, j*2)
+    </logic>
+    <condition>input_height = 2 and input_width = 2</condition>
+    <examples>
+      <input>[[a, b], [c, d]]</input>
+      <output>
+        [[a, b, a, b, a, b],
+         [c, d, c, d, c, d],
+         [a, b, a, b, a, b],
+         [c, d, c, d, c, d],
+         [a, b, a, b, a, b],
+         [c, d, c, d, c, d]]
+      </output>
+    </examples>
+  </rule>
+
+  <rule id="R03" name="MirrorBandExpansion">
+    <pattern>mirror left half across vertical axis row‑wise</pattern>
+    <description>Reflects each row to double width, creating band symmetry.</description>
+    <logic language="pseudo">
+      for each row in grid:
+        output_row = row + reversed(row)
+    </logic>
+    <condition>output_width = 2 * input_width</condition>
+    <examples>
+      <input>[[a, b, c]]</input>
+      <output>[[a, b, c, c, b, a]]</output>
+    </examples>
+  </rule>
+
+  <rule id="R12" name="FrameFillConvergence">
+    <pattern>draw solid frame colour 3, fill centre colour 1</pattern>
+    <description>Paints the outer border with colour 3 and fills centre with colour 1.</description>
+    <logic language="pseudo">
+      output = grid of 1s
+      set output borders to 3
+    </logic>
+    <condition>input_contains_placeholder</condition>
+    <examples>
+      <input>3x3 grid with zeros</input>
+      <output>3-border, 1-center</output>
+    </examples>
+  </rule>
+
+  <!-- Advanced symbolic generalizations -->
+
+  <rule id="R31" name="ColorReplacement">
+    <pattern>replace color X with Y everywhere</pattern>
+    <description>Substitutes all cells of a given color with another specified color.</description>
+    <logic language="pseudo">
+      for each cell:
+        if cell == X: cell = Y
+    </logic>
+    <condition>grid contains color X</condition>
+    <examples>
+      <input>[[0, 1], [1, 2]]</input>
+      <output>[[0, 2], [2, 2]]</output>
+      <params>X=1, Y=2</params>
+    </examples>
+  </rule>
+
+  <rule id="R32" name="MajorityFill">
+    <pattern>fill region/object with most common color</pattern>
+    <description>Replaces all empty or target regions with the most common color in the input.</description>
+    <logic language="pseudo">
+      majority = mode(all colors)
+      for cell in region: cell = majority
+    </logic>
+    <condition>region detected, input has single majority color</condition>
+  </rule>
+
+  <rule id="R33" name="DiagonalFlip">
+    <pattern>transpose grid (main diagonal flip)</pattern>
+    <description>Transposes the input grid (swaps rows and columns).</description>
+    <logic language="pseudo">
+      output[i][j] = input[j][i]
+    </logic>
+    <condition>input is square</condition>
+  </rule>
+
+  <rule id="R34" name="CropToBoundingBox">
+    <pattern>crop grid to nonzero/colorful bounding box</pattern>
+    <description>Crops the grid to the smallest rectangle containing all nonzero (non-background) cells.</description>
+    <logic language="pseudo">
+      find min/max rows/cols with color != 0
+      crop grid to this bounding box
+    </logic>
+    <condition>output area &lt; input area; content preserved</condition>
+  </rule>
+
+  <rule id="R35" name="RemoveObjects">
+    <pattern>remove all isolated objects of color X</pattern>
+    <description>Removes connected components of a specific color (object deletion).</description>
+    <logic language="pseudo">
+      for obj in connected_components(color=X):
+        delete obj
+    </logic>
+    <condition>at least one object of color X exists</condition>
+  </rule>
+
+  <rule id="R36" name="DuplicateRowsOrColumns">
+    <pattern>duplicate each row/column n times</pattern>
+    <description>Replicates every row (or column) of the input grid a fixed number of times to increase output size.</description>
+    <logic language="pseudo">
+      for row in input:
+        for i in range(n): output.append(row)
+    </logic>
+    <condition>output shape = input shape × n (rows or cols)</condition>
+  </rule>
+
+  <rule id="R37" name="ReplaceBorderWithColor">
+    <pattern>set grid border to color X</pattern>
+    <description>Recolors the border of the grid to a specified color X.</description>
+    <logic language="pseudo">
+      output[0,:] = X; output[-1,:] = X; output[:,0] = X; output[:,-1] = X
+    </logic>
+    <condition>border different from interior</condition>
+  </rule>
+
+  <rule id="R38" name="FillHoles">
+    <pattern>fill all holes (0 regions) inside objects</pattern>
+    <description>Fills all interior empty regions (holes) of objects with their surrounding color.</description>
+    <logic language="pseudo">
+      for region in holes(input):
+        fill region with color of enclosing object
+    </logic>
+    <condition>object has interior holes</condition>
+  </rule>
+
+  <rule id="R39" name="ObjectCounting">
+    <pattern>output the count of objects as color or grid size</pattern>
+    <description>Counts objects (connected components) and encodes the count as a color or grid output.</description>
+    <logic language="pseudo">
+      count = number of connected components
+      encode count as color or output grid
+    </logic>
+    <condition>output is a single cell or special color</condition>
+  </rule>
+
+  <rule id="R40" name="ColorSwapping">
+    <pattern>swap two colors throughout grid</pattern>
+    <description>Swaps every occurrence of two colors (e.g., red↔blue) in the grid.</description>
+    <logic language="pseudo">
+      for each cell:
+        if cell==A: cell=B
+        elif cell==B: cell=A
+    </logic>
+    <condition>two main colors present</condition>
+    <examples>
+      <input>[[1, 2], [2, 1]]</input>
+      <output>[[2, 1], [1, 2]]</output>
+      <params>A=1, B=2</params>
+    </examples>
+  </rule>
+
+  <!-- Meta-rules for compositional reasoning -->
+
+  <rule id="R41" name="SequentialRuleApplication">
+    <pattern>apply rules R then S in sequence</pattern>
+    <description>Applies rule R to the input, then applies rule S to the result (for multi-phase transformations).</description>
+    <logic language="pseudo">
+      out1 = R(input)
+      out2 = S(out1)
+      return out2
+    </logic>
+    <condition>when chained transformations are needed</condition>
+    <examples>
+      <input>[[1, 0], [0, 2]]</input>
+      <output>[[2, 0], [0, 1]]</output>
+      <params>R=ColorSwapping(A=1,B=2); S=DiagonalFlip</params>
+    </examples>
+  </rule>
+
+  <rule id="R42" name="ConditionalRuleSwitch">
+    <pattern>if (predicate), apply rule R; else rule S</pattern>
+    <description>Conditionally applies one of two rules based on a property of the input grid.</description>
+    <logic language="pseudo">
+      if predicate(input): return R(input)
+      else: return S(input)
+    </logic>
+    <condition>predicate distinguishes subcases</condition>
+    <examples>
+      <input>[[1, 1], [2, 2]]</input>
+      <output>[[1, 1], [2, 2]]</output>
+      <params>predicate=is_square; R=DiagonalFlip; S=Identity</params>
+    </examples>
+  </rule>
+
+  <rule id="R43" name="RotatePattern">
+    <pattern>rotate grid by specified angle (90°, 180°, 270°)</pattern>
+    <description>Rotates the entire grid by the specified number of degrees clockwise.</description>
+    <logic language="pseudo">
+      if degrees == 90: return np.rot90(grid, k=3)  # 90° clockwise
+      elif degrees == 180: return np.rot90(grid, k=2)  # 180°
+      elif degrees == 270: return np.rot90(grid, k=1)  # 270° clockwise
+    </logic>
+    <condition>degrees in [90, 180, 270]</condition>
+    <examples>
+      <input>[[1, 2], [3, 4]]</input>
+      <o>[[3, 1], [4, 2]]</o>
+      <params>degrees=90</params>
+    </examples>
+  </rule>
+
+  <!-- New rules and meta-rules can be appended automatically by GEN-I as further training discovers more transformation primitives or rule chaining needs. -->
+
+</symbolic_scroll>

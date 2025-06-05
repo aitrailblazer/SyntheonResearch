@@ -58,7 +58,8 @@ predictions suitable for rigorous evaluation and competition-grade benchmarks.
 
   * Each task includes:
 
-    * `<training_examples>` — used for symbolic rule extraction
+    * `<training_examples>` — used for symbolic rule extraction and as multi-shot
+      context when prompting the LLM-based solver
     * `<test_examples>` — used *only* for output validation
 
 ---
@@ -82,10 +83,44 @@ predictions suitable for rigorous evaluation and competition-grade benchmarks.
 ```bash
 PYTHONPATH=src python -m syntheon.main \
   arc_agi2_symbolic_submission/input/arc_agi2_training_enhanced.xml \
-  predictions.json
+  predictions.json [--verbose] [--summary]
+
+
+PYTHONPATH=src python -m syntheon.main \
+  arc_agi2_symbolic_submission/input/arc_agi2_training_enhanced.xml \
+  predictions.json --summary
+
+PYTHONPATH=src python -m syntheon.main \
+  arc_agi2_symbolic_submission/input/arc_agi2_training_enhanced.xml \
+  predictions.json --verbose --summary
+
+PYTHONPATH=src python -m syntheon.main arc_agi2_symbolic_submission/input/arc_agi2_training_enhanced.xml predictions_log.json --summary
 
 
 This command parses the XML tasks, applies the current rule set, and writes predictions to `predictions.json`.
+The `predictor` module now learns simple color mappings from training examples and applies them to the tests.
+It scans each training pair cell by cell to build a dictionary of input–output color
+transformations (e.g., `{1: 3, 2: 4}`). Conflicts stop the mapping from being used.
+When predicting, this `ColorMapRule` is applied to every test grid so the same
+transformations occur automatically.
+The solver prints detailed logs describing the learned rules and shows the input grid, intermediate steps, predicted
+output, and real output for each test example. At the end of the run it reports how many tasks were solved and the
+overall accuracy.
+Progress messages show which task is currently being solved, e.g., "Solving task 3/100 (task_id)".
+Use `--verbose` to display detailed rule application logs.
+The optional `--summary` flag prints a final PASS/FAIL report for every task.
+Logs also indicate which rules solved each task and suggest new color mappings when predictions fail.
+
+If you see no output, rerun with `--verbose` to ensure logging is displayed.
+
+The solver prints detailed logs describing the learned rules and shows the input grid, intermediate steps, predicted
+output, and real output for each test example. At the end of the run it reports how many tasks were solved and the
+overall accuracy.
+
+Progress messages show which task is currently being solved, e.g., "Solving task 3/100 (task_id)".
+Use `--verbose` to display detailed rule application logs.
+The optional `--summary` flag prints a final PASS/FAIL report for every task.
+
 
 4. Verify the installed version:
 
@@ -99,3 +134,8 @@ To verify basic functionality:
 
 1. Run the solver as shown above on a few tasks.
 2. Inspect `predictions.json` to ensure it contains task IDs and predicted output grids.
+3. Execute the unit tests to verify the predictor implementation:
+
+```bash
+PYTHONPATH=src pytest -q
+```
