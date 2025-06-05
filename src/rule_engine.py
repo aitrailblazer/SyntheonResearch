@@ -185,17 +185,13 @@ class RotatePatternRule(Rule):
     def apply(self, grid: List[List[int]]) -> List[List[int]]:
         if self.degrees == 180:
             return [list(reversed(row)) for row in reversed(grid)]
-        size = len(grid)
+
+        h, w = len(grid), len(grid[0])
         if self.degrees == 90:
-            return [
-                [grid[size - j - 1][i] for j in range(size)]
-                for i in range(size)
-            ]
+            return [[grid[h - j - 1][i] for j in range(h)] for i in range(w)]
+
         # 270 degrees
-        return [
-            [grid[j][size - i - 1] for j in range(size)]
-            for i in range(size)
-        ]
+        return [[grid[j][w - i - 1] for j in range(h)] for i in range(w)]
 
 
 class Rotate90Rule(RotatePatternRule):
@@ -298,6 +294,192 @@ class DuplicateRowsOrColumnsRule(Rule):
         return new_grid
 
 
+class MirrorBandExpansionRule(Rule):
+    """Mirror each row to double the width of the grid."""
+
+    def apply(self, grid: List[List[int]]) -> List[List[int]]:
+        return [row + list(reversed(row)) for row in grid]
+
+
+class FrameFillConvergenceRule(Rule):
+    """Fill the center with one color and border with another."""
+
+    def __init__(self, center_color: int = 1, border_color: int = 3) -> None:
+        self.center_color = center_color
+        self.border_color = border_color
+
+    def apply(self, grid: List[List[int]]) -> List[List[int]]:
+        h, w = len(grid), len(grid[0])
+        out = [[self.center_color for _ in range(w)] for _ in range(h)]
+        for c in range(w):
+            out[0][c] = self.border_color
+            out[h - 1][c] = self.border_color
+        for r in range(h):
+            out[r][0] = self.border_color
+            out[r][w - 1] = self.border_color
+        return out
+
+
+class MajorityFillRule(Rule):
+    """Fill background cells with the most common non-background color."""
+
+    def __init__(self, background_color: int = 0) -> None:
+        self.background_color = background_color
+
+    def apply(self, grid: List[List[int]]) -> List[List[int]]:
+        counts: Dict[int, int] = {}
+        for row in grid:
+            for c in row:
+                if c != self.background_color:
+                    counts[c] = counts.get(c, 0) + 1
+        if not counts:
+            majority = self.background_color
+        else:
+            majority = max(counts, key=counts.get)
+        return [
+            [majority if c == self.background_color else c for c in row]
+            for row in grid
+        ]
+
+
+class FillHolesRule(Rule):
+    """Fill enclosed zero regions with the surrounding color."""
+
+    def apply(self, grid: List[List[int]]) -> List[List[int]]:
+        h, w = len(grid), len(grid[0])
+        visited = [[False] * w for _ in range(h)]
+
+        def neighbors(r: int, c: int):
+            for dr, dc in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+                nr, nc = r + dr, c + dc
+                if 0 <= nr < h and 0 <= nc < w:
+                    yield nr, nc
+
+        for i in range(h):
+            for j in range(w):
+                if grid[i][j] != 0 or visited[i][j]:
+                    continue
+                comp = [(i, j)]
+                visited[i][j] = True
+                q = [(i, j)]
+                touches_border = i == 0 or j == 0 or i == h - 1 or j == w - 1
+                while q:
+                    r, c = q.pop()
+                    for nr, nc in neighbors(r, c):
+                        if grid[nr][nc] == 0 and not visited[nr][nc]:
+                            visited[nr][nc] = True
+                            q.append((nr, nc))
+                            comp.append((nr, nc))
+                        elif grid[nr][nc] != 0:
+                            pass
+                        if nr == 0 or nc == 0 or nr == h - 1 or nc == w - 1:
+                            touches_border = True
+                if not touches_border:
+                    color_counts: Dict[int, int] = {}
+                    for r, c in comp:
+                        for nr, nc in neighbors(r, c):
+                            col = grid[nr][nc]
+                            if col != 0:
+                                color_counts[col] = color_counts.get(col, 0) + 1
+                    if color_counts:
+                        fill_color = max(color_counts, key=color_counts.get)
+                        for r, c in comp:
+                            grid[r][c] = fill_color
+        return grid
+
+
+class ObjectCountingRule(Rule):
+    """Return a 1×1 grid containing the number of nonzero objects."""
+
+    def apply(self, grid: List[List[int]]) -> List[List[int]]:
+        h, w = len(grid), len(grid[0])
+        visited = [[False] * w for _ in range(h)]
+
+        def neighbors(r: int, c: int):
+            for dr, dc in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+                nr, nc = r + dr, c + dc
+                if 0 <= nr < h and 0 <= nc < w:
+                    yield nr, nc
+
+        count = 0
+        for i in range(h):
+            for j in range(w):
+                if grid[i][j] == 0 or visited[i][j]:
+                    continue
+                count += 1
+                q = [(i, j)]
+                visited[i][j] = True
+                while q:
+                    r, c = q.pop()
+                    for nr, nc in neighbors(r, c):
+                        if grid[nr][nc] != 0 and not visited[nr][nc]:
+                            visited[nr][nc] = True
+                            q.append((nr, nc))
+        return [[count]]
+
+
+class ColorSwappingRule(Rule):
+    """Swap two colors throughout the grid."""
+
+    def __init__(self, color_a: int, color_b: int) -> None:
+        self.color_a = color_a
+        self.color_b = color_b
+
+    def apply(self, grid: List[List[int]]) -> List[List[int]]:
+        return [
+            [
+                self.color_b if c == self.color_a else self.color_a if c == self.color_b else c
+                for c in row
+            ]
+            for row in grid
+        ]
+
+
+class ScalePattern2xRule(Rule):
+    """Scale the grid by a factor of 2."""
+
+    def apply(self, grid: List[List[int]]) -> List[List[int]]:
+        return [
+            [cell for cell in row for _ in range(2)]
+            for row in grid
+            for _ in range(2)
+        ]
+
+
+class ScalePattern3xRule(Rule):
+    """Scale the grid by a factor of 3."""
+
+    def apply(self, grid: List[List[int]]) -> List[List[int]]:
+        return [
+            [cell for cell in row for _ in range(3)]
+            for row in grid
+            for _ in range(3)
+        ]
+
+
+class ScalePatternHalfRule(Rule):
+    """Scale the grid by 0.5 using simple subsampling."""
+
+    def apply(self, grid: List[List[int]]) -> List[List[int]]:
+        h, w = len(grid), len(grid[0])
+        new_h = max(1, h // 2)
+        new_w = max(1, w // 2)
+        return [[grid[i * 2][j * 2] for j in range(new_w)] for i in range(new_h)]
+
+
+class TilePatternExpansionRule(Rule):
+    """Repeat a 2×2 tile to produce a 6×6 grid."""
+
+    def apply(self, grid: List[List[int]]) -> List[List[int]]:
+        if len(grid) != 2 or len(grid[0]) != 2:
+            return grid
+        out: List[List[int]] = []
+        for _ in range(3):
+            for row in grid:
+                out.append(row * 3)
+        return out
+
+
 
 class RuleChain(Rule):
     """Apply a sequence of rules in order."""
@@ -324,10 +506,20 @@ DEFAULT_XML_RULES: Dict[str, Type[Rule]] = {
     "ReflectVertical": ReflectVerticalRule,
     "RotatePattern": RotatePatternRule,
     "CropToBoundingBox": CropToBoundingBoxRule,
-    "ColorReplacement": NullRule,
-    "RemoveObjects": NullRule,
-    "ReplaceBorderWithColor": NullRule,
-    "DuplicateRowsOrColumns": NullRule,
+    "ColorReplacement": ColorReplacementRule,
+    "RemoveObjects": RemoveObjectsRule,
+    "ReplaceBorderWithColor": ReplaceBorderWithColorRule,
+    "DuplicateRowsOrColumns": DuplicateRowsOrColumnsRule,
+    "MirrorBandExpansion": MirrorBandExpansionRule,
+    "FrameFillConvergence": FrameFillConvergenceRule,
+    "MajorityFill": MajorityFillRule,
+    "FillHoles": FillHolesRule,
+    "ObjectCounting": ObjectCountingRule,
+    "ColorSwapping": ColorSwappingRule,
+    "ScalePattern2x": ScalePattern2xRule,
+    "ScalePattern3x": ScalePattern3xRule,
+    "ScalePatternHalf": ScalePatternHalfRule,
+    "TilePatternExpansion": TilePatternExpansionRule,
 
 }
 
