@@ -25,6 +25,9 @@ class Rule:
         """Apply the rule to a grid and return the transformed grid."""
         raise NotImplementedError
 
+    def __repr__(self) -> str:  # pragma: no cover - trivial
+        return self.__class__.__name__
+
 
 class ColorReplacementRule(Rule):
     """Replace every instance of ``src`` with ``dst``."""
@@ -35,6 +38,22 @@ class ColorReplacementRule(Rule):
 
     def apply(self, grid: List[List[int]]) -> List[List[int]]:
         return [[self.dst if c == self.src else c for c in row] for row in grid]
+
+    def __repr__(self) -> str:  # pragma: no cover - trivial
+        return f"ColorReplacementRule({self.src}->{self.dst})"
+
+
+class ColorMapRule(Rule):
+    """Map multiple colors according to a dictionary."""
+
+    def __init__(self, mapping: Dict[int, int]) -> None:
+        self.mapping = mapping
+
+    def apply(self, grid: List[List[int]]) -> List[List[int]]:
+        return [[self.mapping.get(c, c) for c in row] for row in grid]
+
+    def __repr__(self) -> str:  # pragma: no cover - trivial
+        return f"ColorMapRule({self.mapping})"
 
 
 # registries for the multi-tier rule system
