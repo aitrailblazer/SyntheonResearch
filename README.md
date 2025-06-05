@@ -86,6 +86,10 @@ PYTHONPATH=src python -m syntheon.main \
 
 
 This command parses the XML tasks, applies the current rule set, and writes predictions to `predictions.json`.
+The `predictor` module now learns simple color mappings from training examples and applies them to the tests.
+The solver prints detailed logs describing the learned rules and shows the input grid, intermediate steps, predicted
+output, and real output for each test example. At the end of the run it reports how many tasks were solved and the
+overall accuracy.
 
 ## Testing
 

@@ -4,21 +4,12 @@ import argparse
 import logging
 import json
 from pathlib import Path
-from typing import List
 
 from ingest import load_tasks, Task
-from rule_engine import Rule
+from predictor import SymbolicPredictor
 
 
-def predict(task: Task, rules: List[Rule]) -> List[List[List[int]]]:
-    """Apply all rules to each test grid and return the predicted grids."""
-    predictions = []
-    for example in task.tests:
-        result = example.input_grid
-        for rule in rules:
-            result = rule.apply(result)
-        predictions.append(result)
-    return predictions
+
 
 
 def main() -> None:
@@ -27,15 +18,17 @@ def main() -> None:
     parser.add_argument("output", type=Path, help="Output JSON file")
     args = parser.parse_args()
 
-    logging.basicConfig(level=logging.INFO)
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s:%(message)s")
 
     tasks = load_tasks(str(args.xml))
     results = {}
     correct = 0
     total = 0
     for task in tasks:
+        predictor = SymbolicPredictor()
+        predictor.learn(task)
         expected = [ex.output_grid for ex in task.tests]
-        preds = predict(task, [])
+        preds = predictor.predict(task)
         results[task.id] = preds
         match = expected == preds
         total += 1
@@ -46,7 +39,7 @@ def main() -> None:
             logging.debug("expected=%s predicted=%s", expected, preds)
 
     accuracy = correct / total * 100 if total else 0
-    logging.info("Accuracy %.2f%%", accuracy)
+    logging.info("Solved %d/%d tasks (%.2f%% accuracy)", correct, total, accuracy)
     args.output.write_text(json.dumps(results, indent=2))
 
 
