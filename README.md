@@ -58,8 +58,14 @@ predictions suitable for rigorous evaluation and competition-grade benchmarks.
 
   * Each task includes:
 
-    * `<training_examples>` — used for symbolic rule extraction
+    * `<training_examples>` — used for symbolic rule extraction and as multi-shot
+      context when prompting the LLM-based solver
     * `<test_examples>` — used *only* for output validation
+
+The symbolic rule engine loads its default rule definitions from
+`ver3/Syntheon/arc_agi2_symbolic_submission/syntheon_rules_glyphs.xml`.
+This scroll enumerates the available primitives, their glyph chains and
+pseudo-code descriptions.
 
 ---
 
