@@ -4,6 +4,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import List
 import xml.etree.ElementTree as ET
+import logging
 
 
 @dataclass
@@ -62,5 +63,8 @@ def load_tasks(xml_path: str | Path) -> List[Task]:
         if test_elem is not None:
             for ex in test_elem.findall("example"):
                 test_examples.append(_parse_example(ex))
-        tasks.append(Task(id=task_id, metadata_xml=metadata_xml, training=train_examples, tests=test_examples))
+        tasks.append(
+            Task(id=task_id, metadata_xml=metadata_xml, training=train_examples, tests=test_examples)
+        )
+    logging.info("Loaded %d tasks from %s", len(tasks), path)
     return tasks
