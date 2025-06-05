@@ -1,0 +1,10 @@
+.env
+
+arc_agi2_evaluation_combined.xml
+arc_agi2_training_combined.xml
+arc_agi2_submission_with_symbolic_logic.ipynb
+
+.DS_Store
+copilot-instructions.md
+XML/
+__pycache__/
