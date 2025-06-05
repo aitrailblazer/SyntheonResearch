@@ -7,7 +7,6 @@ from pathlib import Path
 
 from ingest import load_tasks, Task
 from predictor import SymbolicPredictor, suggest_color_map_rule
-main
 
 
 def main() -> None:

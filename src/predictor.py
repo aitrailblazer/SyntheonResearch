@@ -47,7 +47,6 @@ def suggest_color_map_rule(
     return ColorMapRule(mapping) if mapping else None
 
 
-main
 class SymbolicPredictor:
     """Predictor that learns simple color mappings from training data."""
 
