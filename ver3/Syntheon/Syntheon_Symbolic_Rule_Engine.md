@@ -6,19 +6,22 @@
 
 ### **1.1 Mission**
 
-To build a transparent, modular, and agentically upgradable symbolic reasoning engine for grid-based intelligence and ARC-style tasks, supporting:
+To build a transparent, modular, and agentically upgradable symbolic reasoning engine for grid-based intelligence and
+ARC-style tasks, supporting:
 
 * **Symbolic transparency**: Every transformation, rule, and decision is explainable and logged.
 * **Auditability**: Full changelog, rule versioning, and reproducible evaluation.
 * **Human–AI co-evolution**: Humans and agents jointly author, refine, and validate the evolving rulebase.
-* **Self-improvement**: Engine proposes, tests, and potentially integrates new rules, via both code synthesis and symbolic abstraction.
+* **Self-improvement**: Engine proposes, tests, and potentially integrates new rules, via both code synthesis and
+  symbolic abstraction.
 
 ### **1.2 Principles**
 
 * **Compositionality**: All rules are modular and can be chained.
 * **Extensibility**: New atomic or meta-rules (and their Python/DSL code) can be injected without “retraining.”
 * **Symbolic glyph encoding**: Grids and logic operate on general symbolic glyphs, not just integers/colors.
-* **Agentic planning**: In later phases, the engine plans, sequences, and validates multi-step transformations, supporting true AGI-grade inference.
+* **Agentic planning**: In later phases, the engine plans, sequences, and validates multi-step transformations,
+  supporting true AGI-grade inference.
 
 ---
 
@@ -204,15 +207,19 @@ Every experiment/run produces:
 
 ## **8. Integration: GEN-I and Beyond**
 
-* **GEN-I Symbolic Glyph Protocol**: All grids and rules work natively in glyph-mode, supporting deeper abstraction and broader task coverage.
-* **Cross-Platform**: All data and rules are stored in standard XML, allowing future porting to other languages, interpreters, or symbolic AI stacks.
-* **Open Auditing**: Any researcher or agent can inspect the full history, compare rules/accuracy over time, and replay/replicate results.
+* **GEN-I Symbolic Glyph Protocol**: All grids and rules work natively in glyph-mode, supporting deeper abstraction and
+  broader task coverage.
+* **Cross-Platform**: All data and rules are stored in standard XML, allowing future porting to other languages,
+  interpreters, or symbolic AI stacks.
+* **Open Auditing**: Any researcher or agent can inspect the full history, compare rules/accuracy over time, and
+  replay/replicate results.
 
 ---
 
 ## **9. Vision Statement**
 
-Syntheon aspires to be the *reference kernel* for auditable, extensible, and agentically upgradable symbolic reasoning—bridging the gap between pure LLMs and the requirements of safe, general, and interpretable AGI.
+Syntheon aspires to be the *reference kernel* for auditable, extensible, and agentically upgradable symbolic
+reasoning—bridging the gap between pure LLMs and the requirements of safe, general, and interpretable AGI.
 
 ---
 
@@ -220,11 +227,14 @@ Syntheon aspires to be the *reference kernel* for auditable, extensible, and age
 
 ### **10.1 Symbolic Foundation**
 
-**Symbols and glyphs were instrumental** in creating Syntheon's breakthrough performance and architectural elegance. Rather than treating ARC tasks as mere numerical arrays, the symbolic approach enabled:
+**Symbols and glyphs were instrumental** in creating Syntheon's breakthrough performance and architectural elegance.
+Rather than treating ARC tasks as mere numerical arrays, the symbolic approach enabled:
 
 #### **Conceptual Abstraction**
-* **Beyond Color Integers**: Grids operate on symbolic entities (⋯, ⧖, ✦, ⛬, █, ⟡, ◐, 🜄, ◼, ✕) rather than raw numbers 0-9
-* **Pattern Recognition**: Symbols encode semantic meaning, enabling recognition of archetypal patterns across different surface manifestations
+* **Beyond Color Integers**: Grids operate on symbolic entities (⋯, ⧖, ✦, ⛬, █, ⟡, ◐, 🜄, ◼, ✕) rather than raw numbers
+  0-9
+* **Pattern Recognition**: Symbols encode semantic meaning, enabling recognition of archetypal patterns across different
+  surface manifestations
 * **Universal Grammar**: Symbolic transformations apply consistently across varied visual contexts
 
 #### **Glyph-Encoded Transformation Logic**
@@ -337,6 +347,9 @@ The symbolic foundation provided:
 * **Search Space Reduction**: Symbol-level constraints eliminate invalid transformation paths
 * **Caching Opportunities**: Symbolic pattern results can be memoized effectively
 
-**Conclusion**: Symbols and glyphs weren't just a representation choice—they were the architectural foundation that enabled Syntheon's breakthrough from 3.53% to 4.24% accuracy, sophisticated rule composition, and elegant extensibility. The symbolic approach transformed a challenging pattern-matching problem into an expressible, composable, and ultimately solvable symbolic reasoning challenge.
+**Conclusion**: Symbols and glyphs weren't just a representation choice—they were the architectural foundation that
+enabled Syntheon's breakthrough from 3.53% to 4.24% accuracy, sophisticated rule composition, and elegant extensibility.
+The symbolic approach transformed a challenging pattern-matching problem into an expressible, composable, and ultimately
+solvable symbolic reasoning challenge.
 
 ---

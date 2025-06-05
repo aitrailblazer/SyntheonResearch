@@ -1,4 +1,5 @@
-Absolutely—here’s a concrete starter plan and *code skeleton* for **implementing a glyph-based interpreter layer** for your Syntheon symbolic engine.
+Absolutely—here’s a concrete starter plan and *code skeleton* for **implementing a glyph-based interpreter layer** for
+your Syntheon symbolic engine.
 
 ---
 
@@ -112,7 +113,8 @@ class SyntheonEngine:
             return self.apply_rule(rule_name, grid, **params)
 ```
 
-Extend your XML parsing to also grab the `<logic language="glyph-dsl">` and save it in `self.rules_meta[name]['glyph_dsl']`.
+Extend your XML parsing to also grab the `<logic language="glyph-dsl">` and save it in
+`self.rules_meta[name]['glyph_dsl']`.
 
 ---
 

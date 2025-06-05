@@ -8,7 +8,9 @@
 
 ## Executive Summary
 
-The Glyph Weight System is a foundational computational mechanism in the SYNTHEON AI reasoning engine that provides deterministic conflict resolution, symbolic foresight, and mathematical consistency for all grid transformations. This specification defines the complete architecture, implementation requirements, and operational protocols.
+The Glyph Weight System is a foundational computational mechanism in the SYNTHEON AI reasoning engine that provides
+deterministic conflict resolution, symbolic foresight, and mathematical consistency for all grid transformations. This
+specification defines the complete architecture, implementation requirements, and operational protocols.
 
 ---
 
@@ -22,7 +24,8 @@ The glyph weight system serves four critical functions:
 4. **Mathematical Consistency** - Ensures reproducible outcomes
 
 ### 1.2 Core Principle
-**Lower Weight = Higher Priority**: Operations with lower glyph weights take precedence during conflict resolution, ensuring simpler transformations are preferred over complex ones.
+**Lower Weight = Higher Priority**: Operations with lower glyph weights take precedence during conflict resolution,
+ensuring simpler transformations are preferred over complex ones.
 
 ---
 
@@ -103,7 +106,10 @@ def resolve_glyph_conflict(colors: List[int], positions: List[Tuple[int, int]]) 
     selected_glyph = color_to_glyph(selected_color)
     
     # Log symbolic reasoning
-    logging.info(f"Glyph conflict resolution: {[color_to_glyph(c) for c in colors]} → {selected_glyph} (weight {get_glyph_weight(selected_color)})")
+    logging.info(
+        f"Glyph conflict resolution: {[color_to_glyph(c) for c in colors]} → "
+        f"{selected_glyph} (weight {get_glyph_weight(selected_color)})"
+    )
     
     return selected_color
 ```
@@ -312,4 +318,6 @@ The weight progression is based on the **golden ratio (φ ≈ 1.618)** series:
 
 **End of Specification**
 
-*This document defines the complete Glyph Weight System architecture for SYNTHEON AI reasoning engine. All implementations must conform to this specification to ensure deterministic, reproducible, and high-performance symbolic reasoning.*
+*This document defines the complete Glyph Weight System architecture for SYNTHEON AI reasoning engine. All
+implementations must conform to this specification to ensure deterministic, reproducible, and high-performance symbolic
+reasoning.*
