@@ -2,7 +2,9 @@
 
 ## Overview
 
-This document outlines the improvements made to the ARC-AGI2 symbolic solver's rule prediction system, building upon the previous version. The enhanced system leverages the 7-component advanced preprocessing data to more accurately identify applicable rules and their parameters.
+This document outlines the improvements made to the ARC-AGI2 symbolic solver's rule prediction system, building upon the
+previous version. The enhanced system leverages the 7-component advanced preprocessing data to more accurately identify
+applicable rules and their parameters.
 
 ## Key Improvements
 
@@ -113,7 +115,8 @@ To use the enhanced rule prediction system:
 
 ### Unit Testing
 
-The enhanced rule prediction system includes a comprehensive test suite in `tests_enhanced_extraction.py` that validates:
+The enhanced rule prediction system includes a comprehensive test suite in `tests_enhanced_extraction.py` that
+validates:
 
 1. **Symmetry Detection**: Tests for perfect symmetry, partial symmetry, and non-symmetric grids
 2. **Repeating Unit Detection**: Tests for horizontal, vertical, and 2D pattern repetition
@@ -122,14 +125,16 @@ The enhanced rule prediction system includes a comprehensive test suite in `test
 
 ### Performance Testing
 
-A comprehensive performance testing framework (`run_performance_tests.sh`) has been implemented to evaluate the system with different configurations:
+A comprehensive performance testing framework (`run_performance_tests.sh`) has been implemented to evaluate the system
+with different configurations:
 
 1. **Baseline**: Tests the original system without enhancements
 2. **Enhanced Parameters**: Tests with only enhanced parameter extraction
 3. **Adaptive Priority**: Tests with only adaptive rule prioritization
 4. **Full Enhanced**: Tests with all enhancements enabled
 
-The testing framework generates detailed reports comparing the success rates of different configurations, helping to identify the optimal settings for the system.
+The testing framework generates detailed reports comparing the success rates of different configurations, helping to
+identify the optimal settings for the system.
 
 ### Integration Testing
 
@@ -139,7 +144,8 @@ The enhanced rule prediction system is fully integrated with the main solver thr
 2. **Adaptive Rule Prioritization**: `get_adaptive_rule_priority` function is used to prioritize rules before testing
 3. **Rule Chain Recommendations**: `get_recommended_rule_chains` provides rule chains to try first
 
-This integration ensures that the enhancements benefit the entire solving process without requiring changes to the core rule implementations.
+This integration ensures that the enhancements benefit the entire solving process without requiring changes to the core
+rule implementations.
 
 ## Performance Impact
 

@@ -10,7 +10,36 @@
 Total Examples   : 3232
 Correct Predictions: 177
 Accuracy         : 5.48%
-Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:009d5c81#3, train:009d5c81#4, train:0b148d64#0, train:0b148d64#1, train:0b148d64#2, train:1a2e2828#0, train:1a2e2828#3, train:1cf80156#0, train:1cf80156#1, train:1cf80156#2, train:1f85a75f#0, train:1f85a75f#1, train:22eb0ac0#2, train:239be575#1, train:23b5c85d#0, train:23b5c85d#2, train:23b5c85d#3, train:23b5c85d#4, train:253bf280#1, train:253bf280#5, train:27a28665#0, train:27a28665#1, train:27a28665#5, train:27a28665#6, train:2a5f8217#1, train:2de01db2#2, train:3c9b0459#0, train:3c9b0459#1, train:3c9b0459#2, train:3c9b0459#3, train:3de23699#1, train:3de23699#3, train:44d8ac46#2, train:44f52bb0#0, train:44f52bb0#4, train:44f52bb0#5, train:45737921#0, train:4852f2fa#0, train:4938f0c2#2, train:496994bd#0, train:496994bd#1, train:4e7e0eb9#0, train:4e7e0eb9#2, train:5168d44c#2, train:53b68214#1, train:5582e5ca#1, train:5ad8a7c0#1, train:5ad8a7c0#3, train:60c09cac#0, train:60c09cac#1, train:6150a2bd#0, train:6150a2bd#1, train:63613498#0, train:63613498#1, train:63613498#2, train:642d658d#0, train:642d658d#1, train:67a3c6ac#0, train:67a3c6ac#1, train:67a3c6ac#2, train:68b16354#0, train:68b16354#1, train:68b16354#2, train:68b67ca3#0, train:68b67ca3#1, train:68b67ca3#2, train:6d0aefbc#0, train:6d0aefbc#1, train:6d0aefbc#2, train:6d0aefbc#3, train:6d1d5c90#0, train:6ea4a07e#0, train:6ea4a07e#1, train:6ea4a07e#2, train:6ea4a07e#3, train:6ea4a07e#4, train:6ea4a07e#5, train:6f8cd79b#0, train:6f8cd79b#1, train:6f8cd79b#2, train:6f8cd79b#3, train:72ca375d#0, train:72ca375d#1, train:72ca375d#2, train:7468f01a#0, train:7468f01a#1, train:7468f01a#2, train:74dd1130#0, train:74dd1130#1, train:74dd1130#2, train:74dd1130#3, train:794b24be#8, train:85c4e7cd#1, train:880c1354#2, train:90347967#0, train:90347967#1, train:9172f3a0#0, train:9172f3a0#1, train:9565186b#0, train:9720b24f#0, train:9720b24f#3, train:9dfd6313#0, train:9dfd6313#1, train:9dfd6313#2, train:a3325580#0, train:a740d043#0, train:a740d043#1, train:a740d043#2, train:a85d4709#1, train:a87f7484#3, train:aabf363d#0, train:aabf363d#1, train:ac0a08a4#0, train:ac0a08a4#1, train:b1948b0a#0, train:b1948b0a#1, train:b1948b0a#2, train:b91ae062#0, train:b91ae062#1, train:b91ae062#2, train:b91ae062#4, train:b94a9452#0, train:b94a9452#1, train:b94a9452#2, train:b9b7f026#0, train:b9b7f026#1, train:b9b7f026#2, train:bbb1b8b6#1, train:bbb1b8b6#3, train:bbb1b8b6#5, train:be94b721#0, train:be94b721#1, train:be94b721#2, train:be94b721#3, train:c59eb873#0, train:c59eb873#1, train:c59eb873#2, train:c8f0f002#0, train:c8f0f002#1, train:c8f0f002#2, train:c9e6f938#0, train:c9e6f938#1, train:c9e6f938#2, train:caa06a1f#2, train:cd3c21df#1, train:d2acf2cb#0, train:d4b1c2b1#0, train:d4b1c2b1#1, train:d4b1c2b1#2, train:d4b1c2b1#4, train:d4b1c2b1#5, train:d4b1c2b1#6, train:d511f180#0, train:d511f180#1, train:d511f180#2, train:d631b094#0, train:d90796e8#1, train:d931c21c#1, train:d9fac9be#0, train:d9fac9be#3, train:dae9d2b5#4, train:de1cd16c#1, train:e9afcf9a#0, train:e9afcf9a#1, train:ed36ccf7#0, train:ed36ccf7#1, train:ed36ccf7#2, train:ed36ccf7#3, train:f76d97a5#0, train:f76d97a5#1, train:f76d97a5#2, train:f9012d9b#0, train:fc754716#1, train:fc754716#3
+Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:009d5c81#3, train:009d5c81#4,
+train:0b148d64#0, train:0b148d64#1, train:0b148d64#2, train:1a2e2828#0, train:1a2e2828#3, train:1cf80156#0,
+train:1cf80156#1, train:1cf80156#2, train:1f85a75f#0, train:1f85a75f#1, train:22eb0ac0#2, train:239be575#1,
+train:23b5c85d#0, train:23b5c85d#2, train:23b5c85d#3, train:23b5c85d#4, train:253bf280#1, train:253bf280#5,
+train:27a28665#0, train:27a28665#1, train:27a28665#5, train:27a28665#6, train:2a5f8217#1, train:2de01db2#2,
+train:3c9b0459#0, train:3c9b0459#1, train:3c9b0459#2, train:3c9b0459#3, train:3de23699#1, train:3de23699#3,
+train:44d8ac46#2, train:44f52bb0#0, train:44f52bb0#4, train:44f52bb0#5, train:45737921#0, train:4852f2fa#0,
+train:4938f0c2#2, train:496994bd#0, train:496994bd#1, train:4e7e0eb9#0, train:4e7e0eb9#2, train:5168d44c#2,
+train:53b68214#1, train:5582e5ca#1, train:5ad8a7c0#1, train:5ad8a7c0#3, train:60c09cac#0, train:60c09cac#1,
+train:6150a2bd#0, train:6150a2bd#1, train:63613498#0, train:63613498#1, train:63613498#2, train:642d658d#0,
+train:642d658d#1, train:67a3c6ac#0, train:67a3c6ac#1, train:67a3c6ac#2, train:68b16354#0, train:68b16354#1,
+train:68b16354#2, train:68b67ca3#0, train:68b67ca3#1, train:68b67ca3#2, train:6d0aefbc#0, train:6d0aefbc#1,
+train:6d0aefbc#2, train:6d0aefbc#3, train:6d1d5c90#0, train:6ea4a07e#0, train:6ea4a07e#1, train:6ea4a07e#2,
+train:6ea4a07e#3, train:6ea4a07e#4, train:6ea4a07e#5, train:6f8cd79b#0, train:6f8cd79b#1, train:6f8cd79b#2,
+train:6f8cd79b#3, train:72ca375d#0, train:72ca375d#1, train:72ca375d#2, train:7468f01a#0, train:7468f01a#1,
+train:7468f01a#2, train:74dd1130#0, train:74dd1130#1, train:74dd1130#2, train:74dd1130#3, train:794b24be#8,
+train:85c4e7cd#1, train:880c1354#2, train:90347967#0, train:90347967#1, train:9172f3a0#0, train:9172f3a0#1,
+train:9565186b#0, train:9720b24f#0, train:9720b24f#3, train:9dfd6313#0, train:9dfd6313#1, train:9dfd6313#2,
+train:a3325580#0, train:a740d043#0, train:a740d043#1, train:a740d043#2, train:a85d4709#1, train:a87f7484#3,
+train:aabf363d#0, train:aabf363d#1, train:ac0a08a4#0, train:ac0a08a4#1, train:b1948b0a#0, train:b1948b0a#1,
+train:b1948b0a#2, train:b91ae062#0, train:b91ae062#1, train:b91ae062#2, train:b91ae062#4, train:b94a9452#0,
+train:b94a9452#1, train:b94a9452#2, train:b9b7f026#0, train:b9b7f026#1, train:b9b7f026#2, train:bbb1b8b6#1,
+train:bbb1b8b6#3, train:bbb1b8b6#5, train:be94b721#0, train:be94b721#1, train:be94b721#2, train:be94b721#3,
+train:c59eb873#0, train:c59eb873#1, train:c59eb873#2, train:c8f0f002#0, train:c8f0f002#1, train:c8f0f002#2,
+train:c9e6f938#0, train:c9e6f938#1, train:c9e6f938#2, train:caa06a1f#2, train:cd3c21df#1, train:d2acf2cb#0,
+train:d4b1c2b1#0, train:d4b1c2b1#1, train:d4b1c2b1#2, train:d4b1c2b1#4, train:d4b1c2b1#5, train:d4b1c2b1#6,
+train:d511f180#0, train:d511f180#1, train:d511f180#2, train:d631b094#0, train:d90796e8#1, train:d931c21c#1,
+train:d9fac9be#0, train:d9fac9be#3, train:dae9d2b5#4, train:de1cd16c#1, train:e9afcf9a#0, train:e9afcf9a#1,
+train:ed36ccf7#0, train:ed36ccf7#1, train:ed36ccf7#2, train:ed36ccf7#3, train:f76d97a5#0, train:f76d97a5#1,
+train:f76d97a5#2, train:f9012d9b#0, train:fc754716#1, train:fc754716#3
 
 
 ==================================================
@@ -33,7 +62,36 @@ Updating changelog...
 Total Examples   : 3232
 Correct Predictions: 177
 Accuracy         : 5.48%
-Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:009d5c81#3, train:009d5c81#4, train:0b148d64#0, train:0b148d64#1, train:0b148d64#2, train:1a2e2828#0, train:1a2e2828#3, train:1cf80156#0, train:1cf80156#1, train:1cf80156#2, train:1f85a75f#0, train:1f85a75f#1, train:22eb0ac0#2, train:239be575#1, train:23b5c85d#0, train:23b5c85d#2, train:23b5c85d#3, train:23b5c85d#4, train:253bf280#1, train:253bf280#5, train:27a28665#0, train:27a28665#1, train:27a28665#5, train:27a28665#6, train:2a5f8217#1, train:2de01db2#2, train:3c9b0459#0, train:3c9b0459#1, train:3c9b0459#2, train:3c9b0459#3, train:3de23699#1, train:3de23699#3, train:44d8ac46#2, train:44f52bb0#0, train:44f52bb0#4, train:44f52bb0#5, train:45737921#0, train:4852f2fa#0, train:4938f0c2#2, train:496994bd#0, train:496994bd#1, train:4e7e0eb9#0, train:4e7e0eb9#2, train:5168d44c#2, train:53b68214#1, train:5582e5ca#1, train:5ad8a7c0#1, train:5ad8a7c0#3, train:60c09cac#0, train:60c09cac#1, train:6150a2bd#0, train:6150a2bd#1, train:63613498#0, train:63613498#1, train:63613498#2, train:642d658d#0, train:642d658d#1, train:67a3c6ac#0, train:67a3c6ac#1, train:67a3c6ac#2, train:68b16354#0, train:68b16354#1, train:68b16354#2, train:68b67ca3#0, train:68b67ca3#1, train:68b67ca3#2, train:6d0aefbc#0, train:6d0aefbc#1, train:6d0aefbc#2, train:6d0aefbc#3, train:6d1d5c90#0, train:6ea4a07e#0, train:6ea4a07e#1, train:6ea4a07e#2, train:6ea4a07e#3, train:6ea4a07e#4, train:6ea4a07e#5, train:6f8cd79b#0, train:6f8cd79b#1, train:6f8cd79b#2, train:6f8cd79b#3, train:72ca375d#0, train:72ca375d#1, train:72ca375d#2, train:7468f01a#0, train:7468f01a#1, train:7468f01a#2, train:74dd1130#0, train:74dd1130#1, train:74dd1130#2, train:74dd1130#3, train:794b24be#8, train:85c4e7cd#1, train:880c1354#2, train:90347967#0, train:90347967#1, train:9172f3a0#0, train:9172f3a0#1, train:9565186b#0, train:9720b24f#0, train:9720b24f#3, train:9dfd6313#0, train:9dfd6313#1, train:9dfd6313#2, train:a3325580#0, train:a740d043#0, train:a740d043#1, train:a740d043#2, train:a85d4709#1, train:a87f7484#3, train:aabf363d#0, train:aabf363d#1, train:ac0a08a4#0, train:ac0a08a4#1, train:b1948b0a#0, train:b1948b0a#1, train:b1948b0a#2, train:b91ae062#0, train:b91ae062#1, train:b91ae062#2, train:b91ae062#4, train:b94a9452#0, train:b94a9452#1, train:b94a9452#2, train:b9b7f026#0, train:b9b7f026#1, train:b9b7f026#2, train:bbb1b8b6#1, train:bbb1b8b6#3, train:bbb1b8b6#5, train:be94b721#0, train:be94b721#1, train:be94b721#2, train:be94b721#3, train:c59eb873#0, train:c59eb873#1, train:c59eb873#2, train:c8f0f002#0, train:c8f0f002#1, train:c8f0f002#2, train:c9e6f938#0, train:c9e6f938#1, train:c9e6f938#2, train:caa06a1f#2, train:cd3c21df#1, train:d2acf2cb#0, train:d4b1c2b1#0, train:d4b1c2b1#1, train:d4b1c2b1#2, train:d4b1c2b1#4, train:d4b1c2b1#5, train:d4b1c2b1#6, train:d511f180#0, train:d511f180#1, train:d511f180#2, train:d631b094#0, train:d90796e8#1, train:d931c21c#1, train:d9fac9be#0, train:d9fac9be#3, train:dae9d2b5#4, train:de1cd16c#1, train:e9afcf9a#0, train:e9afcf9a#1, train:ed36ccf7#0, train:ed36ccf7#1, train:ed36ccf7#2, train:ed36ccf7#3, train:f76d97a5#0, train:f76d97a5#1, train:f76d97a5#2, train:f9012d9b#0, train:fc754716#1, train:fc754716#3
+Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:009d5c81#3, train:009d5c81#4,
+train:0b148d64#0, train:0b148d64#1, train:0b148d64#2, train:1a2e2828#0, train:1a2e2828#3, train:1cf80156#0,
+train:1cf80156#1, train:1cf80156#2, train:1f85a75f#0, train:1f85a75f#1, train:22eb0ac0#2, train:239be575#1,
+train:23b5c85d#0, train:23b5c85d#2, train:23b5c85d#3, train:23b5c85d#4, train:253bf280#1, train:253bf280#5,
+train:27a28665#0, train:27a28665#1, train:27a28665#5, train:27a28665#6, train:2a5f8217#1, train:2de01db2#2,
+train:3c9b0459#0, train:3c9b0459#1, train:3c9b0459#2, train:3c9b0459#3, train:3de23699#1, train:3de23699#3,
+train:44d8ac46#2, train:44f52bb0#0, train:44f52bb0#4, train:44f52bb0#5, train:45737921#0, train:4852f2fa#0,
+train:4938f0c2#2, train:496994bd#0, train:496994bd#1, train:4e7e0eb9#0, train:4e7e0eb9#2, train:5168d44c#2,
+train:53b68214#1, train:5582e5ca#1, train:5ad8a7c0#1, train:5ad8a7c0#3, train:60c09cac#0, train:60c09cac#1,
+train:6150a2bd#0, train:6150a2bd#1, train:63613498#0, train:63613498#1, train:63613498#2, train:642d658d#0,
+train:642d658d#1, train:67a3c6ac#0, train:67a3c6ac#1, train:67a3c6ac#2, train:68b16354#0, train:68b16354#1,
+train:68b16354#2, train:68b67ca3#0, train:68b67ca3#1, train:68b67ca3#2, train:6d0aefbc#0, train:6d0aefbc#1,
+train:6d0aefbc#2, train:6d0aefbc#3, train:6d1d5c90#0, train:6ea4a07e#0, train:6ea4a07e#1, train:6ea4a07e#2,
+train:6ea4a07e#3, train:6ea4a07e#4, train:6ea4a07e#5, train:6f8cd79b#0, train:6f8cd79b#1, train:6f8cd79b#2,
+train:6f8cd79b#3, train:72ca375d#0, train:72ca375d#1, train:72ca375d#2, train:7468f01a#0, train:7468f01a#1,
+train:7468f01a#2, train:74dd1130#0, train:74dd1130#1, train:74dd1130#2, train:74dd1130#3, train:794b24be#8,
+train:85c4e7cd#1, train:880c1354#2, train:90347967#0, train:90347967#1, train:9172f3a0#0, train:9172f3a0#1,
+train:9565186b#0, train:9720b24f#0, train:9720b24f#3, train:9dfd6313#0, train:9dfd6313#1, train:9dfd6313#2,
+train:a3325580#0, train:a740d043#0, train:a740d043#1, train:a740d043#2, train:a85d4709#1, train:a87f7484#3,
+train:aabf363d#0, train:aabf363d#1, train:ac0a08a4#0, train:ac0a08a4#1, train:b1948b0a#0, train:b1948b0a#1,
+train:b1948b0a#2, train:b91ae062#0, train:b91ae062#1, train:b91ae062#2, train:b91ae062#4, train:b94a9452#0,
+train:b94a9452#1, train:b94a9452#2, train:b9b7f026#0, train:b9b7f026#1, train:b9b7f026#2, train:bbb1b8b6#1,
+train:bbb1b8b6#3, train:bbb1b8b6#5, train:be94b721#0, train:be94b721#1, train:be94b721#2, train:be94b721#3,
+train:c59eb873#0, train:c59eb873#1, train:c59eb873#2, train:c8f0f002#0, train:c8f0f002#1, train:c8f0f002#2,
+train:c9e6f938#0, train:c9e6f938#1, train:c9e6f938#2, train:caa06a1f#2, train:cd3c21df#1, train:d2acf2cb#0,
+train:d4b1c2b1#0, train:d4b1c2b1#1, train:d4b1c2b1#2, train:d4b1c2b1#4, train:d4b1c2b1#5, train:d4b1c2b1#6,
+train:d511f180#0, train:d511f180#1, train:d511f180#2, train:d631b094#0, train:d90796e8#1, train:d931c21c#1,
+train:d9fac9be#0, train:d9fac9be#3, train:dae9d2b5#4, train:de1cd16c#1, train:e9afcf9a#0, train:e9afcf9a#1,
+train:ed36ccf7#0, train:ed36ccf7#1, train:ed36ccf7#2, train:ed36ccf7#3, train:f76d97a5#0, train:f76d97a5#1,
+train:f76d97a5#2, train:f9012d9b#0, train:fc754716#1, train:fc754716#3
 ```
 
 ### Rule Usage Statistics
@@ -52,7 +110,36 @@ Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:0
 Total Examples   : 3232
 Correct Predictions: 177
 Accuracy         : 5.48%
-Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:009d5c81#3, train:009d5c81#4, train:0b148d64#0, train:0b148d64#1, train:0b148d64#2, train:1a2e2828#0, train:1a2e2828#3, train:1cf80156#0, train:1cf80156#1, train:1cf80156#2, train:1f85a75f#0, train:1f85a75f#1, train:22eb0ac0#2, train:239be575#1, train:23b5c85d#0, train:23b5c85d#2, train:23b5c85d#3, train:23b5c85d#4, train:253bf280#1, train:253bf280#5, train:27a28665#0, train:27a28665#1, train:27a28665#5, train:27a28665#6, train:2a5f8217#1, train:2de01db2#2, train:3c9b0459#0, train:3c9b0459#1, train:3c9b0459#2, train:3c9b0459#3, train:3de23699#1, train:3de23699#3, train:44d8ac46#2, train:44f52bb0#0, train:44f52bb0#4, train:44f52bb0#5, train:45737921#0, train:4852f2fa#0, train:4938f0c2#2, train:496994bd#0, train:496994bd#1, train:4e7e0eb9#0, train:4e7e0eb9#2, train:5168d44c#2, train:53b68214#1, train:5582e5ca#1, train:5ad8a7c0#1, train:5ad8a7c0#3, train:60c09cac#0, train:60c09cac#1, train:6150a2bd#0, train:6150a2bd#1, train:63613498#0, train:63613498#1, train:63613498#2, train:642d658d#0, train:642d658d#1, train:67a3c6ac#0, train:67a3c6ac#1, train:67a3c6ac#2, train:68b16354#0, train:68b16354#1, train:68b16354#2, train:68b67ca3#0, train:68b67ca3#1, train:68b67ca3#2, train:6d0aefbc#0, train:6d0aefbc#1, train:6d0aefbc#2, train:6d0aefbc#3, train:6d1d5c90#0, train:6ea4a07e#0, train:6ea4a07e#1, train:6ea4a07e#2, train:6ea4a07e#3, train:6ea4a07e#4, train:6ea4a07e#5, train:6f8cd79b#0, train:6f8cd79b#1, train:6f8cd79b#2, train:6f8cd79b#3, train:72ca375d#0, train:72ca375d#1, train:72ca375d#2, train:7468f01a#0, train:7468f01a#1, train:7468f01a#2, train:74dd1130#0, train:74dd1130#1, train:74dd1130#2, train:74dd1130#3, train:794b24be#8, train:85c4e7cd#1, train:880c1354#2, train:90347967#0, train:90347967#1, train:9172f3a0#0, train:9172f3a0#1, train:9565186b#0, train:9720b24f#0, train:9720b24f#3, train:9dfd6313#0, train:9dfd6313#1, train:9dfd6313#2, train:a3325580#0, train:a740d043#0, train:a740d043#1, train:a740d043#2, train:a85d4709#1, train:a87f7484#3, train:aabf363d#0, train:aabf363d#1, train:ac0a08a4#0, train:ac0a08a4#1, train:b1948b0a#0, train:b1948b0a#1, train:b1948b0a#2, train:b91ae062#0, train:b91ae062#1, train:b91ae062#2, train:b91ae062#4, train:b94a9452#0, train:b94a9452#1, train:b94a9452#2, train:b9b7f026#0, train:b9b7f026#1, train:b9b7f026#2, train:bbb1b8b6#1, train:bbb1b8b6#3, train:bbb1b8b6#5, train:be94b721#0, train:be94b721#1, train:be94b721#2, train:be94b721#3, train:c59eb873#0, train:c59eb873#1, train:c59eb873#2, train:c8f0f002#0, train:c8f0f002#1, train:c8f0f002#2, train:c9e6f938#0, train:c9e6f938#1, train:c9e6f938#2, train:caa06a1f#2, train:cd3c21df#1, train:d2acf2cb#0, train:d4b1c2b1#0, train:d4b1c2b1#1, train:d4b1c2b1#2, train:d4b1c2b1#4, train:d4b1c2b1#5, train:d4b1c2b1#6, train:d511f180#0, train:d511f180#1, train:d511f180#2, train:d631b094#0, train:d90796e8#1, train:d931c21c#1, train:d9fac9be#0, train:d9fac9be#3, train:dae9d2b5#4, train:de1cd16c#1, train:e9afcf9a#0, train:e9afcf9a#1, train:ed36ccf7#0, train:ed36ccf7#1, train:ed36ccf7#2, train:ed36ccf7#3, train:f76d97a5#0, train:f76d97a5#1, train:f76d97a5#2, train:f9012d9b#0, train:fc754716#1, train:fc754716#3
+Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:009d5c81#3, train:009d5c81#4,
+train:0b148d64#0, train:0b148d64#1, train:0b148d64#2, train:1a2e2828#0, train:1a2e2828#3, train:1cf80156#0,
+train:1cf80156#1, train:1cf80156#2, train:1f85a75f#0, train:1f85a75f#1, train:22eb0ac0#2, train:239be575#1,
+train:23b5c85d#0, train:23b5c85d#2, train:23b5c85d#3, train:23b5c85d#4, train:253bf280#1, train:253bf280#5,
+train:27a28665#0, train:27a28665#1, train:27a28665#5, train:27a28665#6, train:2a5f8217#1, train:2de01db2#2,
+train:3c9b0459#0, train:3c9b0459#1, train:3c9b0459#2, train:3c9b0459#3, train:3de23699#1, train:3de23699#3,
+train:44d8ac46#2, train:44f52bb0#0, train:44f52bb0#4, train:44f52bb0#5, train:45737921#0, train:4852f2fa#0,
+train:4938f0c2#2, train:496994bd#0, train:496994bd#1, train:4e7e0eb9#0, train:4e7e0eb9#2, train:5168d44c#2,
+train:53b68214#1, train:5582e5ca#1, train:5ad8a7c0#1, train:5ad8a7c0#3, train:60c09cac#0, train:60c09cac#1,
+train:6150a2bd#0, train:6150a2bd#1, train:63613498#0, train:63613498#1, train:63613498#2, train:642d658d#0,
+train:642d658d#1, train:67a3c6ac#0, train:67a3c6ac#1, train:67a3c6ac#2, train:68b16354#0, train:68b16354#1,
+train:68b16354#2, train:68b67ca3#0, train:68b67ca3#1, train:68b67ca3#2, train:6d0aefbc#0, train:6d0aefbc#1,
+train:6d0aefbc#2, train:6d0aefbc#3, train:6d1d5c90#0, train:6ea4a07e#0, train:6ea4a07e#1, train:6ea4a07e#2,
+train:6ea4a07e#3, train:6ea4a07e#4, train:6ea4a07e#5, train:6f8cd79b#0, train:6f8cd79b#1, train:6f8cd79b#2,
+train:6f8cd79b#3, train:72ca375d#0, train:72ca375d#1, train:72ca375d#2, train:7468f01a#0, train:7468f01a#1,
+train:7468f01a#2, train:74dd1130#0, train:74dd1130#1, train:74dd1130#2, train:74dd1130#3, train:794b24be#8,
+train:85c4e7cd#1, train:880c1354#2, train:90347967#0, train:90347967#1, train:9172f3a0#0, train:9172f3a0#1,
+train:9565186b#0, train:9720b24f#0, train:9720b24f#3, train:9dfd6313#0, train:9dfd6313#1, train:9dfd6313#2,
+train:a3325580#0, train:a740d043#0, train:a740d043#1, train:a740d043#2, train:a85d4709#1, train:a87f7484#3,
+train:aabf363d#0, train:aabf363d#1, train:ac0a08a4#0, train:ac0a08a4#1, train:b1948b0a#0, train:b1948b0a#1,
+train:b1948b0a#2, train:b91ae062#0, train:b91ae062#1, train:b91ae062#2, train:b91ae062#4, train:b94a9452#0,
+train:b94a9452#1, train:b94a9452#2, train:b9b7f026#0, train:b9b7f026#1, train:b9b7f026#2, train:bbb1b8b6#1,
+train:bbb1b8b6#3, train:bbb1b8b6#5, train:be94b721#0, train:be94b721#1, train:be94b721#2, train:be94b721#3,
+train:c59eb873#0, train:c59eb873#1, train:c59eb873#2, train:c8f0f002#0, train:c8f0f002#1, train:c8f0f002#2,
+train:c9e6f938#0, train:c9e6f938#1, train:c9e6f938#2, train:caa06a1f#2, train:cd3c21df#1, train:d2acf2cb#0,
+train:d4b1c2b1#0, train:d4b1c2b1#1, train:d4b1c2b1#2, train:d4b1c2b1#4, train:d4b1c2b1#5, train:d4b1c2b1#6,
+train:d511f180#0, train:d511f180#1, train:d511f180#2, train:d631b094#0, train:d90796e8#1, train:d931c21c#1,
+train:d9fac9be#0, train:d9fac9be#3, train:dae9d2b5#4, train:de1cd16c#1, train:e9afcf9a#0, train:e9afcf9a#1,
+train:ed36ccf7#0, train:ed36ccf7#1, train:ed36ccf7#2, train:ed36ccf7#3, train:f76d97a5#0, train:f76d97a5#1,
+train:f76d97a5#2, train:f9012d9b#0, train:fc754716#1, train:fc754716#3
 
 
 ==================================================
@@ -75,7 +162,36 @@ Updating changelog...
 Total Examples   : 3232
 Correct Predictions: 177
 Accuracy         : 5.48%
-Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:009d5c81#3, train:009d5c81#4, train:0b148d64#0, train:0b148d64#1, train:0b148d64#2, train:1a2e2828#0, train:1a2e2828#3, train:1cf80156#0, train:1cf80156#1, train:1cf80156#2, train:1f85a75f#0, train:1f85a75f#1, train:22eb0ac0#2, train:239be575#1, train:23b5c85d#0, train:23b5c85d#2, train:23b5c85d#3, train:23b5c85d#4, train:253bf280#1, train:253bf280#5, train:27a28665#0, train:27a28665#1, train:27a28665#5, train:27a28665#6, train:2a5f8217#1, train:2de01db2#2, train:3c9b0459#0, train:3c9b0459#1, train:3c9b0459#2, train:3c9b0459#3, train:3de23699#1, train:3de23699#3, train:44d8ac46#2, train:44f52bb0#0, train:44f52bb0#4, train:44f52bb0#5, train:45737921#0, train:4852f2fa#0, train:4938f0c2#2, train:496994bd#0, train:496994bd#1, train:4e7e0eb9#0, train:4e7e0eb9#2, train:5168d44c#2, train:53b68214#1, train:5582e5ca#1, train:5ad8a7c0#1, train:5ad8a7c0#3, train:60c09cac#0, train:60c09cac#1, train:6150a2bd#0, train:6150a2bd#1, train:63613498#0, train:63613498#1, train:63613498#2, train:642d658d#0, train:642d658d#1, train:67a3c6ac#0, train:67a3c6ac#1, train:67a3c6ac#2, train:68b16354#0, train:68b16354#1, train:68b16354#2, train:68b67ca3#0, train:68b67ca3#1, train:68b67ca3#2, train:6d0aefbc#0, train:6d0aefbc#1, train:6d0aefbc#2, train:6d0aefbc#3, train:6d1d5c90#0, train:6ea4a07e#0, train:6ea4a07e#1, train:6ea4a07e#2, train:6ea4a07e#3, train:6ea4a07e#4, train:6ea4a07e#5, train:6f8cd79b#0, train:6f8cd79b#1, train:6f8cd79b#2, train:6f8cd79b#3, train:72ca375d#0, train:72ca375d#1, train:72ca375d#2, train:7468f01a#0, train:7468f01a#1, train:7468f01a#2, train:74dd1130#0, train:74dd1130#1, train:74dd1130#2, train:74dd1130#3, train:794b24be#8, train:85c4e7cd#1, train:880c1354#2, train:90347967#0, train:90347967#1, train:9172f3a0#0, train:9172f3a0#1, train:9565186b#0, train:9720b24f#0, train:9720b24f#3, train:9dfd6313#0, train:9dfd6313#1, train:9dfd6313#2, train:a3325580#0, train:a740d043#0, train:a740d043#1, train:a740d043#2, train:a85d4709#1, train:a87f7484#3, train:aabf363d#0, train:aabf363d#1, train:ac0a08a4#0, train:ac0a08a4#1, train:b1948b0a#0, train:b1948b0a#1, train:b1948b0a#2, train:b91ae062#0, train:b91ae062#1, train:b91ae062#2, train:b91ae062#4, train:b94a9452#0, train:b94a9452#1, train:b94a9452#2, train:b9b7f026#0, train:b9b7f026#1, train:b9b7f026#2, train:bbb1b8b6#1, train:bbb1b8b6#3, train:bbb1b8b6#5, train:be94b721#0, train:be94b721#1, train:be94b721#2, train:be94b721#3, train:c59eb873#0, train:c59eb873#1, train:c59eb873#2, train:c8f0f002#0, train:c8f0f002#1, train:c8f0f002#2, train:c9e6f938#0, train:c9e6f938#1, train:c9e6f938#2, train:caa06a1f#2, train:cd3c21df#1, train:d2acf2cb#0, train:d4b1c2b1#0, train:d4b1c2b1#1, train:d4b1c2b1#2, train:d4b1c2b1#4, train:d4b1c2b1#5, train:d4b1c2b1#6, train:d511f180#0, train:d511f180#1, train:d511f180#2, train:d631b094#0, train:d90796e8#1, train:d931c21c#1, train:d9fac9be#0, train:d9fac9be#3, train:dae9d2b5#4, train:de1cd16c#1, train:e9afcf9a#0, train:e9afcf9a#1, train:ed36ccf7#0, train:ed36ccf7#1, train:ed36ccf7#2, train:ed36ccf7#3, train:f76d97a5#0, train:f76d97a5#1, train:f76d97a5#2, train:f9012d9b#0, train:fc754716#1, train:fc754716#3
+Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:009d5c81#3, train:009d5c81#4,
+train:0b148d64#0, train:0b148d64#1, train:0b148d64#2, train:1a2e2828#0, train:1a2e2828#3, train:1cf80156#0,
+train:1cf80156#1, train:1cf80156#2, train:1f85a75f#0, train:1f85a75f#1, train:22eb0ac0#2, train:239be575#1,
+train:23b5c85d#0, train:23b5c85d#2, train:23b5c85d#3, train:23b5c85d#4, train:253bf280#1, train:253bf280#5,
+train:27a28665#0, train:27a28665#1, train:27a28665#5, train:27a28665#6, train:2a5f8217#1, train:2de01db2#2,
+train:3c9b0459#0, train:3c9b0459#1, train:3c9b0459#2, train:3c9b0459#3, train:3de23699#1, train:3de23699#3,
+train:44d8ac46#2, train:44f52bb0#0, train:44f52bb0#4, train:44f52bb0#5, train:45737921#0, train:4852f2fa#0,
+train:4938f0c2#2, train:496994bd#0, train:496994bd#1, train:4e7e0eb9#0, train:4e7e0eb9#2, train:5168d44c#2,
+train:53b68214#1, train:5582e5ca#1, train:5ad8a7c0#1, train:5ad8a7c0#3, train:60c09cac#0, train:60c09cac#1,
+train:6150a2bd#0, train:6150a2bd#1, train:63613498#0, train:63613498#1, train:63613498#2, train:642d658d#0,
+train:642d658d#1, train:67a3c6ac#0, train:67a3c6ac#1, train:67a3c6ac#2, train:68b16354#0, train:68b16354#1,
+train:68b16354#2, train:68b67ca3#0, train:68b67ca3#1, train:68b67ca3#2, train:6d0aefbc#0, train:6d0aefbc#1,
+train:6d0aefbc#2, train:6d0aefbc#3, train:6d1d5c90#0, train:6ea4a07e#0, train:6ea4a07e#1, train:6ea4a07e#2,
+train:6ea4a07e#3, train:6ea4a07e#4, train:6ea4a07e#5, train:6f8cd79b#0, train:6f8cd79b#1, train:6f8cd79b#2,
+train:6f8cd79b#3, train:72ca375d#0, train:72ca375d#1, train:72ca375d#2, train:7468f01a#0, train:7468f01a#1,
+train:7468f01a#2, train:74dd1130#0, train:74dd1130#1, train:74dd1130#2, train:74dd1130#3, train:794b24be#8,
+train:85c4e7cd#1, train:880c1354#2, train:90347967#0, train:90347967#1, train:9172f3a0#0, train:9172f3a0#1,
+train:9565186b#0, train:9720b24f#0, train:9720b24f#3, train:9dfd6313#0, train:9dfd6313#1, train:9dfd6313#2,
+train:a3325580#0, train:a740d043#0, train:a740d043#1, train:a740d043#2, train:a85d4709#1, train:a87f7484#3,
+train:aabf363d#0, train:aabf363d#1, train:ac0a08a4#0, train:ac0a08a4#1, train:b1948b0a#0, train:b1948b0a#1,
+train:b1948b0a#2, train:b91ae062#0, train:b91ae062#1, train:b91ae062#2, train:b91ae062#4, train:b94a9452#0,
+train:b94a9452#1, train:b94a9452#2, train:b9b7f026#0, train:b9b7f026#1, train:b9b7f026#2, train:bbb1b8b6#1,
+train:bbb1b8b6#3, train:bbb1b8b6#5, train:be94b721#0, train:be94b721#1, train:be94b721#2, train:be94b721#3,
+train:c59eb873#0, train:c59eb873#1, train:c59eb873#2, train:c8f0f002#0, train:c8f0f002#1, train:c8f0f002#2,
+train:c9e6f938#0, train:c9e6f938#1, train:c9e6f938#2, train:caa06a1f#2, train:cd3c21df#1, train:d2acf2cb#0,
+train:d4b1c2b1#0, train:d4b1c2b1#1, train:d4b1c2b1#2, train:d4b1c2b1#4, train:d4b1c2b1#5, train:d4b1c2b1#6,
+train:d511f180#0, train:d511f180#1, train:d511f180#2, train:d631b094#0, train:d90796e8#1, train:d931c21c#1,
+train:d9fac9be#0, train:d9fac9be#3, train:dae9d2b5#4, train:de1cd16c#1, train:e9afcf9a#0, train:e9afcf9a#1,
+train:ed36ccf7#0, train:ed36ccf7#1, train:ed36ccf7#2, train:ed36ccf7#3, train:f76d97a5#0, train:f76d97a5#1,
+train:f76d97a5#2, train:f9012d9b#0, train:fc754716#1, train:fc754716#3
 ```
 
 ### Rule Usage Statistics
@@ -94,7 +210,36 @@ Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:0
 Total Examples   : 3232
 Correct Predictions: 177
 Accuracy         : 5.48%
-Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:009d5c81#3, train:009d5c81#4, train:0b148d64#0, train:0b148d64#1, train:0b148d64#2, train:1a2e2828#0, train:1a2e2828#3, train:1cf80156#0, train:1cf80156#1, train:1cf80156#2, train:1f85a75f#0, train:1f85a75f#1, train:22eb0ac0#2, train:239be575#1, train:23b5c85d#0, train:23b5c85d#2, train:23b5c85d#3, train:23b5c85d#4, train:253bf280#1, train:253bf280#5, train:27a28665#0, train:27a28665#1, train:27a28665#5, train:27a28665#6, train:2a5f8217#1, train:2de01db2#2, train:3c9b0459#0, train:3c9b0459#1, train:3c9b0459#2, train:3c9b0459#3, train:3de23699#1, train:3de23699#3, train:44d8ac46#2, train:44f52bb0#0, train:44f52bb0#4, train:44f52bb0#5, train:45737921#0, train:4852f2fa#0, train:4938f0c2#2, train:496994bd#0, train:496994bd#1, train:4e7e0eb9#0, train:4e7e0eb9#2, train:5168d44c#2, train:53b68214#1, train:5582e5ca#1, train:5ad8a7c0#1, train:5ad8a7c0#3, train:60c09cac#0, train:60c09cac#1, train:6150a2bd#0, train:6150a2bd#1, train:63613498#0, train:63613498#1, train:63613498#2, train:642d658d#0, train:642d658d#1, train:67a3c6ac#0, train:67a3c6ac#1, train:67a3c6ac#2, train:68b16354#0, train:68b16354#1, train:68b16354#2, train:68b67ca3#0, train:68b67ca3#1, train:68b67ca3#2, train:6d0aefbc#0, train:6d0aefbc#1, train:6d0aefbc#2, train:6d0aefbc#3, train:6d1d5c90#0, train:6ea4a07e#0, train:6ea4a07e#1, train:6ea4a07e#2, train:6ea4a07e#3, train:6ea4a07e#4, train:6ea4a07e#5, train:6f8cd79b#0, train:6f8cd79b#1, train:6f8cd79b#2, train:6f8cd79b#3, train:72ca375d#0, train:72ca375d#1, train:72ca375d#2, train:7468f01a#0, train:7468f01a#1, train:7468f01a#2, train:74dd1130#0, train:74dd1130#1, train:74dd1130#2, train:74dd1130#3, train:794b24be#8, train:85c4e7cd#1, train:880c1354#2, train:90347967#0, train:90347967#1, train:9172f3a0#0, train:9172f3a0#1, train:9565186b#0, train:9720b24f#0, train:9720b24f#3, train:9dfd6313#0, train:9dfd6313#1, train:9dfd6313#2, train:a3325580#0, train:a740d043#0, train:a740d043#1, train:a740d043#2, train:a85d4709#1, train:a87f7484#3, train:aabf363d#0, train:aabf363d#1, train:ac0a08a4#0, train:ac0a08a4#1, train:b1948b0a#0, train:b1948b0a#1, train:b1948b0a#2, train:b91ae062#0, train:b91ae062#1, train:b91ae062#2, train:b91ae062#4, train:b94a9452#0, train:b94a9452#1, train:b94a9452#2, train:b9b7f026#0, train:b9b7f026#1, train:b9b7f026#2, train:bbb1b8b6#1, train:bbb1b8b6#3, train:bbb1b8b6#5, train:be94b721#0, train:be94b721#1, train:be94b721#2, train:be94b721#3, train:c59eb873#0, train:c59eb873#1, train:c59eb873#2, train:c8f0f002#0, train:c8f0f002#1, train:c8f0f002#2, train:c9e6f938#0, train:c9e6f938#1, train:c9e6f938#2, train:caa06a1f#2, train:cd3c21df#1, train:d2acf2cb#0, train:d4b1c2b1#0, train:d4b1c2b1#1, train:d4b1c2b1#2, train:d4b1c2b1#4, train:d4b1c2b1#5, train:d4b1c2b1#6, train:d511f180#0, train:d511f180#1, train:d511f180#2, train:d631b094#0, train:d90796e8#1, train:d931c21c#1, train:d9fac9be#0, train:d9fac9be#3, train:dae9d2b5#4, train:de1cd16c#1, train:e9afcf9a#0, train:e9afcf9a#1, train:ed36ccf7#0, train:ed36ccf7#1, train:ed36ccf7#2, train:ed36ccf7#3, train:f76d97a5#0, train:f76d97a5#1, train:f76d97a5#2, train:f9012d9b#0, train:fc754716#1, train:fc754716#3
+Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:009d5c81#3, train:009d5c81#4,
+train:0b148d64#0, train:0b148d64#1, train:0b148d64#2, train:1a2e2828#0, train:1a2e2828#3, train:1cf80156#0,
+train:1cf80156#1, train:1cf80156#2, train:1f85a75f#0, train:1f85a75f#1, train:22eb0ac0#2, train:239be575#1,
+train:23b5c85d#0, train:23b5c85d#2, train:23b5c85d#3, train:23b5c85d#4, train:253bf280#1, train:253bf280#5,
+train:27a28665#0, train:27a28665#1, train:27a28665#5, train:27a28665#6, train:2a5f8217#1, train:2de01db2#2,
+train:3c9b0459#0, train:3c9b0459#1, train:3c9b0459#2, train:3c9b0459#3, train:3de23699#1, train:3de23699#3,
+train:44d8ac46#2, train:44f52bb0#0, train:44f52bb0#4, train:44f52bb0#5, train:45737921#0, train:4852f2fa#0,
+train:4938f0c2#2, train:496994bd#0, train:496994bd#1, train:4e7e0eb9#0, train:4e7e0eb9#2, train:5168d44c#2,
+train:53b68214#1, train:5582e5ca#1, train:5ad8a7c0#1, train:5ad8a7c0#3, train:60c09cac#0, train:60c09cac#1,
+train:6150a2bd#0, train:6150a2bd#1, train:63613498#0, train:63613498#1, train:63613498#2, train:642d658d#0,
+train:642d658d#1, train:67a3c6ac#0, train:67a3c6ac#1, train:67a3c6ac#2, train:68b16354#0, train:68b16354#1,
+train:68b16354#2, train:68b67ca3#0, train:68b67ca3#1, train:68b67ca3#2, train:6d0aefbc#0, train:6d0aefbc#1,
+train:6d0aefbc#2, train:6d0aefbc#3, train:6d1d5c90#0, train:6ea4a07e#0, train:6ea4a07e#1, train:6ea4a07e#2,
+train:6ea4a07e#3, train:6ea4a07e#4, train:6ea4a07e#5, train:6f8cd79b#0, train:6f8cd79b#1, train:6f8cd79b#2,
+train:6f8cd79b#3, train:72ca375d#0, train:72ca375d#1, train:72ca375d#2, train:7468f01a#0, train:7468f01a#1,
+train:7468f01a#2, train:74dd1130#0, train:74dd1130#1, train:74dd1130#2, train:74dd1130#3, train:794b24be#8,
+train:85c4e7cd#1, train:880c1354#2, train:90347967#0, train:90347967#1, train:9172f3a0#0, train:9172f3a0#1,
+train:9565186b#0, train:9720b24f#0, train:9720b24f#3, train:9dfd6313#0, train:9dfd6313#1, train:9dfd6313#2,
+train:a3325580#0, train:a740d043#0, train:a740d043#1, train:a740d043#2, train:a85d4709#1, train:a87f7484#3,
+train:aabf363d#0, train:aabf363d#1, train:ac0a08a4#0, train:ac0a08a4#1, train:b1948b0a#0, train:b1948b0a#1,
+train:b1948b0a#2, train:b91ae062#0, train:b91ae062#1, train:b91ae062#2, train:b91ae062#4, train:b94a9452#0,
+train:b94a9452#1, train:b94a9452#2, train:b9b7f026#0, train:b9b7f026#1, train:b9b7f026#2, train:bbb1b8b6#1,
+train:bbb1b8b6#3, train:bbb1b8b6#5, train:be94b721#0, train:be94b721#1, train:be94b721#2, train:be94b721#3,
+train:c59eb873#0, train:c59eb873#1, train:c59eb873#2, train:c8f0f002#0, train:c8f0f002#1, train:c8f0f002#2,
+train:c9e6f938#0, train:c9e6f938#1, train:c9e6f938#2, train:caa06a1f#2, train:cd3c21df#1, train:d2acf2cb#0,
+train:d4b1c2b1#0, train:d4b1c2b1#1, train:d4b1c2b1#2, train:d4b1c2b1#4, train:d4b1c2b1#5, train:d4b1c2b1#6,
+train:d511f180#0, train:d511f180#1, train:d511f180#2, train:d631b094#0, train:d90796e8#1, train:d931c21c#1,
+train:d9fac9be#0, train:d9fac9be#3, train:dae9d2b5#4, train:de1cd16c#1, train:e9afcf9a#0, train:e9afcf9a#1,
+train:ed36ccf7#0, train:ed36ccf7#1, train:ed36ccf7#2, train:ed36ccf7#3, train:f76d97a5#0, train:f76d97a5#1,
+train:f76d97a5#2, train:f9012d9b#0, train:fc754716#1, train:fc754716#3
 
 
 ==================================================
@@ -117,7 +262,36 @@ Updating changelog...
 Total Examples   : 3232
 Correct Predictions: 177
 Accuracy         : 5.48%
-Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:009d5c81#3, train:009d5c81#4, train:0b148d64#0, train:0b148d64#1, train:0b148d64#2, train:1a2e2828#0, train:1a2e2828#3, train:1cf80156#0, train:1cf80156#1, train:1cf80156#2, train:1f85a75f#0, train:1f85a75f#1, train:22eb0ac0#2, train:239be575#1, train:23b5c85d#0, train:23b5c85d#2, train:23b5c85d#3, train:23b5c85d#4, train:253bf280#1, train:253bf280#5, train:27a28665#0, train:27a28665#1, train:27a28665#5, train:27a28665#6, train:2a5f8217#1, train:2de01db2#2, train:3c9b0459#0, train:3c9b0459#1, train:3c9b0459#2, train:3c9b0459#3, train:3de23699#1, train:3de23699#3, train:44d8ac46#2, train:44f52bb0#0, train:44f52bb0#4, train:44f52bb0#5, train:45737921#0, train:4852f2fa#0, train:4938f0c2#2, train:496994bd#0, train:496994bd#1, train:4e7e0eb9#0, train:4e7e0eb9#2, train:5168d44c#2, train:53b68214#1, train:5582e5ca#1, train:5ad8a7c0#1, train:5ad8a7c0#3, train:60c09cac#0, train:60c09cac#1, train:6150a2bd#0, train:6150a2bd#1, train:63613498#0, train:63613498#1, train:63613498#2, train:642d658d#0, train:642d658d#1, train:67a3c6ac#0, train:67a3c6ac#1, train:67a3c6ac#2, train:68b16354#0, train:68b16354#1, train:68b16354#2, train:68b67ca3#0, train:68b67ca3#1, train:68b67ca3#2, train:6d0aefbc#0, train:6d0aefbc#1, train:6d0aefbc#2, train:6d0aefbc#3, train:6d1d5c90#0, train:6ea4a07e#0, train:6ea4a07e#1, train:6ea4a07e#2, train:6ea4a07e#3, train:6ea4a07e#4, train:6ea4a07e#5, train:6f8cd79b#0, train:6f8cd79b#1, train:6f8cd79b#2, train:6f8cd79b#3, train:72ca375d#0, train:72ca375d#1, train:72ca375d#2, train:7468f01a#0, train:7468f01a#1, train:7468f01a#2, train:74dd1130#0, train:74dd1130#1, train:74dd1130#2, train:74dd1130#3, train:794b24be#8, train:85c4e7cd#1, train:880c1354#2, train:90347967#0, train:90347967#1, train:9172f3a0#0, train:9172f3a0#1, train:9565186b#0, train:9720b24f#0, train:9720b24f#3, train:9dfd6313#0, train:9dfd6313#1, train:9dfd6313#2, train:a3325580#0, train:a740d043#0, train:a740d043#1, train:a740d043#2, train:a85d4709#1, train:a87f7484#3, train:aabf363d#0, train:aabf363d#1, train:ac0a08a4#0, train:ac0a08a4#1, train:b1948b0a#0, train:b1948b0a#1, train:b1948b0a#2, train:b91ae062#0, train:b91ae062#1, train:b91ae062#2, train:b91ae062#4, train:b94a9452#0, train:b94a9452#1, train:b94a9452#2, train:b9b7f026#0, train:b9b7f026#1, train:b9b7f026#2, train:bbb1b8b6#1, train:bbb1b8b6#3, train:bbb1b8b6#5, train:be94b721#0, train:be94b721#1, train:be94b721#2, train:be94b721#3, train:c59eb873#0, train:c59eb873#1, train:c59eb873#2, train:c8f0f002#0, train:c8f0f002#1, train:c8f0f002#2, train:c9e6f938#0, train:c9e6f938#1, train:c9e6f938#2, train:caa06a1f#2, train:cd3c21df#1, train:d2acf2cb#0, train:d4b1c2b1#0, train:d4b1c2b1#1, train:d4b1c2b1#2, train:d4b1c2b1#4, train:d4b1c2b1#5, train:d4b1c2b1#6, train:d511f180#0, train:d511f180#1, train:d511f180#2, train:d631b094#0, train:d90796e8#1, train:d931c21c#1, train:d9fac9be#0, train:d9fac9be#3, train:dae9d2b5#4, train:de1cd16c#1, train:e9afcf9a#0, train:e9afcf9a#1, train:ed36ccf7#0, train:ed36ccf7#1, train:ed36ccf7#2, train:ed36ccf7#3, train:f76d97a5#0, train:f76d97a5#1, train:f76d97a5#2, train:f9012d9b#0, train:fc754716#1, train:fc754716#3
+Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:009d5c81#3, train:009d5c81#4,
+train:0b148d64#0, train:0b148d64#1, train:0b148d64#2, train:1a2e2828#0, train:1a2e2828#3, train:1cf80156#0,
+train:1cf80156#1, train:1cf80156#2, train:1f85a75f#0, train:1f85a75f#1, train:22eb0ac0#2, train:239be575#1,
+train:23b5c85d#0, train:23b5c85d#2, train:23b5c85d#3, train:23b5c85d#4, train:253bf280#1, train:253bf280#5,
+train:27a28665#0, train:27a28665#1, train:27a28665#5, train:27a28665#6, train:2a5f8217#1, train:2de01db2#2,
+train:3c9b0459#0, train:3c9b0459#1, train:3c9b0459#2, train:3c9b0459#3, train:3de23699#1, train:3de23699#3,
+train:44d8ac46#2, train:44f52bb0#0, train:44f52bb0#4, train:44f52bb0#5, train:45737921#0, train:4852f2fa#0,
+train:4938f0c2#2, train:496994bd#0, train:496994bd#1, train:4e7e0eb9#0, train:4e7e0eb9#2, train:5168d44c#2,
+train:53b68214#1, train:5582e5ca#1, train:5ad8a7c0#1, train:5ad8a7c0#3, train:60c09cac#0, train:60c09cac#1,
+train:6150a2bd#0, train:6150a2bd#1, train:63613498#0, train:63613498#1, train:63613498#2, train:642d658d#0,
+train:642d658d#1, train:67a3c6ac#0, train:67a3c6ac#1, train:67a3c6ac#2, train:68b16354#0, train:68b16354#1,
+train:68b16354#2, train:68b67ca3#0, train:68b67ca3#1, train:68b67ca3#2, train:6d0aefbc#0, train:6d0aefbc#1,
+train:6d0aefbc#2, train:6d0aefbc#3, train:6d1d5c90#0, train:6ea4a07e#0, train:6ea4a07e#1, train:6ea4a07e#2,
+train:6ea4a07e#3, train:6ea4a07e#4, train:6ea4a07e#5, train:6f8cd79b#0, train:6f8cd79b#1, train:6f8cd79b#2,
+train:6f8cd79b#3, train:72ca375d#0, train:72ca375d#1, train:72ca375d#2, train:7468f01a#0, train:7468f01a#1,
+train:7468f01a#2, train:74dd1130#0, train:74dd1130#1, train:74dd1130#2, train:74dd1130#3, train:794b24be#8,
+train:85c4e7cd#1, train:880c1354#2, train:90347967#0, train:90347967#1, train:9172f3a0#0, train:9172f3a0#1,
+train:9565186b#0, train:9720b24f#0, train:9720b24f#3, train:9dfd6313#0, train:9dfd6313#1, train:9dfd6313#2,
+train:a3325580#0, train:a740d043#0, train:a740d043#1, train:a740d043#2, train:a85d4709#1, train:a87f7484#3,
+train:aabf363d#0, train:aabf363d#1, train:ac0a08a4#0, train:ac0a08a4#1, train:b1948b0a#0, train:b1948b0a#1,
+train:b1948b0a#2, train:b91ae062#0, train:b91ae062#1, train:b91ae062#2, train:b91ae062#4, train:b94a9452#0,
+train:b94a9452#1, train:b94a9452#2, train:b9b7f026#0, train:b9b7f026#1, train:b9b7f026#2, train:bbb1b8b6#1,
+train:bbb1b8b6#3, train:bbb1b8b6#5, train:be94b721#0, train:be94b721#1, train:be94b721#2, train:be94b721#3,
+train:c59eb873#0, train:c59eb873#1, train:c59eb873#2, train:c8f0f002#0, train:c8f0f002#1, train:c8f0f002#2,
+train:c9e6f938#0, train:c9e6f938#1, train:c9e6f938#2, train:caa06a1f#2, train:cd3c21df#1, train:d2acf2cb#0,
+train:d4b1c2b1#0, train:d4b1c2b1#1, train:d4b1c2b1#2, train:d4b1c2b1#4, train:d4b1c2b1#5, train:d4b1c2b1#6,
+train:d511f180#0, train:d511f180#1, train:d511f180#2, train:d631b094#0, train:d90796e8#1, train:d931c21c#1,
+train:d9fac9be#0, train:d9fac9be#3, train:dae9d2b5#4, train:de1cd16c#1, train:e9afcf9a#0, train:e9afcf9a#1,
+train:ed36ccf7#0, train:ed36ccf7#1, train:ed36ccf7#2, train:ed36ccf7#3, train:f76d97a5#0, train:f76d97a5#1,
+train:f76d97a5#2, train:f9012d9b#0, train:fc754716#1, train:fc754716#3
 ```
 
 ### Rule Usage Statistics
@@ -136,7 +310,36 @@ Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:0
 Total Examples   : 3232
 Correct Predictions: 177
 Accuracy         : 5.48%
-Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:009d5c81#3, train:009d5c81#4, train:0b148d64#0, train:0b148d64#1, train:0b148d64#2, train:1a2e2828#0, train:1a2e2828#3, train:1cf80156#0, train:1cf80156#1, train:1cf80156#2, train:1f85a75f#0, train:1f85a75f#1, train:22eb0ac0#2, train:239be575#1, train:23b5c85d#0, train:23b5c85d#2, train:23b5c85d#3, train:23b5c85d#4, train:253bf280#1, train:253bf280#5, train:27a28665#0, train:27a28665#1, train:27a28665#5, train:27a28665#6, train:2a5f8217#1, train:2de01db2#2, train:3c9b0459#0, train:3c9b0459#1, train:3c9b0459#2, train:3c9b0459#3, train:3de23699#1, train:3de23699#3, train:44d8ac46#2, train:44f52bb0#0, train:44f52bb0#4, train:44f52bb0#5, train:45737921#0, train:4852f2fa#0, train:4938f0c2#2, train:496994bd#0, train:496994bd#1, train:4e7e0eb9#0, train:4e7e0eb9#2, train:5168d44c#2, train:53b68214#1, train:5582e5ca#1, train:5ad8a7c0#1, train:5ad8a7c0#3, train:60c09cac#0, train:60c09cac#1, train:6150a2bd#0, train:6150a2bd#1, train:63613498#0, train:63613498#1, train:63613498#2, train:642d658d#0, train:642d658d#1, train:67a3c6ac#0, train:67a3c6ac#1, train:67a3c6ac#2, train:68b16354#0, train:68b16354#1, train:68b16354#2, train:68b67ca3#0, train:68b67ca3#1, train:68b67ca3#2, train:6d0aefbc#0, train:6d0aefbc#1, train:6d0aefbc#2, train:6d0aefbc#3, train:6d1d5c90#0, train:6ea4a07e#0, train:6ea4a07e#1, train:6ea4a07e#2, train:6ea4a07e#3, train:6ea4a07e#4, train:6ea4a07e#5, train:6f8cd79b#0, train:6f8cd79b#1, train:6f8cd79b#2, train:6f8cd79b#3, train:72ca375d#0, train:72ca375d#1, train:72ca375d#2, train:7468f01a#0, train:7468f01a#1, train:7468f01a#2, train:74dd1130#0, train:74dd1130#1, train:74dd1130#2, train:74dd1130#3, train:794b24be#8, train:85c4e7cd#1, train:880c1354#2, train:90347967#0, train:90347967#1, train:9172f3a0#0, train:9172f3a0#1, train:9565186b#0, train:9720b24f#0, train:9720b24f#3, train:9dfd6313#0, train:9dfd6313#1, train:9dfd6313#2, train:a3325580#0, train:a740d043#0, train:a740d043#1, train:a740d043#2, train:a85d4709#1, train:a87f7484#3, train:aabf363d#0, train:aabf363d#1, train:ac0a08a4#0, train:ac0a08a4#1, train:b1948b0a#0, train:b1948b0a#1, train:b1948b0a#2, train:b91ae062#0, train:b91ae062#1, train:b91ae062#2, train:b91ae062#4, train:b94a9452#0, train:b94a9452#1, train:b94a9452#2, train:b9b7f026#0, train:b9b7f026#1, train:b9b7f026#2, train:bbb1b8b6#1, train:bbb1b8b6#3, train:bbb1b8b6#5, train:be94b721#0, train:be94b721#1, train:be94b721#2, train:be94b721#3, train:c59eb873#0, train:c59eb873#1, train:c59eb873#2, train:c8f0f002#0, train:c8f0f002#1, train:c8f0f002#2, train:c9e6f938#0, train:c9e6f938#1, train:c9e6f938#2, train:caa06a1f#2, train:cd3c21df#1, train:d2acf2cb#0, train:d4b1c2b1#0, train:d4b1c2b1#1, train:d4b1c2b1#2, train:d4b1c2b1#4, train:d4b1c2b1#5, train:d4b1c2b1#6, train:d511f180#0, train:d511f180#1, train:d511f180#2, train:d631b094#0, train:d90796e8#1, train:d931c21c#1, train:d9fac9be#0, train:d9fac9be#3, train:dae9d2b5#4, train:de1cd16c#1, train:e9afcf9a#0, train:e9afcf9a#1, train:ed36ccf7#0, train:ed36ccf7#1, train:ed36ccf7#2, train:ed36ccf7#3, train:f76d97a5#0, train:f76d97a5#1, train:f76d97a5#2, train:f9012d9b#0, train:fc754716#1, train:fc754716#3
+Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:009d5c81#3, train:009d5c81#4,
+train:0b148d64#0, train:0b148d64#1, train:0b148d64#2, train:1a2e2828#0, train:1a2e2828#3, train:1cf80156#0,
+train:1cf80156#1, train:1cf80156#2, train:1f85a75f#0, train:1f85a75f#1, train:22eb0ac0#2, train:239be575#1,
+train:23b5c85d#0, train:23b5c85d#2, train:23b5c85d#3, train:23b5c85d#4, train:253bf280#1, train:253bf280#5,
+train:27a28665#0, train:27a28665#1, train:27a28665#5, train:27a28665#6, train:2a5f8217#1, train:2de01db2#2,
+train:3c9b0459#0, train:3c9b0459#1, train:3c9b0459#2, train:3c9b0459#3, train:3de23699#1, train:3de23699#3,
+train:44d8ac46#2, train:44f52bb0#0, train:44f52bb0#4, train:44f52bb0#5, train:45737921#0, train:4852f2fa#0,
+train:4938f0c2#2, train:496994bd#0, train:496994bd#1, train:4e7e0eb9#0, train:4e7e0eb9#2, train:5168d44c#2,
+train:53b68214#1, train:5582e5ca#1, train:5ad8a7c0#1, train:5ad8a7c0#3, train:60c09cac#0, train:60c09cac#1,
+train:6150a2bd#0, train:6150a2bd#1, train:63613498#0, train:63613498#1, train:63613498#2, train:642d658d#0,
+train:642d658d#1, train:67a3c6ac#0, train:67a3c6ac#1, train:67a3c6ac#2, train:68b16354#0, train:68b16354#1,
+train:68b16354#2, train:68b67ca3#0, train:68b67ca3#1, train:68b67ca3#2, train:6d0aefbc#0, train:6d0aefbc#1,
+train:6d0aefbc#2, train:6d0aefbc#3, train:6d1d5c90#0, train:6ea4a07e#0, train:6ea4a07e#1, train:6ea4a07e#2,
+train:6ea4a07e#3, train:6ea4a07e#4, train:6ea4a07e#5, train:6f8cd79b#0, train:6f8cd79b#1, train:6f8cd79b#2,
+train:6f8cd79b#3, train:72ca375d#0, train:72ca375d#1, train:72ca375d#2, train:7468f01a#0, train:7468f01a#1,
+train:7468f01a#2, train:74dd1130#0, train:74dd1130#1, train:74dd1130#2, train:74dd1130#3, train:794b24be#8,
+train:85c4e7cd#1, train:880c1354#2, train:90347967#0, train:90347967#1, train:9172f3a0#0, train:9172f3a0#1,
+train:9565186b#0, train:9720b24f#0, train:9720b24f#3, train:9dfd6313#0, train:9dfd6313#1, train:9dfd6313#2,
+train:a3325580#0, train:a740d043#0, train:a740d043#1, train:a740d043#2, train:a85d4709#1, train:a87f7484#3,
+train:aabf363d#0, train:aabf363d#1, train:ac0a08a4#0, train:ac0a08a4#1, train:b1948b0a#0, train:b1948b0a#1,
+train:b1948b0a#2, train:b91ae062#0, train:b91ae062#1, train:b91ae062#2, train:b91ae062#4, train:b94a9452#0,
+train:b94a9452#1, train:b94a9452#2, train:b9b7f026#0, train:b9b7f026#1, train:b9b7f026#2, train:bbb1b8b6#1,
+train:bbb1b8b6#3, train:bbb1b8b6#5, train:be94b721#0, train:be94b721#1, train:be94b721#2, train:be94b721#3,
+train:c59eb873#0, train:c59eb873#1, train:c59eb873#2, train:c8f0f002#0, train:c8f0f002#1, train:c8f0f002#2,
+train:c9e6f938#0, train:c9e6f938#1, train:c9e6f938#2, train:caa06a1f#2, train:cd3c21df#1, train:d2acf2cb#0,
+train:d4b1c2b1#0, train:d4b1c2b1#1, train:d4b1c2b1#2, train:d4b1c2b1#4, train:d4b1c2b1#5, train:d4b1c2b1#6,
+train:d511f180#0, train:d511f180#1, train:d511f180#2, train:d631b094#0, train:d90796e8#1, train:d931c21c#1,
+train:d9fac9be#0, train:d9fac9be#3, train:dae9d2b5#4, train:de1cd16c#1, train:e9afcf9a#0, train:e9afcf9a#1,
+train:ed36ccf7#0, train:ed36ccf7#1, train:ed36ccf7#2, train:ed36ccf7#3, train:f76d97a5#0, train:f76d97a5#1,
+train:f76d97a5#2, train:f9012d9b#0, train:fc754716#1, train:fc754716#3
 
 
 ==================================================
@@ -159,7 +362,36 @@ Updating changelog...
 Total Examples   : 3232
 Correct Predictions: 177
 Accuracy         : 5.48%
-Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:009d5c81#3, train:009d5c81#4, train:0b148d64#0, train:0b148d64#1, train:0b148d64#2, train:1a2e2828#0, train:1a2e2828#3, train:1cf80156#0, train:1cf80156#1, train:1cf80156#2, train:1f85a75f#0, train:1f85a75f#1, train:22eb0ac0#2, train:239be575#1, train:23b5c85d#0, train:23b5c85d#2, train:23b5c85d#3, train:23b5c85d#4, train:253bf280#1, train:253bf280#5, train:27a28665#0, train:27a28665#1, train:27a28665#5, train:27a28665#6, train:2a5f8217#1, train:2de01db2#2, train:3c9b0459#0, train:3c9b0459#1, train:3c9b0459#2, train:3c9b0459#3, train:3de23699#1, train:3de23699#3, train:44d8ac46#2, train:44f52bb0#0, train:44f52bb0#4, train:44f52bb0#5, train:45737921#0, train:4852f2fa#0, train:4938f0c2#2, train:496994bd#0, train:496994bd#1, train:4e7e0eb9#0, train:4e7e0eb9#2, train:5168d44c#2, train:53b68214#1, train:5582e5ca#1, train:5ad8a7c0#1, train:5ad8a7c0#3, train:60c09cac#0, train:60c09cac#1, train:6150a2bd#0, train:6150a2bd#1, train:63613498#0, train:63613498#1, train:63613498#2, train:642d658d#0, train:642d658d#1, train:67a3c6ac#0, train:67a3c6ac#1, train:67a3c6ac#2, train:68b16354#0, train:68b16354#1, train:68b16354#2, train:68b67ca3#0, train:68b67ca3#1, train:68b67ca3#2, train:6d0aefbc#0, train:6d0aefbc#1, train:6d0aefbc#2, train:6d0aefbc#3, train:6d1d5c90#0, train:6ea4a07e#0, train:6ea4a07e#1, train:6ea4a07e#2, train:6ea4a07e#3, train:6ea4a07e#4, train:6ea4a07e#5, train:6f8cd79b#0, train:6f8cd79b#1, train:6f8cd79b#2, train:6f8cd79b#3, train:72ca375d#0, train:72ca375d#1, train:72ca375d#2, train:7468f01a#0, train:7468f01a#1, train:7468f01a#2, train:74dd1130#0, train:74dd1130#1, train:74dd1130#2, train:74dd1130#3, train:794b24be#8, train:85c4e7cd#1, train:880c1354#2, train:90347967#0, train:90347967#1, train:9172f3a0#0, train:9172f3a0#1, train:9565186b#0, train:9720b24f#0, train:9720b24f#3, train:9dfd6313#0, train:9dfd6313#1, train:9dfd6313#2, train:a3325580#0, train:a740d043#0, train:a740d043#1, train:a740d043#2, train:a85d4709#1, train:a87f7484#3, train:aabf363d#0, train:aabf363d#1, train:ac0a08a4#0, train:ac0a08a4#1, train:b1948b0a#0, train:b1948b0a#1, train:b1948b0a#2, train:b91ae062#0, train:b91ae062#1, train:b91ae062#2, train:b91ae062#4, train:b94a9452#0, train:b94a9452#1, train:b94a9452#2, train:b9b7f026#0, train:b9b7f026#1, train:b9b7f026#2, train:bbb1b8b6#1, train:bbb1b8b6#3, train:bbb1b8b6#5, train:be94b721#0, train:be94b721#1, train:be94b721#2, train:be94b721#3, train:c59eb873#0, train:c59eb873#1, train:c59eb873#2, train:c8f0f002#0, train:c8f0f002#1, train:c8f0f002#2, train:c9e6f938#0, train:c9e6f938#1, train:c9e6f938#2, train:caa06a1f#2, train:cd3c21df#1, train:d2acf2cb#0, train:d4b1c2b1#0, train:d4b1c2b1#1, train:d4b1c2b1#2, train:d4b1c2b1#4, train:d4b1c2b1#5, train:d4b1c2b1#6, train:d511f180#0, train:d511f180#1, train:d511f180#2, train:d631b094#0, train:d90796e8#1, train:d931c21c#1, train:d9fac9be#0, train:d9fac9be#3, train:dae9d2b5#4, train:de1cd16c#1, train:e9afcf9a#0, train:e9afcf9a#1, train:ed36ccf7#0, train:ed36ccf7#1, train:ed36ccf7#2, train:ed36ccf7#3, train:f76d97a5#0, train:f76d97a5#1, train:f76d97a5#2, train:f9012d9b#0, train:fc754716#1, train:fc754716#3
+Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:009d5c81#3, train:009d5c81#4,
+train:0b148d64#0, train:0b148d64#1, train:0b148d64#2, train:1a2e2828#0, train:1a2e2828#3, train:1cf80156#0,
+train:1cf80156#1, train:1cf80156#2, train:1f85a75f#0, train:1f85a75f#1, train:22eb0ac0#2, train:239be575#1,
+train:23b5c85d#0, train:23b5c85d#2, train:23b5c85d#3, train:23b5c85d#4, train:253bf280#1, train:253bf280#5,
+train:27a28665#0, train:27a28665#1, train:27a28665#5, train:27a28665#6, train:2a5f8217#1, train:2de01db2#2,
+train:3c9b0459#0, train:3c9b0459#1, train:3c9b0459#2, train:3c9b0459#3, train:3de23699#1, train:3de23699#3,
+train:44d8ac46#2, train:44f52bb0#0, train:44f52bb0#4, train:44f52bb0#5, train:45737921#0, train:4852f2fa#0,
+train:4938f0c2#2, train:496994bd#0, train:496994bd#1, train:4e7e0eb9#0, train:4e7e0eb9#2, train:5168d44c#2,
+train:53b68214#1, train:5582e5ca#1, train:5ad8a7c0#1, train:5ad8a7c0#3, train:60c09cac#0, train:60c09cac#1,
+train:6150a2bd#0, train:6150a2bd#1, train:63613498#0, train:63613498#1, train:63613498#2, train:642d658d#0,
+train:642d658d#1, train:67a3c6ac#0, train:67a3c6ac#1, train:67a3c6ac#2, train:68b16354#0, train:68b16354#1,
+train:68b16354#2, train:68b67ca3#0, train:68b67ca3#1, train:68b67ca3#2, train:6d0aefbc#0, train:6d0aefbc#1,
+train:6d0aefbc#2, train:6d0aefbc#3, train:6d1d5c90#0, train:6ea4a07e#0, train:6ea4a07e#1, train:6ea4a07e#2,
+train:6ea4a07e#3, train:6ea4a07e#4, train:6ea4a07e#5, train:6f8cd79b#0, train:6f8cd79b#1, train:6f8cd79b#2,
+train:6f8cd79b#3, train:72ca375d#0, train:72ca375d#1, train:72ca375d#2, train:7468f01a#0, train:7468f01a#1,
+train:7468f01a#2, train:74dd1130#0, train:74dd1130#1, train:74dd1130#2, train:74dd1130#3, train:794b24be#8,
+train:85c4e7cd#1, train:880c1354#2, train:90347967#0, train:90347967#1, train:9172f3a0#0, train:9172f3a0#1,
+train:9565186b#0, train:9720b24f#0, train:9720b24f#3, train:9dfd6313#0, train:9dfd6313#1, train:9dfd6313#2,
+train:a3325580#0, train:a740d043#0, train:a740d043#1, train:a740d043#2, train:a85d4709#1, train:a87f7484#3,
+train:aabf363d#0, train:aabf363d#1, train:ac0a08a4#0, train:ac0a08a4#1, train:b1948b0a#0, train:b1948b0a#1,
+train:b1948b0a#2, train:b91ae062#0, train:b91ae062#1, train:b91ae062#2, train:b91ae062#4, train:b94a9452#0,
+train:b94a9452#1, train:b94a9452#2, train:b9b7f026#0, train:b9b7f026#1, train:b9b7f026#2, train:bbb1b8b6#1,
+train:bbb1b8b6#3, train:bbb1b8b6#5, train:be94b721#0, train:be94b721#1, train:be94b721#2, train:be94b721#3,
+train:c59eb873#0, train:c59eb873#1, train:c59eb873#2, train:c8f0f002#0, train:c8f0f002#1, train:c8f0f002#2,
+train:c9e6f938#0, train:c9e6f938#1, train:c9e6f938#2, train:caa06a1f#2, train:cd3c21df#1, train:d2acf2cb#0,
+train:d4b1c2b1#0, train:d4b1c2b1#1, train:d4b1c2b1#2, train:d4b1c2b1#4, train:d4b1c2b1#5, train:d4b1c2b1#6,
+train:d511f180#0, train:d511f180#1, train:d511f180#2, train:d631b094#0, train:d90796e8#1, train:d931c21c#1,
+train:d9fac9be#0, train:d9fac9be#3, train:dae9d2b5#4, train:de1cd16c#1, train:e9afcf9a#0, train:e9afcf9a#1,
+train:ed36ccf7#0, train:ed36ccf7#1, train:ed36ccf7#2, train:ed36ccf7#3, train:f76d97a5#0, train:f76d97a5#1,
+train:f76d97a5#2, train:f9012d9b#0, train:fc754716#1, train:fc754716#3
 ```
 
 ### Rule Usage Statistics
@@ -178,7 +410,36 @@ Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:0
 Total Examples   : 3232
 Correct Predictions: 177
 Accuracy         : 5.48%
-Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:009d5c81#3, train:009d5c81#4, train:0b148d64#0, train:0b148d64#1, train:0b148d64#2, train:1a2e2828#0, train:1a2e2828#3, train:1cf80156#0, train:1cf80156#1, train:1cf80156#2, train:1f85a75f#0, train:1f85a75f#1, train:22eb0ac0#2, train:239be575#1, train:23b5c85d#0, train:23b5c85d#2, train:23b5c85d#3, train:23b5c85d#4, train:253bf280#1, train:253bf280#5, train:27a28665#0, train:27a28665#1, train:27a28665#5, train:27a28665#6, train:2a5f8217#1, train:2de01db2#2, train:3c9b0459#0, train:3c9b0459#1, train:3c9b0459#2, train:3c9b0459#3, train:3de23699#1, train:3de23699#3, train:44d8ac46#2, train:44f52bb0#0, train:44f52bb0#4, train:44f52bb0#5, train:45737921#0, train:4852f2fa#0, train:4938f0c2#2, train:496994bd#0, train:496994bd#1, train:4e7e0eb9#0, train:4e7e0eb9#2, train:5168d44c#2, train:53b68214#1, train:5582e5ca#1, train:5ad8a7c0#1, train:5ad8a7c0#3, train:60c09cac#0, train:60c09cac#1, train:6150a2bd#0, train:6150a2bd#1, train:63613498#0, train:63613498#1, train:63613498#2, train:642d658d#0, train:642d658d#1, train:67a3c6ac#0, train:67a3c6ac#1, train:67a3c6ac#2, train:68b16354#0, train:68b16354#1, train:68b16354#2, train:68b67ca3#0, train:68b67ca3#1, train:68b67ca3#2, train:6d0aefbc#0, train:6d0aefbc#1, train:6d0aefbc#2, train:6d0aefbc#3, train:6d1d5c90#0, train:6ea4a07e#0, train:6ea4a07e#1, train:6ea4a07e#2, train:6ea4a07e#3, train:6ea4a07e#4, train:6ea4a07e#5, train:6f8cd79b#0, train:6f8cd79b#1, train:6f8cd79b#2, train:6f8cd79b#3, train:72ca375d#0, train:72ca375d#1, train:72ca375d#2, train:7468f01a#0, train:7468f01a#1, train:7468f01a#2, train:74dd1130#0, train:74dd1130#1, train:74dd1130#2, train:74dd1130#3, train:794b24be#8, train:85c4e7cd#1, train:880c1354#2, train:90347967#0, train:90347967#1, train:9172f3a0#0, train:9172f3a0#1, train:9565186b#0, train:9720b24f#0, train:9720b24f#3, train:9dfd6313#0, train:9dfd6313#1, train:9dfd6313#2, train:a3325580#0, train:a740d043#0, train:a740d043#1, train:a740d043#2, train:a85d4709#1, train:a87f7484#3, train:aabf363d#0, train:aabf363d#1, train:ac0a08a4#0, train:ac0a08a4#1, train:b1948b0a#0, train:b1948b0a#1, train:b1948b0a#2, train:b91ae062#0, train:b91ae062#1, train:b91ae062#2, train:b91ae062#4, train:b94a9452#0, train:b94a9452#1, train:b94a9452#2, train:b9b7f026#0, train:b9b7f026#1, train:b9b7f026#2, train:bbb1b8b6#1, train:bbb1b8b6#3, train:bbb1b8b6#5, train:be94b721#0, train:be94b721#1, train:be94b721#2, train:be94b721#3, train:c59eb873#0, train:c59eb873#1, train:c59eb873#2, train:c8f0f002#0, train:c8f0f002#1, train:c8f0f002#2, train:c9e6f938#0, train:c9e6f938#1, train:c9e6f938#2, train:caa06a1f#2, train:cd3c21df#1, train:d2acf2cb#0, train:d4b1c2b1#0, train:d4b1c2b1#1, train:d4b1c2b1#2, train:d4b1c2b1#4, train:d4b1c2b1#5, train:d4b1c2b1#6, train:d511f180#0, train:d511f180#1, train:d511f180#2, train:d631b094#0, train:d90796e8#1, train:d931c21c#1, train:d9fac9be#0, train:d9fac9be#3, train:dae9d2b5#4, train:de1cd16c#1, train:e9afcf9a#0, train:e9afcf9a#1, train:ed36ccf7#0, train:ed36ccf7#1, train:ed36ccf7#2, train:ed36ccf7#3, train:f76d97a5#0, train:f76d97a5#1, train:f76d97a5#2, train:f9012d9b#0, train:fc754716#1, train:fc754716#3
+Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:009d5c81#3, train:009d5c81#4,
+train:0b148d64#0, train:0b148d64#1, train:0b148d64#2, train:1a2e2828#0, train:1a2e2828#3, train:1cf80156#0,
+train:1cf80156#1, train:1cf80156#2, train:1f85a75f#0, train:1f85a75f#1, train:22eb0ac0#2, train:239be575#1,
+train:23b5c85d#0, train:23b5c85d#2, train:23b5c85d#3, train:23b5c85d#4, train:253bf280#1, train:253bf280#5,
+train:27a28665#0, train:27a28665#1, train:27a28665#5, train:27a28665#6, train:2a5f8217#1, train:2de01db2#2,
+train:3c9b0459#0, train:3c9b0459#1, train:3c9b0459#2, train:3c9b0459#3, train:3de23699#1, train:3de23699#3,
+train:44d8ac46#2, train:44f52bb0#0, train:44f52bb0#4, train:44f52bb0#5, train:45737921#0, train:4852f2fa#0,
+train:4938f0c2#2, train:496994bd#0, train:496994bd#1, train:4e7e0eb9#0, train:4e7e0eb9#2, train:5168d44c#2,
+train:53b68214#1, train:5582e5ca#1, train:5ad8a7c0#1, train:5ad8a7c0#3, train:60c09cac#0, train:60c09cac#1,
+train:6150a2bd#0, train:6150a2bd#1, train:63613498#0, train:63613498#1, train:63613498#2, train:642d658d#0,
+train:642d658d#1, train:67a3c6ac#0, train:67a3c6ac#1, train:67a3c6ac#2, train:68b16354#0, train:68b16354#1,
+train:68b16354#2, train:68b67ca3#0, train:68b67ca3#1, train:68b67ca3#2, train:6d0aefbc#0, train:6d0aefbc#1,
+train:6d0aefbc#2, train:6d0aefbc#3, train:6d1d5c90#0, train:6ea4a07e#0, train:6ea4a07e#1, train:6ea4a07e#2,
+train:6ea4a07e#3, train:6ea4a07e#4, train:6ea4a07e#5, train:6f8cd79b#0, train:6f8cd79b#1, train:6f8cd79b#2,
+train:6f8cd79b#3, train:72ca375d#0, train:72ca375d#1, train:72ca375d#2, train:7468f01a#0, train:7468f01a#1,
+train:7468f01a#2, train:74dd1130#0, train:74dd1130#1, train:74dd1130#2, train:74dd1130#3, train:794b24be#8,
+train:85c4e7cd#1, train:880c1354#2, train:90347967#0, train:90347967#1, train:9172f3a0#0, train:9172f3a0#1,
+train:9565186b#0, train:9720b24f#0, train:9720b24f#3, train:9dfd6313#0, train:9dfd6313#1, train:9dfd6313#2,
+train:a3325580#0, train:a740d043#0, train:a740d043#1, train:a740d043#2, train:a85d4709#1, train:a87f7484#3,
+train:aabf363d#0, train:aabf363d#1, train:ac0a08a4#0, train:ac0a08a4#1, train:b1948b0a#0, train:b1948b0a#1,
+train:b1948b0a#2, train:b91ae062#0, train:b91ae062#1, train:b91ae062#2, train:b91ae062#4, train:b94a9452#0,
+train:b94a9452#1, train:b94a9452#2, train:b9b7f026#0, train:b9b7f026#1, train:b9b7f026#2, train:bbb1b8b6#1,
+train:bbb1b8b6#3, train:bbb1b8b6#5, train:be94b721#0, train:be94b721#1, train:be94b721#2, train:be94b721#3,
+train:c59eb873#0, train:c59eb873#1, train:c59eb873#2, train:c8f0f002#0, train:c8f0f002#1, train:c8f0f002#2,
+train:c9e6f938#0, train:c9e6f938#1, train:c9e6f938#2, train:caa06a1f#2, train:cd3c21df#1, train:d2acf2cb#0,
+train:d4b1c2b1#0, train:d4b1c2b1#1, train:d4b1c2b1#2, train:d4b1c2b1#4, train:d4b1c2b1#5, train:d4b1c2b1#6,
+train:d511f180#0, train:d511f180#1, train:d511f180#2, train:d631b094#0, train:d90796e8#1, train:d931c21c#1,
+train:d9fac9be#0, train:d9fac9be#3, train:dae9d2b5#4, train:de1cd16c#1, train:e9afcf9a#0, train:e9afcf9a#1,
+train:ed36ccf7#0, train:ed36ccf7#1, train:ed36ccf7#2, train:ed36ccf7#3, train:f76d97a5#0, train:f76d97a5#1,
+train:f76d97a5#2, train:f9012d9b#0, train:fc754716#1, train:fc754716#3
 
 
 ==================================================
@@ -201,7 +462,36 @@ Updating changelog...
 Total Examples   : 3232
 Correct Predictions: 177
 Accuracy         : 5.48%
-Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:009d5c81#3, train:009d5c81#4, train:0b148d64#0, train:0b148d64#1, train:0b148d64#2, train:1a2e2828#0, train:1a2e2828#3, train:1cf80156#0, train:1cf80156#1, train:1cf80156#2, train:1f85a75f#0, train:1f85a75f#1, train:22eb0ac0#2, train:239be575#1, train:23b5c85d#0, train:23b5c85d#2, train:23b5c85d#3, train:23b5c85d#4, train:253bf280#1, train:253bf280#5, train:27a28665#0, train:27a28665#1, train:27a28665#5, train:27a28665#6, train:2a5f8217#1, train:2de01db2#2, train:3c9b0459#0, train:3c9b0459#1, train:3c9b0459#2, train:3c9b0459#3, train:3de23699#1, train:3de23699#3, train:44d8ac46#2, train:44f52bb0#0, train:44f52bb0#4, train:44f52bb0#5, train:45737921#0, train:4852f2fa#0, train:4938f0c2#2, train:496994bd#0, train:496994bd#1, train:4e7e0eb9#0, train:4e7e0eb9#2, train:5168d44c#2, train:53b68214#1, train:5582e5ca#1, train:5ad8a7c0#1, train:5ad8a7c0#3, train:60c09cac#0, train:60c09cac#1, train:6150a2bd#0, train:6150a2bd#1, train:63613498#0, train:63613498#1, train:63613498#2, train:642d658d#0, train:642d658d#1, train:67a3c6ac#0, train:67a3c6ac#1, train:67a3c6ac#2, train:68b16354#0, train:68b16354#1, train:68b16354#2, train:68b67ca3#0, train:68b67ca3#1, train:68b67ca3#2, train:6d0aefbc#0, train:6d0aefbc#1, train:6d0aefbc#2, train:6d0aefbc#3, train:6d1d5c90#0, train:6ea4a07e#0, train:6ea4a07e#1, train:6ea4a07e#2, train:6ea4a07e#3, train:6ea4a07e#4, train:6ea4a07e#5, train:6f8cd79b#0, train:6f8cd79b#1, train:6f8cd79b#2, train:6f8cd79b#3, train:72ca375d#0, train:72ca375d#1, train:72ca375d#2, train:7468f01a#0, train:7468f01a#1, train:7468f01a#2, train:74dd1130#0, train:74dd1130#1, train:74dd1130#2, train:74dd1130#3, train:794b24be#8, train:85c4e7cd#1, train:880c1354#2, train:90347967#0, train:90347967#1, train:9172f3a0#0, train:9172f3a0#1, train:9565186b#0, train:9720b24f#0, train:9720b24f#3, train:9dfd6313#0, train:9dfd6313#1, train:9dfd6313#2, train:a3325580#0, train:a740d043#0, train:a740d043#1, train:a740d043#2, train:a85d4709#1, train:a87f7484#3, train:aabf363d#0, train:aabf363d#1, train:ac0a08a4#0, train:ac0a08a4#1, train:b1948b0a#0, train:b1948b0a#1, train:b1948b0a#2, train:b91ae062#0, train:b91ae062#1, train:b91ae062#2, train:b91ae062#4, train:b94a9452#0, train:b94a9452#1, train:b94a9452#2, train:b9b7f026#0, train:b9b7f026#1, train:b9b7f026#2, train:bbb1b8b6#1, train:bbb1b8b6#3, train:bbb1b8b6#5, train:be94b721#0, train:be94b721#1, train:be94b721#2, train:be94b721#3, train:c59eb873#0, train:c59eb873#1, train:c59eb873#2, train:c8f0f002#0, train:c8f0f002#1, train:c8f0f002#2, train:c9e6f938#0, train:c9e6f938#1, train:c9e6f938#2, train:caa06a1f#2, train:cd3c21df#1, train:d2acf2cb#0, train:d4b1c2b1#0, train:d4b1c2b1#1, train:d4b1c2b1#2, train:d4b1c2b1#4, train:d4b1c2b1#5, train:d4b1c2b1#6, train:d511f180#0, train:d511f180#1, train:d511f180#2, train:d631b094#0, train:d90796e8#1, train:d931c21c#1, train:d9fac9be#0, train:d9fac9be#3, train:dae9d2b5#4, train:de1cd16c#1, train:e9afcf9a#0, train:e9afcf9a#1, train:ed36ccf7#0, train:ed36ccf7#1, train:ed36ccf7#2, train:ed36ccf7#3, train:f76d97a5#0, train:f76d97a5#1, train:f76d97a5#2, train:f9012d9b#0, train:fc754716#1, train:fc754716#3
+Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:009d5c81#3, train:009d5c81#4,
+train:0b148d64#0, train:0b148d64#1, train:0b148d64#2, train:1a2e2828#0, train:1a2e2828#3, train:1cf80156#0,
+train:1cf80156#1, train:1cf80156#2, train:1f85a75f#0, train:1f85a75f#1, train:22eb0ac0#2, train:239be575#1,
+train:23b5c85d#0, train:23b5c85d#2, train:23b5c85d#3, train:23b5c85d#4, train:253bf280#1, train:253bf280#5,
+train:27a28665#0, train:27a28665#1, train:27a28665#5, train:27a28665#6, train:2a5f8217#1, train:2de01db2#2,
+train:3c9b0459#0, train:3c9b0459#1, train:3c9b0459#2, train:3c9b0459#3, train:3de23699#1, train:3de23699#3,
+train:44d8ac46#2, train:44f52bb0#0, train:44f52bb0#4, train:44f52bb0#5, train:45737921#0, train:4852f2fa#0,
+train:4938f0c2#2, train:496994bd#0, train:496994bd#1, train:4e7e0eb9#0, train:4e7e0eb9#2, train:5168d44c#2,
+train:53b68214#1, train:5582e5ca#1, train:5ad8a7c0#1, train:5ad8a7c0#3, train:60c09cac#0, train:60c09cac#1,
+train:6150a2bd#0, train:6150a2bd#1, train:63613498#0, train:63613498#1, train:63613498#2, train:642d658d#0,
+train:642d658d#1, train:67a3c6ac#0, train:67a3c6ac#1, train:67a3c6ac#2, train:68b16354#0, train:68b16354#1,
+train:68b16354#2, train:68b67ca3#0, train:68b67ca3#1, train:68b67ca3#2, train:6d0aefbc#0, train:6d0aefbc#1,
+train:6d0aefbc#2, train:6d0aefbc#3, train:6d1d5c90#0, train:6ea4a07e#0, train:6ea4a07e#1, train:6ea4a07e#2,
+train:6ea4a07e#3, train:6ea4a07e#4, train:6ea4a07e#5, train:6f8cd79b#0, train:6f8cd79b#1, train:6f8cd79b#2,
+train:6f8cd79b#3, train:72ca375d#0, train:72ca375d#1, train:72ca375d#2, train:7468f01a#0, train:7468f01a#1,
+train:7468f01a#2, train:74dd1130#0, train:74dd1130#1, train:74dd1130#2, train:74dd1130#3, train:794b24be#8,
+train:85c4e7cd#1, train:880c1354#2, train:90347967#0, train:90347967#1, train:9172f3a0#0, train:9172f3a0#1,
+train:9565186b#0, train:9720b24f#0, train:9720b24f#3, train:9dfd6313#0, train:9dfd6313#1, train:9dfd6313#2,
+train:a3325580#0, train:a740d043#0, train:a740d043#1, train:a740d043#2, train:a85d4709#1, train:a87f7484#3,
+train:aabf363d#0, train:aabf363d#1, train:ac0a08a4#0, train:ac0a08a4#1, train:b1948b0a#0, train:b1948b0a#1,
+train:b1948b0a#2, train:b91ae062#0, train:b91ae062#1, train:b91ae062#2, train:b91ae062#4, train:b94a9452#0,
+train:b94a9452#1, train:b94a9452#2, train:b9b7f026#0, train:b9b7f026#1, train:b9b7f026#2, train:bbb1b8b6#1,
+train:bbb1b8b6#3, train:bbb1b8b6#5, train:be94b721#0, train:be94b721#1, train:be94b721#2, train:be94b721#3,
+train:c59eb873#0, train:c59eb873#1, train:c59eb873#2, train:c8f0f002#0, train:c8f0f002#1, train:c8f0f002#2,
+train:c9e6f938#0, train:c9e6f938#1, train:c9e6f938#2, train:caa06a1f#2, train:cd3c21df#1, train:d2acf2cb#0,
+train:d4b1c2b1#0, train:d4b1c2b1#1, train:d4b1c2b1#2, train:d4b1c2b1#4, train:d4b1c2b1#5, train:d4b1c2b1#6,
+train:d511f180#0, train:d511f180#1, train:d511f180#2, train:d631b094#0, train:d90796e8#1, train:d931c21c#1,
+train:d9fac9be#0, train:d9fac9be#3, train:dae9d2b5#4, train:de1cd16c#1, train:e9afcf9a#0, train:e9afcf9a#1,
+train:ed36ccf7#0, train:ed36ccf7#1, train:ed36ccf7#2, train:ed36ccf7#3, train:f76d97a5#0, train:f76d97a5#1,
+train:f76d97a5#2, train:f9012d9b#0, train:fc754716#1, train:fc754716#3
 ```
 
 ### Rule Usage Statistics
@@ -303,7 +593,8 @@ Accuracy         : 5.48%
 ## 2025-05-31: PatternRotation and PatternMirroring Rules Implementation
 
 ### Advanced Geometric Pattern Transformations
-- **✅ PatternRotation Rule**: Added robust pattern rotation with support for 90°, 180°, and 270° rotations using glyph chain `⚊↻⟡`
+- **✅ PatternRotation Rule**: Added robust pattern rotation with support for 90°, 180°, and 270° rotations using glyph
+  chain `⚊↻⟡`
 - **✅ PatternMirroring Rule**: Added pattern mirroring along vertical, horizontal, or both axes using glyph chain `⚊⟷⟡`
 - **✅ Dual Transformation Modes**: Support for both simple grid transformations and pattern-preserving transformations
 - **✅ Connected Component Analysis**: Smart pattern detection using scipy.ndimage for structure-preserving rotations
@@ -333,7 +624,8 @@ Accuracy         : 5.48%
 - **✅ Mathematical Properties**: Rotation and mirroring identity properties verified
 
 ### Current Solver State
-- **⚠️ Performance Stability**: Maintained ~4.12% accuracy (133/3232 solved) with new pattern transformation capabilities
+- **⚠️ Performance Stability**: Maintained ~4.12% accuracy (133/3232 solved) with new pattern transformation
+  capabilities
 - **✅ Rule Diversity**: Now supports 4 comprehensive pattern-based rules working in harmony
 - **✅ Production Ready**: Both PatternRotation and PatternMirroring are fully tested and production-ready
 - **✅ Enhanced Capabilities**: Significant expansion of geometric transformation possibilities for ARC puzzle solving
@@ -648,7 +940,36 @@ Top performing rule combinations in integrated version:
     - FrameFillConvergence -> RemoveObjects: 1
 
 **Solved Task Changes:**
-  + New solved: train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:009d5c81#3, train:009d5c81#4, train:0b148d64#0, train:0b148d64#1, train:0b148d64#2, train:1a2e2828#0, train:1a2e2828#3, train:1cf80156#0, train:1cf80156#1, train:1cf80156#2, train:1f85a75f#0, train:1f85a75f#1, train:22eb0ac0#2, train:239be575#1, train:23b5c85d#0, train:23b5c85d#2, train:23b5c85d#3, train:23b5c85d#4, train:253bf280#1, train:253bf280#5, train:27a28665#0, train:27a28665#1, train:27a28665#5, train:27a28665#6, train:2a5f8217#1, train:2de01db2#2, train:3c9b0459#0, train:3c9b0459#1, train:3c9b0459#2, train:3c9b0459#3, train:3de23699#1, train:3de23699#3, train:44d8ac46#2, train:44f52bb0#0, train:44f52bb0#4, train:44f52bb0#5, train:45737921#0, train:4852f2fa#0, train:4938f0c2#2, train:496994bd#0, train:496994bd#1, train:4e7e0eb9#0, train:4e7e0eb9#2, train:5168d44c#2, train:53b68214#1, train:5582e5ca#1, train:5ad8a7c0#1, train:5ad8a7c0#3, train:60c09cac#0, train:60c09cac#1, train:6150a2bd#0, train:6150a2bd#1, train:63613498#0, train:63613498#1, train:63613498#2, train:642d658d#0, train:642d658d#1, train:67a3c6ac#0, train:67a3c6ac#1, train:67a3c6ac#2, train:68b16354#0, train:68b16354#1, train:68b16354#2, train:68b67ca3#0, train:68b67ca3#1, train:68b67ca3#2, train:6d0aefbc#0, train:6d0aefbc#1, train:6d0aefbc#2, train:6d0aefbc#3, train:6d1d5c90#0, train:6ea4a07e#0, train:6ea4a07e#1, train:6ea4a07e#2, train:6ea4a07e#3, train:6ea4a07e#4, train:6ea4a07e#5, train:6f8cd79b#0, train:6f8cd79b#1, train:6f8cd79b#2, train:6f8cd79b#3, train:72ca375d#0, train:72ca375d#1, train:72ca375d#2, train:7468f01a#0, train:7468f01a#1, train:7468f01a#2, train:74dd1130#0, train:74dd1130#1, train:74dd1130#2, train:74dd1130#3, train:794b24be#8, train:85c4e7cd#1, train:880c1354#2, train:90347967#0, train:90347967#1, train:9172f3a0#0, train:9172f3a0#1, train:9565186b#0, train:9720b24f#0, train:9720b24f#3, train:9dfd6313#0, train:9dfd6313#1, train:9dfd6313#2, train:a3325580#0, train:a740d043#0, train:a740d043#1, train:a740d043#2, train:a85d4709#1, train:a87f7484#3, train:aabf363d#0, train:aabf363d#1, train:ac0a08a4#0, train:ac0a08a4#1, train:b1948b0a#0, train:b1948b0a#1, train:b1948b0a#2, train:b91ae062#0, train:b91ae062#1, train:b91ae062#2, train:b91ae062#4, train:b94a9452#0, train:b94a9452#1, train:b94a9452#2, train:b9b7f026#0, train:b9b7f026#1, train:b9b7f026#2, train:bbb1b8b6#1, train:bbb1b8b6#3, train:bbb1b8b6#5, train:be94b721#0, train:be94b721#1, train:be94b721#2, train:be94b721#3, train:c59eb873#0, train:c59eb873#1, train:c59eb873#2, train:c8f0f002#0, train:c8f0f002#1, train:c8f0f002#2, train:c9e6f938#0, train:c9e6f938#1, train:c9e6f938#2, train:caa06a1f#2, train:cd3c21df#1, train:d2acf2cb#0, train:d4b1c2b1#0, train:d4b1c2b1#1, train:d4b1c2b1#2, train:d4b1c2b1#4, train:d4b1c2b1#5, train:d4b1c2b1#6, train:d511f180#0, train:d511f180#1, train:d511f180#2, train:d631b094#0, train:d90796e8#1, train:d931c21c#1, train:d9fac9be#0, train:d9fac9be#3, train:dae9d2b5#4, train:de1cd16c#1, train:e9afcf9a#0, train:e9afcf9a#1, train:ed36ccf7#0, train:ed36ccf7#1, train:ed36ccf7#2, train:ed36ccf7#3, train:f76d97a5#0, train:f76d97a5#1, train:f76d97a5#2, train:f9012d9b#0, train:fc754716#1, train:fc754716#3
+  + New solved: train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:009d5c81#3, train:009d5c81#4,
+  train:0b148d64#0, train:0b148d64#1, train:0b148d64#2, train:1a2e2828#0, train:1a2e2828#3, train:1cf80156#0,
+  train:1cf80156#1, train:1cf80156#2, train:1f85a75f#0, train:1f85a75f#1, train:22eb0ac0#2, train:239be575#1,
+  train:23b5c85d#0, train:23b5c85d#2, train:23b5c85d#3, train:23b5c85d#4, train:253bf280#1, train:253bf280#5,
+  train:27a28665#0, train:27a28665#1, train:27a28665#5, train:27a28665#6, train:2a5f8217#1, train:2de01db2#2,
+  train:3c9b0459#0, train:3c9b0459#1, train:3c9b0459#2, train:3c9b0459#3, train:3de23699#1, train:3de23699#3,
+  train:44d8ac46#2, train:44f52bb0#0, train:44f52bb0#4, train:44f52bb0#5, train:45737921#0, train:4852f2fa#0,
+  train:4938f0c2#2, train:496994bd#0, train:496994bd#1, train:4e7e0eb9#0, train:4e7e0eb9#2, train:5168d44c#2,
+  train:53b68214#1, train:5582e5ca#1, train:5ad8a7c0#1, train:5ad8a7c0#3, train:60c09cac#0, train:60c09cac#1,
+  train:6150a2bd#0, train:6150a2bd#1, train:63613498#0, train:63613498#1, train:63613498#2, train:642d658d#0,
+  train:642d658d#1, train:67a3c6ac#0, train:67a3c6ac#1, train:67a3c6ac#2, train:68b16354#0, train:68b16354#1,
+  train:68b16354#2, train:68b67ca3#0, train:68b67ca3#1, train:68b67ca3#2, train:6d0aefbc#0, train:6d0aefbc#1,
+  train:6d0aefbc#2, train:6d0aefbc#3, train:6d1d5c90#0, train:6ea4a07e#0, train:6ea4a07e#1, train:6ea4a07e#2,
+  train:6ea4a07e#3, train:6ea4a07e#4, train:6ea4a07e#5, train:6f8cd79b#0, train:6f8cd79b#1, train:6f8cd79b#2,
+  train:6f8cd79b#3, train:72ca375d#0, train:72ca375d#1, train:72ca375d#2, train:7468f01a#0, train:7468f01a#1,
+  train:7468f01a#2, train:74dd1130#0, train:74dd1130#1, train:74dd1130#2, train:74dd1130#3, train:794b24be#8,
+  train:85c4e7cd#1, train:880c1354#2, train:90347967#0, train:90347967#1, train:9172f3a0#0, train:9172f3a0#1,
+  train:9565186b#0, train:9720b24f#0, train:9720b24f#3, train:9dfd6313#0, train:9dfd6313#1, train:9dfd6313#2,
+  train:a3325580#0, train:a740d043#0, train:a740d043#1, train:a740d043#2, train:a85d4709#1, train:a87f7484#3,
+  train:aabf363d#0, train:aabf363d#1, train:ac0a08a4#0, train:ac0a08a4#1, train:b1948b0a#0, train:b1948b0a#1,
+  train:b1948b0a#2, train:b91ae062#0, train:b91ae062#1, train:b91ae062#2, train:b91ae062#4, train:b94a9452#0,
+  train:b94a9452#1, train:b94a9452#2, train:b9b7f026#0, train:b9b7f026#1, train:b9b7f026#2, train:bbb1b8b6#1,
+  train:bbb1b8b6#3, train:bbb1b8b6#5, train:be94b721#0, train:be94b721#1, train:be94b721#2, train:be94b721#3,
+  train:c59eb873#0, train:c59eb873#1, train:c59eb873#2, train:c8f0f002#0, train:c8f0f002#1, train:c8f0f002#2,
+  train:c9e6f938#0, train:c9e6f938#1, train:c9e6f938#2, train:caa06a1f#2, train:cd3c21df#1, train:d2acf2cb#0,
+  train:d4b1c2b1#0, train:d4b1c2b1#1, train:d4b1c2b1#2, train:d4b1c2b1#4, train:d4b1c2b1#5, train:d4b1c2b1#6,
+  train:d511f180#0, train:d511f180#1, train:d511f180#2, train:d631b094#0, train:d90796e8#1, train:d931c21c#1,
+  train:d9fac9be#0, train:d9fac9be#3, train:dae9d2b5#4, train:de1cd16c#1, train:e9afcf9a#0, train:e9afcf9a#1,
+  train:ed36ccf7#0, train:ed36ccf7#1, train:ed36ccf7#2, train:ed36ccf7#3, train:f76d97a5#0, train:f76d97a5#1,
+  train:f76d97a5#2, train:f9012d9b#0, train:fc754716#1, train:fc754716#3
 
 ### Execution Time
 ```
@@ -683,10 +1004,12 @@ Rule (and chain) usage statistics (for solved):
   ColorReplacement -> RemoveObjects -> CropToBoundingBox [{'from_color': 2, 'to_color': 0}, {'color': 3}, {}]: 2
   ColorReplacement -> RemoveObjects -> CropToBoundingBox [{'from_color': 1, 'to_color': 0}, {'color': 6}, {}]: 1
   ReflectHorizontal [{}]: 3
-  RotatePattern -> ReplaceBorderWithColor [{'rotation_angle': 90, 'center_point': 'grid_center', 'degrees': 180}, {'color': 0}]: 1
+  RotatePattern -> ReplaceBorderWithColor [{'rotation_angle': 90, 'center_point': 'grid_center', 'degrees': 180},
+{'color': 0}]: 1
   ObjectCounting -> FrameFillConvergence [{}, {}]: 2
   FrameFillConvergence -> ObjectCounting [{}, {}]: 5
-  ColorReplacement -> CropToBoundingBox [{'mapping_type': 'systematic', 'preserve_structure': 'True', 'from_color': 1, 'to_color': 8}, {}]: 1
+  ColorReplacement -> CropToBoundingBox [{'mapping_type': 'systematic', 'preserve_structure': 'True', 'from_color': 1,
+'to_color': 8}, {}]: 1
   RotatePattern -> DiagonalFlip -> CropToBoundingBox [{'degrees': 90}, {}, {}]: 7
   RotatePattern [{'degrees': 180}]: 8
   ColorSwapping -> RemoveObjects -> CropToBoundingBox [{'color_a': 2, 'color_b': 3}, {'color': 2}, {}]: 1
@@ -696,24 +1019,31 @@ Rule (and chain) usage statistics (for solved):
   ColorReplacement -> CropToBoundingBox [{'from_color': 4, 'to_color': 0}, {}]: 1
   CompleteSymmetry [{}]: 5
   PatternMirroring [{}]: 1
-  ColorReplacement -> ReplaceBorderWithColor [{'mapping_type': 'systematic', 'preserve_structure': 'True', 'from_color': 1, 'to_color': 8}, {'color': 0}]: 1
+  ColorReplacement -> ReplaceBorderWithColor [{'mapping_type': 'systematic', 'preserve_structure': 'True', 'from_color':
+1, 'to_color': 8}, {'color': 0}]: 1
   ReflectVertical [{}]: 1
   DuplicateRowsOrColumns [{'axis': 0, 'n': 2}]: 1
-  ColorReplacement -> ReplaceBorderWithColor [{'mapping_type': 'systematic', 'preserve_structure': 'True'}, {'color': 4}]: 1
+  ColorReplacement -> ReplaceBorderWithColor [{'mapping_type': 'systematic', 'preserve_structure': 'True'}, {'color':
+4}]: 1
   ScalePattern2x [{}]: 11
-  TilePatternExpansion -> ColorReplacement [{'tiling_pattern': 'regular', 'scaling_factor': 2, 'unit_height': 2, 'unit_width': 2}, {'mapping_type': 'systematic', 'preserve_structure': 'True', 'from_color': 9, 'to_color': 5}]: 1
-  TilePatternExpansion -> ColorReplacement [{'tiling_pattern': 'regular', 'scaling_factor': 2, 'unit_height': 2, 'unit_width': 2}, {'mapping_type': 'systematic', 'preserve_structure': 'True', 'from_color': 6, 'to_color': 5}]: 1
-  TilePatternExpansion -> ColorReplacement [{'tiling_pattern': 'regular', 'scaling_factor': 2, 'unit_height': 2, 'unit_width': 2}, {'mapping_type': 'systematic', 'preserve_structure': 'True', 'from_color': 1, 'to_color': 5}]: 1
+  TilePatternExpansion -> ColorReplacement [{'tiling_pattern': 'regular', 'scaling_factor': 2, 'unit_height': 2,
+'unit_width': 2}, {'mapping_type': 'systematic', 'preserve_structure': 'True', 'from_color': 9, 'to_color': 5}]: 1
+  TilePatternExpansion -> ColorReplacement [{'tiling_pattern': 'regular', 'scaling_factor': 2, 'unit_height': 2,
+'unit_width': 2}, {'mapping_type': 'systematic', 'preserve_structure': 'True', 'from_color': 6, 'to_color': 5}]: 1
+  TilePatternExpansion -> ColorReplacement [{'tiling_pattern': 'regular', 'scaling_factor': 2, 'unit_height': 2,
+'unit_width': 2}, {'mapping_type': 'systematic', 'preserve_structure': 'True', 'from_color': 1, 'to_color': 5}]: 1
   ColorSwapping -> ObjectCounting [{'color_a': 0, 'color_b': 3}, {}]: 2
   ColorSwapping -> ObjectCounting [{'color_a': 0, 'color_b': 1}, {}]: 2
   RotatePattern -> DiagonalFlip -> CropToBoundingBox [{'degrees': 270}, {}, {}]: 3
   ScalePatternHalf [{}]: 3
-  MirrorBandExpansion -> ColorSwapping [{'tiling_pattern': 'regular', 'scaling_factor': 2, 'axis': 1, 'unit_height': 2, 'unit_width': 2}, {'color_a': 0, 'color_b': 2}]: 4
+  MirrorBandExpansion -> ColorSwapping [{'tiling_pattern': 'regular', 'scaling_factor': 2, 'axis': 1, 'unit_height': 2,
+'unit_width': 2}, {'color_a': 0, 'color_b': 2}]: 4
   ColorReplacement -> RemoveObjects -> CropToBoundingBox [{'from_color': 6, 'to_color': 2}, {'color': 2}, {}]: 1
   ColorSwapping -> RemoveObjects -> FillHoles [{'color_a': 0, 'color_b': 4}, {'color': 5}, {}]: 2
   ColorReplacement -> RemoveObjects -> CropToBoundingBox [{'from_color': 0, 'to_color': 2}, {'color': 8}, {}]: 3
   ColorReplacement -> RemoveObjects -> CropToBoundingBox [{'from_color': 0, 'to_color': 1}, {'color': 3}, {}]: 1
-  RotatePattern -> ReplaceBorderWithColor [{'rotation_angle': 90, 'center_point': 'grid_center', 'degrees': 180}, {'color': 8}]: 3
+  RotatePattern -> ReplaceBorderWithColor [{'rotation_angle': 90, 'center_point': 'grid_center', 'degrees': 180},
+{'color': 8}]: 3
   ReplaceBorderWithColor [{'color': 8}]: 1
   ColorReplacement -> RemoveObjects -> CropToBoundingBox [{'from_color': 8, 'to_color': 0}, {'color': 2}, {}]: 1
   ColorReplacement -> RemoveObjects -> CropToBoundingBox [{'from_color': 7, 'to_color': 0}, {'color': 2}, {}]: 2
@@ -723,8 +1053,10 @@ Rule (and chain) usage statistics (for solved):
   ColorSwapping [{'color_a': 2, 'color_b': 6}]: 1
   ColorSwapping -> RemoveObjects [{'color_a': 5, 'color_b': 6}, {}]: 1
   ScalePattern3x [{}]: 6
-  TilePatternExpansion -> ColorReplacement [{'tiling_pattern': 'regular', 'scaling_factor': 2, 'unit_height': 2, 'unit_width': 2}, {'from_color': 8, 'to_color': 5}]: 1
-  TilePatternExpansion -> ColorReplacement [{'tiling_pattern': 'regular', 'scaling_factor': 2, 'unit_height': 2, 'unit_width': 2}, {'mapping_type': 'systematic', 'preserve_structure': 'True', 'from_color': 7, 'to_color': 0}]: 1
+  TilePatternExpansion -> ColorReplacement [{'tiling_pattern': 'regular', 'scaling_factor': 2, 'unit_height': 2,
+'unit_width': 2}, {'from_color': 8, 'to_color': 5}]: 1
+  TilePatternExpansion -> ColorReplacement [{'tiling_pattern': 'regular', 'scaling_factor': 2, 'unit_height': 2,
+'unit_width': 2}, {'mapping_type': 'systematic', 'preserve_structure': 'True', 'from_color': 7, 'to_color': 0}]: 1
   ColorSwapping -> RemoveObjects [{'color_a': 1, 'color_b': 5}, {}]: 1
   ColorReplacement -> RemoveObjects -> CropToBoundingBox [{'from_color': 4, 'to_color': 0}, {'color': 6}, {}]: 2
   ColorReplacement -> RemoveObjects -> CropToBoundingBox [{'from_color': 8, 'to_color': 5}, {'color': 1}, {}]: 1
@@ -732,7 +1064,8 @@ Rule (and chain) usage statistics (for solved):
   ColorSwapping -> RemoveObjects -> FillHoles [{'color_a': 3, 'color_b': 6}, {'color': 3}, {}]: 1
   ColorSwapping -> RemoveObjects -> FillHoles [{'color_a': 2, 'color_b': 4}, {'color': 2}, {}]: 1
   ColorReplacement [{'from_color': 6, 'to_color': 2}]: 2
-  TilePatternExpansion -> ColorReplacement [{'tiling_pattern': 'regular', 'scaling_factor': 2, 'unit_height': 2, 'unit_width': 2}, {'from_color': 6, 'to_color': 2}]: 1
+  TilePatternExpansion -> ColorReplacement [{'tiling_pattern': 'regular', 'scaling_factor': 2, 'unit_height': 2,
+'unit_width': 2}, {'from_color': 6, 'to_color': 2}]: 1
   ColorSwapping -> RemoveObjects -> CropToBoundingBox [{'color_a': 1, 'color_b': 3}, {'color': 0}, {}]: 1
   ColorSwapping -> RemoveObjects -> CropToBoundingBox [{'color_a': 2, 'color_b': 4}, {'color': 0}, {}]: 1
   ColorSwapping -> RemoveObjects -> CropToBoundingBox [{'color_a': 4, 'color_b': 6}, {'color': 0}, {}]: 1
@@ -743,9 +1076,12 @@ Rule (and chain) usage statistics (for solved):
   ColorReplacement -> RemoveObjects -> CropToBoundingBox [{'from_color': 3, 'to_color': 0}, {'color': 6}, {}]: 1
   ColorReplacement -> RemoveObjects -> CropToBoundingBox [{'from_color': 7, 'to_color': 0}, {'color': 8}, {}]: 1
   ColorReplacement -> RemoveObjects -> CropToBoundingBox [{'from_color': 1, 'to_color': 0}, {'color': 3}, {}]: 1
-  TilePatternExpansion -> ColorReplacement [{'tiling_pattern': 'regular', 'scaling_factor': 2, 'unit_height': 2, 'unit_width': 2}, {'mapping_type': 'systematic', 'preserve_structure': 'True', 'from_color': 7, 'to_color': 5}]: 2
-  ColorReplacement -> CropToBoundingBox [{'mapping_type': 'systematic', 'preserve_structure': 'True', 'from_color': 7, 'to_color': 5}, {}]: 1
-  MirrorBandExpansion -> ColorSwapping [{'tiling_pattern': 'regular', 'scaling_factor': 2, 'axis': 1, 'unit_height': 2, 'unit_width': 2}, {'color_a': 1, 'color_b': 6}]: 3
+  TilePatternExpansion -> ColorReplacement [{'tiling_pattern': 'regular', 'scaling_factor': 2, 'unit_height': 2,
+'unit_width': 2}, {'mapping_type': 'systematic', 'preserve_structure': 'True', 'from_color': 7, 'to_color': 5}]: 2
+  ColorReplacement -> CropToBoundingBox [{'mapping_type': 'systematic', 'preserve_structure': 'True', 'from_color': 7,
+'to_color': 5}, {}]: 1
+  MirrorBandExpansion -> ColorSwapping [{'tiling_pattern': 'regular', 'scaling_factor': 2, 'axis': 1, 'unit_height': 2,
+'unit_width': 2}, {'color_a': 1, 'color_b': 6}]: 3
   FillCheckerboard [{}]: 3
   ColorReplacement -> RemoveObjects -> CropToBoundingBox [{'from_color': 4, 'to_color': 0}, {'color': 5}, {}]: 1
   ColorReplacement -> RemoveObjects -> CropToBoundingBox [{'from_color': 7, 'to_color': 6}, {'color': 8}, {}]: 1
@@ -764,7 +1100,36 @@ Rule (and chain) usage statistics (for solved):
 
 ### Solved Examples
 The following training examples were solved successfully:
-train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:009d5c81#3, train:009d5c81#4, train:0b148d64#0, train:0b148d64#1, train:0b148d64#2, train:1a2e2828#0, train:1a2e2828#3, train:1cf80156#0, train:1cf80156#1, train:1cf80156#2, train:1f85a75f#0, train:1f85a75f#1, train:22eb0ac0#2, train:239be575#1, train:23b5c85d#0, train:23b5c85d#2, train:23b5c85d#3, train:23b5c85d#4, train:253bf280#1, train:253bf280#5, train:27a28665#0, train:27a28665#1, train:27a28665#5, train:27a28665#6, train:2a5f8217#1, train:2de01db2#2, train:3c9b0459#0, train:3c9b0459#1, train:3c9b0459#2, train:3c9b0459#3, train:3de23699#1, train:3de23699#3, train:44d8ac46#2, train:44f52bb0#0, train:44f52bb0#4, train:44f52bb0#5, train:45737921#0, train:4852f2fa#0, train:4938f0c2#2, train:496994bd#0, train:496994bd#1, train:4e7e0eb9#0, train:4e7e0eb9#2, train:5168d44c#2, train:53b68214#1, train:5582e5ca#1, train:5ad8a7c0#1, train:5ad8a7c0#3, train:60c09cac#0, train:60c09cac#1, train:6150a2bd#0, train:6150a2bd#1, train:63613498#0, train:63613498#1, train:63613498#2, train:642d658d#0, train:642d658d#1, train:67a3c6ac#0, train:67a3c6ac#1, train:67a3c6ac#2, train:68b16354#0, train:68b16354#1, train:68b16354#2, train:68b67ca3#0, train:68b67ca3#1, train:68b67ca3#2, train:6d0aefbc#0, train:6d0aefbc#1, train:6d0aefbc#2, train:6d0aefbc#3, train:6d1d5c90#0, train:6ea4a07e#0, train:6ea4a07e#1, train:6ea4a07e#2, train:6ea4a07e#3, train:6ea4a07e#4, train:6ea4a07e#5, train:6f8cd79b#0, train:6f8cd79b#1, train:6f8cd79b#2, train:6f8cd79b#3, train:72ca375d#0, train:72ca375d#1, train:72ca375d#2, train:7468f01a#0, train:7468f01a#1, train:7468f01a#2, train:74dd1130#0, train:74dd1130#1, train:74dd1130#2, train:74dd1130#3, train:794b24be#8, train:85c4e7cd#1, train:880c1354#2, train:90347967#0, train:90347967#1, train:9172f3a0#0, train:9172f3a0#1, train:9565186b#0, train:9720b24f#0, train:9720b24f#3, train:9dfd6313#0, train:9dfd6313#1, train:9dfd6313#2, train:a3325580#0, train:a740d043#0, train:a740d043#1, train:a740d043#2, train:a85d4709#1, train:a87f7484#3, train:aabf363d#0, train:aabf363d#1, train:ac0a08a4#0, train:ac0a08a4#1, train:b1948b0a#0, train:b1948b0a#1, train:b1948b0a#2, train:b91ae062#0, train:b91ae062#1, train:b91ae062#2, train:b91ae062#4, train:b94a9452#0, train:b94a9452#1, train:b94a9452#2, train:b9b7f026#0, train:b9b7f026#1, train:b9b7f026#2, train:bbb1b8b6#1, train:bbb1b8b6#3, train:bbb1b8b6#5, train:be94b721#0, train:be94b721#1, train:be94b721#2, train:be94b721#3, train:c59eb873#0, train:c59eb873#1, train:c59eb873#2, train:c8f0f002#0, train:c8f0f002#1, train:c8f0f002#2, train:c9e6f938#0, train:c9e6f938#1, train:c9e6f938#2, train:caa06a1f#2, train:cd3c21df#1, train:d2acf2cb#0, train:d4b1c2b1#0, train:d4b1c2b1#1, train:d4b1c2b1#2, train:d4b1c2b1#4, train:d4b1c2b1#5, train:d4b1c2b1#6, train:d511f180#0, train:d511f180#1, train:d511f180#2, train:d631b094#0, train:d90796e8#1, train:d931c21c#1, train:d9fac9be#0, train:d9fac9be#3, train:dae9d2b5#4, train:de1cd16c#1, train:e9afcf9a#0, train:e9afcf9a#1, train:ed36ccf7#0, train:ed36ccf7#1, train:ed36ccf7#2, train:ed36ccf7#3, train:f76d97a5#0, train:f76d97a5#1, train:f76d97a5#2, train:f9012d9b#0, train:fc754716#1, train:fc754716#3
+train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:009d5c81#3, train:009d5c81#4, train:0b148d64#0,
+train:0b148d64#1, train:0b148d64#2, train:1a2e2828#0, train:1a2e2828#3, train:1cf80156#0, train:1cf80156#1,
+train:1cf80156#2, train:1f85a75f#0, train:1f85a75f#1, train:22eb0ac0#2, train:239be575#1, train:23b5c85d#0,
+train:23b5c85d#2, train:23b5c85d#3, train:23b5c85d#4, train:253bf280#1, train:253bf280#5, train:27a28665#0,
+train:27a28665#1, train:27a28665#5, train:27a28665#6, train:2a5f8217#1, train:2de01db2#2, train:3c9b0459#0,
+train:3c9b0459#1, train:3c9b0459#2, train:3c9b0459#3, train:3de23699#1, train:3de23699#3, train:44d8ac46#2,
+train:44f52bb0#0, train:44f52bb0#4, train:44f52bb0#5, train:45737921#0, train:4852f2fa#0, train:4938f0c2#2,
+train:496994bd#0, train:496994bd#1, train:4e7e0eb9#0, train:4e7e0eb9#2, train:5168d44c#2, train:53b68214#1,
+train:5582e5ca#1, train:5ad8a7c0#1, train:5ad8a7c0#3, train:60c09cac#0, train:60c09cac#1, train:6150a2bd#0,
+train:6150a2bd#1, train:63613498#0, train:63613498#1, train:63613498#2, train:642d658d#0, train:642d658d#1,
+train:67a3c6ac#0, train:67a3c6ac#1, train:67a3c6ac#2, train:68b16354#0, train:68b16354#1, train:68b16354#2,
+train:68b67ca3#0, train:68b67ca3#1, train:68b67ca3#2, train:6d0aefbc#0, train:6d0aefbc#1, train:6d0aefbc#2,
+train:6d0aefbc#3, train:6d1d5c90#0, train:6ea4a07e#0, train:6ea4a07e#1, train:6ea4a07e#2, train:6ea4a07e#3,
+train:6ea4a07e#4, train:6ea4a07e#5, train:6f8cd79b#0, train:6f8cd79b#1, train:6f8cd79b#2, train:6f8cd79b#3,
+train:72ca375d#0, train:72ca375d#1, train:72ca375d#2, train:7468f01a#0, train:7468f01a#1, train:7468f01a#2,
+train:74dd1130#0, train:74dd1130#1, train:74dd1130#2, train:74dd1130#3, train:794b24be#8, train:85c4e7cd#1,
+train:880c1354#2, train:90347967#0, train:90347967#1, train:9172f3a0#0, train:9172f3a0#1, train:9565186b#0,
+train:9720b24f#0, train:9720b24f#3, train:9dfd6313#0, train:9dfd6313#1, train:9dfd6313#2, train:a3325580#0,
+train:a740d043#0, train:a740d043#1, train:a740d043#2, train:a85d4709#1, train:a87f7484#3, train:aabf363d#0,
+train:aabf363d#1, train:ac0a08a4#0, train:ac0a08a4#1, train:b1948b0a#0, train:b1948b0a#1, train:b1948b0a#2,
+train:b91ae062#0, train:b91ae062#1, train:b91ae062#2, train:b91ae062#4, train:b94a9452#0, train:b94a9452#1,
+train:b94a9452#2, train:b9b7f026#0, train:b9b7f026#1, train:b9b7f026#2, train:bbb1b8b6#1, train:bbb1b8b6#3,
+train:bbb1b8b6#5, train:be94b721#0, train:be94b721#1, train:be94b721#2, train:be94b721#3, train:c59eb873#0,
+train:c59eb873#1, train:c59eb873#2, train:c8f0f002#0, train:c8f0f002#1, train:c8f0f002#2, train:c9e6f938#0,
+train:c9e6f938#1, train:c9e6f938#2, train:caa06a1f#2, train:cd3c21df#1, train:d2acf2cb#0, train:d4b1c2b1#0,
+train:d4b1c2b1#1, train:d4b1c2b1#2, train:d4b1c2b1#4, train:d4b1c2b1#5, train:d4b1c2b1#6, train:d511f180#0,
+train:d511f180#1, train:d511f180#2, train:d631b094#0, train:d90796e8#1, train:d931c21c#1, train:d9fac9be#0,
+train:d9fac9be#3, train:dae9d2b5#4, train:de1cd16c#1, train:e9afcf9a#0, train:e9afcf9a#1, train:ed36ccf7#0,
+train:ed36ccf7#1, train:ed36ccf7#2, train:ed36ccf7#3, train:f76d97a5#0, train:f76d97a5#1, train:f76d97a5#2,
+train:f9012d9b#0, train:fc754716#1, train:fc754716#3
 
 ### Execution Time
 ```
@@ -783,7 +1148,36 @@ python3 main.py  133.78s user 4.01s system 101% cpu 2:16.09 total
 Total Examples   : 3232
 Correct Predictions: 177
 Accuracy         : 5.48%
-Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:009d5c81#3, train:009d5c81#4, train:0b148d64#0, train:0b148d64#1, train:0b148d64#2, train:1a2e2828#0, train:1a2e2828#3, train:1cf80156#0, train:1cf80156#1, train:1cf80156#2, train:1f85a75f#0, train:1f85a75f#1, train:22eb0ac0#2, train:239be575#1, train:23b5c85d#0, train:23b5c85d#2, train:23b5c85d#3, train:23b5c85d#4, train:253bf280#1, train:253bf280#5, train:27a28665#0, train:27a28665#1, train:27a28665#5, train:27a28665#6, train:2a5f8217#1, train:2de01db2#2, train:3c9b0459#0, train:3c9b0459#1, train:3c9b0459#2, train:3c9b0459#3, train:3de23699#1, train:3de23699#3, train:44d8ac46#2, train:44f52bb0#0, train:44f52bb0#4, train:44f52bb0#5, train:45737921#0, train:4852f2fa#0, train:4938f0c2#2, train:496994bd#0, train:496994bd#1, train:4e7e0eb9#0, train:4e7e0eb9#2, train:5168d44c#2, train:53b68214#1, train:5582e5ca#1, train:5ad8a7c0#1, train:5ad8a7c0#3, train:60c09cac#0, train:60c09cac#1, train:6150a2bd#0, train:6150a2bd#1, train:63613498#0, train:63613498#1, train:63613498#2, train:642d658d#0, train:642d658d#1, train:67a3c6ac#0, train:67a3c6ac#1, train:67a3c6ac#2, train:68b16354#0, train:68b16354#1, train:68b16354#2, train:68b67ca3#0, train:68b67ca3#1, train:68b67ca3#2, train:6d0aefbc#0, train:6d0aefbc#1, train:6d0aefbc#2, train:6d0aefbc#3, train:6d1d5c90#0, train:6ea4a07e#0, train:6ea4a07e#1, train:6ea4a07e#2, train:6ea4a07e#3, train:6ea4a07e#4, train:6ea4a07e#5, train:6f8cd79b#0, train:6f8cd79b#1, train:6f8cd79b#2, train:6f8cd79b#3, train:72ca375d#0, train:72ca375d#1, train:72ca375d#2, train:7468f01a#0, train:7468f01a#1, train:7468f01a#2, train:74dd1130#0, train:74dd1130#1, train:74dd1130#2, train:74dd1130#3, train:794b24be#8, train:85c4e7cd#1, train:880c1354#2, train:90347967#0, train:90347967#1, train:9172f3a0#0, train:9172f3a0#1, train:9565186b#0, train:9720b24f#0, train:9720b24f#3, train:9dfd6313#0, train:9dfd6313#1, train:9dfd6313#2, train:a3325580#0, train:a740d043#0, train:a740d043#1, train:a740d043#2, train:a85d4709#1, train:a87f7484#3, train:aabf363d#0, train:aabf363d#1, train:ac0a08a4#0, train:ac0a08a4#1, train:b1948b0a#0, train:b1948b0a#1, train:b1948b0a#2, train:b91ae062#0, train:b91ae062#1, train:b91ae062#2, train:b91ae062#4, train:b94a9452#0, train:b94a9452#1, train:b94a9452#2, train:b9b7f026#0, train:b9b7f026#1, train:b9b7f026#2, train:bbb1b8b6#1, train:bbb1b8b6#3, train:bbb1b8b6#5, train:be94b721#0, train:be94b721#1, train:be94b721#2, train:be94b721#3, train:c59eb873#0, train:c59eb873#1, train:c59eb873#2, train:c8f0f002#0, train:c8f0f002#1, train:c8f0f002#2, train:c9e6f938#0, train:c9e6f938#1, train:c9e6f938#2, train:caa06a1f#2, train:cd3c21df#1, train:d2acf2cb#0, train:d4b1c2b1#0, train:d4b1c2b1#1, train:d4b1c2b1#2, train:d4b1c2b1#4, train:d4b1c2b1#5, train:d4b1c2b1#6, train:d511f180#0, train:d511f180#1, train:d511f180#2, train:d631b094#0, train:d90796e8#1, train:d931c21c#1, train:d9fac9be#0, train:d9fac9be#3, train:dae9d2b5#4, train:de1cd16c#1, train:e9afcf9a#0, train:e9afcf9a#1, train:ed36ccf7#0, train:ed36ccf7#1, train:ed36ccf7#2, train:ed36ccf7#3, train:f76d97a5#0, train:f76d97a5#1, train:f76d97a5#2, train:f9012d9b#0, train:fc754716#1, train:fc754716#3
+Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:009d5c81#3, train:009d5c81#4,
+train:0b148d64#0, train:0b148d64#1, train:0b148d64#2, train:1a2e2828#0, train:1a2e2828#3, train:1cf80156#0,
+train:1cf80156#1, train:1cf80156#2, train:1f85a75f#0, train:1f85a75f#1, train:22eb0ac0#2, train:239be575#1,
+train:23b5c85d#0, train:23b5c85d#2, train:23b5c85d#3, train:23b5c85d#4, train:253bf280#1, train:253bf280#5,
+train:27a28665#0, train:27a28665#1, train:27a28665#5, train:27a28665#6, train:2a5f8217#1, train:2de01db2#2,
+train:3c9b0459#0, train:3c9b0459#1, train:3c9b0459#2, train:3c9b0459#3, train:3de23699#1, train:3de23699#3,
+train:44d8ac46#2, train:44f52bb0#0, train:44f52bb0#4, train:44f52bb0#5, train:45737921#0, train:4852f2fa#0,
+train:4938f0c2#2, train:496994bd#0, train:496994bd#1, train:4e7e0eb9#0, train:4e7e0eb9#2, train:5168d44c#2,
+train:53b68214#1, train:5582e5ca#1, train:5ad8a7c0#1, train:5ad8a7c0#3, train:60c09cac#0, train:60c09cac#1,
+train:6150a2bd#0, train:6150a2bd#1, train:63613498#0, train:63613498#1, train:63613498#2, train:642d658d#0,
+train:642d658d#1, train:67a3c6ac#0, train:67a3c6ac#1, train:67a3c6ac#2, train:68b16354#0, train:68b16354#1,
+train:68b16354#2, train:68b67ca3#0, train:68b67ca3#1, train:68b67ca3#2, train:6d0aefbc#0, train:6d0aefbc#1,
+train:6d0aefbc#2, train:6d0aefbc#3, train:6d1d5c90#0, train:6ea4a07e#0, train:6ea4a07e#1, train:6ea4a07e#2,
+train:6ea4a07e#3, train:6ea4a07e#4, train:6ea4a07e#5, train:6f8cd79b#0, train:6f8cd79b#1, train:6f8cd79b#2,
+train:6f8cd79b#3, train:72ca375d#0, train:72ca375d#1, train:72ca375d#2, train:7468f01a#0, train:7468f01a#1,
+train:7468f01a#2, train:74dd1130#0, train:74dd1130#1, train:74dd1130#2, train:74dd1130#3, train:794b24be#8,
+train:85c4e7cd#1, train:880c1354#2, train:90347967#0, train:90347967#1, train:9172f3a0#0, train:9172f3a0#1,
+train:9565186b#0, train:9720b24f#0, train:9720b24f#3, train:9dfd6313#0, train:9dfd6313#1, train:9dfd6313#2,
+train:a3325580#0, train:a740d043#0, train:a740d043#1, train:a740d043#2, train:a85d4709#1, train:a87f7484#3,
+train:aabf363d#0, train:aabf363d#1, train:ac0a08a4#0, train:ac0a08a4#1, train:b1948b0a#0, train:b1948b0a#1,
+train:b1948b0a#2, train:b91ae062#0, train:b91ae062#1, train:b91ae062#2, train:b91ae062#4, train:b94a9452#0,
+train:b94a9452#1, train:b94a9452#2, train:b9b7f026#0, train:b9b7f026#1, train:b9b7f026#2, train:bbb1b8b6#1,
+train:bbb1b8b6#3, train:bbb1b8b6#5, train:be94b721#0, train:be94b721#1, train:be94b721#2, train:be94b721#3,
+train:c59eb873#0, train:c59eb873#1, train:c59eb873#2, train:c8f0f002#0, train:c8f0f002#1, train:c8f0f002#2,
+train:c9e6f938#0, train:c9e6f938#1, train:c9e6f938#2, train:caa06a1f#2, train:cd3c21df#1, train:d2acf2cb#0,
+train:d4b1c2b1#0, train:d4b1c2b1#1, train:d4b1c2b1#2, train:d4b1c2b1#4, train:d4b1c2b1#5, train:d4b1c2b1#6,
+train:d511f180#0, train:d511f180#1, train:d511f180#2, train:d631b094#0, train:d90796e8#1, train:d931c21c#1,
+train:d9fac9be#0, train:d9fac9be#3, train:dae9d2b5#4, train:de1cd16c#1, train:e9afcf9a#0, train:e9afcf9a#1,
+train:ed36ccf7#0, train:ed36ccf7#1, train:ed36ccf7#2, train:ed36ccf7#3, train:f76d97a5#0, train:f76d97a5#1,
+train:f76d97a5#2, train:f9012d9b#0, train:fc754716#1, train:fc754716#3
 ```
 
 - **Rule usage:**
@@ -825,7 +1219,36 @@ Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:0
     - FrameFillConvergence -> RemoveObjects: 1
 
 **Solved Task Changes:**
-  + New solved: train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:009d5c81#3, train:009d5c81#4, train:0b148d64#0, train:0b148d64#1, train:0b148d64#2, train:1a2e2828#0, train:1a2e2828#3, train:1cf80156#0, train:1cf80156#1, train:1cf80156#2, train:1f85a75f#0, train:1f85a75f#1, train:22eb0ac0#2, train:239be575#1, train:23b5c85d#0, train:23b5c85d#2, train:23b5c85d#3, train:23b5c85d#4, train:253bf280#1, train:253bf280#5, train:27a28665#0, train:27a28665#1, train:27a28665#5, train:27a28665#6, train:2a5f8217#1, train:2de01db2#2, train:3c9b0459#0, train:3c9b0459#1, train:3c9b0459#2, train:3c9b0459#3, train:3de23699#1, train:3de23699#3, train:44d8ac46#2, train:44f52bb0#0, train:44f52bb0#4, train:44f52bb0#5, train:45737921#0, train:4852f2fa#0, train:4938f0c2#2, train:496994bd#0, train:496994bd#1, train:4e7e0eb9#0, train:4e7e0eb9#2, train:5168d44c#2, train:53b68214#1, train:5582e5ca#1, train:5ad8a7c0#1, train:5ad8a7c0#3, train:60c09cac#0, train:60c09cac#1, train:6150a2bd#0, train:6150a2bd#1, train:63613498#0, train:63613498#1, train:63613498#2, train:642d658d#0, train:642d658d#1, train:67a3c6ac#0, train:67a3c6ac#1, train:67a3c6ac#2, train:68b16354#0, train:68b16354#1, train:68b16354#2, train:68b67ca3#0, train:68b67ca3#1, train:68b67ca3#2, train:6d0aefbc#0, train:6d0aefbc#1, train:6d0aefbc#2, train:6d0aefbc#3, train:6d1d5c90#0, train:6ea4a07e#0, train:6ea4a07e#1, train:6ea4a07e#2, train:6ea4a07e#3, train:6ea4a07e#4, train:6ea4a07e#5, train:6f8cd79b#0, train:6f8cd79b#1, train:6f8cd79b#2, train:6f8cd79b#3, train:72ca375d#0, train:72ca375d#1, train:72ca375d#2, train:7468f01a#0, train:7468f01a#1, train:7468f01a#2, train:74dd1130#0, train:74dd1130#1, train:74dd1130#2, train:74dd1130#3, train:794b24be#8, train:85c4e7cd#1, train:880c1354#2, train:90347967#0, train:90347967#1, train:9172f3a0#0, train:9172f3a0#1, train:9565186b#0, train:9720b24f#0, train:9720b24f#3, train:9dfd6313#0, train:9dfd6313#1, train:9dfd6313#2, train:a3325580#0, train:a740d043#0, train:a740d043#1, train:a740d043#2, train:a85d4709#1, train:a87f7484#3, train:aabf363d#0, train:aabf363d#1, train:ac0a08a4#0, train:ac0a08a4#1, train:b1948b0a#0, train:b1948b0a#1, train:b1948b0a#2, train:b91ae062#0, train:b91ae062#1, train:b91ae062#2, train:b91ae062#4, train:b94a9452#0, train:b94a9452#1, train:b94a9452#2, train:b9b7f026#0, train:b9b7f026#1, train:b9b7f026#2, train:bbb1b8b6#1, train:bbb1b8b6#3, train:bbb1b8b6#5, train:be94b721#0, train:be94b721#1, train:be94b721#2, train:be94b721#3, train:c59eb873#0, train:c59eb873#1, train:c59eb873#2, train:c8f0f002#0, train:c8f0f002#1, train:c8f0f002#2, train:c9e6f938#0, train:c9e6f938#1, train:c9e6f938#2, train:caa06a1f#2, train:cd3c21df#1, train:d2acf2cb#0, train:d4b1c2b1#0, train:d4b1c2b1#1, train:d4b1c2b1#2, train:d4b1c2b1#4, train:d4b1c2b1#5, train:d4b1c2b1#6, train:d511f180#0, train:d511f180#1, train:d511f180#2, train:d631b094#0, train:d90796e8#1, train:d931c21c#1, train:d9fac9be#0, train:d9fac9be#3, train:dae9d2b5#4, train:de1cd16c#1, train:e9afcf9a#0, train:e9afcf9a#1, train:ed36ccf7#0, train:ed36ccf7#1, train:ed36ccf7#2, train:ed36ccf7#3, train:f76d97a5#0, train:f76d97a5#1, train:f76d97a5#2, train:f9012d9b#0, train:fc754716#1, train:fc754716#3
+  + New solved: train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:009d5c81#3, train:009d5c81#4,
+  train:0b148d64#0, train:0b148d64#1, train:0b148d64#2, train:1a2e2828#0, train:1a2e2828#3, train:1cf80156#0,
+  train:1cf80156#1, train:1cf80156#2, train:1f85a75f#0, train:1f85a75f#1, train:22eb0ac0#2, train:239be575#1,
+  train:23b5c85d#0, train:23b5c85d#2, train:23b5c85d#3, train:23b5c85d#4, train:253bf280#1, train:253bf280#5,
+  train:27a28665#0, train:27a28665#1, train:27a28665#5, train:27a28665#6, train:2a5f8217#1, train:2de01db2#2,
+  train:3c9b0459#0, train:3c9b0459#1, train:3c9b0459#2, train:3c9b0459#3, train:3de23699#1, train:3de23699#3,
+  train:44d8ac46#2, train:44f52bb0#0, train:44f52bb0#4, train:44f52bb0#5, train:45737921#0, train:4852f2fa#0,
+  train:4938f0c2#2, train:496994bd#0, train:496994bd#1, train:4e7e0eb9#0, train:4e7e0eb9#2, train:5168d44c#2,
+  train:53b68214#1, train:5582e5ca#1, train:5ad8a7c0#1, train:5ad8a7c0#3, train:60c09cac#0, train:60c09cac#1,
+  train:6150a2bd#0, train:6150a2bd#1, train:63613498#0, train:63613498#1, train:63613498#2, train:642d658d#0,
+  train:642d658d#1, train:67a3c6ac#0, train:67a3c6ac#1, train:67a3c6ac#2, train:68b16354#0, train:68b16354#1,
+  train:68b16354#2, train:68b67ca3#0, train:68b67ca3#1, train:68b67ca3#2, train:6d0aefbc#0, train:6d0aefbc#1,
+  train:6d0aefbc#2, train:6d0aefbc#3, train:6d1d5c90#0, train:6ea4a07e#0, train:6ea4a07e#1, train:6ea4a07e#2,
+  train:6ea4a07e#3, train:6ea4a07e#4, train:6ea4a07e#5, train:6f8cd79b#0, train:6f8cd79b#1, train:6f8cd79b#2,
+  train:6f8cd79b#3, train:72ca375d#0, train:72ca375d#1, train:72ca375d#2, train:7468f01a#0, train:7468f01a#1,
+  train:7468f01a#2, train:74dd1130#0, train:74dd1130#1, train:74dd1130#2, train:74dd1130#3, train:794b24be#8,
+  train:85c4e7cd#1, train:880c1354#2, train:90347967#0, train:90347967#1, train:9172f3a0#0, train:9172f3a0#1,
+  train:9565186b#0, train:9720b24f#0, train:9720b24f#3, train:9dfd6313#0, train:9dfd6313#1, train:9dfd6313#2,
+  train:a3325580#0, train:a740d043#0, train:a740d043#1, train:a740d043#2, train:a85d4709#1, train:a87f7484#3,
+  train:aabf363d#0, train:aabf363d#1, train:ac0a08a4#0, train:ac0a08a4#1, train:b1948b0a#0, train:b1948b0a#1,
+  train:b1948b0a#2, train:b91ae062#0, train:b91ae062#1, train:b91ae062#2, train:b91ae062#4, train:b94a9452#0,
+  train:b94a9452#1, train:b94a9452#2, train:b9b7f026#0, train:b9b7f026#1, train:b9b7f026#2, train:bbb1b8b6#1,
+  train:bbb1b8b6#3, train:bbb1b8b6#5, train:be94b721#0, train:be94b721#1, train:be94b721#2, train:be94b721#3,
+  train:c59eb873#0, train:c59eb873#1, train:c59eb873#2, train:c8f0f002#0, train:c8f0f002#1, train:c8f0f002#2,
+  train:c9e6f938#0, train:c9e6f938#1, train:c9e6f938#2, train:caa06a1f#2, train:cd3c21df#1, train:d2acf2cb#0,
+  train:d4b1c2b1#0, train:d4b1c2b1#1, train:d4b1c2b1#2, train:d4b1c2b1#4, train:d4b1c2b1#5, train:d4b1c2b1#6,
+  train:d511f180#0, train:d511f180#1, train:d511f180#2, train:d631b094#0, train:d90796e8#1, train:d931c21c#1,
+  train:d9fac9be#0, train:d9fac9be#3, train:dae9d2b5#4, train:de1cd16c#1, train:e9afcf9a#0, train:e9afcf9a#1,
+  train:ed36ccf7#0, train:ed36ccf7#1, train:ed36ccf7#2, train:ed36ccf7#3, train:f76d97a5#0, train:f76d97a5#1,
+  train:f76d97a5#2, train:f9012d9b#0, train:fc754716#1, train:fc754716#3
 
 
 ## 2025-05-31: Enhanced Parameter Extraction Fix - Performance Validation
@@ -854,20 +1277,27 @@ Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:0
 **🎯 TARGET ENHANCEMENT**: ✅ PRODUCTION READY - **ENHANCED PARAMETER EXTRACTION REPAIR**
 
 ### Critical Bug Fix: Enhanced Parameter Extraction Argument Error
-- **✅ Root Cause Identified**: Enhanced parameter extraction was passing parameters as positional argument instead of keyword arguments to `apply_rule()`
-- **✅ Fix Applied**: Changed `engine.apply_rule(rule_name, input_grid, enhanced_params)` to `engine.apply_rule(rule_name, input_grid, **enhanced_params)` in main.py line 670
-- **✅ Systematic Resolution**: Fixed the "SyntheonEngine.apply_rule() takes 3 positional arguments but 4 were given" error affecting all enhanced parameter attempts
-- **✅ ColorReplacement Enhanced**: ColorReplacement rule now successfully uses enhanced parameters with entries like `{'mapping_type': 'systematic', 'preserve_structure': 'True', 'from_color': 1, 'to_color': 8}`
+- **✅ Root Cause Identified**: Enhanced parameter extraction was passing parameters as positional argument instead of
+  keyword arguments to `apply_rule()`
+- **✅ Fix Applied**: Changed `engine.apply_rule(rule_name, input_grid, enhanced_params)` to
+  `engine.apply_rule(rule_name, input_grid, **enhanced_params)` in main.py line 670
+- **✅ Systematic Resolution**: Fixed the "SyntheonEngine.apply_rule() takes 3 positional arguments but 4 were given"
+  error affecting all enhanced parameter attempts
+- **✅ ColorReplacement Enhanced**: ColorReplacement rule now successfully uses enhanced parameters with entries like
+  `{'mapping_type': 'systematic', 'preserve_structure': 'True', 'from_color': 1, 'to_color': 8}`
 
 ### Enhanced Parameter Extraction Performance Recovery
-- **✅ ColorReplacement Success**: Now shows 13 successful executions in solver statistics, demonstrating restored functionality
-- **✅ Parameter Diversity**: Enhanced extraction now works with both simple parameters (`{'from_color': 8, 'to_color': 5}`) and complex parameters with mapping types
+- **✅ ColorReplacement Success**: Now shows 13 successful executions in solver statistics, demonstrating restored
+  functionality
+- **✅ Parameter Diversity**: Enhanced extraction now works with both simple parameters (`{'from_color': 8, 'to_color':
+  5}`) and complex parameters with mapping types
 - **✅ Rule Chain Integration**: Enhanced parameters now properly support rule chain execution workflows
 - **✅ Error Elimination**: Complete elimination of enhanced parameter extraction runtime errors
 
 ### Rule Chain Execution Analysis
 - **✅ Chain Processing Confirmed**: Rule chains are being properly attempted including those with ColorReplacement
-- **✅ 3-Rule Chain Success**: Complex chains like "RotatePattern -> ColorReplacement -> CropToBoundingBox" are executing successfully
+- **✅ 3-Rule Chain Success**: Complex chains like "RotatePattern -> ColorReplacement -> CropToBoundingBox" are executing
+  successfully
 - **✅ Enhanced Integration**: Enhanced parameter extraction now works seamlessly with rule chain workflows
 - **📊 Performance Impact**: Maintained accuracy while fixing critical parameter extraction pipeline
 
@@ -892,7 +1322,8 @@ Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:0
 **✅ VALIDATION SUCCESSFUL** - The KWIC prioritization fix has been validated and is working correctly.
 
 - **Accuracy maintained:** **4.27%** (138 solved out of 3232) 
-- **Key evidence:** PatternMirroring rule now appears in usage statistics (1 usage), confirming new rules are being properly prioritized and selected
+- **Key evidence:** PatternMirroring rule now appears in usage statistics (1 usage), confirming new rules are being
+  properly prioritized and selected
 - **Performance status:** Target accuracy level restored and maintained
 - **System status:** Stable operation with proper rule prioritization
 
@@ -907,7 +1338,8 @@ Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:0
 - Full solution set matches expected performance baseline
 - Rules are being selected from prioritized lists rather than alphabetical fallback
 
-**Impact:** The 4.27% → 4.12% performance deterioration has been successfully resolved by fixing the KWIC prioritization exclusion of PatternRotation and PatternMirroring rules.
+**Impact:** The 4.27% → 4.12% performance deterioration has been successfully resolved by fixing the KWIC prioritization
+exclusion of PatternRotation and PatternMirroring rules.
 
 ---
 

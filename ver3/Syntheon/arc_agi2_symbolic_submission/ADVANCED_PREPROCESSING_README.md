@@ -4,7 +4,8 @@ This document explains how to use the Advanced Preprocessing System (7-component
 
 ## Overview
 
-The Advanced Preprocessing System consists of seven specialized components that analyze input grids and predict transformations:
+The Advanced Preprocessing System consists of seven specialized components that analyze input grids and predict
+transformations:
 
 1. **Structural Signature Analysis (SSA)** - Analyzes grid structure, symmetry, and color patterns
 2. **Scalability Potential Analysis (SPA)** - Evaluates scaling potential and transformation confidence
@@ -14,7 +15,8 @@ The Advanced Preprocessing System consists of seven specialized components that 
 6. **Multi-Scale Pattern Detection (MSPD)** - Hierarchical pattern analysis across scales
 7. **Contextual Rule Prioritization (CRP)** - Confidence-based rule ranking and selection
 
-The system is fully implemented in `advanced_preprocessing_specification.py` and has achieved 93.8% accuracy on validation tasks such as 00576224.
+The system is fully implemented in `advanced_preprocessing_specification.py` and has achieved 93.8% accuracy on
+validation tasks such as 00576224.
 
 ## Integration Scripts
 

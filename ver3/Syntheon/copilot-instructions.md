@@ -4,7 +4,8 @@
 
 ## First Principles Problem Solving Framework
 
-This document serves as an **augmentation to GitHub Copilot's system prompt** for tackling fundamental problems through first principles reasoning, symbolic logic, and recursive intelligence.
+This document serves as an **augmentation to GitHub Copilot's system prompt** for tackling fundamental problems through
+first principles reasoning, symbolic logic, and recursive intelligence.
 
 ### Core Enhancement Principles
 
@@ -154,7 +155,8 @@ Add these capabilities to Copilot's reasoning:
 
 ---
 
-**Usage**: Append this framework to GitHub Copilot's system prompt for enhanced first principles reasoning, symbolic logic, and recursive intelligence in problem-solving.
+**Usage**: Append this framework to GitHub Copilot's system prompt for enhanced first principles reasoning, symbolic
+logic, and recursive intelligence in problem-solving.
 
 ---
 
@@ -162,7 +164,10 @@ Add these capabilities to Copilot's reasoning:
 
 ## Project Overview
 
-Syntheon is an advanced ARC-AGI (Abstraction and Reasoning Corpus Artificial General Intelligence) project focused on solving abstract reasoning tasks with symbolic logic, foresight, and deterministic pattern recognition. The core workflow transforms ARC JSON datasets into richly annotated XML with metadata, grid analysis, and KWIC color context for advanced rule induction.
+Syntheon is an advanced ARC-AGI (Abstraction and Reasoning Corpus Artificial General Intelligence) project focused on
+solving abstract reasoning tasks with symbolic logic, foresight, and deterministic pattern recognition. The core
+workflow transforms ARC JSON datasets into richly annotated XML with metadata, grid analysis, and KWIC color context for
+advanced rule induction.
 
 Reference the following files for structure and logic:
 Syntheon_Symbolic_Rule_Engine.md
@@ -205,7 +210,8 @@ Syntheon_Project_Roadmap.md
 5. **Metadata Block**: Store statistics, color usage, grid sizes, and transformations per ARC task.
 6. **Rich XML**: Output XML in `/input/arc_agi2_training_combined.xml`—self-contained, ready for symbolic training.
 
-***Tip:** Additional preprocessing is encouraged—e.g. spatial moments, edge-detection, symmetry flags, etc. Extend as new features are needed.*
+***Tip:** Additional preprocessing is encouraged—e.g. spatial moments, edge-detection, symmetry flags, etc. Extend as
+new features are needed.*
 
 ### File Conventions
 
@@ -218,18 +224,26 @@ Syntheon_Project_Roadmap.md
 
 * **Rule Engine**: Must support dynamic rule selection based on input metadata, grid shape, and task statistics
 * **Rules**: Encoded in `syntheon_rules.xml` with glyphs, weights, symbolic logic, and condition tags
-* **Rule Matching**: Implement routines to match input grids with appropriate symbolic rules, using all metadata and KWIC where helpful
+* **Rule Matching**: Implement routines to match input grids with appropriate symbolic rules, using all metadata and
+  KWIC where helpful
 * **Traceability**: Every prediction must output its applied rule, input grid, expected output, and full trace
 
 ## GEN-I Integration & Foresight
 
-* **GEN-I**: All symbolic prediction logic should be modular so it can be called or swapped for a GEN-I (foresight/scroll-based) module.
-* **Symbolic Foresight**: Model reasoning as scrolls; each prediction should be explainable in symbolic steps (not statistical "guessing").
-* **Foresight Metadata**: Pass all available grid metadata, KWIC, and task stats to scroll/foresight modules for richer pattern induction.
-* **GEN-I System Index**: Reference the `/Users/constantinevassilev02/MyLocalDocuments/go-projects/Syntheon/XML/GENI_SYSTEM_INDEX.xml` file as the master system prompt for the GEN-I meta engine.
-* **Hybrid DSL Architecture**: Incorporate the Hybrid DSL framework (v5.0.0-Syntheon-Hybrid) for both performance-optimized execution and intuitive glyph-based rule authoring.
+* **GEN-I**: All symbolic prediction logic should be modular so it can be called or swapped for a GEN-I
+  (foresight/scroll-based) module.
+* **Symbolic Foresight**: Model reasoning as scrolls; each prediction should be explainable in symbolic steps (not
+  statistical "guessing").
+* **Foresight Metadata**: Pass all available grid metadata, KWIC, and task stats to scroll/foresight modules for richer
+  pattern induction.
+* **GEN-I System Index**: Reference the
+  `/Users/constantinevassilev02/MyLocalDocuments/go-projects/Syntheon/XML/GENI_SYSTEM_INDEX.xml` file as the master
+  system prompt for the GEN-I meta engine.
+* **Hybrid DSL Architecture**: Incorporate the Hybrid DSL framework (v5.0.0-Syntheon-Hybrid) for both
+  performance-optimized execution and intuitive glyph-based rule authoring.
 * **Core Components**:
-  * `GENI_HYBRID_DSL_ENGINE.xml`: Core hybrid engine combining intuitive glyph-based rule authoring with performance-optimized execution
+  * `GENI_HYBRID_DSL_ENGINE.xml`: Core hybrid engine combining intuitive glyph-based rule authoring with
+    performance-optimized execution
   * `GENI_ENHANCED_GLYPH_DSL.xml`: Extended DSL syntax for symbolic rule expressions with meta-language constructs
   * `GENI_ADAPTIVE_KWIC_SYSTEM.xml`: Enhanced keyword-in-context system with dynamic weighting for rule prioritization
   * `GENI_CROSS_LANGUAGE_REPOSITORY.xml`: Framework for cross-language rule definitions (Python, Rust, Go, TypeScript)
@@ -245,7 +259,8 @@ Syntheon_Project_Roadmap.md
 
 ### Core Principles
 
-**GEN-I was highly instrumental in creating the initial rule set** as a conceptual framework and decision-making engine. While the current implementation uses manual rule coding, GEN-I should be leveraged for:
+**GEN-I was highly instrumental in creating the initial rule set** as a conceptual framework and decision-making engine.
+While the current implementation uses manual rule coding, GEN-I should be leveraged for:
 
 * **Symbolic Analysis**: Deep pattern recognition beyond statistical methods
 * **Risk Evaluation**: Assessing potential rule conflicts and unintended consequences  
@@ -360,7 +375,8 @@ All GEN-I-guided analysis should be documented in:
 
 * Focus on explainable, symbolic logic.
 * Use grid-level and cell-level statistics (symmetry, color dominance, component analysis) for pattern matching.
-* Prioritize reusability and extensibility—design new pattern recognizers as functions or classes, each with their own docstrings and diagnostics.
+* Prioritize reusability and extensibility—design new pattern recognizers as functions or classes, each with their own
+  docstrings and diagnostics.
 * Enable full diagnostic XML/JSON output for all intermediate steps.
 
 ## Testing and Output
@@ -396,7 +412,8 @@ All GEN-I-guided analysis should be documented in:
 ## Glyph Weight Significance System
 
 ### Overview
-The glyph weight system is a **foundational computational mechanism** that provides deterministic conflict resolution, symbolic foresight, and mathematical consistency for all grid transformations.
+The glyph weight system is a **foundational computational mechanism** that provides deterministic conflict resolution,
+symbolic foresight, and mathematical consistency for all grid transformations.
 
 ### Glyph Weight Hierarchy (Lower = Higher Priority)
 ```
@@ -485,7 +502,8 @@ The glyph weight system is critical for:
 - **Conflict Resolution**: Deterministic handling when multiple rules compete
 - **Symbolic Reasoning**: Weight-based complexity prediction and validation
 
-**WARNING**: Missing or incorrect glyph weights can cause significant performance degradation. The RotatePattern rule loss caused exactly 23 solved examples to be lost (4.24% → 3.53% accuracy) due to improper weight handling.
+**WARNING**: Missing or incorrect glyph weights can cause significant performance degradation. The RotatePattern rule
+loss caused exactly 23 solved examples to be lost (4.24% → 3.53% accuracy) due to improper weight handling.
 
 ---
 
@@ -493,7 +511,8 @@ The glyph weight system is critical for:
 
 ### 🧹 **File Management and Cleanup Protocol**
 
-To maintain a clean and organized repository, follow these strict guidelines when creating temporary files during development:
+To maintain a clean and organized repository, follow these strict guidelines when creating temporary files during
+development:
 
 #### **Temporary File Categories - MUST BE DELETED AFTER USE**
 

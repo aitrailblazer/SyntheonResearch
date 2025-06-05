@@ -1,11 +1,16 @@
-Certainly! Here is your **modified and enhanced `RULE_DISCOVERY_GUIDANCE.md`**—now further integrating all your latest improvements, code review recommendations, and risk solutions. I’ve preserved your structure but tightened language, clarified protocols, and made explicit how feedback-driven, confidence-weighted, and parameter-adaptive methods are being operationalized. This version is highly actionable and reflects a mature, dynamic “living protocol” ready for both engineering and scientific team review.
+Certainly! Here is your **modified and enhanced `RULE_DISCOVERY_GUIDANCE.md`**—now further integrating all your latest
+improvements, code review recommendations, and risk solutions. I’ve preserved your structure but tightened language,
+clarified protocols, and made explicit how feedback-driven, confidence-weighted, and parameter-adaptive methods are
+being operationalized. This version is highly actionable and reflects a mature, dynamic “living protocol” ready for both
+engineering and scientific team review.
 
 ---
 
 # SYNTHEON Rule Discovery Guidance Log
 
 **Last Updated:** 2025-05-30 | **Status:** Active Development
-**Purpose:** Strategic protocol and living log for systematically discovering, validating, and integrating new high-impact rules—target: 4%+ ARC accuracy and scalable symbolic generalization.
+**Purpose:** Strategic protocol and living log for systematically discovering, validating, and integrating new
+high-impact rules—target: 4%+ ARC accuracy and scalable symbolic generalization.
 
 ---
 
@@ -108,18 +113,22 @@ def _reflect_vertical(grid: np.ndarray): return np.flipud(grid)
    * Expand with more specialized pattern recognizers (nested, rare, or compound geometry).
 2. **Confidence-Weighted Rule Prioritization**
 
-   * Assign and update confidence scores for each rule/chain based on task features and historical performance; prioritize by expected payoff.
+   * Assign and update confidence scores for each rule/chain based on task features and historical performance;
+     prioritize by expected payoff.
 3. **Sophisticated Parameter Extraction**
 
-   * Automate feature-based extraction of optimal parameters (angles, axes, colors) for complex rules, using statistics and mini-search.
+   * Automate feature-based extraction of optimal parameters (angles, axes, colors) for complex rules, using
+     statistics and mini-search.
 4. **Feedback-Based Learning for Parameter Adjustment**
 
    * After rule application, adapt parameters based on empirical success/failure (“symbolic self-tuning”).
 5. **Robust Rule Chain Recommendation**
 
-   * Mine solution logs and clusters to recommend high-likelihood rule chains for new tasks; use ensemble or meta-learning to refine.
+   * Mine solution logs and clusters to recommend high-likelihood rule chains for new tasks; use ensemble or
+     meta-learning to refine.
 
-*Implementing these will accelerate generalization, specificity, and interpretability—supporting accuracy and future-proofing scaling.*
+*Implementing these will accelerate generalization, specificity, and interpretability—supporting accuracy and
+future-proofing scaling.*
 
 ---
 
@@ -217,10 +226,12 @@ def _reflect_vertical(grid: np.ndarray): return np.flipud(grid)
 
 ## 11. Summary & Forward Path
 
-* **Status:** Syntheon has crossed the 4% wall via geometric scaling; symmetry and conditional logic are the next strategic targets.
+* **Status:** Syntheon has crossed the 4% wall via geometric scaling; symmetry and conditional logic are the next
+  strategic targets.
 * **Phase:** Stable, high-adaptivity (⧖∿⛬✶); poised for next breakthroughs.
 * **Risk:** Well-contained; dynamic management as pipeline complexity and feedback learning expand.
-* **Mandate:** Stay disciplined on regression, runtime, abstraction—keep cumulative, compositional generalization at the core.
+* **Mandate:** Stay disciplined on regression, runtime, abstraction—keep cumulative, compositional generalization at the
+  core.
 
 ---
 
@@ -234,4 +245,5 @@ Syntheon Lead (Constantine Vassilev)
 
 ---
 
-*This protocol is a living document—update post-phase, log impacts, and enforce a culture of high empirical rigor and rapid adaptation.*
+*This protocol is a living document—update post-phase, log impacts, and enforce a culture of high empirical rigor and
+rapid adaptation.*
