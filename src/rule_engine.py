@@ -16,10 +16,13 @@ Example
 from __future__ import annotations
 
 import xml.etree.ElementTree as ET
+
 from typing import Dict, List, Optional, Type
 
 from ingest import Example, Task
 
+
+from ingest import Example, Task
 
 class Rule:
     """Interface for all symbolic rules."""
@@ -27,10 +30,6 @@ class Rule:
     def apply(self, grid: List[List[int]]) -> List[List[int]]:
         """Apply the rule to a grid and return the transformed grid."""
         raise NotImplementedError
-
-    def __repr__(self) -> str:  # pragma: no cover - trivial
-        return self.__class__.__name__
-
 
 class ColorReplacementRule(Rule):
     """Replace every instance of ``src`` with ``dst``."""
@@ -41,6 +40,7 @@ class ColorReplacementRule(Rule):
 
     def apply(self, grid: List[List[int]]) -> List[List[int]]:
         return [[self.dst if c == self.src else c for c in row] for row in grid]
+
 
     def __repr__(self) -> str:  # pragma: no cover - trivial
         return f"ColorReplacementRule({self.src}->{self.dst})"
@@ -73,7 +73,6 @@ def register_secondary(name: str, rule: Rule) -> None:
     """Register a rule as secondary."""
     SECONDARY_RULES[name] = rule
 
-
 class RuleEngine:
     """Simple engine capable of loading and applying symbolic rules."""
 
@@ -105,9 +104,11 @@ class RuleEngine:
                 "desc": rule_el.findtext("description", default=""),
                 "cond": rule_el.findtext("condition", default=""),
             }
+
             impl_cls = DEFAULT_XML_RULES.get(name)
             if impl_cls and name not in self.registry:
                 self.register(name, impl_cls())
+
 
     # ------------------------------------------------------------------
     # Execution

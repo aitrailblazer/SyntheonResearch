@@ -47,7 +47,6 @@ def test_solve_task_with_chain():
     preds = engine.solve_task(task, max_chain_length=2)
     assert preds == [[[9, 5], [4, 9]]]
 
-
 def test_load_rules_metadata():
     engine = RuleEngine()
     xml_path = (
@@ -58,3 +57,4 @@ def test_load_rules_metadata():
     assert len(engine.metadata) > 10
     # Default rules should be auto-registered if known
     assert "DiagonalFlip" in engine.registry
+

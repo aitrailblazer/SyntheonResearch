@@ -3,7 +3,6 @@
 import argparse
 import logging
 import json
-from pathlib import Path
 
 from ingest import load_tasks, Task
 from predictor import SymbolicPredictor, suggest_color_map_rule
