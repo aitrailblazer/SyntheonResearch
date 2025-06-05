@@ -58,7 +58,8 @@ predictions suitable for rigorous evaluation and competition-grade benchmarks.
 
   * Each task includes:
 
-    * `<training_examples>` — used for symbolic rule extraction
+    * `<training_examples>` — used for symbolic rule extraction and as multi-shot
+      context when prompting the LLM-based solver
     * `<test_examples>` — used *only* for output validation
 
 ---
