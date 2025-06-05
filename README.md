@@ -90,9 +90,12 @@ The `predictor` module now learns simple color mappings from training examples a
 The solver prints detailed logs describing the learned rules and shows the input grid, intermediate steps, predicted
 output, and real output for each test example. At the end of the run it reports how many tasks were solved and the
 overall accuracy.
+
 Progress messages show which task is currently being solved, e.g., "Solving task 3/100 (task_id)".
 Use `--verbose` to display detailed rule application logs.
 The optional `--summary` flag prints a final PASS/FAIL report for every task.
+=======
+
 
 ## Testing
 

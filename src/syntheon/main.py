@@ -28,17 +28,21 @@ def main() -> None:
     )
     args = parser.parse_args()
 
+
     level = logging.DEBUG if args.verbose else logging.INFO
     logging.basicConfig(level=level, format="%(levelname)s:%(message)s")
+    main
 
     tasks = load_tasks(str(args.xml))
     results = {}
     task_results = []
     correct = 0
     total = 0
+
     total_tasks = len(tasks)
     for idx, task in enumerate(tasks, start=1):
         logging.info("Solving task %d/%d (%s)", idx, total_tasks, task.id)
+        main
         predictor = SymbolicPredictor()
         predictor.learn(task)
         expected = [ex.output_grid for ex in task.tests]
@@ -54,6 +58,7 @@ def main() -> None:
         task_results.append((task.id, match))
 
     accuracy = correct / total * 100 if total else 0
+
     if args.summary:
         for tid, ok in task_results:
             logging.info("%s %s", tid, "PASS" if ok else "FAIL")
@@ -63,6 +68,7 @@ def main() -> None:
         total,
         accuracy,
     )
+    main
     args.output.write_text(json.dumps(results, indent=2))
 
 

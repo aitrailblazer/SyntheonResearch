@@ -1,4 +1,46 @@
 
+## 2025-06-04: KWIC-Integrated Hybrid DSL Performance Update
+
+- **Rule file hash:** `599bf207a5351aac38b6909abb6ad07b`
+- **Git commit:** `79991e67427f69f43425a4f7f95b12036629ea72`
+- **Accuracy:** **5.48%** (177 solved out of 3232)
+
+### Performance Summary
+```
+Total Examples   : 3232
+Correct Predictions: 177
+Accuracy         : 5.48%
+Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:009d5c81#3, train:009d5c81#4, train:0b148d64#0, train:0b148d64#1, train:0b148d64#2, train:1a2e2828#0, train:1a2e2828#3, train:1cf80156#0, train:1cf80156#1, train:1cf80156#2, train:1f85a75f#0, train:1f85a75f#1, train:22eb0ac0#2, train:239be575#1, train:23b5c85d#0, train:23b5c85d#2, train:23b5c85d#3, train:23b5c85d#4, train:253bf280#1, train:253bf280#5, train:27a28665#0, train:27a28665#1, train:27a28665#5, train:27a28665#6, train:2a5f8217#1, train:2de01db2#2, train:3c9b0459#0, train:3c9b0459#1, train:3c9b0459#2, train:3c9b0459#3, train:3de23699#1, train:3de23699#3, train:44d8ac46#2, train:44f52bb0#0, train:44f52bb0#4, train:44f52bb0#5, train:45737921#0, train:4852f2fa#0, train:4938f0c2#2, train:496994bd#0, train:496994bd#1, train:4e7e0eb9#0, train:4e7e0eb9#2, train:5168d44c#2, train:53b68214#1, train:5582e5ca#1, train:5ad8a7c0#1, train:5ad8a7c0#3, train:60c09cac#0, train:60c09cac#1, train:6150a2bd#0, train:6150a2bd#1, train:63613498#0, train:63613498#1, train:63613498#2, train:642d658d#0, train:642d658d#1, train:67a3c6ac#0, train:67a3c6ac#1, train:67a3c6ac#2, train:68b16354#0, train:68b16354#1, train:68b16354#2, train:68b67ca3#0, train:68b67ca3#1, train:68b67ca3#2, train:6d0aefbc#0, train:6d0aefbc#1, train:6d0aefbc#2, train:6d0aefbc#3, train:6d1d5c90#0, train:6ea4a07e#0, train:6ea4a07e#1, train:6ea4a07e#2, train:6ea4a07e#3, train:6ea4a07e#4, train:6ea4a07e#5, train:6f8cd79b#0, train:6f8cd79b#1, train:6f8cd79b#2, train:6f8cd79b#3, train:72ca375d#0, train:72ca375d#1, train:72ca375d#2, train:7468f01a#0, train:7468f01a#1, train:7468f01a#2, train:74dd1130#0, train:74dd1130#1, train:74dd1130#2, train:74dd1130#3, train:794b24be#8, train:85c4e7cd#1, train:880c1354#2, train:90347967#0, train:90347967#1, train:9172f3a0#0, train:9172f3a0#1, train:9565186b#0, train:9720b24f#0, train:9720b24f#3, train:9dfd6313#0, train:9dfd6313#1, train:9dfd6313#2, train:a3325580#0, train:a740d043#0, train:a740d043#1, train:a740d043#2, train:a85d4709#1, train:a87f7484#3, train:aabf363d#0, train:aabf363d#1, train:ac0a08a4#0, train:ac0a08a4#1, train:b1948b0a#0, train:b1948b0a#1, train:b1948b0a#2, train:b91ae062#0, train:b91ae062#1, train:b91ae062#2, train:b91ae062#4, train:b94a9452#0, train:b94a9452#1, train:b94a9452#2, train:b9b7f026#0, train:b9b7f026#1, train:b9b7f026#2, train:bbb1b8b6#1, train:bbb1b8b6#3, train:bbb1b8b6#5, train:be94b721#0, train:be94b721#1, train:be94b721#2, train:be94b721#3, train:c59eb873#0, train:c59eb873#1, train:c59eb873#2, train:c8f0f002#0, train:c8f0f002#1, train:c8f0f002#2, train:c9e6f938#0, train:c9e6f938#1, train:c9e6f938#2, train:caa06a1f#2, train:cd3c21df#1, train:d2acf2cb#0, train:d4b1c2b1#0, train:d4b1c2b1#1, train:d4b1c2b1#2, train:d4b1c2b1#4, train:d4b1c2b1#5, train:d4b1c2b1#6, train:d511f180#0, train:d511f180#1, train:d511f180#2, train:d631b094#0, train:d90796e8#1, train:d931c21c#1, train:d9fac9be#0, train:d9fac9be#3, train:dae9d2b5#4, train:de1cd16c#1, train:e9afcf9a#0, train:e9afcf9a#1, train:ed36ccf7#0, train:ed36ccf7#1, train:ed36ccf7#2, train:ed36ccf7#3, train:f76d97a5#0, train:f76d97a5#1, train:f76d97a5#2, train:f9012d9b#0, train:fc754716#1, train:fc754716#3
+
+
+==================================================
+Updating changelog...
+```
+
+### Rule Usage Statistics
+```
+```
+
+
+## 2025-06-04: KWIC-Integrated Hybrid DSL Performance Update
+
+- **Rule file hash:** `599bf207a5351aac38b6909abb6ad07b`
+- **Git commit:** `79991e67427f69f43425a4f7f95b12036629ea72`
+- **Accuracy:** **5.48%** (177 solved out of 3232)
+
+### Performance Summary
+```
+Total Examples   : 3232
+Correct Predictions: 177
+Accuracy         : 5.48%
+Solved examples  : train:009d5c81#0, train:009d5c81#1, train:009d5c81#2, train:009d5c81#3, train:009d5c81#4, train:0b148d64#0, train:0b148d64#1, train:0b148d64#2, train:1a2e2828#0, train:1a2e2828#3, train:1cf80156#0, train:1cf80156#1, train:1cf80156#2, train:1f85a75f#0, train:1f85a75f#1, train:22eb0ac0#2, train:239be575#1, train:23b5c85d#0, train:23b5c85d#2, train:23b5c85d#3, train:23b5c85d#4, train:253bf280#1, train:253bf280#5, train:27a28665#0, train:27a28665#1, train:27a28665#5, train:27a28665#6, train:2a5f8217#1, train:2de01db2#2, train:3c9b0459#0, train:3c9b0459#1, train:3c9b0459#2, train:3c9b0459#3, train:3de23699#1, train:3de23699#3, train:44d8ac46#2, train:44f52bb0#0, train:44f52bb0#4, train:44f52bb0#5, train:45737921#0, train:4852f2fa#0, train:4938f0c2#2, train:496994bd#0, train:496994bd#1, train:4e7e0eb9#0, train:4e7e0eb9#2, train:5168d44c#2, train:53b68214#1, train:5582e5ca#1, train:5ad8a7c0#1, train:5ad8a7c0#3, train:60c09cac#0, train:60c09cac#1, train:6150a2bd#0, train:6150a2bd#1, train:63613498#0, train:63613498#1, train:63613498#2, train:642d658d#0, train:642d658d#1, train:67a3c6ac#0, train:67a3c6ac#1, train:67a3c6ac#2, train:68b16354#0, train:68b16354#1, train:68b16354#2, train:68b67ca3#0, train:68b67ca3#1, train:68b67ca3#2, train:6d0aefbc#0, train:6d0aefbc#1, train:6d0aefbc#2, train:6d0aefbc#3, train:6d1d5c90#0, train:6ea4a07e#0, train:6ea4a07e#1, train:6ea4a07e#2, train:6ea4a07e#3, train:6ea4a07e#4, train:6ea4a07e#5, train:6f8cd79b#0, train:6f8cd79b#1, train:6f8cd79b#2, train:6f8cd79b#3, train:72ca375d#0, train:72ca375d#1, train:72ca375d#2, train:7468f01a#0, train:7468f01a#1, train:7468f01a#2, train:74dd1130#0, train:74dd1130#1, train:74dd1130#2, train:74dd1130#3, train:794b24be#8, train:85c4e7cd#1, train:880c1354#2, train:90347967#0, train:90347967#1, train:9172f3a0#0, train:9172f3a0#1, train:9565186b#0, train:9720b24f#0, train:9720b24f#3, train:9dfd6313#0, train:9dfd6313#1, train:9dfd6313#2, train:a3325580#0, train:a740d043#0, train:a740d043#1, train:a740d043#2, train:a85d4709#1, train:a87f7484#3, train:aabf363d#0, train:aabf363d#1, train:ac0a08a4#0, train:ac0a08a4#1, train:b1948b0a#0, train:b1948b0a#1, train:b1948b0a#2, train:b91ae062#0, train:b91ae062#1, train:b91ae062#2, train:b91ae062#4, train:b94a9452#0, train:b94a9452#1, train:b94a9452#2, train:b9b7f026#0, train:b9b7f026#1, train:b9b7f026#2, train:bbb1b8b6#1, train:bbb1b8b6#3, train:bbb1b8b6#5, train:be94b721#0, train:be94b721#1, train:be94b721#2, train:be94b721#3, train:c59eb873#0, train:c59eb873#1, train:c59eb873#2, train:c8f0f002#0, train:c8f0f002#1, train:c8f0f002#2, train:c9e6f938#0, train:c9e6f938#1, train:c9e6f938#2, train:caa06a1f#2, train:cd3c21df#1, train:d2acf2cb#0, train:d4b1c2b1#0, train:d4b1c2b1#1, train:d4b1c2b1#2, train:d4b1c2b1#4, train:d4b1c2b1#5, train:d4b1c2b1#6, train:d511f180#0, train:d511f180#1, train:d511f180#2, train:d631b094#0, train:d90796e8#1, train:d931c21c#1, train:d9fac9be#0, train:d9fac9be#3, train:dae9d2b5#4, train:de1cd16c#1, train:e9afcf9a#0, train:e9afcf9a#1, train:ed36ccf7#0, train:ed36ccf7#1, train:ed36ccf7#2, train:ed36ccf7#3, train:f76d97a5#0, train:f76d97a5#1, train:f76d97a5#2, train:f9012d9b#0, train:fc754716#1, train:fc754716#3
+```
+
+### Rule Usage Statistics
+```
+```
+
+
 ## 2025-06-03: KWIC-Integrated Hybrid DSL Performance Update
 
 - **Rule file hash:** `599bf207a5351aac38b6909abb6ad07b`
