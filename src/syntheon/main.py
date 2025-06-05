@@ -16,15 +16,33 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Run Syntheon symbolic solver")
     parser.add_argument("xml", type=Path, help="Path to arc_agi2_training_enhanced.xml")
     parser.add_argument("output", type=Path, help="Output JSON file")
+    parser.add_argument(
+        "--verbose",
+        action="store_true",
+        help="Enable debug logging with full rule application details",
+    )
+    parser.add_argument(
+        "--summary",
+        action="store_true",
+        help="Print summary of each task result after solving",
+    )
     args = parser.parse_args()
 
-    logging.basicConfig(level=logging.INFO, format="%(levelname)s:%(message)s")
+
+    level = logging.DEBUG if args.verbose else logging.INFO
+    logging.basicConfig(level=level, format="%(levelname)s:%(message)s")
+    main
 
     tasks = load_tasks(str(args.xml))
     results = {}
+    task_results = []
     correct = 0
     total = 0
-    for task in tasks:
+
+    total_tasks = len(tasks)
+    for idx, task in enumerate(tasks, start=1):
+        logging.info("Solving task %d/%d (%s)", idx, total_tasks, task.id)
+        main
         predictor = SymbolicPredictor()
         predictor.learn(task)
         expected = [ex.output_grid for ex in task.tests]
@@ -37,9 +55,20 @@ def main() -> None:
         logging.info("Task %s %s", task.id, "PASS" if match else "FAIL")
         if not match:
             logging.debug("expected=%s predicted=%s", expected, preds)
+        task_results.append((task.id, match))
 
     accuracy = correct / total * 100 if total else 0
-    logging.info("Solved %d/%d tasks (%.2f%% accuracy)", correct, total, accuracy)
+
+    if args.summary:
+        for tid, ok in task_results:
+            logging.info("%s %s", tid, "PASS" if ok else "FAIL")
+    logging.info(
+        "Solved %d/%d tasks (%.2f%% accuracy)",
+        correct,
+        total,
+        accuracy,
+    )
+    main
     args.output.write_text(json.dumps(results, indent=2))
 
 

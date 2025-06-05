@@ -82,7 +82,7 @@ predictions suitable for rigorous evaluation and competition-grade benchmarks.
 ```bash
 PYTHONPATH=src python -m syntheon.main \
   arc_agi2_symbolic_submission/input/arc_agi2_training_enhanced.xml \
-  predictions.json
+  predictions.json [--verbose] [--summary]
 
 
 This command parses the XML tasks, applies the current rule set, and writes predictions to `predictions.json`.
@@ -90,6 +90,12 @@ The `predictor` module now learns simple color mappings from training examples a
 The solver prints detailed logs describing the learned rules and shows the input grid, intermediate steps, predicted
 output, and real output for each test example. At the end of the run it reports how many tasks were solved and the
 overall accuracy.
+
+Progress messages show which task is currently being solved, e.g., "Solving task 3/100 (task_id)".
+Use `--verbose` to display detailed rule application logs.
+The optional `--summary` flag prints a final PASS/FAIL report for every task.
+=======
+
 
 ## Testing
 
