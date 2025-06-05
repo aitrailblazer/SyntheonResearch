@@ -185,17 +185,13 @@ class RotatePatternRule(Rule):
     def apply(self, grid: List[List[int]]) -> List[List[int]]:
         if self.degrees == 180:
             return [list(reversed(row)) for row in reversed(grid)]
-        size = len(grid)
+
+        h, w = len(grid), len(grid[0])
         if self.degrees == 90:
-            return [
-                [grid[size - j - 1][i] for j in range(size)]
-                for i in range(size)
-            ]
+            return [[grid[h - j - 1][i] for j in range(h)] for i in range(w)]
+
         # 270 degrees
-        return [
-            [grid[j][size - i - 1] for j in range(size)]
-            for i in range(size)
-        ]
+        return [[grid[j][w - i - 1] for j in range(h)] for i in range(w)]
 
 
 class Rotate90Rule(RotatePatternRule):
@@ -324,10 +320,10 @@ DEFAULT_XML_RULES: Dict[str, Type[Rule]] = {
     "ReflectVertical": ReflectVerticalRule,
     "RotatePattern": RotatePatternRule,
     "CropToBoundingBox": CropToBoundingBoxRule,
-    "ColorReplacement": NullRule,
-    "RemoveObjects": NullRule,
-    "ReplaceBorderWithColor": NullRule,
-    "DuplicateRowsOrColumns": NullRule,
+    "ColorReplacement": ColorReplacementRule,
+    "RemoveObjects": RemoveObjectsRule,
+    "ReplaceBorderWithColor": ReplaceBorderWithColorRule,
+    "DuplicateRowsOrColumns": DuplicateRowsOrColumnsRule,
 
 }
 
