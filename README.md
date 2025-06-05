@@ -87,6 +87,12 @@ PYTHONPATH=src python -m syntheon.main \
 
 This command parses the XML tasks, applies the current rule set, and writes predictions to `predictions.json`.
 
+4. Verify the installed version:
+
+```bash
+PYTHONPATH=src python -m syntheon.main --version
+```
+
 ## Testing
 
 To verify basic functionality:
