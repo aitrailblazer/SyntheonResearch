@@ -1,3 +1,4 @@
+
 # **SyntheonResearch**
 
 Syntheon is a purely symbolic solver for ARC-AGI tasks. It reads XML datasets and
@@ -10,6 +11,7 @@ using deterministic reasoning, structured pattern recognition, and task-specific
 learning. It operates without LLM dependencies, ensuring explainable, reproducible
 predictions suitable for rigorous evaluation and competition-grade benchmarks.
 
+
 ---
 
 ### **Core Principles**
@@ -18,6 +20,7 @@ predictions suitable for rigorous evaluation and competition-grade benchmarks.
   No learning from language models—Syntheon operates on interpretable symbolic logic.
 
 * **⚙️ Advanced Preprocessing Integration**
+
   Fully utilizes structured XML metadata for each ARC task, enabling entropy profiling,
   grid fingerprinting, and directional analysis.
 
@@ -29,18 +32,22 @@ predictions suitable for rigorous evaluation and competition-grade benchmarks.
   Symbolic analysis of **K**ey **W**ords **I**n **C**ontext (KWIC): identifying
   color co-occurrence, adjacency, and propagation logic.
 
-* **🧱 Multi-Tier Rule Architecture**
-  Symbolic rules are layered:
 
-  * *Primary rules*: core transformations.
-  * *Secondary rules*: edge case handling, exception filters.
 
-* **📏 Size-Class Optimization**
-  Specialized heuristics for `TINY`, `SMALL`, and `LARGE` task categories (based on grid dimensions and complexity).
+* **🔍 Task-Specific Symbolic Learning**
+  Each `<arc_agi_task>` is treated independently.
+   Rules are extracted solely from `training_examples`, never from `test_examples`.
+
+* **🎨 KWIC Pattern Detection**
+  Symbolic analysis of **K**ey **W**ords **I**n **C**ontext (KWIC): identifying color co-occurrence, adjacency,
+   and propagation logic.
+
 
 * **🔁 Symmetry-Guided Processing**
+
   Transformation strategies guided by mirror, rotational, and translational symmetry
   detection within input-output pairs.
+
 
 ---
 
@@ -68,6 +75,7 @@ predictions suitable for rigorous evaluation and competition-grade benchmarks.
 ## Running the Solver
 
 1. Ensure Python 3.x is installed.
+
 2. From the repository root, set `PYTHONPATH=src` so Python can locate the `syntheon` package.
 3. Run the solver on the training dataset:
 
@@ -75,7 +83,7 @@ predictions suitable for rigorous evaluation and competition-grade benchmarks.
 PYTHONPATH=src python -m syntheon.main \
   arc_agi2_symbolic_submission/input/arc_agi2_training_enhanced.xml \
   predictions.json
-```
+
 
 This command parses the XML tasks, applies the current rule set, and writes predictions to `predictions.json`.
 
