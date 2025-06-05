@@ -2,6 +2,7 @@
 
 
 This roadmap outlines the recommended steps for implementing the symbolic ARC-AGI
+solver in Python. It expands on the core principles described in the README.
 
 
 ## 1. Environment Setup

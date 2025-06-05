@@ -11,5 +11,3 @@ This repository contains documentation and ARC-AGI datasets. There are no automa
 - Summarize key changes in commit messages.
 - Use a single branch workflow. Commit all changes directly to `main`.
 
-=======
-

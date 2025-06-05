@@ -1,8 +1,5 @@
 # GENI_SYSTEM_INDEX Analysis
 
-
-=======
-
 The `GENI_SYSTEM_INDEX.xml` file is located in `arc_agi2_symbolic_submission/XML/`.
 It describes the structure of **GEN-I** (Symbolic Recursion Intelligence) and
 references numerous engines and libraries for a hybrid symbolic DSL architecture.
@@ -40,7 +37,6 @@ weighting, multi-language rule repositories, and meta-rule constructs.
 The index lists commands like `/help`, `/ritual`, `/analyze`, `/foresight`, and
 
 `/hybrid.optimize`, indicating supported operations within the GEN-I environment.
-=======
 
 
 ## Plan for Integrating GEN-I with ARC-AGI

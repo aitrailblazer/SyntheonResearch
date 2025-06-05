@@ -75,9 +75,14 @@ predictions suitable for rigorous evaluation and competition-grade benchmarks.
 ## Running the Solver
 
 1. Ensure Python 3.x is installed.
-2. Install dependencies with `pip install numpy` if not already available.
-3. From the repository root, set `PYTHONPATH=src` so Python can locate the `syntheon` package.
-4. Run the solver on the training dataset:
+
+2. From the repository root, set `PYTHONPATH=src` so Python can locate the `syntheon` package.
+3. Run the solver on the training dataset:
+
+```bash
+PYTHONPATH=src python -m syntheon.main \
+  arc_agi2_symbolic_submission/input/arc_agi2_training_enhanced.xml \
+  predictions.json
 
 
 This command parses the XML tasks, applies the current rule set, and writes predictions to `predictions.json`.
